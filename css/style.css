@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 :root {
+    --bright-yellow: #FFFFE5;
+    --golden: #D6B629;
     --primary-blue: #205080;
     --primary-green: #208050;
     --primary-purple: #a020c0;
-    --accent-orange: #ffa03f;
-    --dark-gray: #324659;
-    --red-brown: #B93E41;
-    --dark-blue: #002A59;
+    --dark-gray: #405357;
+    --darker-gray: #2E323B;
+    
 }
 
 * {
@@ -18,8 +19,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--dark-gray);
-    background-color: var(--red-brown);
+    color: white;
+    background: linear-gradient(135deg, var(--darker-gray), var(--dark-gray));
 }
 
 .container {
@@ -70,7 +71,7 @@ body {
     left: 0;
     width: 100%;
     flex-direction: column;
-    background-color: var(--primary-blue);
+    background-color: var(--dark-gray);
     gap: 0;
 }
 
@@ -93,7 +94,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, var(--primary-blue), var(--primary-green));
+    background: var(--primary-blue);
     padding: 1rem 2rem 1rem 2rem;
     min-height: 100px;
     display: flex;
@@ -103,7 +104,6 @@ body {
 
 .hero h2 {
     font-size: 1.4rem;
-    color: #f4f4f4;
     font-weight: 700;
 }
 
@@ -112,7 +112,6 @@ body {
     text-align: left;
     margin: 1rem;
     opacity: 0.9;
-    color: #f4f4f4;
 }
 
 /* Carousel Section */
