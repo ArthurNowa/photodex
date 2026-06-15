@@ -1,0 +1,15 @@
+[
+  {
+    "type": "birds",
+    "data": [
+            {"name": "mesange.json"},
+            {"name": "merle.json"}
+    ]
+  },{
+    "type": "mammals",
+    "data": [
+            {"name": "renard.json"},
+            {"name": "herisson.json"}
+    ]
+  }
+]
