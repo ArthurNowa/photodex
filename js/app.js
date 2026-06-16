@@ -6,22 +6,57 @@ let animals = [];
 
 async function loadAnimals() {
   try {
-    const response = await fetch("data/index.json");
+    const indexResponse = await fetch("data/index.json");
 
-    if (!response.ok) {
+    if (!indexResponse.ok) {
       throw new Error("Impossible de charger index.json");
     }
 
-    animals = await response.json();
+    const indexData = await indexResponse.json();
+
+    const animalPromises = [];
+
+    for (const category of indexData) {
+
+      const categoryName = category.type;
+
+      for (const animalFile of category.data) {
+
+        const filePath = `data/${categoryName}/${animalFile.name}`;
+
+        animalPromises.push(
+          fetch(filePath)
+            .then(response => {
+              if (!response.ok) {
+                throw new Error(`Impossible de charger ${filePath}`);
+              }
+
+              return response.json();
+            })
+            .then(animal => {
+
+              // Sécurité : si la catégorie n'est pas définie dans le json
+              if (!animal.categorie) {
+                animal.categorie = categoryName;
+              }
+
+              return animal;
+            })
+        );
+      }
+    }
+
+    animals = await Promise.all(animalPromises);
 
     generateCategoryFilter();
     displayAnimals(animals);
+
   } catch (error) {
     console.error(error);
-    animalsContainer.innerHTML = "<p>Erreur lors du chargement du photodex.</p>";
+    animalsContainer.innerHTML =
+      "<p>Erreur lors du chargement du photodex.</p>";
   }
 }
-
 function displayAnimals(list) {
   animalsContainer.innerHTML = "";
 
