@@ -72,7 +72,7 @@ function displayAnimals(list) {
     card.className = "animal-card";
 
     card.innerHTML = `
-      ${animal)<br>
+      ${animal}<br>
       <a href="animal.html?id=${animal.id}">
         <img src="${animal.thumbnail}" alt="${animal.nom}">
         <h2>${animal.nom}</h2>
