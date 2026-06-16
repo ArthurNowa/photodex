@@ -57,6 +57,8 @@ async function loadAnimals() {
       "<p>Erreur lors du chargement du photodex.</p>";
   }
 }
+
+
 function displayAnimals(list) {
   animalsContainer.innerHTML = "";
 
