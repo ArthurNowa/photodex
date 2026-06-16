@@ -6,10 +6,10 @@ let animals = [];
 
 async function loadAnimals() {
   try {
-    const response = await fetch("data/animals.json");
+    const response = await fetch("data/index.json");
 
     if (!response.ok) {
-      throw new Error("Impossible de charger animals.json");
+      throw new Error("Impossible de charger index.json");
     }
 
     animals = await response.json();
