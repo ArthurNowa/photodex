@@ -5,9 +5,10 @@
     --golden: #D6B629;
     --primary-blue: #205080;
     --primary-green: #208050;
-    --primary-purple: #a020c0;
+    --accent-orange: #ffa03f;
     --dark-gray: #405357;
-    --darker-gray: #2E323B; 
+    --darker-gray: #2E323B;
+    --almost-black: #101010;
 }
 
 * {
@@ -19,7 +20,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: white;
-    background-color: var(--darker-gray);
+    background-color: var(--almost-black);
     /*background: linear-gradient(135deg, var(--darker-gray), var(--dark-gray));*/
 }
 
@@ -31,7 +32,7 @@ body {
 
 /* Navigation */
 .navbar {
-    background-color: var(--primary-blue);
+    background-color: var(--darker-gray);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -47,7 +48,7 @@ body {
 }
 
 .logo h2 {
-    color: var(--primary-green);
+    color: var(--golden);
     font-size: 1.8rem;
     font-weight: 700;
     white-space: nowrap;
@@ -94,7 +95,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: var(--primary-blue);
+    background: var(--dark-gray);
     padding: 1rem 2rem 1rem 2rem;
     min-height: 100px;
     display: flex;
@@ -117,7 +118,6 @@ body {
 /* Carousel Section */
 .carousel-section {
     padding: 3rem 0;
-    background-color: var(--red-brown);
 }
 
 .carousel-section h2 {
