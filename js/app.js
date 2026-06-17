@@ -2,7 +2,7 @@ const animalsContainer = document.querySelector("#animals-container");
 const categoryFilter = document.querySelector("#category-filter");
 const searchInput = document.querySelector("#search-input");
 
-let animals = [];
+export let animals = [];
 
 async function loadAnimals() {
   try {
@@ -47,9 +47,6 @@ async function loadAnimals() {
     }
 
     animals = await Promise.all(animalPromises);
-
-    generateCategoryFilter();
-    displayAnimals(animals);
 
   } catch (error) {
     console.error(error);
@@ -120,4 +117,6 @@ function applyFilters() {
 categoryFilter.addEventListener("change", applyFilters);
 searchInput.addEventListener("input", applyFilters);
 
-loadAnimals();
+
+
+
