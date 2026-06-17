@@ -70,12 +70,18 @@ function displayAnimals(list) {
 
   list.forEach(animal => {
     const card = document.createElement("article");
+    const animalThumbnail = "images/placeholder.png";
     card.className = "animal-card";
 
+    
+    if (animal.photos.length > 0) {
+        animalThumbnail = animal.photos[0];
+    }
+      
     card.innerHTML = `
       <div class="animal-card">
         <a href="animal.html?id=${animal.id}">
-          <img src="${animal.thumbnail}" alt="${animal.nom}">
+          <img src="${animalThumbnail}" alt="${animal.nom}">
           <h2>${animal.nom}</h2>
           <p>${animal.categorie}</p>
           <p>${animal.description}</p>
