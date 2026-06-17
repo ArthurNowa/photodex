@@ -5,17 +5,18 @@
 
 .animals-grid {
     margin: 3em 5em;
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
 
 .animals-grid a {
-    padding: 2em;
+    padding: 0;
     text-decoration: none;
 }
 
 .animal-card {
-    width: 400px;
+    width: 100%;
     height: 380px;
     background:  var(--darker-gray);
     border-radius: 10px;
