@@ -4,6 +4,7 @@
 }
 
 .animals-grid {
+    margin: 3em 5em;
     display: block;
     gap: 2rem;
 }
