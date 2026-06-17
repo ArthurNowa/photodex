@@ -1,13 +1,17 @@
 
+.animals-container {
+    padding: 2em 3em;
+}
 
 .animals-grid {
-    padding: 2em 3em;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
 
 .animal-card {
+    width: 400px;
+    height: 500px;
     background: white;
     border-radius: 10px;
     overflow: hidden;
