@@ -82,8 +82,10 @@ function displayAnimals(list) {
           <div class="animal-card">
               <img src="${animalThumbnail}" alt="${animal.nom}">
               <h2>${animal.nom}</h2>
-              <p>${animal.categorie}</p>
-              <p>${animal.description}</p>
+              <p>
+                  Description : ${animal.description}<br>
+                  Taille : ${animal.taille}
+              </p>
           </div>
       </a>
     `;
