@@ -4,5 +4,11 @@
     "data": [
             {"name": "mesange-charbonniere.json"}
     ]
+  },
+  {
+    "type": "birds",
+    "data": [
+            {"name": "mesange-charbonniere.json"}
+    ]
   }
 ]
