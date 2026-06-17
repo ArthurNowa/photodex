@@ -1,6 +1,7 @@
 const animalsContainer = document.querySelector("#animals-container");
 const searchInput = document.querySelector("#search-input");
-const categoryFilter = window.location.pathname
+const categoryFilter = document.querySelector("#category-filter");
+const pageFilter = window.location.pathname
     .split('/')
     .pop()
     .replace('.html', '');
