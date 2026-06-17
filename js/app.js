@@ -61,6 +61,7 @@ async function loadAnimals() {
 
 
 function displayAnimals(list) {
+  var animalThumbnail = "images/placeholder.png";
   animalsContainer.innerHTML = "";
 
   if (list.length === 0) {
@@ -72,7 +73,6 @@ function displayAnimals(list) {
     const card = document.createElement("article");
     card.className = "animal-card";
     
-    animalThumbnail = "images/placeholder.png";
     if (animal.photos.length > 0) {
         animalThumbnail = animal.photos[0];
     }
