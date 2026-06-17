@@ -119,11 +119,16 @@ function applyFilters() {
   displayAnimals(filteredAnimals);
 }
 
+
+
+async function init() {
+  await loadAnimals();
+
+  generateCategoryFilter();
+  displayAnimals(animals);
+}
+
 categoryFilter.addEventListener("change", applyFilters);
 searchInput.addEventListener("input", applyFilters);
 
-loadAnimals();
-generateCategoryFilter();
-displayAnimals(animals);
-
-
+init();
