@@ -12,10 +12,10 @@ async function loadAnimal() {
       throw new Error("Aucun animal sélectionné.");
     }
 
-    const response = await fetch("data/animals.json");
+    const response = await fetch("data/index.json");
 
     if (!response.ok) {
-      throw new Error("Impossible de charger animals.json");
+      throw new Error("Impossible de charger index.json");
     }
 
     const animals = await response.json();
