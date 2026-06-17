@@ -5,15 +5,18 @@
 
 .animals-grid {
     display: block;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
 
+.animals-grid a {
+    padding: 2em;
+    text-decoration: none;
+}
+
 .animal-card {
-    margin: 2em;
     width: 400px;
-    height: 350px;
-    background:  var(--dark-gray);
+    height: 380px;
+    background:  var(--darker-gray);
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
@@ -43,13 +46,6 @@
     padding: 0.5rem 1.5rem;
     font-size: 0.9rem;
     color: var(--bright-yellow);
-}
-
-.animal-card .btn {
-    display: block;
-    margin: 1rem 1.5rem;
-    text-align: center;
-    align-self: flex-end;
 }
 
 
