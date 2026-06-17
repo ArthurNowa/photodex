@@ -1,7 +1,7 @@
 // Navbar injection script
 document.addEventListener('DOMContentLoaded', function() {
     var loc = window.location.pathname;
-    const root_path_length = "/ld-portfolio/".length;
+    const root_path_length = "/photodex/".length;
     var dir = loc.substring(root_path_length);
     var depth = dir.split("/").length - 1;
     var path_to_root = "../".repeat(depth);
@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <ul class="nav-links" id="navMenu">
                 <li><a href="${path_to_root}index.html">Accueil</a></li>
-                <li><a href="${path_to_root}projects.html">Oiseaux</a></li>
-                <li><a href="${path_to_root}about.html">Mammifères</a></li>
+                <li><a href="${path_to_root}birds.html">Oiseaux</a></li>
+                <li><a href="${path_to_root}mammals.html">Mammifères</a></li>
                 <li><a href="${path_to_root}contact.html">Contact</a></li>
             </ul>
         </div>
