@@ -1,6 +1,9 @@
 const animalsContainer = document.querySelector("#animals-container");
-const categoryFilter = document.querySelector("#category-filter");
 const searchInput = document.querySelector("#search-input");
+const categoryFilter = window.location.pathname
+    .split('/')
+    .pop()
+    .replace('.html', '');
 
 export let animals = [];
 
@@ -119,5 +122,7 @@ categoryFilter.addEventListener("change", applyFilters);
 searchInput.addEventListener("input", applyFilters);
 
 
+generateCategoryFilter();
+displayAnimals(animals);
 
 
