@@ -69,13 +69,14 @@ function displayAnimals(list) {
     card.className = "animal-card";
 
     card.innerHTML = `
-      ${animal}<br>
-      <a href="animal.html?id=${animal.id}">
-        <img src="${animal.thumbnail}" alt="${animal.nom}">
-        <h2>${animal.nom}</h2>
-        <p>${animal.categorie}</p>
-        <p>${animal.description}</p>
-      </a>
+      <div class="animal-card">
+        <a href="animal.html?id=${animal.id}">
+          <img src="${animal.thumbnail}" alt="${animal.nom}">
+          <h2>${animal.nom}</h2>
+          <p>${animal.categorie}</p>
+          <p>${animal.description}</p>
+        </a>
+      </div>
     `;
 
     animalsContainer.appendChild(card);
