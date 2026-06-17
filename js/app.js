@@ -70,10 +70,9 @@ function displayAnimals(list) {
 
   list.forEach(animal => {
     const card = document.createElement("article");
-    const animalThumbnail = "images/placeholder.png";
     card.className = "animal-card";
-
     
+    animalThumbnail = "images/placeholder.png";
     if (animal.photos.length > 0) {
         animalThumbnail = animal.photos[0];
     }
