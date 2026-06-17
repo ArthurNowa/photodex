@@ -30,6 +30,12 @@ body {
     padding: 0 2rem;
 }
 
+h1 {
+    text-align: center;
+    color: var(--accent-orange);
+    margin: 2em;
+}
+
 /* Navigation */
 .navbar {
     background-color: var(--darker-gray);
