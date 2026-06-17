@@ -121,7 +121,7 @@ function applyFilters() {
 categoryFilter.addEventListener("change", applyFilters);
 searchInput.addEventListener("input", applyFilters);
 
-
+loadAnimals();
 generateCategoryFilter();
 displayAnimals(animals);
 
