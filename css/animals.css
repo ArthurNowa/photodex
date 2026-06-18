@@ -19,6 +19,7 @@
 .animals-grid a {
     width: 400px;
     padding: 0;
+    margin: 2em;
     text-decoration: none;
 }
 
