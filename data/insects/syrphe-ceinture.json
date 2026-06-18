@@ -1,0 +1,19 @@
+﻿{
+  "id": "syrphe-ceinture",
+  "nom": "Syrphe ceinturé",
+  "nom-scientifique": "Episyrphus balteatus",
+  "famille": "Syrphidae",
+  "sous-famille": "Syrphinae",
+  "ordre": "Diptère",
+  "repartition": "Très répandu en Europe ; présent aussi en Afrique du Nord, en Asie et jusqu’en Océanie.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "8 à 12 mm",
+  "regime": "Nectar, pollen et miellat ; les larves se nourrissent principalement de pucerons",
+  "habitat": "Prairies, jardins, parcs, lisières, forêts ensoleillées et milieux fleuris",
+  "datePhoto": "2026-06-15",
+  "description": "Petit syrphe au vol stationnaire caractéristique, souvent confondu avec une guêpe mais totalement inoffensif.",
+  "photos": [
+    "images/insects/20260618_syrphe-ceinture.jpg"
+  ]
+}

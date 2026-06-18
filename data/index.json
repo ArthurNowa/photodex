@@ -11,7 +11,13 @@
     "type": "insects",
     "data": [
       {
+        "name": "abeille-melifere.json"
+      },
+      {
         "name": "coccinelle-a-14-points.json"
+      },
+      {
+        "name": "syrphe-ceinture.json"
       }
     ]
   }

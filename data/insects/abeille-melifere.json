@@ -1,0 +1,20 @@
+﻿{
+  "id": "abeille-melifere",
+  "nom": "Abeille mellifère",
+  "nom-scientifique": "Apis mellifera",
+  "famille": "Apidae",
+  "sous-famille": "Apinae",
+  "ordre": "Hyménoptère",
+  "repartition": "Originaire d’Europe, d’Afrique et d’Asie occidentale ; aujourd’hui présente presque partout dans le monde sauf en Antarctique.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "11 à 15 mm",
+  "regime": "Nectar et pollen",
+  "habitat": "Prairies, jardins, vergers, champs, lisières, ruches et milieux fleuris",
+  "datePhoto": "2026-06-15",
+  "description": "Insecte social très connu pour sa production de miel et son rôle majeur dans la pollinisation des plantes à fleurs.",
+  "photos": [
+    "images/insects/20260618_abeille-melifere-01.jpg",
+    "images/insects/20260618_abeille-melifere-02.jpg"
+  ]
+}
