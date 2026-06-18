@@ -18,7 +18,6 @@
 }
 
 .animal-card {
-    width: 100%;
     height: 380px;
     background:  var(--darker-gray);
     border-radius: 10px;
