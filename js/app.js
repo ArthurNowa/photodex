@@ -41,7 +41,7 @@ async function loadAnimals() {
 
               // Sécurité : si la catégorie n'est pas définie dans le json
               if (!animal.categorie) {
-                animal.categorie = categoryName;
+                animal.categorie = pageFilter;
               }
 
               return animal;
