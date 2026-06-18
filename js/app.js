@@ -78,16 +78,16 @@ function displayAnimals(list) {
     }
       
     card.innerHTML = `
-      <a href="animal.html?id=${animal.id}">
-          <div class="animal-card">
+      <div class="animal-card">
+          <a href="animal.html?id=${animal.id}">
               <img src="${animalThumbnail}" alt="${animal.nom}">
               <h3>${animal.nom}</h3>
               <p>
                   Description : ${animal.description}<br>
                   Taille : ${animal.taille}
               </p>
-          </div>
-      </a>
+          </a>
+      </div>
     `;
 
     animalsContainer.appendChild(card);
