@@ -47,6 +47,9 @@
     color: var(--bright-yellow);
 }
 
+.animal-card a {
+    text-decoration: none;
+}
 
 
 
