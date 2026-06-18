@@ -166,7 +166,7 @@ h1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(255, 160, 63, 0.9);
+    background-color: var(--petrol_blue);
     color: white;
     border: none;
     width: 50px;
