@@ -19,6 +19,7 @@
 
 .animal-card {
     height: 380px;
+    width: 400px;
     background:  var(--darker-gray);
     border-radius: 10px;
     overflow: hidden;
