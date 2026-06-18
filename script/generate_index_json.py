@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-DATA_DIR = Path("data")
+DATA_DIR = Path("../data")
 OUTPUT_FILE = DATA_DIR / "index.json"
 
 def main():

@@ -2,19 +2,17 @@
   {
     "type": "birds",
     "data": [
-            {"name": "mesange-charbonniere.json"}
+      {
+        "name": "mesange-charbonniere.json"
+      }
     ]
   },
   {
-    "type": "birds",
+    "type": "insects",
     "data": [
-            {"name": "mesange-charbonniere.json"}
-    ]
-  },
-  {
-    "type": "birds",
-    "data": [
-            {"name": "mesange-charbonniere.json"}
+      {
+        "name": "coccinelle-a-14-points.json"
+      }
     ]
   }
 ]
