@@ -1,0 +1,19 @@
+{
+  "id": "coccinelle-a-14-points",
+  "nom": "Coccinelle à 14 points",
+  "nom-scientifique": "Propylea quatuordecimpunctata",
+  "famille": "Coccinellidae",
+  "sous-famille": "Coccinellinae",
+  "categorie": "insects",
+  "ordre":"Coléoptères",
+  "type": "Insecte",
+  "taille": "3,5 à 4,5 mm",
+  "regime": "Pucerons et autres petits insectes",
+  "habitat": "Prairies, jardins, parcs, champs, haies et lisières",
+  "repartition": "Europe, Afrique du Nord et Asie tempérée ; introduite en Amérique du Nord",
+  "datePhoto": "2026-06-15",
+  "description": "Petite coccinelle jaune à orangée reconnaissable à ses marques noires formant souvent un motif de damier.",
+  "photos": [
+    "images/insects/coccinelle-14-points/20260616-coccinelle-a-14-points.jpg"
+  ]
+}
