@@ -16,25 +16,19 @@
     justify-content: center;
 }
 
-.animals-grid a {
-    width: 400px;
-    padding: 0;
-    margin: 2em;
-    text-decoration: none;
-}
-
 .animal-card {
-    width: 100%;
+    width: 400px;
     height: 380px;
     background:  var(--darker-gray);
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .animal-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px) scale(1.01, 1.01);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     border-top: 4px solid var(--accent-orange);
 }
