@@ -6,9 +6,10 @@
     --primary-blue: #205080;
     --primary-green: #208050;
     --accent-orange: #ffa03f;
-    --dark-gray: #405357;
+    --petrol_blue: #0B2C42;
+    --dark-gray: #363B47;
     --darker-gray: #2E323B;
-    --almost-black: #101010;
+    --coal-black: #101010;
 }
 
 * {
@@ -20,7 +21,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: white;
-    background-color: var(--almost-black);
+    background-color: var(--coal-black);
     /*background: linear-gradient(135deg, var(--darker-gray), var(--dark-gray));*/
 }
 
@@ -96,12 +97,11 @@ h1 {
 }
 
 .nav-links a:hover {
-    background-color: var(--primary-green);
+    background-color: var(--dark-gray);
 }
 
 /* Hero Section */
 .hero {
-    background: var(--dark-gray);
     padding: 1rem 2rem 1rem 2rem;
     min-height: 100px;
     display: flex;
@@ -207,7 +207,7 @@ h1 {
 }
 
 .btn-primary {
-    background-color: var(--accent-orange);
+    background-color: var(--petrol_blue);
     color: white;
 }
 
@@ -260,7 +260,7 @@ h1 {
 
 /* Footer */
 footer {
-    background-color: var(--dark-gray);
+    background-color: var(--darker-gray);
     color: white;
     padding: 2rem;
     text-align: center;
