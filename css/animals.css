@@ -3,15 +3,11 @@
     padding: 2em 5em;
 }
 
-
-.animals-container {
+#animals-container {
     padding: 2em 3em;
-}
-
-.animals-grid {
-    margin: 3em 5em;
-    display: flex;
-    gap: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    gap: 2rem;
     justify-content: center;
 }
 
