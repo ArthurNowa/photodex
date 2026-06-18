@@ -31,5 +31,8 @@ async function loadAnimals() {
     console.error(error);
     lastFoundContainer.innerHTML =
         "<p>Erreur lors du chargement du dernier animal photographié.</p>";
+    }
 }
-}
+
+
+loadAnimals();
