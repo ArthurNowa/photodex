@@ -41,7 +41,7 @@ async function loadAnimals() {
 
               // Sécurité : si la catégorie n'est pas définie dans le json
               if (!animal.categorie) {
-                animal.categorie = pageFilter;
+                throw new Error(`Erreur de contenu pour ${filePath} : catégorie non spécifiée.`);
               }
 
               return animal;
@@ -113,7 +113,7 @@ function applyFilters() {
 
   const filteredAnimals = animals.filter(animal => {
     const matchesCategory =
-      selectedCategory === "all" || animal.categorie === selectedCategory;
+      selectedCategory === "all" || animal.categorie === pageFilter;
 
     const matchesSearch =
       animal.nom.toLowerCase().includes(search) ||
