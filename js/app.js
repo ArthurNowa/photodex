@@ -132,7 +132,7 @@ async function init() {
   await loadAnimals();
 
   generateCategoryFilter();
-  displayAnimals(animals);
+  applyFilters(animals);
 }
 
 categoryFilter.addEventListener("change", applyFilters);
