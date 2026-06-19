@@ -83,8 +83,9 @@ function displayAnimals(list) {
               <img src="${animalThumbnail}" alt="${animal.nom}">
               <h3>${animal.nom}</h3>
               <p>
-                  Description : ${animal.description}<br>
-                  Taille : ${animal.taille}
+                  <u>Description</u> : ${animal.description}<br>
+                  <br>
+                  <u>Taille</u> : ${animal.taille}
               </p>
           </a>
       </div>
