@@ -60,6 +60,24 @@ async function loadAnimals() {
 }
 
 
+function displayRandomAnimal() {
+  // Select a random object
+  const randomHighlightContainer = document.querySelector("#random-highlight");
+  const randomObject = animals[Math.floor(Math.random() * jsonData.length)];
+  randomHighlightContainer.innerHTML = `<div class="animal-card">
+          <a href="animal.html?id=${animal.id}">
+              <img src="${animal.photos[0].fichier}" alt="${animal.nom}">
+              <h3>${animal.nom}</h3>
+              <p>
+                  <u>Description</u> : ${animal.description}<br>
+                  <br>
+                  <u>Taille</u> : ${animal.taille}
+              </p>
+          </a>
+      </div>`;
+} 
+
+
 function displayAnimals(list) {
   var animalThumbnail = "images/placeholder.png";
   animalsContainer.innerHTML = "";
@@ -74,7 +92,7 @@ function displayAnimals(list) {
     card.className = "animal-card";
     
     if (animal.photos.length > 0) {
-        animalThumbnail = animal.photos[0];
+        animalThumbnail = animal.photos[0].fichier;
     }
       
     card.innerHTML = `
