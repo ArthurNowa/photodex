@@ -1,6 +1,7 @@
 const animalsContainer = document.querySelector("#animals-container");
 const searchInput = document.querySelector("#search-input");
 const categoryFilter = document.querySelector("#category-filter");
+const randomHighlightContainer = document.querySelector("#random-highlight");
 const pageFilter = window.location.pathname
     .split('/')
     .pop()
@@ -62,16 +63,15 @@ async function loadAnimals() {
 
 function displayRandomAnimal() {
   // Select a random object
-  const randomHighlightContainer = document.querySelector("#random-highlight");
-  const randomObject = animals[Math.floor(Math.random() * jsonData.length)];
+  const randomAnimal = animals[Math.floor(Math.random() * jsonData.length)];
   randomHighlightContainer.innerHTML = `<div class="animal-card">
-          <a href="animal.html?id=${animal.id}">
-              <img src="${animal.photos[0].fichier}" alt="${animal.nom}">
-              <h3>${animal.nom}</h3>
+          <a href="animal.html?id=${randomAnimal.id}">
+              <img src="${randomAnimal.photos[0].fichier}" alt="${randomAnimal.nom}">
+              <h3>${randomAnimal.nom}</h3>
               <p>
-                  <u>Description</u> : ${animal.description}<br>
+                  <u>Description</u> : ${randomAnimal.description}<br>
                   <br>
-                  <u>Taille</u> : ${animal.taille}
+                  <u>Taille</u> : ${randomAnimal.taille}
               </p>
           </a>
       </div>`;
@@ -152,6 +152,9 @@ async function init() {
 
   generateCategoryFilter();
   applyFilters(animals);
+  if (randomHighlightContainer != null) {
+    displayRandomAnimal();
+  }
 }
 
 categoryFilter.addEventListener("change", applyFilters);

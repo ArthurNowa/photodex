@@ -13,10 +13,13 @@ async function loadAnimals() {
         
         const lastAnimalData = await indexResponse.json();
         
+        var lastPhoto = lastAnimalData.photo;
+        lastPhoto = lastPhoto.substring(3, lastPhoto.length); 
+        
         lastFoundContainer.innerHTML =`
               <div class="animal-card">
                   <a href="animal.html?id=${lastAnimalData.animalId}">
-                      <img src="${lastAnimalData.photo}" alt="${lastAnimalData.nom}">
+                      <img src="${lastPhoto}" alt="${lastAnimalData.nom}">
                       <h3>${lastAnimalData.nom}</h3>
                       <p>
                           Photo prise le : ${lastAnimalData.date}<br>
