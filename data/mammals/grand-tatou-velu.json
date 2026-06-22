@@ -1,0 +1,21 @@
+﻿{
+  "id": "grand-tatou-velu",
+  "nom": "Grand tatou velu",
+  "nom-scientifique": "Chaetophractus villosus",
+  "famille": "Chlamyphoridae",
+  "sous-famille": "Euphractinae",
+  "ordre": "Cingulé",
+  "repartition": "Amérique du Sud méridionale : principalement en Argentine, mais aussi en Bolivie, au Paraguay et au Chili.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "40 à 50 cm, sans compter la queue",
+  "regime": "Insectes, larves, autres invertébrés, petits vertébrés, végétaux et charognes",
+  "habitat": "Prairies, pampas, savanes, forêts ouvertes, terres agricoles et zones semi-arides",
+  "description": "Tatou de taille moyenne reconnaissable à sa carapace sombre formée de nombreuses bandes, ainsi qu’aux longs poils visibles entre les plaques.",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260617_grand-tatou-velu-01.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
+}
