@@ -5,15 +5,14 @@ const lastFoundContainer = document.querySelector("#last-photo");
 
 async function loadAnimals() {
     try {
-        const indexResponse = await fetch("data/index.json");
+        const indexResponse = await fetch("data/latest-photo.json");
 
         if (!indexResponse.ok) {
             throw new Error("Impossible de charger index.json");
         }
         
         const lastAnimalData = await indexResponse.json();
-              
-
+        
         lastFoundContainer.innerHTML =`
               <div class="animal-card">
                   <a href="animal.html?id=${lastAnimalData.animalId}">

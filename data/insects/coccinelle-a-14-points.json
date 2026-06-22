@@ -13,7 +13,6 @@
   "repartition": "Europe, Afrique du Nord et Asie tempérée ; introduite en Amérique du Nord",
   "datePhoto": "2026-06-15",
   "description": "Petite coccinelle jaune à orangée reconnaissable à ses marques noires formant souvent un motif de damier.",
-  "photos": [
-    "images/insects/20260616_coccinelle-a-14-points.jpg"
+  "photos": [{"fichier": "images/insects/20260616_coccinelle-a-14-points.jpg", "lieu": "dans mon jardin"}
   ]
 }

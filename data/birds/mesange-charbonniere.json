@@ -9,6 +9,6 @@
   "datePhoto": "2026-06-15",
   "description": "Petit oiseau commun reconnaissable à sa tête noire et ses joues blanches.",
   "photos": [
-    "images/birds/mesange-01.jpg"
+    {"fichier": "images/birds/mesange-01.jpg", "lieu": "google image"}
   ]
 }

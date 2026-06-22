@@ -52,7 +52,6 @@ def find_last_photo():
             animal_name = animal_id
             
             
-
             latest_photo = {
                 "animalId": animal_id,
                 "nom": animal_name,
