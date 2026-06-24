@@ -60,7 +60,7 @@ async function displayRandomAnimal() {
                   </p>
               </a>
           </div>`; */
-        randomHighlightContainer.innerHTML = "${randomAnimal.id}";
+        randomHighlightContainer.innerHTML = `${randomAnimal.id}`;
     } catch (error) {
         console.error(error);
         randomHighlightContainer.innerHTML =
