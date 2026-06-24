@@ -46,12 +46,11 @@ async function displayRandomAnimal() {
         const indexData = await indexResponse.json();
         const randomCategory = indexData[Math.floor(Math.random() * indexData.length)];
 
-        var content = `<p>category = ${randomCategory.type}<br>`;
         const randomCategoryData = randomCategory.data;
-        content.concat(`category content = ${randomCategoryData}<br>`);
+        var content = `<p>category content = ${randomCategory.data}<br>`;
         // Select a random object
         const randomAnimal = randomCategoryData[Math.floor(Math.random() * randomCategoryData.length)];
-        content.concat(`random Animal = ${randomAnimal}<br>`);
+        //content.concat(`random Animal = ${randomAnimal}<br>`);
         /* randomHighlightContainer.innerHTML = `<div class="animal-card">
               <a href="animal.html?id=${randomAnimal.id}">
                   <img src="${randomAnimal.photos[0].fichier}" alt="${randomAnimal.nom}">
@@ -63,7 +62,7 @@ async function displayRandomAnimal() {
                   </p>
               </a>
           </div>`; */
-        content.concat(`random Animal id = ${randomAnimal.id}<br>`);
+        //content.concat(`random Animal id = ${randomAnimal.id}<br>`);
         randomHighlightContainer.innerHTML = content;
     } catch (error) {
         console.error(error);
