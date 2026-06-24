@@ -1,7 +1,6 @@
 const animalsContainer = document.querySelector("#animals-container");
 const searchInput = document.querySelector("#search-input");
 const categoryFilter = document.querySelector("#category-filter");
-const randomHighlightContainer = document.querySelector("#random-highlight");
 const pageFilter = window.location.pathname
     .split('/')
     .pop()
@@ -59,23 +58,6 @@ async function loadAnimals() {
       "<p>Erreur lors du chargement du photodex.</p>";
   }
 }
-
-
-function displayRandomAnimal() {
-  // Select a random object
-  const randomAnimal = animals[Math.floor(Math.random() * jsonData.length)];
-  randomHighlightContainer.innerHTML = `<div class="animal-card">
-          <a href="animal.html?id=${randomAnimal.id}">
-              <img src="${randomAnimal.photos[0].fichier}" alt="${randomAnimal.nom}">
-              <h3>${randomAnimal.nom}</h3>
-              <p>
-                  <u>Description</u> : ${randomAnimal.description}<br>
-                  <br>
-                  <u>Taille</u> : ${randomAnimal.taille}
-              </p>
-          </a>
-      </div>`;
-} 
 
 
 function displayAnimals(list) {
@@ -151,9 +133,6 @@ async function init() {
 
   generateCategoryFilter();
   applyFilters(animals);
-  if (randomHighlightContainer != null) {
-    displayRandomAnimal();
-  }
 }
 
 categoryFilter.addEventListener("change", applyFilters);
