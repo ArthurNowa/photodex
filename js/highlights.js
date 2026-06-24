@@ -49,7 +49,7 @@ async function displayRandomAnimal() {
         
         // Select a random object
         const randomAnimal = randomCategoryData[Math.floor(Math.random() * randomCategoryData.length)];
-        randomHighlightContainer.innerHTML = `<div class="animal-card">
+        /* randomHighlightContainer.innerHTML = `<div class="animal-card">
               <a href="animal.html?id=${randomAnimal.id}">
                   <img src="${randomAnimal.photos[0].fichier}" alt="${randomAnimal.nom}">
                   <h3>${randomAnimal.nom}</h3>
@@ -59,11 +59,12 @@ async function displayRandomAnimal() {
                       <u>Taille</u> : ${randomAnimal.taille}
                   </p>
               </a>
-          </div>`;
+          </div>`; */
+        randomHighlightContainer.innerHTML = "${randomAnimal.id}";
     } catch (error) {
         console.error(error);
         randomHighlightContainer.innerHTML =
-            "<p>Erreur lors du chargement du photodex.</p>";
+            "<p>Erreur lors du chargement de l'animal aléatoire.</p>";
     }
 }
 
