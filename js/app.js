@@ -131,8 +131,7 @@ function applyFilters() {
   const search = searchInput.value.toLowerCase();
 
   const filteredAnimals = animals.filter(animal => {
-    const matchesCategory =
-      selectedCategory === "all" || animal.categorie === pageFilter;
+    const matchesCategory = animal.categorie === pageFilter;
 
     const matchesSearch =
       animal.nom.toLowerCase().includes(search) ||
