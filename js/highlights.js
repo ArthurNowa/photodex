@@ -64,7 +64,7 @@ async function selectRandomAnimal() {
         //content.concat(`random Animal id = ${randomAnimal.id}<br>`);
         var content = `<p>randomAnimal = ${randomAnimal.name}<br>`;
         randomHighlightContainer.innerHTML = content;
-        return `${randomCategoryData.type}/${randomAnimal.name}`
+        return `data/${randomCategoryData.type}/${randomAnimal.name}`
     } catch (error) {
         console.error(error);
         randomHighlightContainer.innerHTML =
@@ -78,7 +78,7 @@ async function displayAnimal (animalPath){
         const indexResponse = await fetch(animalPath);
 
         if (!indexResponse.ok) {
-            throw new Error("Impossible de charger index.json");
+            throw new Error("Impossible de charger le fichier d'animal aléatoire.");
         }
         
         const animalData = await indexResponse.json();
