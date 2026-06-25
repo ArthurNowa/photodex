@@ -20,5 +20,13 @@
         "name": "syrphe-ceinture.json"
       }
     ]
+  },
+  {
+    "type": "mammals",
+    "data": [
+      {
+        "name": "grand-tatou-velu.json"
+      }
+    ]
   }
 ]

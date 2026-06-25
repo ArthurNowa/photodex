@@ -35,7 +35,7 @@ async function loadAnimals() {
     }
 }
 
-async function displayRandomAnimal() {
+async function selectRandomAnimal() {
     try {
         const indexResponse = await fetch("data/index.json");
 
@@ -47,7 +47,6 @@ async function displayRandomAnimal() {
         const randomCategory = indexData[Math.floor(Math.random() * indexData.length)];
 
         const randomCategoryData = randomCategory.data;
-        var content = `<p>category content = ${randomCategory.data}<br>`;
         // Select a random object
         const randomAnimal = randomCategoryData[Math.floor(Math.random() * randomCategoryData.length)];
         //content.concat(`random Animal = ${randomAnimal}<br>`);
@@ -63,7 +62,9 @@ async function displayRandomAnimal() {
               </a>
           </div>`; */
         //content.concat(`random Animal id = ${randomAnimal.id}<br>`);
+        var content = `<p>randomAnimal = ${randomAnimal.name}<br>`;
         randomHighlightContainer.innerHTML = content;
+        return `${randomCategoryData.type}/${randomAnimal.name}`
     } catch (error) {
         console.error(error);
         randomHighlightContainer.innerHTML =
@@ -72,6 +73,39 @@ async function displayRandomAnimal() {
 }
 
 
+async function displayAnimal (animalPath){
+    try {
+        const indexResponse = await fetch(animalPath);
+
+        if (!indexResponse.ok) {
+            throw new Error("Impossible de charger index.json");
+        }
+        
+        const animalData = await indexResponse.json();
+
+        const randomHighlightContainerbis = document.querySelector("#random-highlightbis");
+        randomHighlightContainerbis.innerHTML = `<div class="animal-card">
+              <a href="animal.html?id=${animalData.id}">
+                  <img src="${animalData.photos[0].fichier}" alt="${animalData.nom}">
+                  <h3>${animalData.nom}</h3>
+                  <p>
+                      <u>Description</u> : ${animalData.description}<br>
+                      <br>
+                      <u>Taille</u> : ${animalData.taille}
+                  </p>
+              </a>
+          </div>`;
+        
+        
+    } catch (error) {
+        console.error(error);
+        randomHighlightContainer.innerHTML =
+            "<p>Erreur lors du chargement de ${animalPath}.</p>";
+    }
+}
+
+
 
 loadAnimals();
-displayRandomAnimal();
+let randomAnimal = selectRandomAnimal();
+displayAnimal(randomAnimal);
