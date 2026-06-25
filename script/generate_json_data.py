@@ -54,11 +54,11 @@ def find_last_photo():
             
             latest_photo = {
                 "animalId": animal_id,
-                "nom": animal_name,
                 "category": category,
                 "photo": photo.as_posix(),
                 "fileName": file_name,
-                "date": extract_date(file_name)
+                "date": extract_date(file_name),
+                "jsonfile": "data/" + category + "/" + animal_id + ".json"
             }
 
     if latest_photo is None:

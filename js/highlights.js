@@ -2,86 +2,69 @@
 const randomHighlightContainer = document.querySelector("#random-highlight");
 
 
-async function loadAnimals() {
+async function loadJsonFile (jsonPath, container) {
     try {
-        const indexResponse = await fetch("data/latest-photo.json");
+        const dataResponse = await fetch(jsonPath);
 
-        if (!indexResponse.ok) {
-            throw new Error("Impossible de charger index.json");
+        if (!dataResponse.ok) {
+            throw new Error(`Impossible de charger le fichier ${jsonPath}`);
         }
+
+        const jsonData = await dataResponse.json();
+        return jsonData;
         
-        const lastAnimalData = await indexResponse.json();
+    } catch (error) {
+        console.error(error);
+        container.innerHTML =
+            `<p>Erreur lors du chargement du fichier ${jsonPath}</p>`;
+    }
+}
+
+
+
+async function displayLastPhoto() {
+    try {
+        const latestPhotoData = await loadJsonFile("data/latest-photo.json", lastFoundContainer);
         
         let lastPhoto = lastAnimalData.photo;
-        lastPhoto = lastPhoto.substring(3, lastPhoto.length); 
+        lastPhoto = lastPhoto.substring(3, lastPhoto.length);
+
+
+        const lastAnimalData = await loadJsonFile(latestPhotoData.jsonfile, lastFoundContainer);
         
         lastFoundContainer.innerHTML =`
               <div class="animal-card">
-                  <a href="animal.html?id=${lastAnimalData.animalId}">
+                  <a href="animal.html?id=${latestPhotoData.animalId}">
                       <img src="${lastPhoto}" alt="${lastAnimalData.nom}">
-                      <h3>${lastAnimalData.nom}</h3>
+                      <h3>${latestPhotoData.nom}</h3>
                       <p>
-                          Photo prise le : ${lastAnimalData.date}<br>
+                          Photo prise le : ${latestPhotoData.date}<br>
+                          Lieu de la photo : ${lastAnimalData.photos[0].lieu}<br>
                       </p>
                   </a>
               </div>
             `;
         
-    }
-    catch (error) {
-    console.error(error);
-    lastFoundContainer.innerHTML =
-        "<p>Erreur lors du chargement du dernier animal photographié.</p>";
-    }
+    } catch (error) {}
 }
 
 async function selectRandomAnimal() {
     try {
-        const indexResponse = await fetch("data/index.json");
-
-        if (!indexResponse.ok) {
-            throw new Error("Impossible de charger index.json");
-        }
-        
-        const indexData = await indexResponse.json();
+        const indexData = await loadJsonFile("data/index.json", randomHighlightContainer);
         const randomCategory = indexData[Math.floor(Math.random() * indexData.length)];
 
         const randomCategoryData = randomCategory.data;
         // Select a random object
         const randomAnimal = randomCategoryData[Math.floor(Math.random() * randomCategoryData.length)];
-        //content.concat(`random Animal = ${randomAnimal}<br>`);
-        /* randomHighlightContainer.innerHTML = `<div class="animal-card">
-              <a href="animal.html?id=${randomAnimal.id}">
-                  <img src="${randomAnimal.photos[0].fichier}" alt="${randomAnimal.nom}">
-                  <h3>${randomAnimal.nom}</h3>
-                  <p>
-                      <u>Description</u> : ${randomAnimal.description}<br>
-                      <br>
-                      <u>Taille</u> : ${randomAnimal.taille}
-                  </p>
-              </a>
-          </div>`; */
-        //content.concat(`random Animal id = ${randomAnimal.id}<br>`);
-        var content = `<p>randomAnimal = ${randomAnimal.name}<br>`;
-        randomHighlightContainer.innerHTML = content;
-        return `data/${randomCategoryData.type}/${randomAnimal.name}`
-    } catch (error) {
-        console.error(error);
-        randomHighlightContainer.innerHTML =
-            "<p>Erreur lors du chargement de l'animal aléatoire.</p>";
-    }
+        randomHighlightContainer.innerHTML = `<p>randomAnimal = ${randomAnimal.name}<br>`
+        return `data/${randomCategoryData.type}/${randomAnimal.name}`;
+    } catch (error) {}
 }
 
 
-async function displayAnimal (animalPath){
+async function displayRandomAnimal (animalPath){
     try {
-        const indexResponse = await fetch(animalPath);
-
-        if (!indexResponse.ok) {
-            throw new Error("Impossible de charger le fichier d'animal aléatoire.");
-        }
-        
-        const animalData = await indexResponse.json();
+        const animalData = await loadJsonFile(animalPath, randomHighlightContainer);
 
         const randomHighlightContainerbis = document.querySelector("#random-highlightbis");
         randomHighlightContainerbis.innerHTML = `<div class="animal-card">
@@ -100,12 +83,12 @@ async function displayAnimal (animalPath){
     } catch (error) {
         console.error(error);
         randomHighlightContainer.innerHTML =
-            "<p>Erreur lors du chargement de ${animalPath}.</p>";
+            `<p>Erreur lors du chargement de ${animalPath}.</p>`;
     }
 }
 
 
 
-loadAnimals();
+displayLastPhoto();
 let randomAnimal = selectRandomAnimal();
-displayAnimal(randomAnimal);
+displayRandomAnimal(randomAnimal);
