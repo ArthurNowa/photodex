@@ -16,7 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 <li><a href="${path_to_root}index.html">Accueil</a></li>
                 <li><a href="${path_to_root}birds.html">Oiseaux</a></li>
                 <li><a href="${path_to_root}mammals.html">Mammifères</a></li>
-                <li><a href="${path_to_root}contact.html">Contact</a></li>
+                <li><a href="${path_to_root}insects.html">Insectes</a></li>
+                <li><a href="${path_to_root}reptiles.html">Reptiles</a></li>
+                <li><a href="${path_to_root}about.html">A Propos</a></li>
             </ul>
         </div>
     </nav>`;
