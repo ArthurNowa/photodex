@@ -27,7 +27,7 @@ async function displayLastPhoto() {
         const latestPhotoData = await loadJsonFile("data/latest-photo.json", lastFoundContainer);
         
         let lastPhotoPath = latestPhotoData.photo;
-        lastPhotoPath = lastPhoto.substring(3, lastPhoto.length);
+        lastPhotoPath = lastPhotoPath.substring(3, lastPhotoPath.length);
 
 
         const lastAnimalData = await loadJsonFile(latestPhotoData.jsonfile, lastFoundContainer);
