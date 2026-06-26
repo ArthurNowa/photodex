@@ -96,6 +96,6 @@ async function displayRandomAnimal (animalPath){
 
 
 
-displayLastPhoto();
-let randomAnimal = selectRandomAnimal();
-displayRandomAnimal(randomAnimal);
+await displayLastPhoto();
+let randomAnimal = await selectRandomAnimal();
+await displayRandomAnimal(randomAnimal);
