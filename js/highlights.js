@@ -2,24 +2,7 @@
 const randomHighlightContainer = document.querySelector("#random-highlight");
 
 
-async function loadJsonFile (jsonPath, container) {
-    try {
-        const dataResponse = await fetch(jsonPath);
-
-        if (!dataResponse.ok) {
-            throw new Error(`Impossible de charger le fichier ${jsonPath}`);
-        }
-
-        const rawJsonData = await dataResponse.json();
-        return rawJsonData;
-        
-    } catch (error) {
-        console.error(error);
-        container.innerHTML =
-            `<p>Erreur lors du chargement du fichier ${jsonPath}</p>`;
-    }
-}
-
+import { loadJsonFile, indexData } from "./dataLoader.js";
 
 
 async function displayLastPhoto() {
@@ -52,7 +35,6 @@ async function displayLastPhoto() {
 
 async function selectRandomAnimal() {
     try {
-        const indexData = await loadJsonFile("data/index.json", randomHighlightContainer);
         const randomCategory = indexData[Math.floor(Math.random() * indexData.length)];
         console.log("catégorie aléatoire : " + randomCategory.type);
         const randomCategoryData = randomCategory.data;

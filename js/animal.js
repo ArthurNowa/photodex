@@ -1,4 +1,6 @@
 
+import { loadJsonFile } from "./dataLoader.js";
+
 const params = new URL(window.location.href).searchParams;
 const animalId = params.get('id');
 console.log(animalId);
@@ -11,14 +13,8 @@ async function loadAnimal() {
   if (!animalId) {
       throw new Error("Aucun animal sélectionné.");
     }
-
-    const response = await fetch("data/index.json");
-
-    if (!response.ok) {
-      throw new Error("Impossible de charger index.json");
-    }
-
-    const animals = await response.json();
+  
+    const animals = loadJsonFile("data/index.json", animalDetailsContainer)
     let currentAnimal = animals.find(animal => animal.id === animalId);
 
     if (!currentAnimal) {

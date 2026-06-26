@@ -6,17 +6,13 @@ const pageFilter = window.location.pathname
     .pop()
     .replace('.html', '');
 
+import { loadJsonFile } from "./dataLoader.js";
+
 export let animals = [];
 
 async function loadAnimals() {
   try {
-    const indexResponse = await fetch("data/index.json");
-
-    if (!indexResponse.ok) {
-      throw new Error("Impossible de charger index.json");
-    }
-
-    const indexData = await indexResponse.json();
+    const indexData = loadJsonFile("data/index.json", animalsContainer);
 
     const animalPromises = [];
 
@@ -54,8 +50,6 @@ async function loadAnimals() {
 
   } catch (error) {
     console.error(error);
-    animalsContainer.innerHTML =
-      "<p>Erreur lors du chargement du photodex.</p>";
   }
 }
 
