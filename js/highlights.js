@@ -31,6 +31,8 @@ async function displayLastPhoto() {
 
 
         const lastAnimalData = await loadJsonFile(latestPhotoData.jsonfile, lastFoundContainer);
+
+        console.log("nom du dernier animal photographié : " + lastAnimalData.name);
         
         lastFoundContainer.innerHTML =`
               <div class="animal-card">
@@ -65,8 +67,8 @@ async function selectRandomAnimal() {
 
 
 async function displayRandomAnimal (animalPath){
+    console.log("path reçu par displayRandomAnimal : " + animalPath);
     try {
-        console.log("path reçu par displayRandomAnimal : " + animalPath);
         const animalData = await loadJsonFile(animalPath, randomHighlightContainer);
         console.log("Pas d'erreur de chargement de animalData via loadJsonFile");
         console.log("animalData.id : " + animalData.id);
