@@ -7,7 +7,8 @@ console.log(animalId);
 
 const animalDetailsContainer = document.querySelector("#animal-details");
 
-var currentPhotoIndex = 0;
+let currentPhotoIndex = 0;
+let currentAnimal = null;
 
 async function loadAnimal() {
   if (!animalId) {
@@ -15,7 +16,7 @@ async function loadAnimal() {
   }
 
   const animals = await loadAllAnimals(animalDetailsContainer);
-  const currentAnimal = animals.find(animal => animal.id === animalId);
+  currentAnimal = animals.find(animal => animal.id === animalId);
 
   if (!currentAnimal) {
     throw new Error("Animal introuvable.");
