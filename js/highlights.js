@@ -96,6 +96,6 @@ async function displayRandomAnimal (animalPath){
 
 
 
-await displayLastPhoto();
+displayLastPhoto().then(r => console.log(r));
 let randomAnimal = await selectRandomAnimal();
-await displayRandomAnimal(randomAnimal);
+displayRandomAnimal(randomAnimal).then(r => console.log(r));
