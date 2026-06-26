@@ -62,7 +62,10 @@ async function selectRandomAnimal() {
         const randomAnimalPath = `data/${randomCategory.type}/${randomAnimal.name}`;
         console.log("path retourné par selectRandomAnimal : " + randomAnimalPath);
         return randomAnimalPath;
-    } catch (error) {console.error(error);}
+    } catch (error) {
+        console.error(error);
+        return null;
+    }
 }
 
 
@@ -97,5 +100,6 @@ async function displayRandomAnimal (animalPath){
 
 
 displayLastPhoto().then(r => console.log(r));
-let randomAnimal = selectRandomAnimal();
-displayRandomAnimal(randomAnimal).then(r => console.log(r));
+let randomAnimalPath = selectRandomAnimal();
+console.log("randomAnimalPath : " + randomAnimalPath);
+displayRandomAnimal(randomAnimalPath).then(r => console.log(r));
