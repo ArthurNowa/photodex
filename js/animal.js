@@ -1,14 +1,14 @@
-const animalDetails = document.querySelector("#animal-details");
 
-let currentPhotoIndex = 0;
-let currentAnimal = null;
+const params = new URL(window.location.href).searchParams;
+const animalId = params.get('id');
+console.log(animalId);
+
+const animalDetailsContainer = document.querySelector("#animal-details");
+
+var currentPhotoIndex = 0;
 
 async function loadAnimal() {
-  try {
-    const params = new URLSearchParams(window.location.search);
-    const animalId = params.get("id");
-
-    if (!animalId) {
+  if (!animalId) {
       throw new Error("Aucun animal sélectionné.");
     }
 
@@ -19,23 +19,19 @@ async function loadAnimal() {
     }
 
     const animals = await response.json();
-    currentAnimal = animals.find(animal => animal.id === animalId);
+    let currentAnimal = animals.find(animal => animal.id === animalId);
 
     if (!currentAnimal) {
       throw new Error("Animal introuvable.");
     }
 
-    displayAnimal(currentAnimal);
-  } catch (error) {
-    console.error(error);
-    animalDetails.innerHTML = "<p>Animal introuvable.</p>";
-  }
+  displayAnimal(currentAnimal);
 }
 
 function displayAnimal(animal) {
   document.title = `${animal.nom} - Photodex`;
 
-  animalDetails.innerHTML = `
+  animalDetailsContainer.innerHTML = `
     <h1>${animal.nom}</h1>
 
     <section class="animal-gallery">
@@ -54,7 +50,7 @@ function displayAnimal(animal) {
       <p><strong>Description :</strong> ${animal.description}</p>
     </section>
 
-    <a href="index.html">← Retour au Photodex</a>
+    <a href="${animal.category}.html">← Retour au Photodex</a>
   `;
 
   updatePhoto();
