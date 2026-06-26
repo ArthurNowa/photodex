@@ -57,7 +57,7 @@ async function selectRandomAnimal() {
         // Select a random object
         const randomAnimal = randomCategoryData[Math.floor(Math.random() * randomCategoryData.length)];
         console.log("animal aléatoire : " + randomAnimal.name);
-        const randomAnimalPath = `data/${randomCategoryData.type}/${randomAnimal.name}`;
+        const randomAnimalPath = `data/${randomCategory.type}/${randomAnimal.name}`;
         console.log("path retourné par selectRandomAnimal : " + randomAnimalPath);
         return randomAnimalPath;
     } catch (error) {console.error(error);}
