@@ -38,7 +38,7 @@ async function displayLastPhoto() {
               <div class="animal-card">
                   <a href="animal.html?id=${latestPhotoData.animalId}">
                       <img src="${lastPhotoPath}" alt="${lastAnimalData.nom}">
-                      <h3>${latestPhotoData.nom}</h3>
+                      <h3>${lastAnimalData.nom}</h3>
                       <p>
                           Photo prise le : ${latestPhotoData.date}<br>
                           Lieu de la photo : ${lastAnimalData.photos[0].lieu}<br>
@@ -98,8 +98,14 @@ async function displayRandomAnimal (animalPath){
 }
 
 
+async function initHighlights() {
+    await displayLastPhoto();
 
-displayLastPhoto().then(r => console.log(r));
-let randomAnimalPath = selectRandomAnimal().then();
-displayRandomAnimal(randomAnimalPath).then(r => console.log(r));
-console.log("randomAnimalPath : " + randomAnimalPath);
+    const randomAnimalPath = await selectRandomAnimal();
+
+    if (randomAnimalPath) {
+        await displayRandomAnimal(randomAnimalPath);
+    }
+}
+
+initHighlights();
