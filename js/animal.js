@@ -1,5 +1,5 @@
 
-import { loadJsonFile } from "./dataLoader.js";
+import { loadAllAnimals } from "./dataLoader.js";
 
 const params = new URL(window.location.href).searchParams;
 const animalId = params.get('id');
@@ -11,15 +11,15 @@ var currentPhotoIndex = 0;
 
 async function loadAnimal() {
   if (!animalId) {
-      throw new Error("Aucun animal sélectionné.");
-    }
-  
-    const animals = loadJsonFile("data/index.json", animalDetailsContainer)
-    let currentAnimal = animals.find(animal => animal.id === animalId);
+    throw new Error("Aucun animal sélectionné.");
+  }
 
-    if (!currentAnimal) {
-      throw new Error("Animal introuvable.");
-    }
+  const animals = await loadAllAnimals(animalDetailsContainer);
+  const currentAnimal = animals.find(animal => animal.id === animalId);
+
+  if (!currentAnimal) {
+    throw new Error("Animal introuvable.");
+  }
 
   displayAnimal(currentAnimal);
 }

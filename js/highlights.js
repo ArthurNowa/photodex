@@ -2,7 +2,7 @@
 const randomHighlightContainer = document.querySelector("#random-highlight");
 
 
-import { loadJsonFile, indexData } from "./dataLoader.js";
+import { loadJsonFile, loadIndex } from "./dataLoader.js";
 
 
 async function displayLastPhoto() {
@@ -35,11 +35,12 @@ async function displayLastPhoto() {
 
 async function selectRandomAnimal() {
     try {
+        const indexData = await loadIndex(randomHighlightContainer);
+        
         const randomCategory = indexData[Math.floor(Math.random() * indexData.length)];
         console.log("catégorie aléatoire : " + randomCategory.type);
-        const randomCategoryData = randomCategory.data;
-        // Select a random object
-        const randomAnimal = randomCategoryData[Math.floor(Math.random() * randomCategoryData.length)];
+        
+        const randomAnimal = randomCategory.data[Math.floor(Math.random() * randomCategory.data.length)];
         console.log("animal aléatoire : " + randomAnimal.name);
         const randomAnimalPath = `data/${randomCategory.type}/${randomAnimal.name}`;
         console.log("path retourné par selectRandomAnimal : " + randomAnimalPath);

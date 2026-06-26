@@ -6,42 +6,24 @@ const pageFilter = window.location.pathname
     .pop()
     .replace('.html', '');
 
-import { loadJsonFile } from "./dataLoader.js";
+import { loadJsonFile, loadIndex } from "./dataLoader.js";
 
 export let animals = [];
 
 async function loadAnimals() {
   try {
-    const indexData = loadJsonFile("data/index.json", animalsContainer);
+    const indexData = await loadIndex(animalsContainer);
 
     const animalPromises = [];
 
     for (const category of indexData) {
-
       const categoryName = category.type;
 
       for (const animalFile of category.data) {
-
         const filePath = `data/${categoryName}/${animalFile.name}`;
 
         animalPromises.push(
-          fetch(filePath)
-            .then(response => {
-              if (!response.ok) {
-                throw new Error(`Impossible de charger ${filePath}`);
-              }
-
-              return response.json();
-            })
-            .then(animal => {
-
-              // Sécurité : si la catégorie n'est pas définie dans le json
-              if (!animal.categorie) {
-                throw new Error(`Erreur de contenu pour ${filePath} : catégorie non spécifiée.`);
-              }
-
-              return animal;
-            })
+            loadJsonFile(filePath, animalsContainer)
         );
       }
     }
@@ -103,7 +85,6 @@ function generateCategoryFilter() {
 }
 
 function applyFilters() {
-  const selectedCategory = categoryFilter.value;
   const search = searchInput.value.toLowerCase();
 
   const filteredAnimals = animals.filter(animal => {

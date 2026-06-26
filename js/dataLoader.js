@@ -1,48 +1,43 @@
-const DATA_FILES = [
-  "data/oiseaux.json",
-  "data/mammiferes.json",
-  "data/reptiles-amphibiens.json",
-  "data/insectes.json",
-  "data/plantes.json"
-];
 
 
-
-async function loadAllItems() {
-  const responses = await Promise.all(
-    DATA_FILES.map(file => fetch(file))
-  );
-
-  const jsonFiles = await Promise.all(
-    responses.map(response => {
-      if (!response.ok) {
-        throw new Error("Erreur de chargement d'un fichier JSON");
-      }
-
-      return response.json();
-    })
-  );
-
-  return jsonFiles.flat();
-}
-
-export async function loadJsonFile (jsonPath, container) {
+export async function loadJsonFile(jsonPath, container = null) {
     try {
-        const dataResponse = await fetch(jsonPath);
+        const response = await fetch(jsonPath);
 
-        if (!dataResponse.ok) {
+        if (!response.ok) {
             throw new Error(`Impossible de charger le fichier ${jsonPath}`);
         }
 
-        const rawJsonData = await dataResponse.json();
-        return rawJsonData;
+        return await response.json();
 
     } catch (error) {
         console.error(error);
-        container.innerHTML =
-            `<p>Erreur lors du chargement du fichier ${jsonPath}</p>`;
+
+        if (container) {
+            container.innerHTML = `<p>Erreur lors du chargement du fichier ${jsonPath}</p>`;
+        }
+
+        return null;
     }
 }
 
-const mainContainer = document.querySelector("main");
-export const indexData = loadAllItems("data/index.json", mainContainer);
+
+export async function loadAllAnimals(container = null) {
+    const indexData = await loadIndex(container);
+
+    const animalPromises = [];
+
+    for (const category of indexData) {
+        for (const animalFile of category.data) {
+            const path = `data/${category.type}/${animalFile.name}`;
+            animalPromises.push(loadJsonFile(path, container));
+        }
+    }
+
+    return await Promise.all(animalPromises);
+}
+
+
+export async function loadIndex(container = null) {
+    return await loadJsonFile("data/index.json", container);
+}
