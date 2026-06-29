@@ -12,6 +12,10 @@ const BADGES = [
 ];
 
 const progressBarContainer = document.querySelector("#progress-bar");
+const pageFilter = window.location.pathname
+    .split('/')
+    .pop()
+    .replace('.html', '');
 let count = 0;
 
 async function countDataEntries() {
@@ -20,7 +24,10 @@ async function countDataEntries() {
         const indexData = await loadIndex(randomHighlightContainer);
         
         for (const category of indexData) {
-            count += category.data.length;
+            if (pageFilter === "index" || category.type === pageFilter)
+            {
+                count += category.data.length;
+            }
         }
         return count;
         
