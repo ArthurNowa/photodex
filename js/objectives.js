@@ -1,6 +1,7 @@
 ﻿import { loadIndex } from "./dataLoader.js";
 
 const BADGES = [
+    { name: "Aucun", goal: 0 },
     { name: "Premiers Pas", goal: 10 },
     { name: "Un Bon Début", goal: 25 },
     { name: "Curieux", goal: 50 },
@@ -113,7 +114,7 @@ function displayBadgeProgress() {
 
 async function init() {
     await countDataEntries();
-    displayBadgeProgress(BADGES);
+    displayBadgeProgress();
 }
 
 
