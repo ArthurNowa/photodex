@@ -1,0 +1,21 @@
+﻿{
+  "id": "epeire-diademe",
+  "nom": "Épeire diadème",
+  "nom-scientifique": "Araneus diadematus",
+  "famille": "Araneidae",
+  "sous-famille": "Araneinae",
+  "ordre": "Aranéide",
+  "repartition": "Très répandue en Europe ; également présente en Amérique du Nord, où elle a été introduite.",
+  "categorie": "insects",
+  "type": "Arachnide",
+  "taille": "Femelle : 10 à 18 mm ; mâle : 5 à 13 mm",
+  "regime": "Insectes capturés dans sa toile, principalement des mouches, moustiques, papillons et autres petits arthropodes",
+  "habitat": "Jardins, haies, parcs, lisières, friches, bois clairs et abords des habitations",
+  "description": "Araignée orbiculaire très commune, souvent installée au centre de sa grande toile ronde. Elle se reconnaît facilement aux taches blanches formant une croix sur son abdomen, même si sa couleur peut varier du beige au brun foncé ou à l’orange.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260628_epeire-diademe.jpg",
+      "lieu": "jardin"
+    }
+  ]
+}

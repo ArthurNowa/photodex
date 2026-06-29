@@ -1,0 +1,21 @@
+﻿{
+  "id": "coccinelle-7-points",
+  "nom": "Coccinelle à 7 points",
+  "nom-scientifique": "Coccinella septempunctata",
+  "famille": "Coccinellidae",
+  "sous-famille": "Coccinellinae",
+  "ordre": "Coléoptère",
+  "repartition": "Originaire d’Europe, d’Afrique du Nord et d’une grande partie de l’Asie ; introduite dans plusieurs régions du monde, notamment en Amérique du Nord.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "5 à 8 mm",
+  "regime": "Principalement pucerons ; elle consomme aussi d’autres petits insectes à corps mou, comme des aleurodes, thrips ou acariens",
+  "habitat": "Prairies, jardins, parcs, haies, vergers, cultures, friches et autres zones riches en pucerons",
+  "description": "Coccinelle rouge très commune, facilement reconnaissable à ses sept points noirs : trois sur chaque élytre et un au centre, près de leur jonction. Son pronotum noir porte deux petites taches blanches sur les côtés.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260628_coccinelle-7-points.jpg",
+      "lieu": "jardin"
+    }
+  ]
+}

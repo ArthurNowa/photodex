@@ -1,0 +1,21 @@
+﻿{
+  "id": "chrysopilus-splendidus",
+  "nom": "Chrysopilus splendidus",
+  "nom-scientifique": "Chrysopilus splendidus",
+  "famille": "Rhagionidae",
+  "sous-famille": "Chrysopilinae",
+  "ordre": "Diptère",
+  "repartition": "Présent en Europe, notamment en France, ainsi que dans une partie de l’Asie tempérée.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Environ 7 à 10 mm",
+  "regime": "Petits insectes et autres invertébrés ; les larves sont prédatrices",
+  "habitat": "Bois humides, lisières ombragées, bords de cours d’eau, haies et végétation basse",
+  "description": "Mouche prédatrice de la famille des Rhagionidae, reconnaissable à son corps élancé et à ses reflets dorés ou verdâtres selon la lumière.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260628_chrysopilus-splendidus.jpg",
+      "lieu": "jardin"
+    }
+  ]
+}

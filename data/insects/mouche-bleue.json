@@ -1,0 +1,21 @@
+﻿{
+  "id": "mouche-bleue",
+  "nom": "Mouche bleue",
+  "nom-scientifique": "Calliphora vomitoria",
+  "famille": "Calliphoridae",
+  "sous-famille": "Calliphorinae",
+  "ordre": "Diptère",
+  "repartition": "Présente dans une grande partie de l’Europe, en Afrique du Nord et dans de nombreuses régions d’Amérique du Nord ; elle est commune en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "10 à 14 mm",
+  "regime": "Les adultes consomment surtout des liquides sucrés, du nectar, des fruits très mûrs et diverses matières organiques ; les larves se développent dans la viande, les cadavres et autres matières animales en décomposition.",
+  "habitat": "Jardins, zones rurales, lisières, bois, abords des habitations, déchets organiques et carcasses d’animaux",
+  "description": "Grande mouche trapue à l’abdomen bleu métallique, aux yeux rougeâtres et au thorax gris sombre. Elle se reconnaît notamment à ses joues garnies de poils orangés, visibles de près, et à sa couleur bleu vif plus marquée que celle de nombreuses autres mouches.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260628_mouche-bleue.jpg",
+      "lieu": "jardin"
+    }
+  ]
+}

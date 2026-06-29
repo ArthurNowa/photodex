@@ -1,0 +1,21 @@
+﻿{
+  "id": "mormo-maura",
+  "nom": "Maure",
+  "nom-scientifique": "Mormo maura",
+  "famille": "Noctuidae",
+  "sous-famille": "Xyleninae",
+  "ordre": "Lépidoptère",
+  "repartition": "Présente en Afrique du Nord, dans une grande partie de l’Europe, au Moyen-Orient et jusqu’en Asie centrale.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Envergure de 55 à 65 mm",
+  "regime": "Les chenilles se nourrissent de nombreuses plantes herbacées, arbustes et arbres, notamment des oseilles, pissenlits, saules, aubépines et fusains",
+  "habitat": "Bords de rivières, étangs, zones humides, vallées boisées, haies, lisières et jardins ombragés",
+  "description": "Grand papillon de nuit brun grisâtre, aux ailes larges et très sombres. Il se reconnaît à son aspect général rappelant une écorce ou une feuille sèche, ainsi qu’à la large bande pâle et courbe visible sur les ailes postérieures lorsqu’il est posé ou en vol.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260628_maure.jpg",
+      "lieu": "jardin"
+    }
+  ]
+}

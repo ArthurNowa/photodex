@@ -1,0 +1,21 @@
+﻿{
+  "id": "planuncus-tingitanus",
+  "nom": "Blatte de Vinz",
+  "nom-scientifique": "Planuncus tingitanus",
+  "famille": "Ectobiidae",
+  "sous-famille": "Ectobiinae",
+  "ordre": "Blattodea",
+  "repartition": "Originaire d’Afrique du Nord, l’espèce s’est largement étendue en Europe occidentale et centrale, notamment en France, en Belgique, en Allemagne et au Royaume-Uni.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Environ 7 à 10 mm",
+  "regime": "Débris végétaux, matières organiques en décomposition et petits restes végétaux",
+  "habitat": "Jardins, haies, friches, parcs, murs végétalisés, litière de feuilles et abords des habitations",
+  "description": "Petite blatte des jardins brun clair à beige, aux longues antennes et au corps aplati. Contrairement aux blattes domestiques, elle vit surtout dehors et ne constitue pas un nuisible dans les habitations. Les jeunes individus présentent souvent une bande claire longitudinale sur le dos.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260628_blatte-de-vinz.jpg",
+      "lieu": "jardin"
+    }
+  ]
+}
