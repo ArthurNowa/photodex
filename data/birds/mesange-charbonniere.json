@@ -1,13 +1,18 @@
 {
   "id": "mesange-charbonniere",
   "nom": "Mésange charbonnière",
+  "nom scientifique": "Parus major",
+  "famille": "Paridae",
+  "sous-famille": "Parus",
   "categorie": "birds",
+  "ordre": "Passeriformes",
   "type": "Oiseau",
   "taille": "13 à 15 cm",
   "tailleMoyenne": 14,
   "envergure": "23 à 26 cm",
   "regime": "Insectes, graines, baies",
   "habitat": "Bois, jardins, parcs",
+  "repartition": "Europe, Asie, et nord-ouest de l'Afrique",
   "datePhoto": "2026-06-15",
   "description": "Petit oiseau commun reconnaissable à sa tête noire et ses joues blanches.",
   "photos": [

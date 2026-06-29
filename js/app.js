@@ -112,7 +112,8 @@ function applyFilters() {
     const matchesSize = animal.tailleMoyenne >= minSize &&
         animal.tailleMoyenne <= maxSize
 
-    const matchesSearch =
+    const matchesSearch = 
+      animal.categorie === pageFilter.value &&
       animal.nom.toLowerCase().includes(search) ||
       animal.description.toLowerCase().includes(search) || 
       animal.ordre.toLowerCase().includes(search) ||
