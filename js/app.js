@@ -135,8 +135,8 @@ async function init() {
 }
 
 searchInput.addEventListener("input", applyFilters);
-orderFilter.addEventListener("change", applyFilters);
-habitatFilter.addEventListener("change", applyFilters);
+//orderFilter.addEventListener("change", applyFilters);
+//habitatFilter.addEventListener("change", applyFilters);
 minSizeInput.addEventListener("input", applyFilters);
 maxSizeInput.addEventListener("input", applyFilters);
 
