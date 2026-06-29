@@ -32,11 +32,15 @@ async function countDataEntries() {
 function getBadgeProgress() {
     let currentBadge = BADGES[0];
     let nextBadge = null;
-
-    for (let i = 0; i < BADGES.length; i++) {
+    const nbGoals = BADGES.length;
+    for (let i = 0; i < nbGoals; i++) {
         if (count >= BADGES[i].goal) {
             currentBadge = BADGES[i];
-            nextBadge = BADGES[i + 1] || null;
+            if (i < nbGoals-1) {
+                nextBadge = BADGES[i + 1];
+            } else {
+                nextBadge = null;
+            }
         }
     }
 
