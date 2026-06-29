@@ -68,10 +68,24 @@ function getBadgeProgress() {
 
 function displayBadgeProgress() {
     const { currentBadge, nextBadge, progress } = getBadgeProgress();
+    const category = [
+        { filter: "index", text: "global" },
+        { filter: "birds", text: "Oiseaux" },
+        { filter: "mammals", text: "Mammifères" },
+        { filter: "insects", text: "Insectes" },
+        { filter: "reptiles", text: "Reptiles et Amphibiens" }
+    ];
+    
+    let objectivesText = "";
+    for (const type of category) {
+        if (type.filter === pageFilter) {
+            objectivesText = type.text;
+        }
+    }
 
     progressBarContainer.innerHTML = `
     <section class="badge-progress-card">
-      <h2>Progression Photodex</h2>
+      <h2>Progression Photodex ${objectivesText}</h2>
 
       <p>${count} espèces rencontrées</p>
 
