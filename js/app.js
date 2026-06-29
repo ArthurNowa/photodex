@@ -85,7 +85,7 @@ function generateFilters() {
     const option = document.createElement("option");
     option.value = order;
     option.textContent = order;
-    categoryFilter.appendChild(option);
+    orderFilter.appendChild(option);
   });
 
 
@@ -97,7 +97,7 @@ function generateFilters() {
     const option = document.createElement("option");
     option.value = habitat;
     option.textContent = habitat;
-    categoryFilter.appendChild(option);
+    habitatFilter.appendChild(option);
   });
 }
 
@@ -109,17 +109,18 @@ function applyFilters() {
   sizeLabel.textContent = `${minSize} - ${maxSize} cm`;
 
   const filteredAnimals = animals.filter(animal => {
-    const matchesCategory = animal.categorie === pageFilter;
+    const matchesSize = animal.tailleMoyenne >= minSize &&
+        animal.tailleMoyenne <= maxSize
 
     const matchesSearch =
       animal.nom.toLowerCase().includes(search) ||
       animal.description.toLowerCase().includes(search) || 
       animal.ordre.toLowerCase().includes(search) ||
-      animal.habitat.toLowerCase().includes(search) || 
-      (animal.tailleMoyenne >= minSize &&
-      animal.tailleMoyenne <= maxSize);
+      animal.habitat.toLowerCase().includes(search);
     
-    return matchesCategory && matchesSearch;
+    console.log(`animal : ${animal} | match : ${matchesSearch} | match size : ${matchesSize}`);
+    
+    return matchesSearch || matchesSize;
   });
 
   displayAnimals(filteredAnimals);
