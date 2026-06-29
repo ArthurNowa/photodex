@@ -22,7 +22,7 @@ let count = 0;
 async function countDataEntries() {
     count = 0;
     try {
-        const indexData = await loadIndex(randomHighlightContainer);
+        const indexData = await loadIndex(progressBarContainer);
         
         for (const category of indexData) {
             if (pageFilter === "index" || category.type === pageFilter)
