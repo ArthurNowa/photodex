@@ -36,7 +36,7 @@
 }
 
 .animal-card h3 {
-    padding: 0rem 1.5rem;
+    padding: 0 1.5rem;
     color: var(--golden);
     font-size: 1.3rem;
 }
@@ -87,7 +87,7 @@
 
 .progress-fill {
     height: 100%;
-    background: var(--golden);
+    background: var(--primary-green);
 }
 
 

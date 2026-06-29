@@ -302,7 +302,16 @@ footer {
         right: 10px;
     }
 
-    .featured-projects h2 {
-        font-size: 1.5rem;
+    #featured-container {
+        padding: 2em 3em;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 400px);
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    #featured-container h2 {
+        padding: 1em;
+        color: white;
     }
 }

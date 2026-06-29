@@ -1,7 +1,7 @@
 ﻿import { loadIndex } from "./dataLoader.js";
 
 const BADGES = [
-    { name: "Aucun", goal: 0 },
+    { name: "Aucun", goal: 0, image:"" },
     { name: "Premiers Pas", goal: 10 },
     { name: "Un Bon Début", goal: 25 },
     { name: "Curieux", goal: 50 },
@@ -105,7 +105,7 @@ function displayBadgeProgress() {
       </div>
 
       <div class="progress-bar">
-        <div class="progress-fill" style="width: ${progress}%"></div>
+        <div class="progress-fill" style="width: ${progress}%">${count} / ${nextBadge.goal}</div>
       </div>
     </section>
   `;

@@ -33,7 +33,7 @@ function displayAnimal(animal) {
 
     <section class="animal-gallery">
       <button id="prev-photo">←</button>
-      <img id="main-photo" src="${animal.photos[0]}" alt="${animal.nom}">
+      <img id="main-photo" src="${animal.photos[0].fichier}" alt="${animal.nom}">
       <button id="next-photo">→</button>
     </section>
 
