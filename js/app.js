@@ -1,6 +1,10 @@
 const animalsContainer = document.querySelector("#animals-container");
 const searchInput = document.querySelector("#search-input");
-const categoryFilter = document.querySelector("#category-filter");
+const orderFilter = document.querySelector("#order filter");
+const habitatFilter = document.querySelector("#habitat filter");
+const minSizeInput = document.querySelector("#min-size");
+const maxSizeInput = document.querySelector("#max-size");
+const sizeLabel = document.querySelector("#size-label");
 const pageFilter = window.location.pathname
     .split('/')
     .pop()
@@ -71,30 +75,50 @@ function displayAnimals(list) {
   });
 }
 
-function generateCategoryFilter() {
-  const categories = [...new Set(animals.map(animal => animal.categorie))];
+function generateFilters() {
+  // filtre "Ordre"
+  const orders = [...new Set(animals.map(animal => animal.order))];
 
-  categoryFilter.innerHTML = `<option value="all">Toutes les catégories</option>`;
+  orderFilter.innerHTML = `<option value="all">Tous</option>`;
 
-  categories.forEach(category => {
+  orders.forEach(order => {
     const option = document.createElement("option");
-    option.value = category;
-    option.textContent = category;
+    option.value = order;
+    option.textContent = order;
+    categoryFilter.appendChild(option);
+  });
+
+
+  // filtre "Habitat"
+  const habitats = ["prairie", "forêt", "villes", "jardins"];
+
+  habitatFilter.innerHTML = `<option value="all">Tous</option>`;
+  habitats.forEach(habitat => {
+    const option = document.createElement("option");
+    option.value = habitat;
+    option.textContent = habitat;
     categoryFilter.appendChild(option);
   });
 }
 
 function applyFilters() {
   const search = searchInput.value.toLowerCase();
+  // filtre "Taille"
+  let minSize = Number(minSizeInput.value);
+  let maxSize = Number(maxSizeInput.value);
+  sizeLabel.textContent = `${minSize} - ${maxSize} cm`;
 
   const filteredAnimals = animals.filter(animal => {
     const matchesCategory = animal.categorie === pageFilter;
 
     const matchesSearch =
       animal.nom.toLowerCase().includes(search) ||
-      animal.description.toLowerCase().includes(search) ||
-      animal.habitat.toLowerCase().includes(search);
-
+      animal.description.toLowerCase().includes(search) || 
+      animal.ordre.toLowerCase().includes(search) ||
+      animal.habitat.toLowerCase().includes(search) || 
+      (animal.tailleMoyenne >= minSize &&
+      animal.tailleMoyenne <= maxSize);
+    
     return matchesCategory && matchesSearch;
   });
 
@@ -106,11 +130,14 @@ function applyFilters() {
 async function init() {
   await loadAnimals();
 
-  generateCategoryFilter();
+  generateFilters();
   applyFilters(animals);
 }
 
-categoryFilter.addEventListener("change", applyFilters);
 searchInput.addEventListener("input", applyFilters);
+orderFilter.addEventListener("change", applyFilters);
+habitatFilter.addEventListener("change", applyFilters);
+minSizeInput.addEventListener("input", applyFilters);
+maxSizeInput.addEventListener("input", applyFilters);
 
 init();
