@@ -1,7 +1,7 @@
 const animalsContainer = document.querySelector("#animals-container");
 const searchInput = document.querySelector("#search-input");
-const orderFilter = document.querySelector("#order filter");
-const habitatFilter = document.querySelector("#habitat filter");
+const orderFilter = document.querySelector("#order-filter");
+const habitatFilter = document.querySelector("#habitat-filter");
 const minSizeInput = document.querySelector("#min-size");
 const maxSizeInput = document.querySelector("#max-size");
 const sizeLabel = document.querySelector("#size-label");
