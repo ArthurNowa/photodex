@@ -1,10 +1,7 @@
 
-.filter {
-    padding: 2em 5em;
-}
 
 /* ----------------------- cartes d'animaux ----------------------- */
-#animals-container {
+#animals-container, #featured-container {
     padding: 2em 3em;
     display: grid;
     grid-template-columns: repeat(auto-fit, 400px);
@@ -93,7 +90,14 @@
     text-align: center;
 }
 
-/* ----------------------- filtre de la taille ----------------------- */
+/* ----------------------- filtres ----------------------- */
+#filters {
+    padding: 2em 3em;
+    display: grid;
+    gap: 1rem;
+}
+
+
 .range-wrapper {
     position: relative;
     width: 300px;
