@@ -1,0 +1,22 @@
+﻿{
+  "id": "loriquet-arc-en-ciel",
+  "nom": "Loriquet arc-en-ciel",
+  "nom-scientifique": "Trichoglossus moluccanus",
+  "famille": "Psittaculidae",
+  "sous-famille": "Loriinae",
+  "ordre": "Psittaciforme",
+  "repartition": "Principalement est et nord de l’Australie ; introduit dans certaines zones de Nouvelle-Zélande, Hong Kong et Tasmanie.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "25 à 30 cm",
+  "envergure": "Environ 45 à 50 cm",
+  "regime": "Nectar, pollen, fruits, baies, fleurs et parfois graines.",
+  "habitat": "Forêts ouvertes, boisements côtiers, parcs, jardins, zones urbaines arborées et vergers",
+  "description": "Petit perroquet très coloré, au plumage vert, bleu, orange, rouge et jaune. Il se reconnaît facilement à sa tête bleue, sa poitrine orangée et à sa langue en forme de brosse, adaptée à la consommation de nectar et de pollen.",
+  "photos": [
+    {
+      "fichier": "images/birds/20260505_loriquet.jpg",
+      "lieu": "pairi daiza"
+    }
+  ]
+}

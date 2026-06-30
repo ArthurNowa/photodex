@@ -3,6 +3,12 @@
     "type": "birds",
     "data": [
       {
+        "name": "casoar.json"
+      },
+      {
+        "name": "loriquet.json"
+      },
+      {
         "name": "mesange-charbonniere.json"
       }
     ]
@@ -49,7 +55,13 @@
     "type": "mammals",
     "data": [
       {
+        "name": "elan.json"
+      },
+      {
         "name": "grand-tatou-velu.json"
+      },
+      {
+        "name": "ours-polaire.json"
       }
     ]
   }

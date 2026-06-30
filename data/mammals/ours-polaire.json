@@ -1,0 +1,21 @@
+﻿{
+  "id": "ours-polaire",
+  "nom": "Ours polaire",
+  "nom-scientifique": "Ursus maritimus",
+  "famille": "Ursidae",
+  "sous-famille": "Ursinae",
+  "ordre": "Carnivore",
+  "repartition": "Région arctique : Canada, Alaska, Groenland, Norvège, Russie et zones marines couvertes de glace autour du pôle Nord.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "1,8 à 3 m de long",
+  "regime": "Principalement phoques, surtout phoques annelés et phoques barbus ; peut aussi consommer des carcasses, oiseaux, œufs et végétaux.",
+  "habitat": "Banquise, côtes arctiques, îles et zones marines froides",
+  "description": "Grand ours blanc adapté aux milieux polaires, doté d’une épaisse couche de graisse et d’un pelage isolant. Il se reconnaît à sa silhouette massive, son long cou, sa tête étroite et ses grandes pattes adaptées à la marche sur la glace et à la nage.",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260505_ours-polaire.jpg",
+      "lieu": "pairi daiza"
+    }
+  ]
+}

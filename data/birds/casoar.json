@@ -1,0 +1,22 @@
+﻿{
+  "id": "casoar-a-casque",
+  "nom": "Casoar à casque",
+  "nom-scientifique": "Casuarius casuarius",
+  "famille": "Casuariidae",
+  "sous-famille": "",
+  "ordre": "Casuariiforme",
+  "repartition": "Nouvelle-Guinée, certaines îles d’Indonésie et nord-est de l’Australie.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "1,5 à 1,8 m de haut",
+  "envergure": "Environ 1,5 m",
+  "regime": "Principalement fruits tombés au sol ; complète son alimentation avec champignons, insectes, petits vertébrés et charognes.",
+  "habitat": "Forêts tropicales humides, lisières forestières, marécages et zones boisées denses",
+  "description": "Grand oiseau terrestre incapable de voler, au plumage noir, au cou bleu et rouge et au casque brun visible sur la tête. Il se reconnaît aussi à ses pattes très puissantes munies de trois doigts, dont un porte une longue griffe.",
+  "photos": [
+    {
+      "fichier": "images/birds/20260505_casoar.jpg",
+      "lieu": "pairi daiza"
+    }
+  ]
+}
