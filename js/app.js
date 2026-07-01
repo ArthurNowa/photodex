@@ -103,8 +103,10 @@ function generateFilters() {
 
 function applyCategoryFilter() {
   console.log(`animals before : ${animals}`);
+  console.log(`page filter : ${pageFilter.value}`);
   animals = animals.filter(animal => {
     console.log(`animal : ${animals}`);
+    console.log(`animal categorie : ${animal.categorie}`);
     return animal.categorie === pageFilter.value;
   });
   console.log(`animals after : ${animals}`);
