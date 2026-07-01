@@ -95,14 +95,15 @@ function displayBadgeProgress() {
         <div class="badge current">
           <span>Badge actuel</span>
           <strong>${currentBadge.name}</strong>
-          <img src="${currentBadge.image}" alt="${currentBadge.name}" style="height: 100px; width 100px;">
           <small>${currentBadge.goal} espèces</small>
+          <img src="${currentBadge.image}" alt="./${currentBadge.name}" style="height: 100px; width 100px;">
         </div>
 
         <div class="badge next">
           <span>Prochain badge</span>
           <strong>${nextBadge ? nextBadge.name : "Tous obtenus"}</strong>
           <small>${nextBadge ? `${nextBadge.goal} espèces` : "Photodex complété"}</small>
+          <img src="${nextBadge.image}" alt="./${nextBadge.name}" style="height: 100px; width 100px; filter: grayscale(90%);">
         </div>
       </div>
 

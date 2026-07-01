@@ -77,6 +77,10 @@
     font-size: 1.2rem;
 }
 
+.badge img {
+     display: inline;
+ }
+
 .progress-bar {
     height: 18px;
     background: #111;
