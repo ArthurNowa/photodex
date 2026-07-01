@@ -1,15 +1,16 @@
 ﻿import { loadIndex } from "./dataLoader.js";
 
 const BADGES = [
-    { name: "Aucun", goal: 0, image:"../images/badges/badge-aucun.png" },
-    { name: "Premiers Pas", goal: 10, image:"../images/badges/badge-premier-pas.png" },
-    { name: "Un Bon Début", goal: 25, image:"../images/badges/badge-bon-debut.png" },
-    { name: "Curieux", goal: 50, image:"../images/badges/badge-curieux.png" },
-    { name: "Explor'Amateur", goal: 100, image:"../images/badges/badge-exploramateur.png" },
-    { name: "Attrapez-les tous !", goal: 151, image:"../images/badges/badge-attrapez-lez-tous.png" },
-    { name: "Naturaliste", goal: 200, image:"../images/badges/badge-naturaliste.png" },
-    { name: "Ca fait beaucoup là, non ?", goal: 500, image:"../images/badges/badge-ca-fait-beaucoup.png" },
-    { name: "Encyclopédie", goal: 1000, image:"../images/badges/badge-encyclopedie.png" }
+    { name: "Aucun", goal: 0, image:"images/badges/badge-aucun.png" },
+    { name: "Premiers Pas", goal: 10, image:"images/badges/badge-premier-pas.png" },
+    { name: "Un Bon Début", goal: 25, image:"images/badges/badge-bon-debut.png" },
+    { name: "Curieux", goal: 50, image:"images/badges/badge-curieux.png" },
+    { name: "Explor'Amateur", goal: 100, image:"images/badges/badge-exploramateur.png" },
+    { name: "Attrapez-les tous !", goal: 151, image:"images/badges/badge-attrapez-lez-tous.png" },
+    { name: "Naturaliste", goal: 200, image:"images/badges/badge-naturaliste.png" },
+    { name: "Ca fait beaucoup là, non ?", goal: 500, image:"images/badges/badge-ca-fait-beaucoup.png" },
+    { name: "Encyclopédie", goal: 1000, image:"images/badges/badge-encyclopedie.png" },
+    { name: "Omniscient", goal: 10000, image:"images/badges/badge-omniscient.png" }
 ];
 
 const progressBarContainer = document.querySelector("#progress-bar");
