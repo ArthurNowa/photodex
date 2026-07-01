@@ -26,6 +26,7 @@ async function loadAnimal() {
 }
 
 function displayAnimal(animal) {
+  console.log(`path de la photo : ${animal.photos[0].fichier}`)
   document.title = `${animal.nom} - Photodex`;
 
   animalDetailsContainer.innerHTML = `
@@ -47,7 +48,7 @@ function displayAnimal(animal) {
       <p><strong>Description :</strong> ${animal.description}</p>
     </section>
 
-    <a href="${animal.category}.html">← Retour au Photodex</a>
+    <a href="${animal.categorie}.html">← Retour au Photodex</a>
   `;
 
   updatePhoto();
