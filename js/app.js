@@ -102,7 +102,12 @@ function generateFilters() {
 }
 
 function applyCategoryFilter() {
-  animals = animals.filter(animal => {return animal.categorie === pageFilter.value;});
+  console.log(`animals before : ${animals}`);
+  animals = animals.filter(animal => {
+    console.log(`animal : ${animals}`);
+    return animal.categorie === pageFilter.value;
+  });
+  console.log(`animals after : ${animals}`);
 }
 
 function applyFilters() {
