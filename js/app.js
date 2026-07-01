@@ -10,7 +10,7 @@ const pageFilter = window.location.pathname
     .pop()
     .replace('.html', '');
 
-import { loadJsonFile, loadIndex } from "./dataLoader.js";
+import {loadIndex, loadJsonFile} from "./dataLoader.js";
 
 export let animals = [];
 
@@ -101,6 +101,10 @@ function generateFilters() {
   });
 }
 
+function applyCategoryFilter() {
+  animals = animals.filter(animal => {return animal.categorie === pageFilter.value;});
+}
+
 function applyFilters() {
   const search = searchInput.value.toLowerCase();
   // filtre "Taille"
@@ -108,23 +112,21 @@ function applyFilters() {
   let maxSize = Number(maxSizeInput.value);
   sizeLabel.textContent = `${minSize} - ${maxSize} cm`;
 
-  const filteredAnimals = animals.filter(animal => {
+  animals = animals.filter(animal => {
     const matchesSize = animal.tailleMoyenne >= minSize &&
         animal.tailleMoyenne <= maxSize
 
-    const matchesSearch = 
-      animal.categorie === pageFilter.value &&
-      animal.nom.toLowerCase().includes(search) ||
-      animal.description.toLowerCase().includes(search) || 
-      animal.ordre.toLowerCase().includes(search) ||
-      animal.habitat.toLowerCase().includes(search);
-    
+    const matchesSearch =
+        animal.categorie === pageFilter.value &&
+        animal.nom.toLowerCase().includes(search) ||
+        animal.description.toLowerCase().includes(search) ||
+        animal.ordre.toLowerCase().includes(search) ||
+        animal.habitat.toLowerCase().includes(search);
+
     console.log(`animal : ${animal} | match : ${matchesSearch} | match size : ${matchesSize}`);
-    
+
     return matchesSearch || matchesSize;
   });
-
-  displayAnimals(filteredAnimals);
 }
 
 
@@ -132,8 +134,10 @@ function applyFilters() {
 async function init() {
   await loadAnimals();
 
-  generateFilters();
-  applyFilters(animals);
+  applyCategoryFilter();
+  //generateFilters();
+  applyFilters();
+  displayAnimals(animals);
 }
 
 searchInput.addEventListener("input", applyFilters);

@@ -28,7 +28,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 1rem 2rem;
 }
 
 h1 {
@@ -51,6 +51,7 @@ h1 {
     justify-content: space-between;
     gap: 5%;
     align-items: center;
+    padding: 1rem 1rem;
 }
 
 .logo h2 {
