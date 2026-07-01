@@ -28,15 +28,33 @@ async function loadAnimal() {
 function displayAnimal(animal) {
   console.log(`path de la photo : ${animal.photos[0].fichier}`)
   document.title = `${animal.nom} - Photodex`;
+  
+  let carouselContent = ``;
+  
+  for (const photo of animal.photos) {
+    carouselContent = carouselContent + `<div class=carousel-item">
+        <img src="./${animal.photos[0].fichier}" alt="${animal.nom}" style="width: 100%; height: 100%; object-fit: cover;">
+        <div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.7); color: white; padding: 15px 25px; border-radius: 5px; text-align: center; font-size: 18px; font-weight: bold;">Oiseaux</div>
+      </div>`;
+  }
 
   animalDetailsContainer.innerHTML = `
     <h1>${animal.nom}</h1>
 
-    <section class="animal-gallery">
-      <button id="prev-photo">←</button>
-      <img class="main-photo" src="./${animal.photos[0].fichier}" alt="${animal.nom}">
-      <button id="next-photo">→</button>
+    <section class="carousel-section">
+        <div class="container">
+            <h1>Photos</h1>
+            <div class="carousel-container">
+                <div class="carousel" id="carousel">
+                   
+                 ${carouselContent}
+                
+                <button class="carousel-btn prev" onclick="prevSlide()">❮</button>
+                <button class="carousel-btn next" onclick="nextSlide()">❯</button>
+            </div>
+        </div>
     </section>
+    <script src="js/carrousel.js"></script>
 
     <div id="photo-counter"></div>
 
@@ -48,7 +66,7 @@ function displayAnimal(animal) {
       <p><strong>Description :</strong> ${animal.description}</p>
     </section>
 
-    <a href="${animal.categorie}.html">← Retour au Photodex</a>
+    <a href="${animal.categorie}.html" class="btn btn-primary">← Retour au Photodex</a>
   `;
 
   updatePhoto();
