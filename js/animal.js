@@ -36,7 +36,7 @@ function displayAnimal(animal) {
       <button id="prev-photo">←</button>
       <img id="main-photo" src="${animal.photos[0].fichier}" alt="${animal.nom}">
       <p> ${animal.photos[0].fichier} </p>
-      <img class="main-photo" src="photodex/${animal.photos[0].fichier}" alt="${animal.nom}">
+      <img class="main-photo" src="./${animal.photos[0].fichier}" alt="${animal.nom}">
       <p> photodex/${animal.photos[0].fichier} </p>
       <p> pathname : ${window.location.pathname} </p>
       <button id="next-photo">→</button>
