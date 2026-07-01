@@ -1,15 +1,15 @@
 ﻿import { loadIndex } from "./dataLoader.js";
 
 const BADGES = [
-    { name: "Aucun", goal: 0, image:"" },
-    { name: "Premiers Pas", goal: 10 },
-    { name: "Un Bon Début", goal: 25 },
-    { name: "Curieux", goal: 50 },
-    { name: "Explor'Amateur", goal: 100 },
-    { name: "Attrapez-les tous !", goal: 151 },
-    { name: "Naturaliste", goal: 200 },
-    { name: "Ca fait beaucoup là, non ?", goal: 500 },
-    { name: "Encyclopédie", goal: 1000 }
+    { name: "Aucun", goal: 0, image:"../images/badges/badge-aucun.png" },
+    { name: "Premiers Pas", goal: 10, image:"../images/badges/badge-premier-pas.png" },
+    { name: "Un Bon Début", goal: 25, image:"../images/badges/badge-bon-debut.png" },
+    { name: "Curieux", goal: 50, image:"../images/badges/badge-curieux.png" },
+    { name: "Explor'Amateur", goal: 100, image:"../images/badges/badge-exploramateur.png" },
+    { name: "Attrapez-les tous !", goal: 151, image:"../images/badges/badge-attrapez-lez-tous.png" },
+    { name: "Naturaliste", goal: 200, image:"../images/badges/badge-naturaliste.png" },
+    { name: "Ca fait beaucoup là, non ?", goal: 500, image:"../images/badges/badge-ca-fait-beaucoup.png" },
+    { name: "Encyclopédie", goal: 1000, image:"../images/badges/badge-encyclopedie.png" }
 ];
 
 const progressBarContainer = document.querySelector("#progress-bar");
@@ -94,6 +94,7 @@ function displayBadgeProgress() {
         <div class="badge current">
           <span>Badge actuel</span>
           <strong>${currentBadge.name}</strong>
+          <img src="${currentBadge.image}" alt="${currentBadge.name}" style="height: 100px; width 100px;">
           <small>${currentBadge.goal} espèces</small>
         </div>
 
