@@ -32,18 +32,17 @@ function displayAnimal(animal) {
   let carouselContent = ``;
   
   for (const photo of animal.photos) {
-    carouselContent = carouselContent + `<div class=carousel-item">
-        <img src="./${animal.photos[0].fichier}" alt="${animal.nom}" style="width: 100%; height: 100%; object-fit: cover;">
-        <div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.7); color: white; padding: 15px 25px; border-radius: 5px; text-align: center; font-size: 18px; font-weight: bold;">Oiseaux</div>
+    carouselContent = carouselContent + `
+      <div class=carousel-item">
+        <img src="./${photo.fichier}" alt="${animal.nom}" style="width: 100%; height: 100%; object-fit: cover;">
+        <div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.7); color: white; padding: 15px 25px; border-radius: 5px; text-align: center; font-size: 18px; font-weight: bold;">Lieu de la photo : ${photo.lieu}</div>
       </div>`;
   }
 
   animalDetailsContainer.innerHTML = `
-    <h1>${animal.nom}</h1>
-
     <section class="carousel-section">
         <div class="container">
-            <h1>Photos</h1>
+            <h1>${animal.nom}</h1>
             <div class="carousel-container">
                 <div class="carousel" id="carousel">
                    

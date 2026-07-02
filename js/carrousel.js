@@ -38,7 +38,7 @@ function startAutoSlide() {
             currentSlide = 0;
         }
         showSlide(currentSlide);
-    }, 10000); // 10 seconds
+    }, 4000); // 4 seconds
 }
 
 function resetAutoSlide() {
