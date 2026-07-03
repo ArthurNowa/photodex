@@ -102,14 +102,9 @@ function generateFilters() {
 }
 
 function applyCategoryFilter() {
-  console.log(`animals before : ${animals}`);
-  console.log(`page filter : ${pageFilter}`);
   animals = animals.filter(animal => {
-    console.log(`animal : ${animal}`);
-    console.log(`animal categorie : ${animal.categorie}`);
     return animal.categorie === pageFilter;
   });
-  console.log(`animals after : ${animals}`);
 }
 
 function applyFilters() {
@@ -124,7 +119,6 @@ function applyFilters() {
         animal.tailleMoyenne <= maxSize
 
     const matchesSearch =
-        animal.categorie === pageFilter.value &&
         animal.nom.toLowerCase().includes(search) ||
         animal.description.toLowerCase().includes(search) ||
         animal.ordre.toLowerCase().includes(search) ||
@@ -143,7 +137,7 @@ async function init() {
 
   applyCategoryFilter();
   //generateFilters();
-  applyFilters();
+  // applyFilters();
   displayAnimals(animals);
 }
 
