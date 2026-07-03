@@ -50,7 +50,6 @@ function fillPhotoCarousel(animal) {
   carouselContainer.innerHTML = `${carouselContent}`;
 }
 function displayAnimalDetails(animal) {
-  
   document.title = `${animal.nom} - Photodex`;
   
   let envergureData = "";
@@ -59,7 +58,7 @@ function displayAnimalDetails(animal) {
   }
 
   animalDetailsContainer.innerHTML = `
-    <section class="animal-info">
+    <div class="animal-info">
       <p><strong>Nom Scientifique :</strong> ${animal.nom-scientifique}</p>
       <p><strong>Ordre :</strong> ${animal.ordre}</p>
       <p><strong>Taille :</strong> ${animal.taille}</p>
@@ -68,7 +67,7 @@ function displayAnimalDetails(animal) {
       <p><strong>Habitat :</strong> ${animal.habitat}</p>
       <p><strong>Répartition Géographique :</strong> ${animal.repartition}</p>
       <p><strong>Régime alimentaire :</strong> ${animal.regime}</p>
-    </section>
+    </div>
 
     <a href="${animal.categorie}.html" class="btn btn-primary">← Retour au Photodex</a>
   `;
