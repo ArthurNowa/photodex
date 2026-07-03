@@ -12,7 +12,23 @@
 <script src="js/navbar.js"></script>
 <script src="js/img-zoom.js"></script>
 
-<main id="animal-details"></main>
+
+<section class="carousel-section">
+    <div class="container">
+        <h1>${animal.nom}</h1>
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+
+
+
+            </div>
+            <button class="carousel-btn prev" onclick="prevSlide()">❮</button>
+            <button class="carousel-btn next" onclick="nextSlide()">❯</button>
+        </div>
+    </div>
+</section>
+<script src="js/carrousel.js"></script>
+<section id="animal-details"></section>
 
 <script type="module" src="js/animal.js"></script>
 

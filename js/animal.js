@@ -6,6 +6,7 @@ const animalId = params.get('id');
 console.log(animalId);
 
 const animalDetailsContainer = document.querySelector("#animal-details");
+const carouselContainer = document.querySelector("#carousel");
 
 let currentPhotoIndex = 0;
 let currentAnimal = null;
@@ -41,25 +42,11 @@ function displayAnimal(animal) {
       </div>`;
   }
 
+  carouselContainer.innerHTML = `${carouselContent}`;
+
   animalDetailsContainer.innerHTML = `
-    <section class="carousel-section">
-        <div class="container">
-            <h1>${animal.nom}</h1>
-            <div class="carousel-container">
-                <div class="carousel" id="carousel">
-                   
-                 ${carouselContent}
-                
-                <button class="carousel-btn prev" onclick="prevSlide()">❮</button>
-                <button class="carousel-btn next" onclick="nextSlide()">❯</button>
-            </div>
-        </div>
-    </section>
-    <script src="js/carrousel.js"></script>
-
-    <div id="photo-counter"></div>
-
     <section class="animal-info">
+      <div id="photo-counter"></div>
       <p><strong>Catégorie :</strong> ${animal.categorie}</p>
       <p><strong>Taille :</strong> ${animal.taille}</p>
       <p><strong>Régime alimentaire :</strong> ${animal.regime}</p>
