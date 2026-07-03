@@ -1,9 +1,9 @@
 ﻿{
   "id": "mormo-maura",
   "nom": "Maure",
-  "nom-scientifique": "Mormo maura",
+  "nomScientifique": "Mormo maura",
   "famille": "Noctuidae",
-  "sous-famille": "Xyleninae",
+  "sousFamille": "Xyleninae",
   "ordre": "Lépidoptère",
   "repartition": "Présente en Afrique du Nord, dans une grande partie de l’Europe, au Moyen-Orient et jusqu’en Asie centrale.",
   "categorie": "insects",

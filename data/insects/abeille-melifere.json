@@ -1,9 +1,9 @@
 ﻿{
   "id": "abeille-melifere",
   "nom": "Abeille mellifère",
-  "nom-scientifique": "Apis mellifera",
+  "nomScientifique": "Apis mellifera",
   "famille": "Apidae",
-  "sous-famille": "Apinae",
+  "sousFamille": "Apinae",
   "ordre": "Hyménoptère",
   "repartition": "Originaire d’Europe, d’Afrique et d’Asie occidentale ; aujourd’hui présente presque partout dans le monde sauf en Antarctique.",
   "categorie": "insects",

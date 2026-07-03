@@ -1,9 +1,9 @@
 {
   "id": "mesange-charbonniere",
   "nom": "Mésange charbonnière",
-  "nom scientifique": "Parus major",
+  "nomScientifique": "Parus major",
   "famille": "Paridae",
-  "sous-famille": "Parus",
+  "sousFamille": "Parus",
   "categorie": "birds",
   "ordre": "Passeriformes",
   "type": "Oiseau",

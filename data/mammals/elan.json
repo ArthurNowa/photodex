@@ -1,9 +1,9 @@
 ﻿{
   "id": "elan",
   "nom": "Élan",
-  "nom-scientifique": "Alces alces",
+  "nomScientifique": "Alces alces",
   "famille": "Cervidae",
-  "sous-famille": "Capreolinae",
+  "sousFamille": "Capreolinae",
   "ordre": "Artiodactyle",
   "repartition": "Régions froides de l’hémisphère Nord : Scandinavie, Europe de l’Est, Russie, Mongolie, Canada et nord des États-Unis.",
   "categorie": "mammals",

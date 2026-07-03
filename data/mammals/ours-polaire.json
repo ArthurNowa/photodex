@@ -1,9 +1,9 @@
 ﻿{
   "id": "ours-polaire",
   "nom": "Ours polaire",
-  "nom-scientifique": "Ursus maritimus",
+  "nomScientifique": "Ursus maritimus",
   "famille": "Ursidae",
-  "sous-famille": "Ursinae",
+  "sousFamille": "Ursinae",
   "ordre": "Carnivore",
   "repartition": "Région arctique : Canada, Alaska, Groenland, Norvège, Russie et zones marines couvertes de glace autour du pôle Nord.",
   "categorie": "mammals",

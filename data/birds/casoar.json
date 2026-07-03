@@ -1,9 +1,9 @@
 ﻿{
   "id": "casoar-a-casque",
   "nom": "Casoar à casque",
-  "nom-scientifique": "Casuarius casuarius",
+  "nomScientifique": "Casuarius casuarius",
   "famille": "Casuariidae",
-  "sous-famille": "",
+  "sousFamille": "",
   "ordre": "Casuariiforme",
   "repartition": "Nouvelle-Guinée, certaines îles d’Indonésie et nord-est de l’Australie.",
   "categorie": "birds",

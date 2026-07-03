@@ -1,9 +1,9 @@
 ﻿{
   "id": "coccinelle-7-points",
   "nom": "Coccinelle à 7 points",
-  "nom-scientifique": "Coccinella septempunctata",
+  "nomScientifique": "Coccinella septempunctata",
   "famille": "Coccinellidae",
-  "sous-famille": "Coccinellinae",
+  "sousFamille": "Coccinellinae",
   "ordre": "Coléoptère",
   "repartition": "Originaire d’Europe, d’Afrique du Nord et d’une grande partie de l’Asie ; introduite dans plusieurs régions du monde, notamment en Amérique du Nord.",
   "categorie": "insects",

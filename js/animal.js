@@ -42,7 +42,7 @@ function fillPhotoCarousel(animal) {
         <div style="display: block; width: 100%; height: 100%; text-decoration: none; position: relative;">
           <img src="./${photo.fichier}" onclick="openImageZoom(this.src, this.alt)" alt="${animal.nom}" style="width: 100%; height: 100%; object-fit: cover;">
           <div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.7); color: white; padding: 15px 25px; border-radius: 5px; text-align: center; font-size: 18px; font-weight: bold;">Lieu de la photo : ${photo.lieu}</div>
-          <div style="position: absolute; top: 20px; right: 5%; transform: translateX(-50%); background: rgba(0,0,0,0.7); color: white; padding: 15px 25px; border-radius: 5px; text-align: center; font-size: 18px; font-weight: bold;">Photo ${photoCounter} / ${animal.photos.length}</div>
+          <div style="position: absolute; top: 20px; right: 2%; transform: translateX(-50%); background: rgba(0,0,0,0.7); color: white; padding: 15px 25px; border-radius: 5px; text-align: center; font-size: 18px; font-weight: bold;">Photo ${photoCounter} / ${animal.photos.length}</div>
         </div>
       </div>`;
   }
@@ -59,7 +59,7 @@ function displayAnimalDetails(animal) {
 
   animalDetailsContainer.innerHTML = `
     <div class="animal-info">
-      <p><strong>Nom Scientifique :</strong> ${animal.nom-scientifique}</p>
+      <p><strong>Nom Scientifique :</strong> ${animal.nomScientifique}</p>
       <p><strong>Ordre :</strong> ${animal.ordre}</p>
       <p><strong>Taille :</strong> ${animal.taille}</p>
       ${envergureData}

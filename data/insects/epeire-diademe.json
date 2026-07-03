@@ -1,9 +1,9 @@
 ﻿{
   "id": "epeire-diademe",
   "nom": "Épeire diadème",
-  "nom-scientifique": "Araneus diadematus",
+  "nomScientifique": "Araneus diadematus",
   "famille": "Araneidae",
-  "sous-famille": "Araneinae",
+  "sousFamille": "Araneinae",
   "ordre": "Aranéide",
   "repartition": "Très répandue en Europe ; également présente en Amérique du Nord, où elle a été introduite.",
   "categorie": "insects",

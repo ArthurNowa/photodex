@@ -1,9 +1,9 @@
 ﻿{
   "id": "coccinelle-asiatique",
   "nom": "Coccinelle asiatique",
-  "nom-scientifique": "Harmonia axyridis",
+  "nomScientifique": "Harmonia axyridis",
   "famille": "Coccinellidae",
-  "sous-famille": "Coccinellinae",
+  "sousFamille": "Coccinellinae",
   "ordre": "Coléoptère",
   "repartition": "Originaire d’Asie orientale ; aujourd’hui largement introduite et établie en Europe, en Amérique du Nord, en Amérique du Sud, en Afrique et en Océanie. Elle est considérée comme une espèce exotique envahissante en France.",
   "categorie": "insects",

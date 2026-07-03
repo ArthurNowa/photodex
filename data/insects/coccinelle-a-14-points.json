@@ -1,9 +1,9 @@
 {
   "id": "coccinelle-a-14-points",
   "nom": "Coccinelle à 14 points",
-  "nom-scientifique": "Propylea quatuordecimpunctata",
+  "nomScientifique": "Propylea quatuordecimpunctata",
   "famille": "Coccinellidae",
-  "sous-famille": "Coccinellinae",
+  "sousFamille": "Coccinellinae",
   "categorie": "insects",
   "ordre":"Coléoptères",
   "type": "Insecte",

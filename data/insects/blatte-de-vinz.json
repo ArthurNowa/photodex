@@ -1,9 +1,9 @@
 ﻿{
   "id": "planuncus-tingitanus",
   "nom": "Blatte de Vinz",
-  "nom-scientifique": "Planuncus tingitanus",
+  "nomScientifique": "Planuncus tingitanus",
   "famille": "Ectobiidae",
-  "sous-famille": "Ectobiinae",
+  "sousFamille": "Ectobiinae",
   "ordre": "Blattodea",
   "repartition": "Originaire d’Afrique du Nord, l’espèce s’est largement étendue en Europe occidentale et centrale, notamment en France, en Belgique, en Allemagne et au Royaume-Uni.",
   "categorie": "insects",

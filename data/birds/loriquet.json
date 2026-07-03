@@ -1,9 +1,9 @@
 ﻿{
   "id": "loriquet-arc-en-ciel",
   "nom": "Loriquet arc-en-ciel",
-  "nom-scientifique": "Trichoglossus moluccanus",
+  "nomScientifique": "Trichoglossus moluccanus",
   "famille": "Psittaculidae",
-  "sous-famille": "Loriinae",
+  "sousFamille": "Loriinae",
   "ordre": "Psittaciforme",
   "repartition": "Principalement est et nord de l’Australie ; introduit dans certaines zones de Nouvelle-Zélande, Hong Kong et Tasmanie.",
   "categorie": "birds",

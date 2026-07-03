@@ -1,9 +1,9 @@
 ﻿{
   "id": "mouche-bleue",
   "nom": "Mouche bleue",
-  "nom-scientifique": "Calliphora vomitoria",
+  "nomScientifique": "Calliphora vomitoria",
   "famille": "Calliphoridae",
-  "sous-famille": "Calliphorinae",
+  "sousFamille": "Calliphorinae",
   "ordre": "Diptère",
   "repartition": "Présente dans une grande partie de l’Europe, en Afrique du Nord et dans de nombreuses régions d’Amérique du Nord ; elle est commune en France.",
   "categorie": "insects",

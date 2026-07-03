@@ -1,9 +1,9 @@
 ﻿{
   "id": "grand-tatou-velu",
   "nom": "Grand tatou velu",
-  "nom-scientifique": "Chaetophractus villosus",
+  "nomScientifique": "Chaetophractus villosus",
   "famille": "Chlamyphoridae",
-  "sous-famille": "Euphractinae",
+  "sousFamille": "Euphractinae",
   "ordre": "Cingulé",
   "repartition": "Amérique du Sud méridionale : principalement en Argentine, mais aussi en Bolivie, au Paraguay et au Chili.",
   "categorie": "mammals",
