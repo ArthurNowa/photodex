@@ -2,7 +2,7 @@
 
 const BADGES = [
     { name: "Aucun", goal: 0, image:"images/badges/badge-aucun.png" },
-    { name: "Premiers Pas", goal: 10, image:"images/badges/badge-premier-pas.png" },
+    { name: "Premiers Pas", goal: 10, image:"images/badges/badge-premiers-pas.png" },
     { name: "Un Bon Début", goal: 25, image:"images/badges/badge-bon-debut.png" },
     { name: "Curieux", goal: 50, image:"images/badges/badge-curieux.png" },
     { name: "Explor'Amateur", goal: 100, image:"images/badges/badge-exploramateur.png" },
@@ -96,7 +96,7 @@ function displayBadgeProgress() {
           <span>Badge actuel</span>
           <strong>${currentBadge.name}</strong>
           <small>${currentBadge.goal} espèces</small>
-          <img src="./${currentBadge.image}" alt="${currentBadge.name}" style="height: 100px; width 100px;">
+          <img src="./${currentBadge.image}" alt="${currentBadge.image}" style="height: 100px; width 100px;">
         </div>
 
         <div class="badge next">
