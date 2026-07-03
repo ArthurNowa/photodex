@@ -240,7 +240,7 @@ h1 {
 
 /* CTA Section */
 .cta {
-    background: linear-gradient(135deg, var(--primary-purple), var(--accent-orange));
+    background: linear-gradient(135deg, var(--dark-gray), var(--petrol_blue));
     padding: 3rem 2rem;
     text-align: center;
     color: white;
