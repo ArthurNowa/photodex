@@ -8,8 +8,8 @@ console.log(animalId);
 const animalDetailsContainer = document.querySelector("#animal-details");
 const carouselContainer = document.querySelector("#carousel");
 
-let currentPhotoIndex = 0;
 let currentAnimal = null;
+
 
 async function loadAnimal() {
   if (!animalId) {
@@ -23,74 +23,56 @@ async function loadAnimal() {
     throw new Error("Animal introuvable.");
   }
 
-  displayAnimal(currentAnimal);
+  fillPhotoCarousel(currentAnimal);
+  displayAnimalDetails(currentAnimal);
 }
 
-function displayAnimal(animal) {
-  console.log(`path de la photo : ${animal.photos[0].fichier}`)
-  document.title = `${animal.nom} - Photodex`;
-  
+
+
+function fillPhotoCarousel(animal) {
+  console.log(`path de la photo : ${animal.photos[0].fichier}`);
+  let photoCounter = 0;
+
   let carouselContent = ``;
-  
+
   for (const photo of animal.photos) {
+    photoCounter++;
     carouselContent = carouselContent + `
       <div class=carousel-item">
         <div style="display: block; width: 100%; height: 100%; text-decoration: none; position: relative;">
           <img src="./${photo.fichier}" onclick="openImageZoom(this.src, this.alt)" alt="${animal.nom}" style="width: 100%; height: 100%; object-fit: cover;">
           <div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.7); color: white; padding: 15px 25px; border-radius: 5px; text-align: center; font-size: 18px; font-weight: bold;">Lieu de la photo : ${photo.lieu}</div>
+          <div style="position: absolute; top: 20px; right: 5%; transform: translateX(-50%); background: rgba(0,0,0,0.7); color: white; padding: 15px 25px; border-radius: 5px; text-align: center; font-size: 18px; font-weight: bold;">Photo ${photoCounter} / ${animal.photos.length}</div>
         </div>
       </div>`;
   }
 
   carouselContainer.innerHTML = `${carouselContent}`;
+}
+function displayAnimalDetails(animal) {
+  
+  document.title = `${animal.nom} - Photodex`;
+  
+  let envergureData = "";
+  if (animal.envergure) {
+    envergureData = `<p><strong>Envergure :</strong> ${animal.envergure}</p>`;
+  }
 
   animalDetailsContainer.innerHTML = `
     <section class="animal-info">
-      <div id="photo-counter"></div>
-      <p><strong>Catégorie :</strong> ${animal.categorie}</p>
+      <p><strong>Nom Scientifique :</strong> ${animal.nom-scientifique}</p>
+      <p><strong>Ordre :</strong> ${animal.ordre}</p>
       <p><strong>Taille :</strong> ${animal.taille}</p>
-      <p><strong>Régime alimentaire :</strong> ${animal.regime}</p>
-      <p><strong>Habitat :</strong> ${animal.habitat}</p>
+      ${envergureData}
       <p><strong>Description :</strong> ${animal.description}</p>
+      <p><strong>Habitat :</strong> ${animal.habitat}</p>
+      <p><strong>Répartition Géographique :</strong> ${animal.repartition}</p>
+      <p><strong>Régime alimentaire :</strong> ${animal.regime}</p>
     </section>
 
     <a href="${animal.categorie}.html" class="btn btn-primary">← Retour au Photodex</a>
   `;
-
-  updatePhoto();
-
-  document.querySelector("#prev-photo").addEventListener("click", previousPhoto);
-  document.querySelector("#next-photo").addEventListener("click", nextPhoto);
 }
 
-function updatePhoto() {
-  const mainPhoto = document.querySelector("#main-photo");
-  const counter = document.querySelector("#photo-counter");
 
-  mainPhoto.src = currentAnimal.photos[currentPhotoIndex];
-  mainPhoto.alt = `${currentAnimal.nom} - photo ${currentPhotoIndex + 1}`;
-
-  counter.textContent = `${currentPhotoIndex + 1} / ${currentAnimal.photos.length}`;
-}
-
-function previousPhoto() {
-  currentPhotoIndex--;
-
-  if (currentPhotoIndex < 0) {
-    currentPhotoIndex = currentAnimal.photos.length - 1;
-  }
-
-  updatePhoto();
-}
-
-function nextPhoto() {
-  currentPhotoIndex++;
-
-  if (currentPhotoIndex >= currentAnimal.photos.length) {
-    currentPhotoIndex = 0;
-  }
-
-  updatePhoto();
-}
-
-loadAnimal();
+await loadAnimal();
