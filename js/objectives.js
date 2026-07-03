@@ -103,15 +103,15 @@ function displayBadgeProgress() {
           <span>Prochain badge</span>
           <strong>${nextBadge ? nextBadge.name : "Tous obtenus"}</strong>
           <small>${nextBadge ? `${nextBadge.goal} espèces` : "Photodex complété"}</small>
-          <img src="./${nextBadge.image}" alt="${nextBadge.name}" style="height: 100px; width 100px; filter: grayscale(90%);">
+          <img src="<<./${nextBadge.image}>>" alt="${nextBadge.name}" style="height: 100px; width 100px; filter: grayscale(90%);">
         </div>
       </div>
 
       <div class="progress-bar">
         <div class="progress-fill" style="width: ${progress}%">${count} / ${nextBadge.goal}</div>
       </div>
-    </section>
-  `;
+    </section>`;
+    console.log(`badge path : ${nextBadge.image}`);
 }
 
 
