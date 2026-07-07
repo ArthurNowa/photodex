@@ -14,7 +14,15 @@
   "description": "Tatou de taille moyenne reconnaissable à sa carapace sombre formée de nombreuses bandes, ainsi qu’aux longs poils visibles entre les plaques.",
   "photos": [
     {
-      "fichier": "images/mammals/20260617_grand-tatou-velu-01.jpg",
+      "fichier": "images/mammals/20260505_grand-tatou-velu-01.jpg",
+      "lieu": "Pairi Daiza"
+    },
+    {
+      "fichier": "images/mammals/20260505_grand-tatou-velu-02.jpg",
+      "lieu": "Pairi Daiza"
+    },
+    {
+      "fichier": "images/mammals/20260303_grand-tatou-velu.jpg",
       "lieu": "Pairi Daiza"
     }
   ]

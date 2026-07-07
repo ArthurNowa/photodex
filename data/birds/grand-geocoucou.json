@@ -1,0 +1,31 @@
+﻿{
+  "id": "grand-geocoucou",
+  "nom": "Grand géocoucou",
+  "nomAlt": "Géocoucou de Californie",
+  "nomScientifique": "Geococcyx californianus",
+  "famille": "Cuculidae",
+  "sousFamille": "",
+  "ordre": "Cuculiforme",
+  "repartition": "Sud-ouest des États-Unis et nord du Mexique, surtout dans les régions arides.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "50 à 60 cm",
+  "envergure": "49 à 60 cm",
+  "regime": "Insectes, lézards, serpents, petits mammifères, œufs, oiseaux et fruits",
+  "habitat": "Déserts broussailleux, zones semi-arides, prairies sèches et lisières ouvertes",
+  "description": "Grand coucou terrestre à longue queue, rapide à la course et souvent observé dans les milieux arides.",
+  "photos": [
+    {
+      "fichier": "images/birds/20260303_grand-geocoucou-01.jpg",
+      "lieu": "pairi daiza"
+    },
+    {
+      "fichier": "images/birds/20260303_grand-geocoucou-02.jpg",
+      "lieu": "pairi daiza"
+    },
+    {
+      "fichier": "images/birds/20260505_grand-geocoucou.jpg",
+      "lieu": "pairi daiza"
+    }
+  ]
+}
