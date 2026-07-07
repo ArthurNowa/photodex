@@ -53,7 +53,7 @@ function fillPhotoCarousel(animal) {
 function displayAnimalDetails(animal) {
   document.title = `${animal.nom} - Photodex`;
   
-  animalTitleContainer.innerHTML = `${animal.nom} - Photodex`;
+  animalTitleContainer.innerHTML = `${animal.nom}`;
   
   let envergureData = "";
   if (animal.envergure) {
