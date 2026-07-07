@@ -64,7 +64,6 @@ function displayAnimals(list) {
               <h3>${animal.nom}</h3>
               <p>
                   <u>Description</u> : ${animal.description}<br>
-                  <br>
                   <u>Taille</u> : ${animal.taille}
               </p>
           </a>
@@ -110,23 +109,27 @@ function applyCategoryFilter() {
 function applyFilters() {
   const search = searchInput.value.toLowerCase();
   // filtre "Taille"
-  let minSize = Number(minSizeInput.value);
-  let maxSize = Number(maxSizeInput.value);
-  sizeLabel.textContent = `${minSize} - ${maxSize} cm`;
+  // let minSize = Number(minSizeInput.value);
+  // let maxSize = Number(maxSizeInput.value);
+  // sizeLabel.textContent = `${minSize} - ${maxSize} cm`;
 
   animals = animals.filter(animal => {
-    const matchesSize = animal.tailleMoyenne >= minSize &&
-        animal.tailleMoyenne <= maxSize
+    // const matchesSize = animal.tailleMoyenne >= minSize &&
+    //    animal.tailleMoyenne <= maxSize
+    if (search === "") {
+      const matchesSearch =
+          animal.nom.toLowerCase().includes(search) ||
+          animal.nomAlt.toLowerCase().includes(search) ||
+          animal.description.toLowerCase().includes(search) ||
+          animal.ordre.toLowerCase().includes(search) ||
+          animal.habitat.toLowerCase().includes(search);
 
-    const matchesSearch =
-        animal.nom.toLowerCase().includes(search) ||
-        animal.description.toLowerCase().includes(search) ||
-        animal.ordre.toLowerCase().includes(search) ||
-        animal.habitat.toLowerCase().includes(search);
-
-    console.log(`animal : ${animal} | match : ${matchesSearch} | match size : ${matchesSize}`);
-
-    return matchesSearch || matchesSize;
+      console.log(`animal : ${animal} | match : ${matchesSearch} | match size : ${matchesSize}`);
+      return matchesSearch;// || matchesSize;
+    }
+    else {
+      return true;
+    }
   });
 }
 

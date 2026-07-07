@@ -5,6 +5,7 @@ const params = new URL(window.location.href).searchParams;
 const animalId = params.get('id');
 console.log(animalId);
 
+const animalTitleContainer = document.querySelector("#animal-name");
 const animalDetailsContainer = document.querySelector("#animal-details");
 const carouselContainer = document.querySelector("#carousel");
 
@@ -38,7 +39,7 @@ function fillPhotoCarousel(animal) {
   for (const photo of animal.photos) {
     photoCounter++;
     carouselContent = carouselContent + `
-      <div class=carousel-item">
+      <div class="carousel-item">
         <div style="display: block; width: 100%; height: 100%; text-decoration: none; position: relative;">
           <img src="./${photo.fichier}" onclick="openImageZoom(this.src, this.alt)" alt="${animal.nom}" style="width: 100%; height: 100%; object-fit: cover;">
           <div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.7); color: white; padding: 15px 25px; border-radius: 5px; text-align: center; font-size: 18px; font-weight: bold;">Lieu de la photo : ${photo.lieu}</div>
@@ -51,6 +52,8 @@ function fillPhotoCarousel(animal) {
 }
 function displayAnimalDetails(animal) {
   document.title = `${animal.nom} - Photodex`;
+  
+  animalTitleContainer.innerHTML = `${animal.nom} - Photodex`;
   
   let envergureData = "";
   if (animal.envergure) {
