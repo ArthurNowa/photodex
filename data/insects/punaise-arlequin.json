@@ -1,0 +1,22 @@
+﻿{
+  "id": "punaise-arlequin",
+  "nom": "Punaise arlequin",
+  "nomAlt": "Graphosome d’Italie",
+  "nomScientifique": "Graphosoma italicum",
+  "famille": "Pentatomidae",
+  "sousFamille": "Podopinae",
+  "ordre": "Hémiptère",
+  "repartition": "Europe, surtout dans les régions chaudes et ensoleillées ; présente notamment en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "8,5 à 11 mm",
+  "regime": "Sève des Apiacées, surtout des graines en formation",
+  "habitat": "Prairies sèches, friches, haies, talus, jardins et zones riches en ombellifères",
+  "description": "Punaise rouge rayée de noir, facilement reconnaissable à son grand écusson couvrant presque tout l’abdomen.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260703_punaise-arlequin.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+﻿{
+  "id": "guepe-germanique",
+  "nom": "Guêpe germanique",
+  "nomScientifique": "Vespula germanica",
+  "famille": "Vespidae",
+  "sousFamille": "Vespinae",
+  "ordre": "Hyménoptère",
+  "repartition": "Originaire d’Europe, d’Afrique du Nord et d’Asie tempérée ; introduite sur plusieurs autres continents.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "12 à 17 mm",
+  "regime": "Insectes, nectar, fruits mûrs, matières sucrées et charognes",
+  "habitat": "Jardins, parcs, lisières, prairies, zones urbaines et abords des habitations",
+  "description": "Guêpe jaune et noire, reconnaissable aux trois petits points noirs sur sa face.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260703_guepe-germanique.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    }
+  ]
+}

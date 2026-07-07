@@ -1,0 +1,22 @@
+﻿{
+  "id": "cercope-des-pres",
+  "nom": "Cercope des prés",
+  "nomAlt": "Philène spumeuse",
+  "nomScientifique": "Philaenus spumarius",
+  "famille": "Aphrophoridae",
+  "sousFamille": "",
+  "ordre": "Hémiptère",
+  "repartition": "Régions tempérées d’Europe, d’Asie et d’Amérique du Nord ; très commun en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "5 à 7 mm",
+  "regime": "Sève de nombreuses plantes herbacées, arbustes et jeunes pousses",
+  "habitat": "Prairies, jardins, friches, haies, bords de chemins et végétation herbacée",
+  "description": "Petit insecte sauteur très variable, dont les larves vivent dans une mousse appelée crachat de coucou.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260703_cercope-des-pres.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    }
+  ]
+}

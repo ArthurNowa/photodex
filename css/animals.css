@@ -34,13 +34,15 @@
 }
 
 .animal-card h3 {
-    padding: 0 1.5rem;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
     color: var(--golden);
     font-size: 1.3rem;
 }
 
 .animal-card p {
-    padding: 0.5rem 1.5rem;
+    padding-left: 20px;
+    padding-top: 10px;
     font-size: 0.8rem;
     color: var(--bright-yellow);
 }

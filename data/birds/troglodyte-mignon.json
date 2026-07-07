@@ -1,0 +1,26 @@
+﻿{
+  "id": "troglodyte-mignon",
+  "nom": "Troglodyte mignon",
+  "nomScientifique": "Troglodytes troglodytes",
+  "famille": "Troglodytidae",
+  "sousFamille": "",
+  "ordre": "Passériforme",
+  "repartition": "Europe, Afrique du Nord et grande partie de l’Asie tempérée, jusqu’au Japon.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "9 à 10 cm",
+  "envergure": "12 à 16 cm",
+  "regime": "Insectes, araignées, petits invertébrés et larves",
+  "habitat": "Sous-bois, haies, jardins, parcs, lisières et zones riches en végétation dense",
+  "description": "Très petit oiseau brun à queue souvent dressée, vif et discret dans les fourrés.",
+  "photos": [
+    {
+      "fichier": "images/birds/20260703_troglodyte-mignon-01.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    },
+    {
+      "fichier": "images/birds/20260703_troglodyte-mignon-02.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    }
+  ]
+}

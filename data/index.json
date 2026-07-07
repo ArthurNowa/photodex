@@ -10,6 +10,9 @@
       },
       {
         "name": "mesange-charbonniere.json"
+      },
+      {
+        "name": "troglodyte-mignon.json"
       }
     ]
   },
@@ -20,13 +23,22 @@
         "name": "abeille-melifere.json"
       },
       {
+        "name": "azure-des-nerpruns.json"
+      },
+      {
         "name": "blatte-de-vinz.json"
+      },
+      {
+        "name": "cercope-des-pres.json"
       },
       {
         "name": "chrysopilus-splendidus.json"
       },
       {
         "name": "coccinelle-a-14-points.json"
+      },
+      {
+        "name": "coccinelle-a-16-points.json"
       },
       {
         "name": "coccinelle-a-7-points.json"
@@ -38,22 +50,40 @@
         "name": "epeire-diademe.json"
       },
       {
+        "name": "guepe-germanique.json"
+      },
+      {
         "name": "maure.json"
       },
       {
         "name": "mouche-bleue.json"
       },
       {
+        "name": "naiade-aux-yeux-rouges.json"
+      },
+      {
         "name": "phalene-du-fusain.json"
       },
       {
+        "name": "punaise-arlequin.json"
+      },
+      {
         "name": "syrphe-ceinture.json"
+      },
+      {
+        "name": "syrphe-du-groseiller.json"
+      },
+      {
+        "name": "telephore-fauve.json"
       }
     ]
   },
   {
     "type": "mammals",
     "data": [
+      {
+        "name": "ecureuil-roux.json"
+      },
       {
         "name": "elan.json"
       },
@@ -62,6 +92,9 @@
       },
       {
         "name": "ours-polaire.json"
+      },
+      {
+        "name": "vache-blonde-daquiitaine.json"
       }
     ]
   }

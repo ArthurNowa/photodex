@@ -1,0 +1,25 @@
+﻿{
+  "id": "blonde-d-aquitaine",
+  "nom": "Blonde d’Aquitaine",
+  "nomScientifique": "Bos taurus",
+  "famille": "Bovidae",
+  "sousFamille": "Bovinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Originaire du Sud-Ouest de la France ; élevée aujourd’hui dans toute la France et dans de nombreux pays.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "Environ 145 à 160 cm au garrot",
+  "regime": "Herbes, foin, fourrages, céréales et autres végétaux",
+  "habitat": "Prairies, pâturages, fermes et élevages bovins",
+  "description": "Grande vache au pelage froment clair, reconnaissable à sa silhouette longue et très musclée.",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260703_blonde-d-aquitaine-01.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    },
+    {
+      "fichier": "images/mammals/20260703_blonde-d-aquitaine-02.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    }
+  ]
+}

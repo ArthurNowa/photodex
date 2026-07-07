@@ -1,0 +1,21 @@
+﻿{
+  "id": "syrphe-du-groseillier",
+  "nom": "Syrphe du groseillier",
+  "nomScientifique": "Syrphus ribesii",
+  "famille": "Syrphidae",
+  "sousFamille": "Syrphinae",
+  "ordre": "Diptère",
+  "repartition": "Très répandu en Europe, en Asie tempérée et en Amérique du Nord ; commun en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "9 à 13 mm",
+  "regime": "Nectar, pollen et miellat ; les larves consomment surtout des pucerons",
+  "habitat": "Jardins, vergers, parcs, prairies fleuries, lisières et milieux boisés",
+  "description": "Syrphe jaune et noir ressemblant à une guêpe, reconnaissable à ses yeux nus et son abdomen plat.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260703_syrphe-du-groseillier.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    }
+  ]
+}

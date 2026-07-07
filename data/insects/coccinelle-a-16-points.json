@@ -1,0 +1,21 @@
+﻿{
+  "id": "coccinelle-16-points",
+  "nom": "Coccinelle à 16 points",
+  "nomScientifique": "Tytthaspis sedecimpunctata",
+  "famille": "Coccinellidae",
+  "sousFamille": "Coccinellinae",
+  "ordre": "Coléoptère",
+  "repartition": "Europe, Afrique du Nord et Asie tempérée ; présente en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "2,5 à 3,5 mm",
+  "regime": "Champignons microscopiques, spores, pollen et parfois petits pucerons",
+  "habitat": "Prairies, friches, dunes, marais et zones herbeuses sèches ou humides",
+  "description": "Petite coccinelle crème à jaune pâle, marquée de nombreux points noirs souvent bien distincts.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260703_coccinelle-16-points.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    }
+  ]
+}

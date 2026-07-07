@@ -1,0 +1,21 @@
+﻿{
+  "id": "telephore-fauve",
+  "nom": "Téléphore fauve",
+  "nomScientifique": "Rhagonycha fulva",
+  "famille": "Cantharidae",
+  "sousFamille": "Cantharinae",
+  "ordre": "Coléoptère",
+  "repartition": "Europe et Anatolie ; introduit et établi dans certaines régions d’Amérique du Nord.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "7 à 10 mm",
+  "regime": "Pollen, nectar, pucerons, petits insectes et chenilles",
+  "habitat": "Prairies fleuries, jardins, haies, lisières, friches et bords de chemins",
+  "description": "Coléoptère orange aux extrémités noires des élytres, souvent observé sur les fleurs en été.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260703_telephore-fauve.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+﻿{
+  "id": "ecureuil-roux",
+  "nom": "Écureuil roux",
+  "nomScientifique": "Sciurus vulgaris",
+  "famille": "Sciuridae",
+  "sousFamille": "Sciurinae",
+  "ordre": "Rongeur",
+  "repartition": "Grande partie de l’Europe et de l’Asie tempérée, jusqu’au Japon ; présent en France.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "19 à 25 cm, sans compter la queue",
+  "regime": "Graines, noix, fruits, bourgeons, champignons, insectes et parfois œufs d’oiseaux",
+  "habitat": "Forêts de conifères ou de feuillus, parcs, jardins arborés et haies",
+  "description": "Petit rongeur agile à queue touffue, souvent roux, reconnaissable à ses pinceaux d’oreilles en hiver.",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260703_ecureuil-roux-01.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    }, {
+      "fichier": "images/mammals/20260703_ecureuil-roux-02.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    }, {
+      "fichier": "images/mammals/20260703_ecureuil-roux-03.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    }
+  ]
+}
