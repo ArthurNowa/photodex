@@ -103,7 +103,7 @@ function displayBadgeProgress() {
           <span>Prochain badge</span>
           <strong style="translate: 250px 0;">${nextBadge ? nextBadge.name : "Tous obtenus"}</strong>
           <small>${nextBadge ? `${nextBadge.goal} espèces` : "Photodex complété"}</small>
-          <img src="./${nextBadge.image}" alt="${nextBadge.name}" style="position: absolute; height: 100px; width: 100px; translate: 400px -60px; filter: grayscale(90%);">
+          <img src="./${nextBadge.image}" alt="${nextBadge.name}" style="position: absolute; height: 100px; width: 100px; translate: 400px -60px; filter: grayscale(90%); opacity: 0.5;">
         </div>
       </div>
 
