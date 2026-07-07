@@ -19,7 +19,10 @@ def extract_animal_id(file_name):
     parts = stem.split("_", 1)
     if len(parts) < 2:
         return None
-    return parts[1]
+    animal_words = parts[1].split("-")
+    if animal_words[-1].isdigit():
+        animal_words = animal_words[:-1]
+    return "-".join(animal_words)
     
 
 def extract_animal_name(animal_id, category):
