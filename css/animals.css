@@ -30,7 +30,7 @@
     padding: 15px 20px;
     width: 100%;
     height: 250px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .animal-card h3 {
