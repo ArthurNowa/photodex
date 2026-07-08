@@ -59,9 +59,14 @@ function displayAnimalDetails(animal) {
   if (animal.envergure) {
     envergureData = `<p><strong>Envergure :</strong> ${animal.envergure}</p>`;
   }
+  let titleBis = "";
+  if (animal.nomAlt) {
+    titleBis = `<p><strong>Nom alternatif :</strong> ${animal.nomAlt}</p>`;
+  }
 
   animalDetailsContainer.innerHTML = `
     <div class="animal-info">
+      ${titleBis}
       <p><strong>Nom Scientifique :</strong> ${animal.nomScientifique}</p>
       <p><strong>Ordre :</strong> ${animal.ordre}</p>
       <p><strong>Taille :</strong> ${animal.taille}</p>
