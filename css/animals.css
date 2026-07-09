@@ -45,7 +45,7 @@
 }
 
 .animal-card p {
-    padding: 15px 5px;
+    padding: 5px 15px;
     font-size: 0.8rem;
     color: var(--bright-yellow);
 }
