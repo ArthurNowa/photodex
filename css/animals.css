@@ -52,7 +52,7 @@
 
 /* ----------------------- progress bar ----------------------- */
 .badge-progress-card {
-    background: linear-gradient(135deg, var(--dark-gray), var(--petrol_blue));
+    background: linear-gradient(135deg, var(--petrol_blue), var(--dark-gray));
     padding: 1.5rem;
     margin: 1rem;
     border-radius: 12px;
