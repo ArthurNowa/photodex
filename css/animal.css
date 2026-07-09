@@ -6,3 +6,7 @@
     color: var(--bright-yellow);
     padding-top: 10px;
 }
+
+.animal-info strong {
+    text-decoration: underline;
+}

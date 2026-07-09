@@ -2,7 +2,7 @@
 
 /* ----------------------- cartes d'animaux ----------------------- */
 #animals-container, #featured-container {
-    padding: 2em 3em;
+    padding: 2em 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, 400px);
     gap: 2rem;
@@ -10,7 +10,7 @@
 }
 
 .animal-card {
-    height: 380px;
+    height: 400px;
     width: 400px;
     background:  var(--darker-gray);
     border-radius: 10px;
