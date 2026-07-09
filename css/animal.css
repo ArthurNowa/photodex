@@ -1,0 +1,8 @@
+.animal-info {
+    padding: 1rem 2rem;
+}
+
+.animal-info p {
+    color: var(--bright-yellow);
+    padding-top: 10px;
+}
