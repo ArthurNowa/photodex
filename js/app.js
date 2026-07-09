@@ -62,10 +62,8 @@ function displayAnimals(list) {
           <a href="animal.html?id=${animal.id}">
               <img src="${animalThumbnail}" alt="${animal.nom}">
               <h3>${animal.nom}</h3>
-              <p>
-                  <u>Description</u> : ${animal.description}<br>
-                  <u>Taille</u> : ${animal.taille}
-              </p>
+              <p><strong>Description</strong> : ${animal.description}</p>
+              <p><strong>Taille</strong> : ${animal.taille}</p>
           </a>
       </div>
     `;

@@ -2,11 +2,16 @@
 
 /* ----------------------- cartes d'animaux ----------------------- */
 #animals-container, #featured-container {
-    padding: 2em 0;
+    padding: 2em 3em;
     display: grid;
     grid-template-columns: repeat(auto-fit, 400px);
     gap: 2rem;
     justify-content: center;
+}
+
+.featured-container h2 {
+    text-align: center;
+    padding: 1em 0;
 }
 
 .animal-card {
@@ -48,6 +53,11 @@
 .animal-card a {
     text-decoration: none;
 }
+
+.animal-card strong {
+    text-decoration: underline;
+ }
+
 
 
 /* ----------------------- progress bar ----------------------- */

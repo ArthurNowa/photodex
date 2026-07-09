@@ -64,11 +64,8 @@ async function displayRandomAnimal (animalPath){
               <a href="animal.html?id=${animalData.id}">
                   <img src="${animalData.photos[0].fichier}" alt="${animalData.nom}">
                   <h3>${animalData.nom}</h3>
-                  <p>
-                      <u>Description</u> : ${animalData.description}<br>
-                      <br>
-                      <u>Taille</u> : ${animalData.taille}
-                  </p>
+                  <p><strong>Description</strong> : ${animalData.description}</p>
+                  <p><strong>Taille</strong> : ${animalData.taille}</p>
               </a>
           </div>`;
         
