@@ -40,12 +40,13 @@
 
 .animal-card h3 {
     padding-left: 40px;
+    padding-bottom: 5px;
     color: var(--golden);
     font-size: 1.3rem;
 }
 
 .animal-card p {
-    padding: 5px 15px;
+    padding: 3px 15px;
     font-size: 0.8rem;
     color: var(--bright-yellow);
 }
