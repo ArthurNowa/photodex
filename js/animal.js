@@ -51,7 +51,8 @@ function fillPhotoCarousel(animal) {
   carouselContainer.innerHTML = `${carouselContent}`;
   
   if (photoCounter <= 1){
-    document.querySelector(".carousel-btn").style.display = "none";
+    document.querySelector(".prev").style.display = "none";
+    document.querySelector(".next").style.display = "none";
   }
 }
 function displayAnimalDetails(animal) {
