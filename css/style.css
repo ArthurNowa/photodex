@@ -10,21 +10,24 @@
     --dark-gray: #363B47;
     --darker-gray: #2E323B;
     --coal-black: #101010;
+}
+
+html,
+body {
     width: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: var(--coal-black);
+    /*background: linear-gradient(135deg, var(--darker-gray), var(--dark-gray));*/
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    background-color: var(--coal-black);
-    /*background: linear-gradient(135deg, var(--darker-gray), var(--dark-gray));*/
+    /* DEBUGGING */
+    outline: 1px solid red;
 }
 
 .container {
