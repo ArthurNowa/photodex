@@ -10,6 +10,7 @@
   "type": "Insecte",
   "taille": "7 à 10 mm",
   "regime": "Pollen, nectar, pucerons, petits insectes et chenilles",
+  "regimeEmoji": ["🌺", "🧃", "🐛"],
   "habitat": "Prairies fleuries, jardins, haies, lisières, friches et bords de chemins",
   "description": "Coléoptère orange aux extrémités noires des élytres, souvent observé sur les fleurs en été.",
   "photos": [

@@ -9,6 +9,7 @@
   "type": "Insecte",
   "taille": "3,5 à 4,5 mm",
   "regime": "Pucerons et autres petits insectes",
+  "regimeEmoji": ["🐛", "🧃", "🌺"],
   "habitat": "Prairies, jardins, parcs, champs, haies et lisières",
   "repartition": "Europe, Afrique du Nord et Asie tempérée ; introduite en Amérique du Nord",
   "datePhoto": "2026-06-15",

@@ -10,6 +10,7 @@
   "type": "Insecte",
   "taille": "12 à 17 mm",
   "regime": "Insectes, nectar, fruits mûrs, matières sucrées et charognes",
+  "regimeEmoji": ["🐛", "🧃", "🍎", "🍯", "🦴"],
   "habitat": "Jardins, parcs, lisières, prairies, zones urbaines et abords des habitations",
   "description": "Guêpe jaune et noire, reconnaissable aux trois petits points noirs sur sa face.",
   "photos": [

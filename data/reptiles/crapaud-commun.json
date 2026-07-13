@@ -1,0 +1,22 @@
+﻿{
+  "id": "crapaud-commun",
+  "nom": "Crapaud commun",
+  "nomScientifique": "Bufo bufo",
+  "famille": "Bufonidae",
+  "sousFamille": "Bufoninae",
+  "ordre": "Anoure",
+  "repartition": "Grande partie de l’Europe, jusqu’à l’ouest de l’Asie ; présent en France.",
+  "categorie": "amphibians",
+  "type": "Amphibien",
+  "taille": "Mâle : 5 à 9 cm ; femelle : 8 à 12 cm",
+  "regime": "Insectes, limaces, vers, araignées et autres petits invertébrés",
+  "regimeEmoji": ["🦟", "🐛", "🐌", "🪱", "🕷️"],
+  "habitat": "Bois, haies, jardins, prairies, zones humides, mares et étangs en période de reproduction",
+  "description": "Crapaud trapu à peau verruqueuse, brun à gris, avec de grands yeux cuivrés.",
+  "photos": [
+    {
+      "fichier": "images/amphibians/20260710_crapaud-commun.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    }
+  ]
+}

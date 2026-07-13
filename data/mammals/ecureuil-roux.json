@@ -10,6 +10,7 @@
   "type": "Mammifère",
   "taille": "19 à 25 cm, sans compter la queue",
   "regime": "Graines, noix, fruits, bourgeons, champignons, insectes et parfois œufs d’oiseaux",
+  "regimeEmoji": ["🫘", "🥜", "🍎", "🫐", "🌱", "🍄", "🐛", "🥚"],
   "habitat": "Forêts de conifères ou de feuillus, parcs, jardins arborés et haies",
   "description": "Petit rongeur agile à queue touffue, souvent roux, reconnaissable à ses pinceaux d’oreilles en hiver.",
   "photos": [

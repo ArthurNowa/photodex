@@ -1,0 +1,23 @@
+﻿{
+  "id": "nigma-verte",
+  "nom": "Nigma verte",
+  "nomAlt": "Nigma walckenaeri",
+  "nomScientifique": "Nigma walckenaeri",
+  "famille": "Dictynidae",
+  "sousFamille": "",
+  "ordre": "Aranéide",
+  "repartition": "Europe, Afrique du Nord, Turquie, Caucase et Asie de l’Ouest ; présente en France.",
+  "categorie": "insects",
+  "type": "Arachnide",
+  "taille": "3 à 5 mm",
+  "regime": "Petits insectes et autres arthropodes capturés sur sa toile",
+  "regimeEmoji": ["🦟", "🐛"],
+  "habitat": "Jardins, haies, lisières, murs végétalisés et feuilles d’arbustes",
+  "description": "Petite araignée verte vivant sur les feuilles, où elle tisse une toile discrète.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260710_nigma-verte.jpg",
+      "lieu": "Jardin, Sailly-lez-Lannoy"
+    }
+  ]
+}

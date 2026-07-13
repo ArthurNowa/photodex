@@ -10,6 +10,7 @@
   "type": "Insecte",
   "taille": "9 à 13 mm",
   "regime": "Nectar, pollen et miellat ; les larves consomment surtout des pucerons",
+  "regimeEmoji": ["🧃", "🌺", "🐛"],
   "habitat": "Jardins, vergers, parcs, prairies fleuries, lisières et milieux boisés",
   "description": "Syrphe jaune et noir ressemblant à une guêpe, reconnaissable à ses yeux nus et son abdomen plat.",
   "photos": [

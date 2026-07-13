@@ -12,6 +12,7 @@
   "taille": "50 à 60 cm",
   "envergure": "49 à 60 cm",
   "regime": "Insectes, lézards, serpents, petits mammifères, œufs, oiseaux et fruits",
+  "regimeEmoji": ["🐛", "🦎", "🐍", "🐁", "🐦", "🥚", "🍎"],
   "habitat": "Déserts broussailleux, zones semi-arides, prairies sèches et lisières ouvertes",
   "description": "Grand coucou terrestre à longue queue, rapide à la course et souvent observé dans les milieux arides.",
   "photos": [

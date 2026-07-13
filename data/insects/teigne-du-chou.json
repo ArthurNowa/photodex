@@ -1,0 +1,23 @@
+﻿{
+  "id": "teigne-du-chou",
+  "nom": "Teigne du chou",
+  "nomAlt": "Teigne des crucifères",
+  "nomScientifique": "Plutella xylostella",
+  "famille": "Plutellidae",
+  "sousFamille": "",
+  "ordre": "Lépidoptère",
+  "repartition": "Espèce cosmopolite, présente presque partout dans le monde où poussent des Brassicacées.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Chenille : jusqu’à 10 à 12 mm",
+  "regime": "Feuilles de Brassicacées, notamment choux, colzas, moutardes et plantes apparentées",
+  "regimeEmoji": ["🥬"],
+  "habitat": "Potagers, cultures de choux, champs de colza, friches et zones avec plantes crucifères",
+  "description": "Petite chenille verte des choux, vive, souvent cachée sous les feuilles.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260710_teigne-du-chou.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    }
+  ]
+}

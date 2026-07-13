@@ -10,6 +10,7 @@
   "type": "Insecte",
   "taille": "Envergure de 55 à 65 mm",
   "regime": "Les chenilles se nourrissent de nombreuses plantes herbacées, arbustes et arbres, notamment des oseilles, pissenlits, saules, aubépines et fusains",
+  "regimeEmoji": ["🥬", "🌱"],
   "habitat": "Bords de rivières, étangs, zones humides, vallées boisées, haies, lisières et jardins ombragés",
   "description": "Grand papillon de nuit brun grisâtre, aux ailes larges et très sombres. Il se reconnaît à son aspect général rappelant une écorce ou une feuille sèche.",
   "photos": [

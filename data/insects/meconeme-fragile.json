@@ -1,0 +1,22 @@
+﻿{
+  "id": "meconeme-fragile",
+  "nom": "Méconème fragile",
+  "nomScientifique": "Meconema meridionale",
+  "famille": "Tettigoniidae",
+  "sousFamille": "Meconematinae",
+  "ordre": "Orthoptère",
+  "repartition": "Originaire du sud de l’Europe ; en expansion vers l’Europe occidentale et centrale, dont la France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "11 à 16 mm",
+  "regime": "Petits insectes, pucerons, larves et autres petits arthropodes",
+  "regimeEmoji": ["🦟", "🐛"],
+  "habitat": "Arbres feuillus, haies, jardins, parcs, lisières et milieux urbains arborés",
+  "description": "Petite sauterelle verte aux longues antennes, aux ailes très réduites.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260710_meconeme-fragile.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    }
+  ]
+}

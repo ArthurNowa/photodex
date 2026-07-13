@@ -1,0 +1,27 @@
+﻿{
+  "id": "apion-du-trefle",
+  "nom": "Apion du trèfle",
+  "nomAlt": "Petit apion du trèfle",
+  "nomScientifique": "Protapion trifolii",
+  "famille": "Brentidae",
+  "sousFamille": "Apioninae",
+  "ordre": "Coléoptère",
+  "repartition": "Originaire d’Europe ; présent en France, notamment dans les zones où poussent les trèfles.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Environ 2 à 3 mm",
+  "regime": "Trèfles et autres légumineuses ; les larves se développent dans les inflorescences",
+  "regimeEmoji": ["🥬", "🌱"],
+  "habitat": "Prairies, pelouses, friches, bords de chemins, cultures et zones riches en trèfles",
+  "description": "Petit charançon sombre lié aux trèfles, dont les larves vivent dans les fleurs.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260710_apion-du-trefle-01.jpg",
+      "lieu": "jardin, Sailly-lez-Lannoy"
+    },
+    {
+      "fichier": "images/insects/20260710_apion-du-trefle-02.jpg",
+      "lieu": "jardin, Sailly-lez-Lannoy"
+    }
+  ]
+}

@@ -11,6 +11,7 @@
   "type": "Insecte",
   "taille": "8,5 à 11 mm",
   "regime": "Sève des Apiacées, surtout des graines en formation",
+  "regimeEmoji": ["🧃"],
   "habitat": "Prairies sèches, friches, haies, talus, jardins et zones riches en ombellifères",
   "description": "Punaise rouge rayée de noir, facilement reconnaissable à son grand écusson couvrant presque tout l’abdomen.",
   "photos": [

@@ -10,6 +10,7 @@
   "type": "Mammifère",
   "taille": "Environ 145 à 160 cm au garrot",
   "regime": "Herbes, foin, fourrages, céréales et autres végétaux",
+  "regimeEmoji": ["🌱", "🥬", "🫘"],
   "habitat": "Prairies, pâturages, fermes et élevages bovins",
   "description": "Grande vache au pelage froment clair, reconnaissable à sa silhouette longue et très musclée.",
   "photos": [

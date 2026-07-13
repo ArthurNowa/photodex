@@ -10,6 +10,7 @@
   "type": "Insecte",
   "taille": "Environ 7 à 10 mm",
   "regime": "Petits insectes et autres invertébrés ; les larves sont prédatrices",
+  "regimeEmoji": ["🦟", "🐛"],
   "habitat": "Bois humides, lisières ombragées, bords de cours d’eau, haies et végétation basse",
   "description": "Mouche prédatrice de la famille des Rhagionidae, reconnaissable à son corps élancé et à ses reflets dorés ou verdâtres selon la lumière.",
   "photos": [

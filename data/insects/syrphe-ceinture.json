@@ -10,6 +10,7 @@
   "type": "Insecte",
   "taille": "8 à 12 mm",
   "regime": "Nectar, pollen et miellat ; les larves se nourrissent principalement de pucerons",
+  "regimeEmoji": ["🧃", "🌺", "🐛"],
   "habitat": "Prairies, jardins, parcs, lisières, forêts ensoleillées et milieux fleuris",
   "datePhoto": "2026-06-15",
   "description": "Petit syrphe au vol stationnaire caractéristique, souvent confondu avec une guêpe mais totalement inoffensif.",

@@ -1,0 +1,23 @@
+﻿{
+  "id": "amaryllis",
+  "nom": "Amaryllis",
+  "nomAlt": "Satyre tithon",
+  "nomScientifique": "Pyronia tithonus",
+  "famille": "Nymphalidae",
+  "sousFamille": "Satyrinae",
+  "ordre": "Lépidoptère",
+  "repartition": "Centre et sud de l’Europe, Maroc, Asie Mineure et Caucase ; présent partout en France métropolitaine.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Envergure de 35 à 45 mm",
+  "regime": "Nectar ; les chenilles se nourrissent de graminées",
+  "regimeEmoji": ["🧃", "🌱"],
+  "habitat": "Prairies, friches, haies, lisières, clairières et chemins forestiers",
+  "description": "Papillon orangé bordé de brun, avec un ocelle noir doublement pupillé de blanc.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260710_amaryllis.jpg",
+      "lieu": "jardin, Sailly-lez-Lannoy"
+    }
+  ]
+}

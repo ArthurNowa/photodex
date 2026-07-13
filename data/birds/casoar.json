@@ -11,6 +11,7 @@
   "taille": "1,5 à 1,8 m de haut",
   "envergure": "Environ 1,5 m",
   "regime": "Principalement fruits tombés au sol ; complète son alimentation avec champignons, insectes, petits vertébrés et charognes.",
+  "regimeEmoji": ["🍎", "🍄", "🐛", "🐁", "🦴"],
   "habitat": "Forêts tropicales humides, lisières forestières, marécages et zones boisées denses",
   "description": "Grand oiseau terrestre incapable de voler, au plumage noir, au cou bleu et rouge et au casque brun visible sur la tête. Il se reconnaît aussi à ses pattes très puissantes munies de trois doigts, dont un porte une longue griffe.",
   "photos": [

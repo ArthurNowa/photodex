@@ -49,6 +49,13 @@ function fillPhotoCarousel(animal) {
   }
 
   carouselContainer.innerHTML = `${carouselContent}`;
+  
+  if (photoCounter <= 1){
+    const carouselArrows = document.querySelector(".carousel-btn");
+    for (const arrow of carouselArrows) {
+      arrow.style.display = "none";
+    }
+  }
 }
 function displayAnimalDetails(animal) {
   document.title = `${animal.nom} - Photodex`;
@@ -74,7 +81,7 @@ function displayAnimalDetails(animal) {
       <p><strong>Description :</strong> ${animal.description}</p>
       <p><strong>Habitat :</strong> ${animal.habitat}</p>
       <p><strong>Répartition Géographique :</strong> ${animal.repartition}</p>
-      <p><strong>Régime alimentaire :</strong> ${animal.regime}</p>
+      <p><strong>Régime alimentaire :</strong> ${"".concat(...animal.regimeEmoji)}</p>
     </div>
 
     <a href="${animal.categorie}.html" class="btn btn-primary">← Retour au Photodex</a>

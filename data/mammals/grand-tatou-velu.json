@@ -10,6 +10,7 @@
   "type": "Mammifère",
   "taille": "40 à 50 cm, sans compter la queue",
   "regime": "Insectes, larves, autres invertébrés, petits vertébrés, végétaux et charognes",
+  "regimeEmoji": ["🐛", "🪱", "🐁", "🌱", "🦴"],
   "habitat": "Prairies, pampas, savanes, forêts ouvertes, terres agricoles et zones semi-arides",
   "description": "Tatou de taille moyenne reconnaissable à sa carapace sombre formée de nombreuses bandes, ainsi qu’aux longs poils visibles entre les plaques.",
   "photos": [

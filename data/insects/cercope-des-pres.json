@@ -11,6 +11,7 @@
   "type": "Insecte",
   "taille": "5 à 7 mm",
   "regime": "Sève de nombreuses plantes herbacées, arbustes et jeunes pousses",
+  "regimeEmoji": ["🧃"],
   "habitat": "Prairies, jardins, friches, haies, bords de chemins et végétation herbacée",
   "description": "Petit insecte sauteur très variable, dont les larves vivent dans une mousse appelée crachat de coucou.",
   "photos": [

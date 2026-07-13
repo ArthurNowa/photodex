@@ -10,6 +10,7 @@
   "type": "Insecte",
   "taille": "2,5 à 3,5 mm",
   "regime": "Champignons microscopiques, spores, pollen et parfois petits pucerons",
+  "regimeEmoji": ["🍄", "🌺", "🐛"],
   "habitat": "Prairies, friches, dunes, marais et zones herbeuses sèches ou humides",
   "description": "Petite coccinelle crème à jaune pâle, marquée de nombreux points noirs souvent bien distincts.",
   "photos": [

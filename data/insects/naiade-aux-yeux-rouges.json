@@ -11,6 +11,7 @@
   "type": "Insecte",
   "taille": "30 à 36 mm",
   "regime": "Petits insectes capturés en vol ; les larves chassent de petits invertébrés aquatiques",
+  "regimeEmoji": ["🦟", "🦐"],
   "habitat": "Étangs, lacs, bras morts et eaux calmes riches en végétation flottante",
   "description": "Demoiselle aux yeux rouges vifs, souvent posée sur les feuilles flottantes près de l’eau.",
   "photos": [

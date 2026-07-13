@@ -10,6 +10,7 @@
   "type": "Insecte",
   "taille": "11 à 15 mm",
   "regime": "Nectar et pollen",
+  "regimeEmoji": ["🧃", "🌺"],
   "habitat": "Prairies, jardins, vergers, champs, lisières, ruches et milieux fleuris",
   "datePhoto": "2026-06-15",
   "description": "Insecte social très connu pour sa production de miel et son rôle majeur dans la pollinisation des plantes à fleurs.",

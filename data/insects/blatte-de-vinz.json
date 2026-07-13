@@ -10,6 +10,7 @@
   "type": "Insecte",
   "taille": "Environ 7 à 10 mm",
   "regime": "Débris végétaux, matières organiques en décomposition et petits restes végétaux",
+  "regimeEmoji": ["🍂", "🌱"],
   "habitat": "Jardins, haies, friches, parcs, murs végétalisés, litière de feuilles et abords des habitations",
   "description": "Petite blatte des jardins brun à beige, aux longues antennes et au corps aplati. Elle vit surtout dehors et ne constitue pas un nuisible dans les habitations. Les juvéniles sont plutôt noirs avec une bande blanche sur le dos.",
   "photos": [

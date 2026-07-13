@@ -10,6 +10,7 @@
   "type": "Insecte",
   "taille": "10 à 14 mm",
   "regime": "Les adultes consomment surtout des liquides sucrés, du nectar, des fruits très mûrs et diverses matières organiques ; les larves se développent dans la viande, les cadavres et autres matières animales en décomposition.",
+  "regimeEmoji": ["🧃", "🍯", "🍎", "🍂", "🦴"],
   "habitat": "Jardins, zones rurales, lisières, bois, abords des habitations, déchets organiques et carcasses d’animaux",
   "description": "Grande mouche trapue à l’abdomen bleu métallique, et aux yeux rougeâtres. Elle se reconnaît notamment à sa couleur bleu vif plus marquée que celle de nombreuses autres mouches.",
   "photos": [

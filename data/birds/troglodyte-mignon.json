@@ -11,6 +11,7 @@
   "taille": "9 à 10 cm",
   "envergure": "12 à 16 cm",
   "regime": "Insectes, araignées, petits invertébrés et larves",
+  "regimeEmoji": ["🦟", "🐛", "🕷️"],
   "habitat": "Sous-bois, haies, jardins, parcs, lisières et zones riches en végétation dense",
   "description": "Très petit oiseau brun à queue souvent dressée, vif et discret dans les fourrés.",
   "photos": [

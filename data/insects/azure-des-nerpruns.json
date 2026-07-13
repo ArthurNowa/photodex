@@ -11,6 +11,7 @@
   "type": "Insecte",
   "taille": "Envergure de 26 à 34 mm",
   "regime": "Nectar et miellat ; les chenilles mangent boutons, fleurs, fruits et jeunes feuilles.",
+  "regimeEmoji": ["🧃", "🌺", "🍯", "🥬", "🌱"],
   "habitat": "Haies, lisières, friches, jardins, parcs, bois clairs et bords de cours d’eau",
   "description": "Petit papillon bleu clair, au revers pâle ponctué de noir et sans taches orange.",
   "photos": [

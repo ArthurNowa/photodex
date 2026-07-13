@@ -1,0 +1,22 @@
+﻿{
+  "id": "moustique-commun",
+  "nom": "Moustique commun",
+  "nomScientifique": "Culex pipiens",
+  "famille": "Culicidae",
+  "sousFamille": "Culicinae",
+  "ordre": "Diptère",
+  "repartition": "Très répandu dans l’hémisphère Nord ; présent en Europe, en Asie, en Afrique du Nord et en Amérique du Nord.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "5 à 7 mm",
+  "regime": "Nectar et sucs végétaux ; les femelles peuvent aussi prélever du sang",
+  "regimeEmoji": ["🧃", "🩸"],
+  "habitat": "Jardins, zones humides, mares, fossés, récupérateurs d’eau et abords des habitations",
+  "description": "Petit moustique brunâtre commun près des eaux stagnantes, actif surtout au crépuscule.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260710_moustique-commun.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    }
+  ]
+}

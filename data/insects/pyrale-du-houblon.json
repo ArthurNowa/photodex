@@ -1,0 +1,23 @@
+﻿{
+  "id": "pyrale-du-houblon",
+  "nom": "Pyrale du houblon",
+  "nomAlt": "Pyrale opaline",
+  "nomScientifique": "Pleuroptya ruralis",
+  "famille": "Crambidae",
+  "sousFamille": "Spilomelinae",
+  "ordre": "Lépidoptère",
+  "repartition": "Europe, Afrique du Nord et Asie tempérée ; présente en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Envergure de 26 à 40 mm",
+  "regime": "Nectar ; les chenilles consomment orties, houblon, chénopodes et arroches",
+  "regimeEmoji": ["🧃", "🥬"],
+  "habitat": "Friches, haies, lisières, bois humides, bords de chemins et zones riches en orties",
+  "description": "Pyrale claire aux ailes nacrées, souvent visible près des orties et du houblon.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260710_pyrale-du-houblon.jpg",
+      "lieu": "Chemin des écluses, Chéreng"
+    }
+  ]
+}
