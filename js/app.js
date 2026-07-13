@@ -45,7 +45,7 @@ function displayAnimals(list) {
   animalsContainer.innerHTML = "";
 
   if (list.length === 0) {
-    animalsContainer.innerHTML = "<p>Aucun animal trouvé.</p>";
+    animalsContainer.innerHTML = `<p style="text-align: center;">Aucun animal trouvé.</p>`;
     return;
   }
 
