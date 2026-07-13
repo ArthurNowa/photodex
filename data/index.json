@@ -26,6 +26,12 @@
         "name": "abeille-melifere.json"
       },
       {
+        "name": "amaryllis.json"
+      },
+      {
+        "name": "apion-du-trefle.json"
+      },
+      {
         "name": "azure-des-nerpruns.json"
       },
       {
@@ -59,10 +65,19 @@
         "name": "maure.json"
       },
       {
+        "name": "meconeme-fragile.json"
+      },
+      {
         "name": "mouche-bleue.json"
       },
       {
+        "name": "moustique-commun.json"
+      },
+      {
         "name": "naiade-aux-yeux-rouges.json"
+      },
+      {
+        "name": "nigma-verte.json"
       },
       {
         "name": "phalene-du-fusain.json"
@@ -71,10 +86,16 @@
         "name": "punaise-arlequin.json"
       },
       {
+        "name": "pyrale-du-houblon.json"
+      },
+      {
         "name": "syrphe-ceinture.json"
       },
       {
         "name": "syrphe-du-groseiller.json"
+      },
+      {
+        "name": "teigne-du-chou.json"
       },
       {
         "name": "telephore-fauve.json"
@@ -97,7 +118,15 @@
         "name": "ours-polaire.json"
       },
       {
-        "name": "vache-blonde-daquiitaine.json"
+        "name": "vache-blonde-daquitaine.json"
+      }
+    ]
+  },
+  {
+    "type": "reptiles",
+    "data": [
+      {
+        "name": "crapaud-commun.json"
       }
     ]
   }
