@@ -94,7 +94,7 @@ function displayBadgeProgress() {
       <div class="badge-row">
         <div class="badge current">
           <span>Badge actuel</span>
-          <strong style="translate: 250px 0;">${currentBadge.name}</strong>
+          <strong style="text-align: center;">${currentBadge.name}</strong>
           <small>${currentBadge.goal} espèces</small>
           <img src="./${currentBadge.image}" alt="${currentBadge.image}" style="position: absolute; height: 100px; width: 100px; translate: 400px -60px;">
         </div>
