@@ -94,7 +94,7 @@ function displayAnimalDetails(animal) {
       <p><strong>Régime alimentaire :</strong> ${"".concat(...animal.regimeEmoji)}</p>
     </div>
     
-    <div class="back-btn" style="justify-content: center; padding: 1em;">
+    <div class="back-btn" style="width: 100%; justify-content: center; padding: 1em;">
         <a href="${animal.categorie}.html" class="btn btn-primary">← Retour au Photodex</a>
     </div>
   `;
