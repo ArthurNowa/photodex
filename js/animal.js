@@ -48,12 +48,24 @@ function fillPhotoCarousel(animal) {
       </div>`;
   }
 
-  carouselContainer.innerHTML = `${carouselContent}`;
-  
-  if (photoCounter <= 1){
-    document.querySelector(".prev").style.display = "none";
-    document.querySelector(".next").style.display = "none";
+  carouselContainer.innerHTML = carouselContent;
+
+  const previousButton = document.querySelector(".carousel-btn.prev");
+  const nextButton = document.querySelector(".carousel-btn.next");
+
+  if (photoCounter <= 1) {
+    previousButton.style.display = "none";
+    nextButton.style.display = "none";
+  } else {
+    previousButton.style.display = "";
+    nextButton.style.display = "";
   }
+
+  /*
+   * Les images existent maintenant dans le HTML :
+   * on peut initialiser le carrousel.
+   */
+  window.initCarousel();
 }
 function displayAnimalDetails(animal) {
   document.title = `${animal.nom} - Photodex`;

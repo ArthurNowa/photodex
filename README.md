@@ -1,2 +1,0 @@
-# photodex
-pokédex version animaux
