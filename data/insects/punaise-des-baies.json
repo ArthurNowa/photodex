@@ -1,0 +1,22 @@
+﻿{
+  "id": "punaise-des-baies",
+  "nom": "Punaise des baies",
+  "nomScientifique": "Dolycoris baccarum",
+  "famille": "Pentatomidae",
+  "sousFamille": "Pentatominae",
+  "ordre": "Hémiptère",
+  "repartition": "Europe, Afrique du Nord et Asie tempérée ; commune en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "10 à 12 mm",
+  "regime": "Sève, graines, fruits et baies de nombreuses plantes ; parfois petits insectes",
+  "regimeEmoji": ["🧃", "🫘", "🍎", "🫐", "🐛"],
+  "habitat": "Prairies, friches, haies, jardins, lisières, bords de chemins et zones herbacées",
+  "description": "Punaise velue brun rosé, aux antennes annelées et aux bords abdominaux noir et blanc.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260713_punaise-des-baies.jpg",
+      "lieu": ""
+    }
+  ]
+}

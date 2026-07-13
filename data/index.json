@@ -32,6 +32,9 @@
         "name": "apion-du-trefle.json"
       },
       {
+        "name": "argus-bleu.json"
+      },
+      {
         "name": "azure-des-nerpruns.json"
       },
       {
@@ -53,13 +56,22 @@
         "name": "coccinelle-a-7-points.json"
       },
       {
+        "name": "coccinelle-a-damier.json"
+      },
+      {
         "name": "coccinelle-asiatique.json"
       },
       {
         "name": "epeire-diademe.json"
       },
       {
+        "name": "eristale-horticole.json"
+      },
+      {
         "name": "guepe-germanique.json"
+      },
+      {
+        "name": "larinus-planus.json"
       },
       {
         "name": "maure.json"
@@ -86,6 +98,9 @@
         "name": "punaise-arlequin.json"
       },
       {
+        "name": "punaise-des-baies.json"
+      },
+      {
         "name": "pyrale-du-houblon.json"
       },
       {
@@ -99,6 +114,9 @@
       },
       {
         "name": "telephore-fauve.json"
+      },
+      {
+        "name": "tenthrede-de-la-rave.json"
       }
     ]
   },

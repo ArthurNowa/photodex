@@ -1,0 +1,23 @@
+﻿{
+  "id": "azure-commun",
+  "nom": "Argus bleu",
+  "nomAlt": "Azuré commun",
+  "nomScientifique": "Polyommatus icarus",
+  "famille": "Lycaenidae",
+  "sousFamille": "Polyommatinae",
+  "ordre": "Lépidoptère",
+  "repartition": "Europe, Afrique du Nord et Asie tempérée ; présent partout en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Envergure de 25 à 35 mm",
+  "regime": "Nectar ; les chenilles consomment des Fabacées comme les trèfles, luzernes et lotiers",
+  "regimeEmoji": ["🧃", "🌱"],
+  "habitat": "Prairies, pelouses, friches, jardins, talus, bords de chemins et milieux ouverts fleuris",
+  "description": "Petit azuré bleu chez le mâle, brun chez la femelle, au revers ponctué de noir et d’orange.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260713_azure-commun.jpg",
+      "lieu": "Parc de la Haute Borne, Villeneuve-d'Ascq"
+    }
+  ]
+}

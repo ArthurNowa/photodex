@@ -1,0 +1,26 @@
+﻿{
+  "id": "eristale-horticole",
+  "nom": "Éristale horticole",
+  "nomScientifique": "Eristalis horticola",
+  "famille": "Syrphidae",
+  "sousFamille": "Eristalinae",
+  "ordre": "Diptère",
+  "repartition": "Espèce paléarctique, présente en Europe, en Afrique du Nord et en Asie jusqu’à Sakhaline.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Environ 10 à 14 mm",
+  "regime": "Nectar et pollen ; les larves aquatiques vivent dans des eaux riches en matière organique",
+  "regimeEmoji": ["🧃", "🌺", "🍂"],
+  "habitat": "Zones humides, bords de mares, ruisseaux, fossés, bois clairs, jardins et milieux fleuris",
+  "description": "Syrphe rayé imitant une abeille, aux ailes marquées d’une tache sombre.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260713_eristale-horticole-01.jpg",
+      "lieu": "Parc de la Haute Borne, Villeneuve d'Ascq"
+    },
+    {
+      "fichier": "images/insects/20260713_eristale-horticole-02.jpg",
+      "lieu": "Parc de la Haute Borne, Villeneuve d'Ascq"
+    }
+  ]
+}

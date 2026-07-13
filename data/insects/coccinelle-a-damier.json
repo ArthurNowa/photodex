@@ -1,0 +1,23 @@
+﻿{
+  "id": "coccinelle-a-damier",
+  "nom": "Coccinelle à damier",
+  "nomAlt": "Coccinelle à 14 points",
+  "nomScientifique": "Propylea quatuordecimpunctata",
+  "famille": "Coccinellidae",
+  "sousFamille": "Coccinellinae",
+  "ordre": "Coléoptère",
+  "repartition": "Europe, Afrique du Nord et Asie tempérée ; introduite en Amérique du Nord.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "3,5 à 4,5 mm",
+  "regime": "Pucerons, petits insectes, pollen et nectar",
+  "regimeEmoji": ["🐛", "🌺", "🧃"],
+  "habitat": "Prairies, jardins, parcs, friches, haies, lisières et cultures",
+  "description": "Petite coccinelle jaune à orange, marquée de taches noires en damier.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260713_coccinelle-a-damier.jpg",
+      "lieu": "Parc de la Haute Borne, Villeneuve-d'Ascq"
+    }
+  ]
+}

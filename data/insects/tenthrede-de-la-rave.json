@@ -1,0 +1,22 @@
+﻿{
+  "id": "tenthrede-de-la-rave",
+  "nom": "Tenthrède de la rave",
+  "nomScientifique": "Athalia rosae",
+  "famille": "Tenthredinidae",
+  "sousFamille": "Athaliinae",
+  "ordre": "Hyménoptère",
+  "repartition": "Très répandue en Europe et en Afrique du Nord ; présente en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "6 à 8 mm",
+  "regime": "Nectar ; les larves consomment les feuilles de Brassicacées comme les raves, choux et colzas",
+  "regimeEmoji": ["🧃", "🥬"],
+  "habitat": "Champs, potagers, jardins, friches, bords de chemins et milieux riches en Brassicacées",
+  "description": "Tenthrède orange et noire, aux larves semblables à de petites chenilles.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260713_tenthrede-de-la-rave.jpg",
+      "lieu": "Parc de la Haute Borne, Villeneuve d'Ascq"
+    }
+  ]
+}

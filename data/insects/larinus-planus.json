@@ -1,0 +1,22 @@
+﻿{
+  "id": "larinus-planus",
+  "nom": "Larinus planus",
+  "nomScientifique": "Larinus planus",
+  "famille": "Curculionidae",
+  "sousFamille": "Lixinae",
+  "ordre": "Coléoptère",
+  "repartition": "Europe, Afrique du Nord et Asie tempérée ; introduit en Amérique du Nord.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "5 à 10 mm",
+  "regime": "Chardons et cirses ; les larves se développent dans les capitules",
+  "regimeEmoji": ["🥬", "🌱"],
+  "habitat": "Prairies, friches, talus, bords de chemins et milieux riches en chardons",
+  "description": "Charançon grisâtre lié aux chardons, souvent observé sur les capitules.",
+  "photos": [
+    {
+      "fichier": "images/insects/20260713_larinus-planus.jpg",
+      "lieu": "Parc de la Haute Borne, Villeneuve-d'Ascq"
+    }
+  ]
+}
