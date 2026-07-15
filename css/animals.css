@@ -94,8 +94,8 @@
     display: inline;
     height: 100px;
     width: 100px;
-    position: absolute;
-    right: 10%;
+    position: relative;
+    left: 80%;
     top: 0;
  }
 
