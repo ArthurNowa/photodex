@@ -94,8 +94,8 @@
     display: inline;
     height: 100px;
     width: 100px;
-    position: relative;
-    left: 80%;
+    position: absolute;
+    transform: translate(75%, -60px);
     top: 0;
  }
 
