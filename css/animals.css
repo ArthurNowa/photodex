@@ -65,7 +65,7 @@
 .badge-progress-card {
     background: linear-gradient(135deg, var(--petrol_blue), var(--dark-gray));
     padding: 1.5rem;
-    margin: 1rem;
+    margin: 2rem;
     border-radius: 12px;
 }
 
@@ -87,11 +87,22 @@
     display: block;
     color: var(--golden);
     font-size: 1.2rem;
+    text-align: center;
 }
 
 .badge img {
-     display: inline;
+    display: inline;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 10%;
+    top: 0;
  }
+
+.objective strong, .objective img, .objective small {
+    filter: grayscale(90%);
+    opacity: 0.5;
+}
 
 .progress-bar {
     height: 18px;
