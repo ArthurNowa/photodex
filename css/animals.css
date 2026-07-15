@@ -95,7 +95,7 @@
     height: 100px;
     width: 100px;
     position: absolute;
-    transform: translate(75vw, -60px);
+    transform: translate(10vw, -60px);
  }
 
 .objective strong, .objective img, .objective small {
