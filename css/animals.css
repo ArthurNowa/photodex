@@ -81,6 +81,7 @@
 }
 
 .badge {
+    position: relative;
     background: #1f232b;
     padding: 1rem;
     border-radius: 10px;
