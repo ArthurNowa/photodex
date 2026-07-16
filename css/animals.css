@@ -69,6 +69,10 @@
     border-radius: 12px;
 }
 
+.badge-progress-card:hover h2 {
+    color: var(--accent-orange);
+}
+
 .badge-row {
     display: flex;
     justify-content: space-between;
@@ -95,7 +99,9 @@
     height: 100px;
     width: 100px;
     position: absolute;
-    transform: translate(20vw, -60px);
+    /*transform: translate(50vw, -60px);*/
+    right: 10%;
+    top: 0;
  }
 
 .objective strong, .objective img, .objective small {
