@@ -108,7 +108,7 @@ function applyCategoryFilter() {
 
 function applySearchFilter() {
   const search = searchInput.value.toLowerCase();
-  animals = animals.filter(animal => {
+  animals = animalsFullData.filter(animal => {
     if (search !== "") {
       const matchesSearch =
           animal.nom.toLowerCase().includes(search) ||
@@ -167,7 +167,7 @@ async function init() {
   displayAnimals(animals);
 }
 
-searchInput.addEventListener("input", applyFilters);
+searchInput.addEventListener("input", applySearchFilter);
 //orderFilter.addEventListener("change", applyFilters);
 //habitatFilter.addEventListener("change", applyFilters);
 //minSizeInput.addEventListener("input", applyFilters);
