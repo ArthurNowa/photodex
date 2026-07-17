@@ -124,6 +124,8 @@ async function applySearchFilter() {
       }
       return false;
     });
+  } else {
+    animals = animalsFullData;
   }
   displayAnimals(animals);
 }
