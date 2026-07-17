@@ -108,26 +108,23 @@ function applyCategoryFilter() {
 
 async function applySearchFilter() {
   const search = searchInput.value.toLowerCase();
-  animals = animalsFullData.filter(animal => {
-    if (search !== "") {
-      let matchesSearch =
-          animal.nom.toLowerCase().includes(search) ||
-          animal.description.toLowerCase().includes(search) ||
-          animal.ordre.toLowerCase().includes(search) ||
-          animal.habitat.toLowerCase().includes(search);
-
-      if (animal.nomAlt) {
-          matchesSearch = matchesSearch || animal.nomAlt.toLowerCase().includes(search);
+  if (search !== "") {
+    animals = animalsFullData.filter(animal => {
+      const searchWords = search.split(' ');
+      const nomAlt = animal.nomAlt ?? "";
+      const keywords = animal.keywords ?? "";
+      for (let word of searchWords) {
+        if (animal.nom.toLowerCase().includes(word) ||
+            nomAlt.toLowerCase().includes(word) ||
+            keywords.includes(word) ||
+            animal.ordre.toLowerCase().includes(word)
+        ) {
+          return true;
+        }
       }
-
-      console.log(`animal : ${animal.nom} | match : ${matchesSearch}`);
-      return matchesSearch;
-    }
-    else {
-      return true;
-    }
-  });
-
+      return false;
+    });
+  }
   displayAnimals(animals);
 }
 
@@ -142,25 +139,6 @@ function applyFilters() {
   animals = animals.filter(animal => {
     // const matchesSize = animal.tailleMoyenne >= minSize &&
     //    animal.tailleMoyenne <= maxSize
-    if (search !== "") {
-      const matchesSearch =
-          animal.nom.toLowerCase().includes(search) ||
-          animal.nomScientifique.toLowerCase().includes(search) ||
-          animal.description.toLowerCase().includes(search) ||
-          animal.ordre.toLowerCase().includes(search) ||
-          animal.habitat.toLowerCase().includes(search);
-      if (animal.nomAlt) {
-        
-      }
-      const matchesNomAlt =
-          animal.nomAlt.toLowerCase().includes(search);
-
-      console.log(`animal : ${animal} | match size : ${matchesSize}`);
-      return matchesSearch;// || matchesSize;
-    }
-    else {
-      return true;
-    }
   });
 }
 

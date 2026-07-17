@@ -22,10 +22,8 @@ async function displayLastPhoto() {
                   <a href="animal.html?id=${latestPhotoData.animalId}">
                       <img src="${lastPhotoPath}" alt="${lastAnimalData.nom}">
                       <h3>${lastAnimalData.nom}</h3>
-                      <p>
-                          Photo prise le : ${latestPhotoData.date}<br>
-                          Lieu de la photo : ${lastAnimalData.photos[0].lieu}<br>
-                      </p>
+                      <p><strong>Photo prise le</strong> : ${latestPhotoData.date}</p>
+                      <p><strong>Lieu de la photo</strong> : ${lastAnimalData.photos[0].lieu}</p>
                   </a>
               </div>
             `;
