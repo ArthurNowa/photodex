@@ -270,12 +270,8 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .nav-links {
+    .nav .logo {
         display: none;
-    }
-
-    .nav-links.active {
-        display: flex;
     }
 
     .hero h1 {
