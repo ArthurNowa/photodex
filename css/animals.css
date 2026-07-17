@@ -130,6 +130,10 @@
     gap: 1rem;
 }
 
+#search-input {
+    width: 30%;
+}
+
 
 .range-wrapper {
     position: relative;

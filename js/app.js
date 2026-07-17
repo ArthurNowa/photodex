@@ -12,6 +12,7 @@ const pageFilter = window.location.pathname
 
 import {loadIndex, loadJsonFile} from "./dataLoader.js";
 
+let animalsFullData = [];
 export let animals = [];
 
 async function loadAnimals() {
@@ -32,7 +33,7 @@ async function loadAnimals() {
       }
     }
 
-    animals = await Promise.all(animalPromises);
+    animalsFullData = await Promise.all(animalPromises);
 
   } catch (error) {
     console.error(error);
@@ -99,10 +100,32 @@ function generateFilters() {
 }
 
 function applyCategoryFilter() {
-  animals = animals.filter(animal => {
+  animalsFullData = animalsFullData.filter(animal => {
     return animal.categorie === pageFilter;
   });
+  animals = animalsFullData;
 }
+
+function applySearchFilter() {
+  const search = searchInput.value.toLowerCase();
+  animals = animals.filter(animal => {
+    if (search !== "") {
+      const matchesSearch =
+          animal.nom.toLowerCase().includes(search) ||
+          animal.nomAlt.toLowerCase().includes(search) ||
+          animal.description.toLowerCase().includes(search) ||
+          animal.ordre.toLowerCase().includes(search) ||
+          animal.habitat.toLowerCase().includes(search);
+
+      console.log(`animal : ${animal} | match : ${matchesSearch} | match size : ${matchesSize}`);
+      return matchesSearch;
+    }
+    else {
+      return true;
+    }
+  });
+}
+
 
 function applyFilters() {
   const search = searchInput.value.toLowerCase();
@@ -118,6 +141,7 @@ function applyFilters() {
       const matchesSearch =
           animal.nom.toLowerCase().includes(search) ||
           animal.nomAlt.toLowerCase().includes(search) ||
+          animal.nomScientifique.toLowerCase().includes(search) ||
           animal.description.toLowerCase().includes(search) ||
           animal.ordre.toLowerCase().includes(search) ||
           animal.habitat.toLowerCase().includes(search);
@@ -137,6 +161,7 @@ async function init() {
   await loadAnimals();
 
   applyCategoryFilter();
+  applySearchFilter();
   //generateFilters();
   // applyFilters();
   displayAnimals(animals);
@@ -148,4 +173,4 @@ searchInput.addEventListener("input", applyFilters);
 //minSizeInput.addEventListener("input", applyFilters);
 //maxSizeInput.addEventListener("input", applyFilters);
 
-init();
+await init();
