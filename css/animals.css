@@ -157,4 +157,16 @@
     .animals-grid {
         grid-template-columns: 1fr;
     }
+
+    .badge img {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .badge strong {
+        text-align: left;
+    }
 }
