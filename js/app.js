@@ -110,12 +110,15 @@ function applySearchFilter() {
   const search = searchInput.value.toLowerCase();
   animals = animalsFullData.filter(animal => {
     if (search !== "") {
-      const matchesSearch =
+      let matchesSearch =
           animal.nom.toLowerCase().includes(search) ||
-          animal.nomAlt.toLowerCase().includes(search) ||
           animal.description.toLowerCase().includes(search) ||
           animal.ordre.toLowerCase().includes(search) ||
           animal.habitat.toLowerCase().includes(search);
+
+      if (animal.nomAlt) {
+          matchesSearch = matchesSearch || animal.nomAlt.toLowerCase().includes(search);
+      }
 
       console.log(`animal : ${animal} | match : ${matchesSearch}`);
       return matchesSearch;
@@ -140,13 +143,17 @@ function applyFilters() {
     if (search !== "") {
       const matchesSearch =
           animal.nom.toLowerCase().includes(search) ||
-          animal.nomAlt.toLowerCase().includes(search) ||
           animal.nomScientifique.toLowerCase().includes(search) ||
           animal.description.toLowerCase().includes(search) ||
           animal.ordre.toLowerCase().includes(search) ||
           animal.habitat.toLowerCase().includes(search);
+      if (animal.nomAlt) {
+        
+      }
+      const matchesNomAlt =
+          animal.nomAlt.toLowerCase().includes(search);
 
-      console.log(`animal : ${animal} | match : ${matchesSearch} | match size : ${matchesSize}`);
+      console.log(`animal : ${animal} | match size : ${matchesSize}`);
       return matchesSearch;// || matchesSize;
     }
     else {
