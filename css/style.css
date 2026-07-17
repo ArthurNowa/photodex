@@ -270,8 +270,12 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .nav .logo {
+    .nav .logo .title {
         display: none;
+    }
+    
+    .nav-links .animal-category {
+        display:none;
     }
 
     .hero h1 {

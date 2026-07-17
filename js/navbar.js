@@ -14,10 +14,10 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <ul class="nav-links" id="navMenu">
                 <li><a href="${path_to_root}index.html">Accueil</a></li>
-                <li><a href="${path_to_root}birds.html">Oiseaux</a></li>
-                <li><a href="${path_to_root}mammals.html">Mammifères</a></li>
-                <li><a href="${path_to_root}insects.html">Insectes</a></li>
-                <li><a href="${path_to_root}reptiles.html">Reptiles</a></li>
+                <li class="animal-category"><a href="${path_to_root}birds.html">Oiseaux</a></li>
+                <li class="animal-category"><a href="${path_to_root}mammals.html">Mammifères</a></li>
+                <li class="animal-category"><a href="${path_to_root}insects.html">Insectes</a></li>
+                <li class="animal-category"><a href="${path_to_root}reptiles.html">Reptiles</a></li>
                 <li><a href="${path_to_root}about.html">A Propos</a></li>
             </ul>
         </div>
