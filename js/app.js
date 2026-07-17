@@ -106,7 +106,7 @@ function applyCategoryFilter() {
   animals = animalsFullData;
 }
 
-function applySearchFilter() {
+async function applySearchFilter() {
   const search = searchInput.value.toLowerCase();
   animals = animalsFullData.filter(animal => {
     if (search !== "") {
@@ -120,13 +120,15 @@ function applySearchFilter() {
           matchesSearch = matchesSearch || animal.nomAlt.toLowerCase().includes(search);
       }
 
-      console.log(`animal : ${animal} | match : ${matchesSearch}`);
+      console.log(`animal : ${animal.nom} | match : ${matchesSearch}`);
       return matchesSearch;
     }
     else {
       return true;
     }
   });
+
+  displayAnimals(animals);
 }
 
 
@@ -168,7 +170,7 @@ async function init() {
   await loadAnimals();
 
   applyCategoryFilter();
-  applySearchFilter();
+  await applySearchFilter();
   //generateFilters();
   // applyFilters();
   displayAnimals(animals);
