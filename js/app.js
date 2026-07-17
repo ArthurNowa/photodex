@@ -117,7 +117,7 @@ function applySearchFilter() {
           animal.ordre.toLowerCase().includes(search) ||
           animal.habitat.toLowerCase().includes(search);
 
-      console.log(`animal : ${animal} | match : ${matchesSearch} | match size : ${matchesSize}`);
+      console.log(`animal : ${animal} | match : ${matchesSearch}`);
       return matchesSearch;
     }
     else {
