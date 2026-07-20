@@ -41,6 +41,20 @@ async function loadAnimals() {
 }
 
 
+function sortAnimals(order = "alpha", reversed = false) {
+  animals.sort((animal1, animal2) => {
+    if (order === "alpha") {
+        return animal1.name > animal2.name;
+    }
+    if (order === "last seen") {
+      return animal1.photos[-1].fichier > animal2.photos[-1].fichier;
+    }
+  });
+  if (reversed) {
+    animals.reverse();
+  }
+}
+
 function displayAnimals(list) {
   var animalThumbnail = "images/placeholder.png";
   animalsContainer.innerHTML = "";
