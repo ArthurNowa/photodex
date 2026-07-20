@@ -41,7 +41,7 @@ async function loadAnimals() {
 }
 
 
-function sortAnimals(order = "alpha", reversed = false) {
+function sortAnimals(order = "last seen", reversed = false) {
   animals.sort((animal1, animal2) => {
     if (order === "alpha") {
         return animal1.name > animal2.name;
@@ -167,6 +167,9 @@ async function init() {
   await applySearchFilter();
   //generateFilters();
   // applyFilters();
+  
+  sortAnimals();
+  
   displayAnimals(animals);
 }
 
