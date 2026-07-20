@@ -1,5 +1,8 @@
 import json
 from pathlib import Path
+import os
+from datetime import datetime
+
 
 DATA_DIR = Path("../data")
 IMAGES_DIR = Path("../images")
@@ -78,24 +81,20 @@ def find_last_photo():
 def generate_json_list():
     index = []
 
-    for category_dir in sorted(DATA_DIR.iterdir()):
+    for category_dir in DATA_DIR.iterdir():
         if not category_dir.is_dir():
             continue
 
-        json_files = []
-
-        for file in sorted(category_dir.glob("*.json")):
+        for file in category_dir.glob("*.json"):
             if file.name == "index.json":
                 continue
-
-            json_files.append({
-                "name": file.name
-            })
-
-        if json_files:
+            
+            creation_date = datetime.fromtimestamp(os.path.getctime(file))
+            
             index.append({
                 "type": category_dir.name,
-                "data": json_files
+                "name": file.name,
+                "creation_date": str(creation_date)[:10]
             })
 
     with open(INDEX_FILE, "w", encoding="utf-8") as f:

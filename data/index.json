@@ -1,151 +1,217 @@
 [
   {
     "type": "birds",
-    "data": [
-      {
-        "name": "casoar.json"
-      },
-      {
-        "name": "grand-geocoucou.json"
-      },
-      {
-        "name": "loriquet.json"
-      },
-      {
-        "name": "mesange-charbonniere.json"
-      },
-      {
-        "name": "troglodyte-mignon.json"
-      }
-    ]
+    "name": "casoar.json",
+    "creation_date": "2026-07-01"
+  },
+  {
+    "type": "birds",
+    "name": "grand-geocoucou.json",
+    "creation_date": "2026-07-08"
+  },
+  {
+    "type": "birds",
+    "name": "loriquet.json",
+    "creation_date": "2026-07-01"
+  },
+  {
+    "type": "birds",
+    "name": "mesange-charbonniere.json",
+    "creation_date": "2026-06-19"
+  },
+  {
+    "type": "birds",
+    "name": "troglodyte-mignon.json",
+    "creation_date": "2026-07-08"
   },
   {
     "type": "insects",
-    "data": [
-      {
-        "name": "abeille-melifere.json"
-      },
-      {
-        "name": "amaryllis.json"
-      },
-      {
-        "name": "apion-du-trefle.json"
-      },
-      {
-        "name": "argus-bleu.json"
-      },
-      {
-        "name": "azure-des-nerpruns.json"
-      },
-      {
-        "name": "blatte-de-vinz.json"
-      },
-      {
-        "name": "cercope-des-pres.json"
-      },
-      {
-        "name": "chrysopilus-splendidus.json"
-      },
-      {
-        "name": "coccinelle-a-14-points.json"
-      },
-      {
-        "name": "coccinelle-a-16-points.json"
-      },
-      {
-        "name": "coccinelle-a-7-points.json"
-      },
-      {
-        "name": "coccinelle-a-damier.json"
-      },
-      {
-        "name": "coccinelle-asiatique.json"
-      },
-      {
-        "name": "epeire-diademe.json"
-      },
-      {
-        "name": "eristale-horticole.json"
-      },
-      {
-        "name": "guepe-germanique.json"
-      },
-      {
-        "name": "larinus-planus.json"
-      },
-      {
-        "name": "maure.json"
-      },
-      {
-        "name": "meconeme-fragile.json"
-      },
-      {
-        "name": "mouche-bleue.json"
-      },
-      {
-        "name": "moustique-commun.json"
-      },
-      {
-        "name": "naiade-aux-yeux-rouges.json"
-      },
-      {
-        "name": "nigma-verte.json"
-      },
-      {
-        "name": "phalene-du-fusain.json"
-      },
-      {
-        "name": "punaise-arlequin.json"
-      },
-      {
-        "name": "punaise-des-baies.json"
-      },
-      {
-        "name": "pyrale-du-houblon.json"
-      },
-      {
-        "name": "syrphe-ceinture.json"
-      },
-      {
-        "name": "syrphe-du-groseiller.json"
-      },
-      {
-        "name": "teigne-du-chou.json"
-      },
-      {
-        "name": "telephore-fauve.json"
-      },
-      {
-        "name": "tenthrede-de-la-rave.json"
-      }
-    ]
+    "name": "abeille-melifere.json",
+    "creation_date": "2026-06-19"
+  },
+  {
+    "type": "insects",
+    "name": "amaryllis.json",
+    "creation_date": "2026-07-13"
+  },
+  {
+    "type": "insects",
+    "name": "apion-du-trefle.json",
+    "creation_date": "2026-07-13"
+  },
+  {
+    "type": "insects",
+    "name": "argus-bleu.json",
+    "creation_date": "2026-07-13"
+  },
+  {
+    "type": "insects",
+    "name": "azure-des-nerpruns.json",
+    "creation_date": "2026-07-08"
+  },
+  {
+    "type": "insects",
+    "name": "blatte-de-vinz.json",
+    "creation_date": "2026-06-29"
+  },
+  {
+    "type": "insects",
+    "name": "cercope-des-pres.json",
+    "creation_date": "2026-07-08"
+  },
+  {
+    "type": "insects",
+    "name": "chrysopilus-splendidus.json",
+    "creation_date": "2026-06-29"
+  },
+  {
+    "type": "insects",
+    "name": "coccinelle-a-14-points.json",
+    "creation_date": "2026-06-19"
+  },
+  {
+    "type": "insects",
+    "name": "coccinelle-a-16-points.json",
+    "creation_date": "2026-07-08"
+  },
+  {
+    "type": "insects",
+    "name": "coccinelle-a-7-points.json",
+    "creation_date": "2026-06-29"
+  },
+  {
+    "type": "insects",
+    "name": "coccinelle-a-damier.json",
+    "creation_date": "2026-07-13"
+  },
+  {
+    "type": "insects",
+    "name": "coccinelle-asiatique.json",
+    "creation_date": "2026-06-29"
+  },
+  {
+    "type": "insects",
+    "name": "epeire-diademe.json",
+    "creation_date": "2026-06-29"
+  },
+  {
+    "type": "insects",
+    "name": "eristale-horticole.json",
+    "creation_date": "2026-07-13"
+  },
+  {
+    "type": "insects",
+    "name": "guepe-germanique.json",
+    "creation_date": "2026-07-08"
+  },
+  {
+    "type": "insects",
+    "name": "larinus-planus.json",
+    "creation_date": "2026-07-13"
+  },
+  {
+    "type": "insects",
+    "name": "maure.json",
+    "creation_date": "2026-06-29"
+  },
+  {
+    "type": "insects",
+    "name": "meconeme-fragile.json",
+    "creation_date": "2026-07-13"
+  },
+  {
+    "type": "insects",
+    "name": "mouche-bleue.json",
+    "creation_date": "2026-06-29"
+  },
+  {
+    "type": "insects",
+    "name": "moustique-commun.json",
+    "creation_date": "2026-07-13"
+  },
+  {
+    "type": "insects",
+    "name": "naiade-aux-yeux-rouges.json",
+    "creation_date": "2026-07-08"
+  },
+  {
+    "type": "insects",
+    "name": "nigma-verte.json",
+    "creation_date": "2026-07-13"
+  },
+  {
+    "type": "insects",
+    "name": "phalene-du-fusain.json",
+    "creation_date": "2026-06-29"
+  },
+  {
+    "type": "insects",
+    "name": "punaise-arlequin.json",
+    "creation_date": "2026-07-08"
+  },
+  {
+    "type": "insects",
+    "name": "punaise-des-baies.json",
+    "creation_date": "2026-07-13"
+  },
+  {
+    "type": "insects",
+    "name": "pyrale-du-houblon.json",
+    "creation_date": "2026-07-13"
+  },
+  {
+    "type": "insects",
+    "name": "syrphe-ceinture.json",
+    "creation_date": "2026-06-19"
+  },
+  {
+    "type": "insects",
+    "name": "syrphe-du-groseiller.json",
+    "creation_date": "2026-07-08"
+  },
+  {
+    "type": "insects",
+    "name": "teigne-du-chou.json",
+    "creation_date": "2026-07-13"
+  },
+  {
+    "type": "insects",
+    "name": "telephore-fauve.json",
+    "creation_date": "2026-07-08"
+  },
+  {
+    "type": "insects",
+    "name": "tenthrede-de-la-rave.json",
+    "creation_date": "2026-07-13"
   },
   {
     "type": "mammals",
-    "data": [
-      {
-        "name": "ecureuil-roux.json"
-      },
-      {
-        "name": "elan.json"
-      },
-      {
-        "name": "grand-tatou-velu.json"
-      },
-      {
-        "name": "ours-polaire.json"
-      },
-      {
-        "name": "vache-blonde-daquitaine.json"
-      }
-    ]
+    "name": "ecureuil-roux.json",
+    "creation_date": "2026-07-08"
+  },
+  {
+    "type": "mammals",
+    "name": "elan.json",
+    "creation_date": "2026-07-01"
+  },
+  {
+    "type": "mammals",
+    "name": "grand-tatou-velu.json",
+    "creation_date": "2026-06-22"
+  },
+  {
+    "type": "mammals",
+    "name": "ours-polaire.json",
+    "creation_date": "2026-07-01"
+  },
+  {
+    "type": "mammals",
+    "name": "vache-blonde-daquitaine.json",
+    "creation_date": "2026-07-08"
   },
   {
     "type": "reptiles",
-    "data": [
-      {
-        "name": "crapaud-commun.json"
-      }
-    ]
+    "name": "crapaud-commun.json",
+    "creation_date": "2026-07-13"
   }
 ]
