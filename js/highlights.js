@@ -35,10 +35,12 @@ async function selectRandomAnimal() {
     try {
         const indexData = await loadIndex(randomHighlightContainer);
         
-        const randomAnimal = indexData[Math.floor(Math.random() * indexData.length)];
-        console.log("catégorie aléatoire : " + randomAnimal.name);
+        const randomCategory = indexData[Math.floor(Math.random() * indexData.length)];
+        console.log("catégorie aléatoire : " + randomCategory.type);
         
-        const randomAnimalPath = `data/${randomAnimal.type}/${randomAnimal.name}`;
+        const randomAnimal = randomCategory.data[Math.floor(Math.random() * randomCategory.data.length)];
+        console.log("animal aléatoire : " + randomAnimal.name);
+        const randomAnimalPath = `data/${randomCategory.type}/${randomAnimal.name}`;
         console.log("path retourné par selectRandomAnimal : " + randomAnimalPath);
         return randomAnimalPath;
     } catch (error) {

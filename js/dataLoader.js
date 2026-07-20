@@ -27,9 +27,11 @@ export async function loadAllAnimals(container = null) {
 
     const animalPromises = [];
 
-    for (const animalData of indexData) {
-        const path = `data/${animalData.type}/${animalData.name}`;
-        animalPromises.push(loadJsonFile(path, container));
+    for (const category of indexData) {
+        for (const animalFile of category.data) {
+            const path = `data/${category.type}/${animalFile.name}`;
+            animalPromises.push(loadJsonFile(path, container));
+        }
     }
 
     return await Promise.all(animalPromises);
