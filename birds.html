@@ -24,7 +24,17 @@
     <!-- ######################### FILTRES ######################### -->
     
     <div id="filters">
-        <label for="search-input">Chercher un animal par mot-clé</label><input id="search-input" type="text" placeholder="...">
+        <label for="search-input">Chercher un animal par mot-clé</label>
+        <input id="search-input" type="text" placeholder="...">
+
+        <label for="order">Ordre d'affichage :</label>
+        <select name="order" id="order">
+            <option value="alpha">Ordre Alphabétique</option>
+            <option value="last seen">Par date d'Observation</option>
+        </select>
+
+        <label for="direction">Inverser</label>
+        <input type="checkbox" id="direction" name="direction"/>
         <!--div class="size-filter">
             <label>Taille : <span id="size-label">0 - 200 cm</span></label>
 

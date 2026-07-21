@@ -1,6 +1,9 @@
 const animalsContainer = document.querySelector("#animals-container");
 const searchInput = document.querySelector("#search-input");
-const orderFilter = document.querySelector("#order-filter");
+
+const orderSelect = document.querySelector("#order");
+const directionCell = document.querySelector("#direction");
+
 const habitatFilter = document.querySelector("#habitat-filter");
 const minSizeInput = document.querySelector("#min-size");
 const maxSizeInput = document.querySelector("#max-size");
@@ -41,7 +44,7 @@ async function loadAnimals() {
 }
 
 
-function sortAnimals(order = "last seen", reversed = false) {
+function sortAnimals(order = "last seen") {
   animals.sort((animal1, animal2) => {
     if (order === "alpha") {
         return animal1.name > animal2.name;
@@ -50,9 +53,10 @@ function sortAnimals(order = "last seen", reversed = false) {
       return animal1.photos[-1].fichier > animal2.photos[-1].fichier;
     }
   });
-  if (reversed) {
-    animals.reverse();
-  }
+}
+
+function reverseAnimals() {
+  animals.reverse();
 }
 
 function displayAnimals(list) {
@@ -174,6 +178,8 @@ async function init() {
 }
 
 searchInput.addEventListener("input", applySearchFilter);
+orderSelect.addEventListener("change", sortAnimals);
+directionCell.addEventListener("change", reverseAnimals);
 //orderFilter.addEventListener("change", applyFilters);
 //habitatFilter.addEventListener("change", applyFilters);
 //minSizeInput.addEventListener("input", applyFilters);
