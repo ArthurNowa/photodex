@@ -48,7 +48,7 @@ function sortAnimals() {
   const order = orderSelect.value;
   animals.sort((animal1, animal2) => {
     if (order === "alpha") {
-        return animal1.nom.localCompare(animal2.nom);
+        return animal1.nom.localeCompare(animal2.nom);
     }
     if (order === "lastseen") {
       console.log("ça passe dans last seen");
