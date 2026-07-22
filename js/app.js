@@ -52,8 +52,8 @@ function sortAnimals() {
     }
     if (order === "lastseen") {
       console.log("ça passe dans last seen");
-      const lastPhoto1 = animal1.photos[animal1.photos.length-1];
-      const lastPhoto2 = animal2.photos[animal2.photos.length-1];
+      const lastPhoto1 = animal1.photos[animal1.photos.length-1].fichier;
+      const lastPhoto2 = animal2.photos[animal2.photos.length-1].fichier;
       return lastPhoto2.localeCompare(lastPhoto1);
     }
   });
