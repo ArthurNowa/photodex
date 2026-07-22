@@ -44,12 +44,12 @@ async function loadAnimals() {
 }
 
 
-function sortAnimals(order = "last seen") {
+function sortAnimals(order = "lastseen") {
   animals.sort((animal1, animal2) => {
     if (order === "alpha") {
         return animal1.name > animal2.name;
     }
-    if (order === "last seen") {
+    if (order === "lastseen") {
       console.log("ça passe dans last seen");
       return animal1.photos.at(-1).fichier > animal2.photos.at(-1).fichier;
     }
