@@ -2,7 +2,7 @@ const animalsContainer = document.querySelector("#animals-container");
 const searchInput = document.querySelector("#search-input");
 
 const orderSelect = document.querySelector("#order");
-const directionCell = document.querySelector("#direction");
+const directionCheckbox = document.querySelector("#direction");
 
 const habitatFilter = document.querySelector("#habitat-filter");
 const minSizeInput = document.querySelector("#min-size");
@@ -44,7 +44,8 @@ async function loadAnimals() {
 }
 
 
-function sortAnimals(order = "lastseen") {
+function sortAnimals() {
+  const order = orderSelect.value;
   animals.sort((animal1, animal2) => {
     if (order === "alpha") {
         return animal1.name > animal2.name;
@@ -175,7 +176,7 @@ async function init() {
 
   applyCategoryFilter();
   await applySearchFilter();
-  //generateFilters();
+  // generateFilters();
   // applyFilters();
   
   sortAnimals();
@@ -185,7 +186,7 @@ async function init() {
 
 searchInput.addEventListener("input", applySearchFilter);
 orderSelect.addEventListener("change", sortAnimals);
-directionCell.addEventListener("change", reverseAnimals);
+directionCheckbox.addEventListener("change", reverseAnimals);
 //orderFilter.addEventListener("change", applyFilters);
 //habitatFilter.addEventListener("change", applyFilters);
 //minSizeInput.addEventListener("input", applyFilters);
