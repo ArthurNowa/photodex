@@ -51,15 +51,12 @@ function sortAnimals() {
         return animal1.nom.localeCompare(animal2.nom);
     }
     if (order === "lastseen") {
-      console.log("ça passe dans last seen");
       const lastPhoto1 = animal1.photos[animal1.photos.length-1].fichier;
       const lastPhoto2 = animal2.photos[animal2.photos.length-1].fichier;
-      return lastPhoto2.localeCompare(lastPhoto1);
+      return lastPhoto1.localeCompare(lastPhoto2);
     }
   });
-  console.log("c'est trié");
   displayAnimals(animals);
-  console.log("c'est affiché");
 }
 
 function reverseAnimals() {
