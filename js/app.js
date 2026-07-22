@@ -48,11 +48,13 @@ function sortAnimals() {
   const order = orderSelect.value;
   animals.sort((animal1, animal2) => {
     if (order === "alpha") {
-        return animal1.name > animal2.name;
+        return animal1.nom.localCompare(animal2.nom);
     }
     if (order === "lastseen") {
       console.log("ça passe dans last seen");
-      return animal1.photos.at(-1).fichier > animal2.photos.at(-1).fichier;
+      const lastPhoto1 = animal1.photos[animal1.photos.length-1];
+      const lastPhoto2 = animal2.photos[animal2.photos.length-1];
+      return lastPhoto2.localeCompare(lastPhoto1);
     }
   });
   console.log("c'est trié");
