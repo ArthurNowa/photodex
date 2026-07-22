@@ -126,8 +126,12 @@
 /* ----------------------- filtres ----------------------- */
 #filters {
     padding: 2em 3em;
-    display: grid;
+    display: block;
     gap: 1rem;
+}
+
+.filter {
+    display: grid;
 }
 
 #search-input {

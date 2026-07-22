@@ -50,11 +50,13 @@ function sortAnimals(order = "last seen") {
         return animal1.name > animal2.name;
     }
     if (order === "last seen") {
+      console.log("ça passe dans last seen");
       return animal1.photos.at(-1).fichier > animal2.photos.at(-1).fichier;
     }
   });
-  
+  console.log("c'est trié");
   displayAnimals(animals);
+  console.log("c'est affiché");
 }
 
 function reverseAnimals() {
