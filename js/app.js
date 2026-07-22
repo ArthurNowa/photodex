@@ -50,7 +50,7 @@ function sortAnimals(order = "last seen") {
         return animal1.name > animal2.name;
     }
     if (order === "last seen") {
-      return animal1.photos[-1].fichier > animal2.photos[-1].fichier;
+      return animal1.photos.at(-1).fichier > animal2.photos.at(-1).fichier;
     }
   });
 }
