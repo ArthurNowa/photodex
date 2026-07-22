@@ -53,10 +53,14 @@ function sortAnimals(order = "last seen") {
       return animal1.photos.at(-1).fichier > animal2.photos.at(-1).fichier;
     }
   });
+  
+  displayAnimals(animals);
 }
 
 function reverseAnimals() {
   animals.reverse();
+
+  displayAnimals(animals);
 }
 
 function displayAnimals(list) {
