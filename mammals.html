@@ -24,17 +24,29 @@
 <!-- ######################### FILTRES ######################### -->
 
 <div id="filters">
-    <label for="search-input">Chercher un animal par mot-clé</label><input id="search-input" type="text" placeholder="...">
-    <!--div class="size-filter">
-        <label>Taille : <span id="size-label">0 - 200 cm</span></label>
-
-        <div class="range-wrapper">
-            <label for="min-size">Taille Minimale</label><input id="min-size" type="range" min="0" max="200" value="0">
-            <label for="max-size">Taille Maximale</label><input id="max-size" type="range" min="0" max="200" value="200">
-        </div>
+    <div class="filter">
+        <label for="search-input">Chercher un animal par mot-clé</label>
+        <input id="search-input" type="text" placeholder="...">
     </div>
-    <label for="order-filter">Ordre</label><select id="order-filter"></select>
-    <label for="habitat-filter">Habitat</label><select id="habitat-filter"></select -->
+
+    <div class="filter">
+        <label for="order">Ordre d'affichage :</label>
+        <select name="order" id="order">
+            <option value="alpha">Ordre Alphabétique</option>
+            <option value="lastseen">Par date d'Observation</option>
+        </select>
+    </div>
+
+    <div class="filter">
+        <label for="direction">Inverser</label>
+        <input type="checkbox" id="direction" name="direction"/>
+    </div>
+
+    <div class="filter size-slider">
+        <label for="size-filter">Gabarit : <strong id="size-label">Mésange</strong></label>
+        <input id="size-filter" type="range" min="0" max="7" value="0" step="1">
+        <div id="size-references" class="size-references"></div>
+    </div>
 </div>
 
 

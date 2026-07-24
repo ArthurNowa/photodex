@@ -17,46 +17,24 @@ let animalsFullData = [];
 export let animals = [];
 
 const birdSizeLevels = [
-  {
-    label: "Mésange",
-    size: 14,
-    image: "images/silhouettes/mesange.png"
-  },
-  {
-    label: "Moineau",
-    size: 16,
-    image: "images/silhouettes/moineau.png"
-  },
-  {
-    label: "Merle",
-    size: 25,
-    image: "images/silhouettes/merle.png"
-  },
-  {
-    label: "Pigeon",
-    size: 35,
-    image: "images/silhouettes/pigeon.png"
-  },
-  {
-    label: "Poule",
-    size: 60,
-    image: "images/silhouettes/poule.png"
-  },
-  {
-    label: "Héron",
-    size: 90,
-    image: "images/silhouettes/heron.png"
-  },
-  {
-    label: "Cigogne",
-    size: 105,
-    image: "images/silhouettes/cigogne.png"
-  },
-  {
-    label: "Emeu",
-    size: 170,
-    image: "images/silhouettes/emeu.png"
-  }
+  { label: "Mésange", size: 14, image: "images/silhouettes/mesange.png" },
+  { label: "Moineau", size: 16, image: "images/silhouettes/moineau.png" },
+  { label: "Merle", size: 25, image: "images/silhouettes/merle.png" },
+  { label: "Pigeon", size: 35, image: "images/silhouettes/pigeon.png" },
+  { label: "Poule", size: 60, image: "images/silhouettes/poule.png" },
+  { label: "Héron", size: 90, image: "images/silhouettes/heron.png" },
+  { label: "Cigogne", size: 105, image: "images/silhouettes/cigogne.png" },
+  { label: "Emeu", size: 170, image: "images/silhouettes/emeu.png" }
+];
+const mammalSizeLevels = [
+  { label: "mulot", size: 14, image: "images/silhouettes/mesange.png" },
+  { label: "rat", size: 16, image: "images/silhouettes/moineau.png" },
+  { label: "chat", size: 25, image: "images/silhouettes/merle.png" },
+  { label: "renard", size: 35, image: "images/silhouettes/pigeon.png" },
+  { label: "chèvre", size: 60, image: "images/silhouettes/poule.png" },
+  { label: "Cerf", size: 90, image: "images/silhouettes/heron.png" },
+  { label: "Cheval", size: 105, image: "images/silhouettes/cigogne.png" },
+  { label: "Eléphant", size: 170, image: "images/silhouettes/emeu.png" }
 ];
 
 const sizeInput = document.querySelector("#size-filter");
