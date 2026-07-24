@@ -33,14 +33,9 @@ const birdSizeLevels = [
     image: "images/silhouettes/merle.png"
   },
   {
-    label: "Pie",
+    label: "Pigeon",
     size: 35,
-    image: "images/silhouettes/pie.png"
-  },
-  {
-    label: "Pigeon ramier",
-    size: 45,
-    image: "images/silhouettes/pigeon-ramier.png"
+    image: "images/silhouettes/pigeon.png"
   },
   {
     label: "Poule",
