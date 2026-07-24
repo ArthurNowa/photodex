@@ -5,9 +5,7 @@ const orderSelect = document.querySelector("#order");
 const directionCheckbox = document.querySelector("#direction");
 
 const habitatFilter = document.querySelector("#habitat-filter");
-const minSizeInput = document.querySelector("#min-size");
-const maxSizeInput = document.querySelector("#max-size");
-const sizeLabel = document.querySelector("#size-label");
+
 const pageFilter = window.location.pathname
     .split('/')
     .pop()
@@ -17,6 +15,58 @@ import {loadIndex, loadJsonFile} from "./dataLoader.js";
 
 let animalsFullData = [];
 export let animals = [];
+
+const birdSizeLevels = [
+  {
+    label: "Mésange",
+    size: 14,
+    image: "images/silhouettes/mesange.png"
+  },
+  {
+    label: "Moineau",
+    size: 16,
+    image: "images/silhouettes/moineau.png"
+  },
+  {
+    label: "Merle",
+    size: 25,
+    image: "images/silhouettes/merle.png"
+  },
+  {
+    label: "Pie",
+    size: 35,
+    image: "images/silhouettes/pie.png"
+  },
+  {
+    label: "Pigeon ramier",
+    size: 45,
+    image: "images/silhouettes/pigeon-ramier.png"
+  },
+  {
+    label: "Poule",
+    size: 60,
+    image: "images/silhouettes/poule.png"
+  },
+  {
+    label: "Héron",
+    size: 90,
+    image: "images/silhouettes/heron.png"
+  },
+  {
+    label: "Cigogne",
+    size: 105,
+    image: "images/silhouettes/cigogne.png"
+  },
+  {
+    label: "Emeu",
+    size: 170,
+    image: "images/silhouettes/emeu.png"
+  }
+];
+
+const sizeInput = document.querySelector("#size-filter");
+const sizeLabel = document.querySelector("#size-label");
+const sizeReferencesContainer = document.querySelector("#size-references");
 
 async function loadAnimals() {
   try {
@@ -168,15 +218,77 @@ function applyFilters() {
   });
 }
 
+// ##############################################################################
 
+function createSizeReferences() {
+  sizeReferencesContainer.innerHTML = birdSizeLevels
+      .map((level, index) => `
+      <button
+        type="button"
+        class="size-reference"
+        data-index="${index}"
+        aria-label="${level.label}"
+      >
+        <span class="size-tick"></span>
+
+        <img
+          src="${level.image}"
+          alt=""
+        >
+
+        <span class="size-reference-name">
+          ${level.label.replace("Taille d’", "").replace("Taille d’une ", "")}
+        </span>
+      </button>
+    `)
+      .join("");
+
+  sizeReferencesContainer
+      .querySelectorAll(".size-reference")
+      .forEach(reference => {
+        reference.addEventListener("click", () => {
+          sizeInput.value = reference.dataset.index;
+          updateSizeFilter();
+        });
+      });
+}
+
+function updateSizeFilter() {
+  const selectedIndex = Number(sizeInput.value);
+  const selectedLevel = birdSizeLevels[selectedIndex];
+
+  sizeLabel.textContent = selectedLevel.label;
+
+  document
+      .querySelectorAll(".size-reference")
+      .forEach((reference, index) => {
+        reference.classList.toggle(
+            "active",
+            index === selectedIndex
+        );
+      });
+
+  applyFilters();
+}
+
+sizeInput.addEventListener("input", updateSizeFilter);
+
+
+
+// ###############################################################
+// ###############################################################
 
 async function init() {
   await loadAnimals();
-
+  
+  createSizeReferences();
+  updateSizeFilter();
+  
   applyCategoryFilter();
   await applySearchFilter();
   // generateFilters();
   // applyFilters();
+
   
   sortAnimals();
   

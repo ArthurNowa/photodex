@@ -1,0 +1,107 @@
+﻿
+.size-slider {
+    width: min(900px, 95%);
+    margin: 2rem auto;
+}
+
+.size-slider label {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#size-label {
+    color: var(--golden);
+}
+
+/* Ligne principale du curseur */
+#size-filter {
+    width: 100%;
+    height: 8px;
+    margin: 0;
+    appearance: none;
+    background: var(--dark-gray);
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+/* Curseur Chrome, Edge et Safari */
+#size-filter::-webkit-slider-thumb {
+    width: 24px;
+    height: 24px;
+    appearance: none;
+    border: 3px solid white;
+    border-radius: 50%;
+    background: var(--accent-orange);
+    cursor: grab;
+}
+
+/* Curseur Firefox */
+#size-filter::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background: var(--accent-orange);
+    cursor: grab;
+}
+
+.size-references {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: start;
+    width: 100%;
+}
+
+.size-reference {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    opacity: 0.55;
+    transition:
+            opacity 0.2s ease,
+            transform 0.2s ease;
+}
+
+.size-reference:hover,
+.size-reference.active {
+    opacity: 1;
+}
+
+.size-reference.active {
+    transform: scale(1.12);
+}
+
+.size-tick {
+    width: 10px;
+    height: 10px;
+    margin-top: -9px;
+    margin-bottom: 0.5rem;
+    background: white;
+    border: 2px solid var(--dark-gray);
+    border-radius: 50%;
+}
+
+.size-reference.active .size-tick {
+    background: var(--accent-orange);
+}
+
+.size-reference img {
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+}
+
+.size-reference-name {
+    margin-top: 0.4rem;
+    font-size: 0.7rem;
+    text-align: center;
+}
