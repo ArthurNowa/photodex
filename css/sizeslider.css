@@ -47,18 +47,26 @@
 }
 
 .size-references {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    align-items: start;
+    --thumb-size: 28px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    /* Le centre du curseur ne peut pas atteindre les bords exacts du input : il s'arrête à environ la moitié de sa largeur. */
+    padding-inline: calc(var(--thumb-size) / 2);
     width: 100%;
 }
 
 .size-reference {
+    /* Largeur nulle : c'est le centre de chaque référence qui est réparti par space-between, pas le bord de sa boîte. */
+    flex: 0 0 0;
+    
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 0;
+    
     padding: 0;
     background: none;
     border: none;
