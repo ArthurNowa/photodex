@@ -9,6 +9,7 @@
   "categorie": "mammals",
   "type": "Mammifère",
   "taille": "40 à 50 cm, sans compter la queue",
+  "tailleMoyenne": 20,
   "regime": "Insectes, larves, autres invertébrés, petits vertébrés, végétaux et charognes",
   "regimeEmoji": ["🐛", "🪱", "🐁", "🌱", "🦴"],
   "habitat": "Prairies, pampas, savanes, forêts ouvertes, terres agricoles et zones semi-arides",

@@ -9,6 +9,7 @@
   "categorie": "mammals",
   "type": "Mammifère",
   "taille": "Environ 145 à 160 cm au garrot",
+  "tailleMoyenne": 150,
   "regime": "Herbes, foin, fourrages, céréales et autres végétaux",
   "regimeEmoji": ["🌱", "🥬", "🫘"],
   "habitat": "Prairies, pâturages, fermes et élevages bovins",

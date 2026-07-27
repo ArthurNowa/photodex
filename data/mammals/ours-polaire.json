@@ -9,6 +9,7 @@
   "categorie": "mammals",
   "type": "Mammifère",
   "taille": "1,8 à 3 m de long",
+  "tailleMoyenne": 145,
   "regime": "Principalement phoques, surtout phoques annelés et phoques barbus ; peut aussi consommer des carcasses, oiseaux, œufs et végétaux.",
   "regimeEmoji": ["🍖", "🐟", "🐦", "🥚", "🌱", "🦴"],
   "habitat": "Banquise, côtes arctiques, îles et zones marines froides",

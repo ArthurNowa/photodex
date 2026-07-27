@@ -126,7 +126,7 @@
 /* ----------------------- filtres ----------------------- */
 #filters {
     padding: 2em 3em;
-    display: block;
+    display: block flex;
     gap: 1rem;
 }
 

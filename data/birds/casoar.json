@@ -9,6 +9,7 @@
   "categorie": "birds",
   "type": "Oiseau",
   "taille": "1,5 à 1,8 m de haut",
+  "tailleMoyenne": 165,
   "envergure": "Environ 1,5 m",
   "regime": "Principalement fruits tombés au sol ; complète son alimentation avec champignons, insectes, petits vertébrés et charognes.",
   "regimeEmoji": ["🍎", "🍄", "🐛", "🐁", "🦴"],

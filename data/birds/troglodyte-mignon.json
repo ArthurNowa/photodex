@@ -9,6 +9,7 @@
   "categorie": "birds",
   "type": "Oiseau",
   "taille": "9 à 10 cm",
+  "tailleMoyenne": 10,
   "envergure": "12 à 16 cm",
   "regime": "Insectes, araignées, petits invertébrés et larves",
   "regimeEmoji": ["🦟", "🐛", "🕷️"],

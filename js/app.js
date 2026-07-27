@@ -17,6 +17,31 @@ let animalsFullData = [];
 export let animals = [];
 
 const birdSizeLevels = [
+  { label: "Mésange", size: 10, image: "images/silhouettes/mesange.png" },
+  { label: "Moineau", size: 14, image: "images/silhouettes/moineau.png" },
+  { label: "Merle", size: 18, image: "images/silhouettes/merle.png" },
+  { label: "Pigeon", size: 30, image: "images/silhouettes/pigeon.png" },
+  { label: "Poule", size: 45, image: "images/silhouettes/poule.png" },
+  { label: "Oie", size: 70, image: "images/silhouettes/oie.png" },
+  { label: "Cigogne", size: 105, image: "images/silhouettes/cigogne.png" },
+  { label: "Émeu", size: 160, image: "images/silhouettes/emeu.png" }
+];
+const mammalSizeLevels = [
+  { label: "Souris", size: 8, image: "images/silhouettes/souris.png" },
+  { label: "Hérisson", size: 14, image: "images/silhouettes/herisson.png" },
+  { label: "Chat", size: 24, image: "images/silhouettes/chat.png" },
+  { label: "Renard", size: 40, image: "images/silhouettes/renard.png" },
+  { label: "Saint-Bernard", size: 75, image: "images/silhouettes/stbernard.png" },
+  { label: "Cerf", size: 125, image: "images/silhouettes/cerf.png" },
+  { label: "Cheval", size: 160, image: "images/silhouettes/cheval.png" },
+  { label: "Éléphant", size: 300, image: "images/silhouettes/elephant.png" }
+];
+
+const insectSizeLevels = [
+  { label: "Acarien", size: 2, image: "images/silhouettes/acarien.png" },
+];
+
+const reptileSizeLevels = [
   { label: "Mésange", size: 14, image: "images/silhouettes/mesange.png" },
   { label: "Moineau", size: 16, image: "images/silhouettes/moineau.png" },
   { label: "Merle", size: 25, image: "images/silhouettes/merle.png" },
@@ -25,16 +50,6 @@ const birdSizeLevels = [
   { label: "Héron", size: 90, image: "images/silhouettes/heron.png" },
   { label: "Cigogne", size: 105, image: "images/silhouettes/cigogne.png" },
   { label: "Emeu", size: 170, image: "images/silhouettes/emeu.png" }
-];
-const mammalSizeLevels = [
-  { label: "mulot", size: 14, image: "images/silhouettes/mesange.png" },
-  { label: "rat", size: 16, image: "images/silhouettes/moineau.png" },
-  { label: "chat", size: 25, image: "images/silhouettes/merle.png" },
-  { label: "renard", size: 35, image: "images/silhouettes/pigeon.png" },
-  { label: "chèvre", size: 60, image: "images/silhouettes/poule.png" },
-  { label: "Cerf", size: 90, image: "images/silhouettes/heron.png" },
-  { label: "Cheval", size: 105, image: "images/silhouettes/cigogne.png" },
-  { label: "Eléphant", size: 170, image: "images/silhouettes/emeu.png" }
 ];
 
 const sizeInput = document.querySelector("#size-filter");
@@ -194,21 +209,24 @@ function applyFilters() {
 // ##############################################################################
 
 function createSizeReferences() {
-  sizeReferencesContainer.innerHTML = birdSizeLevels
-      .map((level, index) => `
-      <button
-        type="button"
-        class="size-reference"
-        data-index="${index}"
-        aria-label="${level.label}"
-      >
-        <span class="size-tick"></span>
-
-        <img
-          src="${level.image}"
-          alt=""
-        >
-
+  let animalScale = birdSizeLevels;
+  switch (pageFilter) {
+    case "birds":
+      animalScale = birdSizeLevels;
+      break;
+    case "mammals":
+      animalScale = mammalSizeLevels;
+      break;
+    case "insects":
+      animalScale = insectSizeLevels;
+      break;
+    case "reptiles":
+      animalScale = reptileSizeLevels;
+      break;
+  }
+  sizeReferencesContainer.innerHTML = animalScale.map((level, index) => `
+      <button type="button" class="size-reference" data-index="${index}" aria-label="${level.label}">
+        <img src="${level.image}" alt="">
         <span class="size-reference-name">
           ${level.label.replace("Taille d’", "").replace("Taille d’une ", "")}
         </span>
@@ -221,12 +239,12 @@ function createSizeReferences() {
       .forEach(reference => {
         reference.addEventListener("click", () => {
           sizeInput.value = reference.dataset.index;
-          updateSizeFilter();
+          updateSizeSlider();
         });
       });
 }
 
-function updateSizeFilter() {
+function updateSizeSlider() {
   const selectedIndex = Number(sizeInput.value);
   const selectedLevel = birdSizeLevels[selectedIndex];
 
@@ -244,6 +262,16 @@ function updateSizeFilter() {
   applyFilters();
 }
 
+function applySizeFilter() {
+  const sizeCheckbox = document.querySelector("#enable-size-filter");
+  if (sizeCheckbox) {
+    const marge = 0.35 * sizeInput.value;
+    animals = animals.filter(animal => {
+      return animal.tailleMoyenne >= sizeInput.value - marge && animal.tailleMoyenne <= sizeInput.value + marge;
+    });
+  }
+}
+
 sizeInput.addEventListener("input", updateSizeFilter);
 
 
@@ -254,11 +282,12 @@ sizeInput.addEventListener("input", updateSizeFilter);
 async function init() {
   await loadAnimals();
   
-  createSizeReferences();
-  updateSizeFilter();
-  
   applyCategoryFilter();
   await applySearchFilter();
+  
+  createSizeReferences();
+  updateSizeSlider();
+  applySizeFilter();
   // generateFilters();
   // applyFilters();
 
