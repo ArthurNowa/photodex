@@ -188,7 +188,7 @@ async function applySearchFilter() {
       return false;
     });
   } else {
-    animals = animalsFullData;
+    animals = filteredAnimals;
   }
   displayAnimals(animals);
 }
