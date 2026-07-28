@@ -14,8 +14,8 @@ const pageFilter = window.location.pathname
 import {loadIndex, loadJsonFile} from "./dataLoader.js";
 
 let animalsFullData = [];
-let filteredAnimals = [];
-export let animals = [];
+let filteredAnimals = animalsFullData;
+export let animals = animalsFullData;
 
 const birdSizeLevels = [
   { label: "Mésange", size: 10, image: "images/silhouettes/mesange.png" },
