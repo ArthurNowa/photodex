@@ -271,6 +271,7 @@ function applySizeFilter() {
           animal.tailleMoyenne <= sizeInput.value + marge;
     });
   }
+  displayAnimals(animals);
 }
 
 sizeCheckbox.addEventListener("change", enableSizeSlider);
