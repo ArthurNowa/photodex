@@ -106,6 +106,8 @@ function reverseAnimals() {
 }
 
 function displayAnimals(list) {
+  console.log("passage dans display");
+  console.log("taille de la liste :", list.length);
   var animalThumbnail = "images/placeholder.png";
   animalsContainer.innerHTML = "";
 
