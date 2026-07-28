@@ -236,7 +236,7 @@ function createSizeReferences() {
 function enableSizeSlider() {
   const slider = document.querySelector("#size-slider");
   if (sizeCheckbox.checked) {
-    slider.style.display = "block";
+    slider.style.display = "inline";
   } else {
     slider.style.display = "none";
   }
@@ -264,6 +264,7 @@ function applySizeFilter() {
   console.log(sizeCheckbox.checked);
   if (sizeCheckbox.checked) {
     const marge = 0.35 * sizeInput.value;
+    console.log(sizeInput.value, marge);
     animals = animals.filter(animal => {
       console.log(sizeInput.value - marge, animal.tailleMoyenne, sizeInput.value + marge);
       return animal.tailleMoyenne >= sizeInput.value - marge &&
