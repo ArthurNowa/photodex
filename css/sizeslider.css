@@ -3,6 +3,7 @@
     display: inline;
     width: min(900px, 95%);
     margin: 2rem auto;
+    align-items: center;
 }
 
 #size-slider label {
