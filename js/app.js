@@ -54,6 +54,7 @@ const reptileSizeLevels = [
 
 const sizeInput = document.querySelector("#size-filter");
 const sizeLabel = document.querySelector("#size-label");
+const sizeCheckbox = document.querySelector("#enable-size-filter");
 const sizeReferencesContainer = document.querySelector("#size-references");
 
 async function loadAnimals() {
@@ -193,18 +194,6 @@ async function applySearchFilter() {
 }
 
 
-function applyFilters() {
-  const search = searchInput.value.toLowerCase();
-  // filtre "Taille"
-  // let minSize = Number(minSizeInput.value);
-  // let maxSize = Number(maxSizeInput.value);
-  // sizeLabel.textContent = `${minSize} - ${maxSize} cm`;
-
-  animals = animals.filter(animal => {
-    // const matchesSize = animal.tailleMoyenne >= minSize &&
-    //    animal.tailleMoyenne <= maxSize
-  });
-}
 
 // ##############################################################################
 
@@ -244,6 +233,15 @@ function createSizeReferences() {
       });
 }
 
+function enableSizeSlider() {
+  const slider = document.querySelector("#size-slider");
+  if (sizeCheckbox.checked) {
+    slider.style.display = "block";
+  } else {
+    slider.style.display = "none";
+  }
+}
+
 function updateSizeSlider() {
   const selectedIndex = Number(sizeInput.value);
   const selectedLevel = birdSizeLevels[selectedIndex];
@@ -263,15 +261,18 @@ function updateSizeSlider() {
 }
 
 function applySizeFilter() {
-  const sizeCheckbox = document.querySelector("#enable-size-filter");
-  if (sizeCheckbox) {
+  console.log(sizeCheckbox.checked);
+  if (sizeCheckbox.checked) {
     const marge = 0.35 * sizeInput.value;
     animals = animals.filter(animal => {
-      return animal.tailleMoyenne >= sizeInput.value - marge && animal.tailleMoyenne <= sizeInput.value + marge;
+      console.log(sizeInput.value - marge, animal.tailleMoyenne, sizeInput.value + marge);
+      return animal.tailleMoyenne >= sizeInput.value - marge &&
+          animal.tailleMoyenne <= sizeInput.value + marge;
     });
   }
 }
 
+sizeCheckbox.addEventListener("change", enableSizeSlider);
 sizeInput.addEventListener("input", updateSizeSlider);
 
 
@@ -286,8 +287,8 @@ async function init() {
   await applySearchFilter();
   
   createSizeReferences();
+  enableSizeSlider();
   updateSizeSlider();
-  // applySizeFilter();
   // generateFilters();
   // applyFilters();
 
