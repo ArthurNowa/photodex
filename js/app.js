@@ -259,7 +259,7 @@ function updateSizeSlider() {
         );
       });
 
-  applyFilters();
+  applySizeFilter();
 }
 
 function applySizeFilter() {
@@ -287,7 +287,7 @@ async function init() {
   
   createSizeReferences();
   updateSizeSlider();
-  applySizeFilter();
+  // applySizeFilter();
   // generateFilters();
   // applyFilters();
 
