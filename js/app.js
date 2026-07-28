@@ -53,6 +53,8 @@ const reptileSizeLevels = [
   { label: "Emeu", size: 170, image: "images/silhouettes/emeu.png" }
 ];
 
+let animalScale = birdSizeLevels;
+
 const sizeInput = document.querySelector("#size-filter");
 const sizeLabel = document.querySelector("#size-label");
 const sizeCheckbox = document.querySelector("#enable-size-filter");
@@ -200,7 +202,6 @@ async function applySearchFilter() {
 // ##############################################################################
 
 function createSizeReferences() {
-  let animalScale = birdSizeLevels;
   switch (pageFilter) {
     case "birds":
       animalScale = birdSizeLevels;
@@ -264,20 +265,21 @@ function updateSizeSlider() {
   applySizeFilter();
 }
 
-function applySizeFilter() {
+async function applySizeFilter() {
   console.log(sizeCheckbox.checked);
   if (sizeCheckbox.checked) {
-    const marge = 0.35 * sizeInput.value;
-    console.log(sizeInput.value, marge);
+    const sizeRef = animalScale[sizeCheckbox.value];
+    const marge = 0.35 * sizeRef;
+    console.log(sizeRef, marge);
     filteredAnimals = animalsFullData.filter(animal => {
-      const isInRange = animal.tailleMoyenne >= sizeInput.value - marge &&
-          animal.tailleMoyenne <= sizeInput.value + marge;
-      console.log(sizeInput.value - marge, animal.tailleMoyenne, sizeInput.value + marge, isInRange);
+      const isInRange = animal.tailleMoyenne >= sizeRef - marge &&
+          animal.tailleMoyenne <= sizeRef + marge;
+      console.log(sizeRef - marge, animal.tailleMoyenne, sizeRef + marge, isInRange);
       return isInRange;
     });
     console.log(filteredAnimals.length);
   }
-  displayAnimals(animals);
+  await applySearchFilter();
 }
 
 sizeCheckbox.addEventListener("change", enableSizeSlider);
