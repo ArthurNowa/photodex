@@ -23,11 +23,7 @@ def extract_animal_id(file_name):
     if animal_words[-1].isdigit():
         animal_words = animal_words[:-1]
     return "-".join(animal_words)
-    
 
-def extract_animal_name(animal_id, category):
-    path = Path(DATA_DIR / category / animal_id)
-    
 
 
 def find_last_photo():
@@ -48,10 +44,15 @@ def find_last_photo():
         if len(file_name) < 9 or not file_name[:8].isdigit():
             continue
 
+        animal_id = extract_animal_id(file_name)
+        ############# Checker si json existe
+        ################# Si existe, vérifier si photo listée dans json
+        ################# Si existe pas, sauvegarder nom de l'animal et l'afficher à la fin
+
+
         if latest_photo is None or file_name > latest_photo["fileName"]:
             animal_id = extract_animal_id(file_name)
             category = photo.parent.name
-            #animal_name = extract_animal_name(animal_id, category)
             animal_name = animal_id
             
             
@@ -103,6 +104,14 @@ def generate_json_list():
 
     print(f"Index généré : {INDEX_FILE}")
 
+
+
+def check_data (animal_id):
+    return None
+
+
+def check_latest (animal_id):
+    return None
 
 
 
