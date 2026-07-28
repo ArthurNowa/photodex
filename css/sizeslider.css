@@ -1,11 +1,11 @@
 ﻿
-.size-slider {
+#size-slider {
     display: inline;
     width: min(900px, 95%);
     margin: 2rem auto;
 }
 
-.size-slider label {
+#size-slider label {
     display: inline;
     margin-bottom: 1rem;
     text-align: center;
