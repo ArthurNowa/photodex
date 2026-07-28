@@ -272,7 +272,7 @@ function applySizeFilter() {
   }
 }
 
-sizeInput.addEventListener("input", updateSizeFilter);
+sizeInput.addEventListener("input", updateSizeSlider);
 
 
 
