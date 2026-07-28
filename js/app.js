@@ -14,6 +14,7 @@ const pageFilter = window.location.pathname
 import {loadIndex, loadJsonFile} from "./dataLoader.js";
 
 let animalsFullData = [];
+let filteredAnimals = [];
 export let animals = [];
 
 const birdSizeLevels = [
@@ -149,7 +150,6 @@ function generateFilters() {
     orderFilter.appendChild(option);
   });
 
-
   // filtre "Habitat"
   const habitats = ["prairie", "forêt", "villes", "jardins"];
 
@@ -172,7 +172,7 @@ function applyCategoryFilter() {
 async function applySearchFilter() {
   const search = searchInput.value.toLowerCase();
   if (search !== "") {
-    animals = animalsFullData.filter(animal => {
+    animals = filteredAnimals.filter(animal => {
       const searchWords = search.split(' ');
       const nomAlt = animal.nomAlt ?? "";
       const keywords = animal.keywords ?? "";
@@ -239,7 +239,10 @@ function enableSizeSlider() {
     slider.style.display = "inline";
   } else {
     slider.style.display = "none";
+    filteredAnimals = animalsFullData;
   }
+  
+  updateSizeSlider();
 }
 
 function updateSizeSlider() {
@@ -265,7 +268,7 @@ function applySizeFilter() {
   if (sizeCheckbox.checked) {
     const marge = 0.35 * sizeInput.value;
     console.log(sizeInput.value, marge);
-    animals = animals.filter(animal => {
+    filteredAnimals = animalsFullData.filter(animal => {
       console.log(sizeInput.value - marge, animal.tailleMoyenne, sizeInput.value + marge);
       return animal.tailleMoyenne >= sizeInput.value - marge &&
           animal.tailleMoyenne <= sizeInput.value + marge;
