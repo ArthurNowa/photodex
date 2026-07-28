@@ -243,7 +243,6 @@ function enableSizeSlider() {
     slider.style.display = "none";
     filteredAnimals = animalsFullData;
   }
-  
   updateSizeSlider();
 }
 
@@ -271,10 +270,12 @@ function applySizeFilter() {
     const marge = 0.35 * sizeInput.value;
     console.log(sizeInput.value, marge);
     filteredAnimals = animalsFullData.filter(animal => {
-      console.log(sizeInput.value - marge, animal.tailleMoyenne, sizeInput.value + marge);
-      return animal.tailleMoyenne >= sizeInput.value - marge &&
+      const isInRange = animal.tailleMoyenne >= sizeInput.value - marge &&
           animal.tailleMoyenne <= sizeInput.value + marge;
+      console.log(sizeInput.value - marge, animal.tailleMoyenne, sizeInput.value + marge, isInRange);
+      return isInRange;
     });
+    console.log(filteredAnimals.length);
   }
   displayAnimals(animals);
 }
