@@ -16,7 +16,7 @@
 
 /* Ligne principale du curseur */
 #size-filter {
-    width: 100%;
+    width: 75%;
     height: 8px;
     margin: 0;
     appearance: none;
@@ -55,7 +55,7 @@
     
     /* Le centre du curseur ne peut pas atteindre les bords exacts du input : il s'arrête à environ la moitié de sa largeur. */
     padding-inline: calc(var(--thumb-size) / 2);
-    width: 100%;
+    width: 80%;
 }
 
 .size-reference {
