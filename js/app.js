@@ -32,8 +32,8 @@ const mammalSizeLevels = [
   { label: "Hérisson", size: 14, image: "images/silhouettes/herisson.png" },
   { label: "Chat", size: 24, image: "images/silhouettes/chat.png" },
   { label: "Renard", size: 40, image: "images/silhouettes/renard.png" },
-  { label: "Saint-Bernard", size: 75, image: "images/silhouettes/stbernard.png" },
-  { label: "Cerf", size: 125, image: "images/silhouettes/cerf.png" },
+  { label: "Labrador", size: 58, image: "images/silhouettes/labrador.png" },
+  { label: "Biche", size: 100, image: "images/silhouettes/biche.png" },
   { label: "Cheval", size: 160, image: "images/silhouettes/cheval.png" },
   { label: "Éléphant", size: 300, image: "images/silhouettes/elephant.png" }
 ];
