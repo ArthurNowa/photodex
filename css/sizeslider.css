@@ -1,6 +1,6 @@
 ﻿
 #size-slider {
-    width: min(900px, 95%);
+    width: 80%;
     margin: 2rem auto;
     
     display: flex;
@@ -23,7 +23,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 75%;
     height: 8px;
     appearance: none;
     background: var(--dark-gray);
@@ -61,7 +60,6 @@
     
     /* Le centre du curseur ne peut pas atteindre les bords exacts du input : il s'arrête à environ la moitié de sa largeur. */
     padding-inline: calc(var(--thumb-size) / 2);
-    width: 80%;
 }
 
 .size-reference {

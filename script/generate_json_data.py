@@ -1,4 +1,5 @@
 import json
+import os
 from pathlib import Path
 
 DATA_DIR = Path("../data")
@@ -8,22 +9,31 @@ LATEST_FILE = DATA_DIR / "latest-photo.json"
 
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
 
+DATA_LIST = dict()
+
+MISSING_DATA = set()
+DATA_TO_COMPLETE = set()
+
 
 def extract_date(file_name):
     raw_date = file_name[:8]
     return f"{raw_date[:4]}-{raw_date[4:6]}-{raw_date[6:8]}"
 
 
-def extract_animal_id(file_name):
+def extract_animal_id_from_photo_filename(file_name):
     stem = Path(file_name).stem
-    parts = stem.split("_", 1)
+    parts = stem.split("_")
     if len(parts) < 2:
         return None
+        
     animal_words = parts[1].split("-")
     if animal_words[-1].isdigit():
         animal_words = animal_words[:-1]
     return "-".join(animal_words)
 
+
+def extract_filename_from_path(path):
+    return path.split("/")[-1]
 
 
 def find_last_photo():
@@ -44,14 +54,13 @@ def find_last_photo():
         if len(file_name) < 9 or not file_name[:8].isdigit():
             continue
 
-        animal_id = extract_animal_id(file_name)
-        ############# Checker si json existe
-        ################# Si existe, vérifier si photo listée dans json
-        ################# Si existe pas, sauvegarder nom de l'animal et l'afficher à la fin
-
+        animal_id = extract_animal_id_from_photo_filename(file_name)
+        
+        # write photo path in json if not the case yet
+        check_photos_in_json(animal_id, photo.name)
 
         if latest_photo is None or file_name > latest_photo["fileName"]:
-            animal_id = extract_animal_id(file_name)
+            animal_id = extract_animal_id_from_photo_filename(file_name)
             category = photo.parent.name
             animal_name = animal_id
             
@@ -76,6 +85,48 @@ def find_last_photo():
     print(f"Dernière photo générée : {LATEST_FILE}")
 
 
+
+def check_photos_in_json (animal_id, photo_id):
+    json_filename = animal_id + ".json"
+    # Check if associated json file exists
+    if json_filename not in DATA_LIST.keys():
+        MISSING_DATA.add(json_filename)
+        return
+    
+    # check if the photo is already registered, otherwise write it
+    if not photo_id in DATA_LIST[json_filename]:
+        file_data = None
+        datafile = DATA_DIR / category_dir / json_filename
+        with open(datafile, "r", encoding="utf-8") as f:
+            file_data = json.load(f)
+            photo_path = IMAGES_DIR + "/" + category_dir + "/" + photo_id
+            place = input("La photo {} va être ajoutée au fichier {}, indiquer le lieu de la photo (ou appuyer sur 'entrée' pour compléter plus tard) :\n".format(photo_id, photo_path))
+            if place == "":
+                place = "TBD"
+                DATA_TO_COMPLETE.add(datafile)
+            file_data["photos"] += [{"fichier": photo_path, "lieu": place}]
+        
+        if file_data != None:
+            with open(datafile, "r", encoding="utf-8") as f:
+                json.dump(file_data, f)
+
+
+
+
+## Register existing data files and associated photos
+def register_data(filename, category_dir):
+    registered_photos = []
+    datafile = DATA_DIR / category_dir / filename
+    with open(datafile, "r", encoding="utf-8-sig") as f:
+        file_data = json.load(f)
+        for photo_data in file_data["photos"]:
+            photo = extract_filename_from_path(photo_data["fichier"])
+            registered_photos += [photo]
+    DATA_LIST[filename] = registered_photos
+            
+    
+    
+
 def generate_json_list():
     index = []
 
@@ -86,11 +137,14 @@ def generate_json_list():
         json_files = []
 
         for file in sorted(category_dir.glob("*.json")):
-            if file.name == "index.json":
+            filename = file.name
+            if filename == "index.json":
                 continue
+            # Register existing data files and associated photos
+            register_data(filename, category_dir)
 
             json_files.append({
-                "name": file.name
+                "name": filename
             })
 
         if json_files:
@@ -106,15 +160,18 @@ def generate_json_list():
 
 
 
-def check_data (animal_id):
-    return None
-
-
-def check_latest (animal_id):
-    return None
-
-
-
 if __name__ == "__main__":
     generate_json_list()
     find_last_photo()
+    
+    if len(MISSING_DATA) > 0:
+        print("\n#######################################################")
+        print("Les fichiers json suivants n'ont pas encore été créés :")
+        print(MISSING_DATA)
+        print()
+    
+    if len(DATA_TO_COMPLETE) > 0:
+        print("###################################################################################")
+        print("Les fichiers json suivants ont besoin d'être complétés (lieux de photo manquants) :")
+        print(DATA_TO_COMPLETE)
+        print()

@@ -124,6 +124,9 @@
     "type": "mammals",
     "data": [
       {
+        "name": "blonde-d-aquitaine.json"
+      },
+      {
         "name": "ecureuil-roux.json"
       },
       {
@@ -134,9 +137,6 @@
       },
       {
         "name": "ours-polaire.json"
-      },
-      {
-        "name": "vache-blonde-daquitaine.json"
       }
     ]
   },
