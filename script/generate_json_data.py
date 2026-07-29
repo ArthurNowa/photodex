@@ -1,6 +1,7 @@
 import json
 import os
 from pathlib import Path
+import posixpath
 
 DATA_DIR = Path("../data")
 IMAGES_DIR = Path("../images")
@@ -57,7 +58,9 @@ def find_last_photo():
         animal_id = extract_animal_id_from_photo_filename(file_name)
         
         # write photo path in json if not the case yet
-        check_photos_in_json(animal_id, photo.name)
+        directory = os.path.split(photo)[0]
+        category = directory.split(os.sep)[-1]
+        check_photos_in_json(animal_id, category, photo.name)
 
         if latest_photo is None or file_name > latest_photo["fileName"]:
             animal_id = extract_animal_id_from_photo_filename(file_name)
@@ -86,7 +89,7 @@ def find_last_photo():
 
 
 
-def check_photos_in_json (animal_id, photo_id):
+def check_photos_in_json (animal_id, category_dir, photo_id):
     json_filename = animal_id + ".json"
     # Check if associated json file exists
     if json_filename not in DATA_LIST.keys():
@@ -96,11 +99,11 @@ def check_photos_in_json (animal_id, photo_id):
     # check if the photo is already registered, otherwise write it
     if not photo_id in DATA_LIST[json_filename]:
         file_data = None
-        datafile = DATA_DIR / category_dir / json_filename
-        with open(datafile, "r", encoding="utf-8") as f:
+        datafile = DATA_DIR.joinpath(category_dir, json_filename)
+        with open(datafile, "r", encoding="utf-8-sig") as f:
             file_data = json.load(f)
-            photo_path = IMAGES_DIR + "/" + category_dir + "/" + photo_id
-            place = input("La photo {} va être ajoutée au fichier {}, indiquer le lieu de la photo (ou appuyer sur 'entrée' pour compléter plus tard) :\n".format(photo_id, photo_path))
+            photo_path = os.path.join(IMAGES_DIR, category_dir, photo_id)
+            place = input("La photo :\n{}\nva être ajoutée au fichier :\n{}\n --> indiquer le lieu de la photo (ou appuyer sur 'entrée' pour compléter plus tard) :\n> ".format(photo_id, photo_path))
             if place == "":
                 place = "TBD"
                 DATA_TO_COMPLETE.add(datafile)
@@ -116,7 +119,7 @@ def check_photos_in_json (animal_id, photo_id):
 ## Register existing data files and associated photos
 def register_data(filename, category_dir):
     registered_photos = []
-    datafile = DATA_DIR / category_dir / filename
+    datafile = DATA_DIR.joinpath(category_dir, filename)
     with open(datafile, "r", encoding="utf-8-sig") as f:
         file_data = json.load(f)
         for photo_data in file_data["photos"]:
