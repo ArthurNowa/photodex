@@ -256,10 +256,10 @@ async function applySizeFilter() {
     const marge = 0.35 * sizeRef;
     filteredAnimals = animalsFullData.filter(animal => {
       let isInRange = true;
-      if (selectedIndex === 0) {
+      if (selectedIndex !== 0) {
         isInRange = isInRange && animal.tailleMoyenne >= sizeRef - marge
       }
-      if (selectedIndex === 7) {
+      if (selectedIndex !== 7) {
         isInRange = isInRange && animal.tailleMoyenne <= sizeRef + marge
       }
       return isInRange;
