@@ -1,0 +1,40 @@
+﻿{
+  "id": "suricate",
+  "nom": "Suricate",
+  "nomScientifique": "Suricata suricatta",
+  "famille": "Herpestidae",
+  "sousFamille": "Herpestinae",
+  "ordre": "Carnivore",
+  "repartition": "Afrique australe : Afrique du Sud, Namibie, Botswana et Angola.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "Environ 20 à 30 cm au garrot",
+  "tailleMoyenne": 25,
+  "regime": "Insectes, scorpions, araignées, petits reptiles, œufs, petits mammifères et végétaux",
+  "regimeEmoji": [
+    "🦟",
+    "🐛",
+    "🕷️",
+    "🦎",
+    "🥚",
+    "🐁",
+    "🌱"
+  ],
+  "habitat": "Déserts, savanes sèches, brousses, plaines sableuses et terriers",
+  "description": "Petite mangouste sociale, souvent dressée sur ses pattes arrière pour surveiller.",
+  "keywords": "suricate mangouste petit beige groupe debout sentinelle desert savane sable terrier Afrique",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260725_suricate_03.jpg",
+      "lieu": "Pairi Daiza"
+    },
+    {
+      "fichier": "images/mammals/20260725_suricate_02.jpg",
+      "lieu": "Pairi Daiza"
+    },
+    {
+      "fichier": "images/mammals/20260725_suricate_01.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
+}

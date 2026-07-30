@@ -1,0 +1,32 @@
+﻿{
+  "id": "mangouste-naine",
+  "nom": "Mangouste naine",
+  "nomScientifique": "Helogale parvula",
+  "famille": "Herpestidae",
+  "sousFamille": "Mungotinae",
+  "ordre": "Carnivore",
+  "repartition": "Afrique orientale et australe, dans les savanes, brousses et forêts ouvertes.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "9 à 14 cm au garrot",
+  "tailleMoyenne": 12,
+  "regime": "Insectes, araignées, scorpions, petits reptiles, œufs, fruits et petits vertébrés",
+  "regimeEmoji": [
+    "🦟",
+    "🐛",
+    "🕷️",
+    "🦎",
+    "🥚",
+    "🍎",
+    "🐁"
+  ],
+  "habitat": "Savanes, brousses, prairies sèches, forêts ouvertes, termitières et rochers",
+  "description": "Très petite mangouste sociale, brune à grisâtre, vivant souvent en groupe.",
+  "keywords": "mangouste naine petit brun gris groupe savane rocher termitiere Afrique rapide sol",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260725_mangouste-naine.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
+}

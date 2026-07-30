@@ -1,0 +1,32 @@
+﻿{
+  "id": "orang-outan-de-sumatra",
+  "nom": "Orang-outan de Sumatra",
+  "nomScientifique": "Pongo abelii",
+  "famille": "Hominidae",
+  "sousFamille": "Ponginae",
+  "ordre": "Primates",
+  "repartition": "Nord de l’île de Sumatra, en Indonésie, surtout dans l’écosystème de Leuser.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "110 à 150 cm de haut",
+  "tailleMoyenne": 130,
+  "regime": "Fruits, figues, feuilles, jeunes pousses, écorces, fleurs, miel et parfois insectes",
+  "regimeEmoji": [
+    "🍎",
+    "🥬",
+    "🌱",
+    "🪵",
+    "🌺",
+    "🍯",
+    "🐛"
+  ],
+  "habitat": "Forêts tropicales humides, canopée, marécages boisés et forêts de basse altitude",
+  "description": "Grand singe roux arboricole, aux très longs bras et au visage expressif.",
+  "keywords": "orang outan singe roux orange primate Sumatra foret jungle arbre bras long visage canopee",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260725_orang-outan-de-sumatra.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
+}

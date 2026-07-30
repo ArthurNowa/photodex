@@ -90,12 +90,13 @@ def find_last_photo():
 
 
 def check_photos_in_json (animal_id, category_dir, photo_id):
+    assert type(animal_id) == str, "/!\ Erreur avec l'animal_id pour la photo {}".format(photo_id)
     json_filename = animal_id + ".json"
     # Check if associated json file exists
     if json_filename not in DATA_LIST.keys():
         MISSING_DATA.add(json_filename)
         return
-    
+
     # check if the photo is already registered, otherwise write it
     if not photo_id in DATA_LIST[json_filename]:
         file_data = None

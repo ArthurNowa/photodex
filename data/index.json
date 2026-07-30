@@ -154,6 +154,9 @@
         "name": "blonde-d-aquitaine.json"
       },
       {
+        "name": "dromadaire.json"
+      },
+      {
         "name": "ecureuil-roux.json"
       },
       {
@@ -163,7 +166,22 @@
         "name": "grand-tatou-velu.json"
       },
       {
+        "name": "hippopotame-nain.json"
+      },
+      {
+        "name": "mangouste-naine.json"
+      },
+      {
+        "name": "orang-outan-de-sumatra.json"
+      },
+      {
         "name": "ours-polaire.json"
+      },
+      {
+        "name": "suricate.json"
+      },
+      {
+        "name": "tigre-blanc-royal.json"
       }
     ]
   },

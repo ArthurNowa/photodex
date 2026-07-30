@@ -1,0 +1,28 @@
+﻿{
+  "id": "hippopotame-nain",
+  "nom": "Hippopotame nain",
+  "nomScientifique": "Choeropsis liberiensis",
+  "famille": "Hippopotamidae",
+  "sousFamille": "",
+  "ordre": "Artiodactyle",
+  "repartition": "Afrique de l’Ouest : Liberia, Sierra Leone, Guinée et Côte d’Ivoire.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "70 à 80 cm au garrot",
+  "tailleMoyenne": 75,
+  "regime": "Feuilles, fruits tombés, fougères, herbes, racines et autres végétaux",
+  "regimeEmoji": [
+    "🥬",
+    "🍎",
+    "🌱"
+  ],
+  "habitat": "Forêts tropicales humides, marécages, berges de rivières et zones boisées denses",
+  "description": "Petit hippopotame forestier, plus discret et terrestre que l’hippopotame commun.",
+  "keywords": "hippopotame petit nain gris noir foret eau riviere marais Afrique sabot museau rond Pairi Daiza",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260725_hippopotame-nain.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
+}

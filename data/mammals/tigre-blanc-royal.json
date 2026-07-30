@@ -1,0 +1,37 @@
+﻿{
+  "id": "tigre-blanc-royal",
+  "nom": "Tigre blanc royal",
+  "nomAlt": "Tigre blanc",
+  "nomScientifique": "Panthera tigris tigris",
+  "famille": "Felidae",
+  "sousFamille": "Pantherinae",
+  "ordre": "Carnivore",
+  "repartition": "Forme blanche issue de tigres continentaux, surtout observée en captivité ; pas une espèce sauvage distincte.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "90 à 110 cm au garrot",
+  "tailleMoyenne": 100,
+  "regime": "Grands mammifères, cervidés, sangliers, bovidés et autres proies animales",
+  "regimeEmoji": [
+    "🍖",
+    "🍗",
+    "🐁"
+  ],
+  "habitat": "En captivité ; les tigres continentaux vivent en forêts, prairies, marais et zones boisées",
+  "description": "Tigre au pelage blanc rayé de noir, dû à une mutation rare de couleur.",
+  "keywords": "tigre blanc rayures noir felin grand chat carnivore zoo captivite orange bengale royal",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260725_tigre-blanc-royal_03.jpg",
+      "lieu": "Pairi Daiza"
+    },
+    {
+      "fichier": "images/mammals/20260725_tigre-blanc-royal_02.jpg",
+      "lieu": "Pairi Daiza"
+    },
+    {
+      "fichier": "images/mammals/20260725_tigre-blanc-royal_01.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
+}

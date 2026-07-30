@@ -11,14 +11,21 @@
   "taille": "2,3 à 3,2 m de long ; jusqu’à 2,3 m au garrot",
   "tailleMoyenne": 190,
   "regime": "Feuilles, jeunes pousses, rameaux, écorces, plantes aquatiques et végétation des marais.",
-  "regimeEmoji": ["🥬", "🌱"],
+  "regimeEmoji": [
+    "🥬",
+    "🌱"
+  ],
   "habitat": "Forêts boréales, taïga, marécages, lacs, rivières et zones humides boisées",
   "description": "Le plus grand cervidé actuel, reconnaissable à ses longues pattes, son museau large et tombant, ainsi qu’aux grands bois aplatis portés par les mâles. Il apprécie notamment les marécages et zones humides.",
   "keywords": "mammifère cervidé ongulé herbivore massif brun longues pattes museau allongé bois palmés mâle forêt boréale marais lac rivière feuilles pousses écorce aquatique solitaire nordique",
   "photos": [
     {
+      "fichier": "images/mammals/20260725_elan.jpg",
+      "lieu": "Pairi Daiza"
+    },
+    {
       "fichier": "images/mammals/20260505_elan.jpg",
-      "lieu": "pair daiza"
+      "lieu": "Pairi Daiza"
     }
   ]
 }

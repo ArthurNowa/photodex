@@ -1,0 +1,29 @@
+﻿{
+  "id": "dromadaire",
+  "nom": "Dromadaire",
+  "nomAlt": "Chameau d’Arabie",
+  "nomScientifique": "Camelus dromedarius",
+  "famille": "Camelidae",
+  "sousFamille": "Camelinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Domestiqué en Afrique du Nord, Moyen-Orient et Asie du Sud-Ouest ; populations férales en Australie.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "170 à 200 cm au garrot",
+  "tailleMoyenne": 185,
+  "regime": "Herbes, feuilles, rameaux, buissons épineux, plantes sèches et végétaux du désert",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🪵"
+  ],
+  "habitat": "Déserts, steppes arides, zones semi-désertiques, élevages et régions sèches",
+  "description": "Grand camélidé à une seule bosse, très adapté aux milieux secs et désertiques.",
+  "keywords": "dromadaire chameau bosse desert sable beige brun Afrique Arabie long cou caravane",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260725_dromadaire.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
+}
