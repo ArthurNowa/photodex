@@ -141,30 +141,6 @@ function displayAnimals(list) {
   });
 }
 
-function generateFilters() {
-  // filtre "Ordre"
-  const orders = [...new Set(animals.map(animal => animal.order))];
-
-  orderFilter.innerHTML = `<option value="all">Tous</option>`;
-
-  orders.forEach(order => {
-    const option = document.createElement("option");
-    option.value = order;
-    option.textContent = order;
-    orderFilter.appendChild(option);
-  });
-
-  // filtre "Habitat"
-  const habitats = ["prairie", "forêt", "villes", "jardins"];
-
-  habitatFilter.innerHTML = `<option value="all">Tous</option>`;
-  habitats.forEach(habitat => {
-    const option = document.createElement("option");
-    option.value = habitat;
-    option.textContent = habitat;
-    habitatFilter.appendChild(option);
-  });
-}
 
 function applyCategoryFilter() {
   animalsFullData = animalsFullData.filter(animal => {
