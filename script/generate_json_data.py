@@ -103,12 +103,15 @@ def check_photos_in_json (animal_id, category_dir, photo_id):
         with open(datafile, "r", encoding="utf-8-sig") as f:
             file_data = json.load(f)
             photo_path = str(IMAGES_DIR).replace(os.sep, "/") + "/" + category_dir + "/" + photo_id
-            photo_path.replace("../", "")
+            # Removing "../" from path
+            photo_path = photo_path[3:]
             place = input("La photo :\n{}\nva être ajoutée au fichier :\n{}\n --> indiquer le lieu de la photo (ou appuyer sur 'entrée' pour compléter plus tard) :\n> ".format(photo_id, photo_path))
             if place == "":
                 place = "TBD"
                 DATA_TO_COMPLETE.add(datafile)
-            file_data["photos"] += [{"fichier": photo_path, "lieu": place}]
+            photos = file_data["photos"] + [{"fichier": photo_path, "lieu": place}]
+            photos.sort(key=lambda photo : photo["fichier"], reverse=True)
+            file_data["photos"] = photos
         
         if file_data != None:
             with open(datafile, "w", encoding="utf-8-sig") as f:
