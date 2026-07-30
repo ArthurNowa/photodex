@@ -20,9 +20,9 @@
 #size-filter {
     display: block;
     width: 100%;
-    padding: 0 12%;
+    padding: 0;
     height: 8px;
-    margin: 0;
+    margin: 0 12%;
 
     appearance: none;
     background: var(--dark-gray);
