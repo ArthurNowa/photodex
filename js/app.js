@@ -39,7 +39,14 @@ const mammalSizeLevels = [
 ];
 
 const insectSizeLevels = [
-  { label: "Acarien", size: 2, image: "images/silhouettes/acarien.png" },
+  { label: "Puceron", size: 3, image: "images/silhouettes/puceron.png" },
+  { label: "Fourmi", size: 6, image: "images/silhouettes/fourmi.png" },
+  { label: "Coccinelle", size: 10, image: "images/silhouettes/coccinelle.png" },
+  { label: "Abeille", size: 18, image: "images/silhouettes/abeille.png" },
+  { label: "Sauterelle", size: 35, image: "images/silhouettes/sauterelle.png" },
+  { label: "Lucane", size: 70, image: "images/silhouettes/Lucane.png" },
+  { label: "Monarque", size: 110, image: "images/silhouettes/Monarque.png" },
+  { label: "Scorpion Empereur", size: 180, image: "images/silhouettes/scorpion-empereur.png" }
 ];
 
 const reptileSizeLevels = [
