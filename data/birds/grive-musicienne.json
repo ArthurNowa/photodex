@@ -1,0 +1,32 @@
+﻿{
+  "id": "grive-musicienne",
+  "nom": "Grive musicienne",
+  "nomScientifique": "Turdus philomelos",
+  "famille": "Turdidae",
+  "sousFamille": "",
+  "ordre": "Passériforme",
+  "repartition": "Europe, Afrique du Nord et Asie tempérée ; présente partout en France.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "20 à 23 cm",
+  "tailleMoyenne": 21.5,
+  "envergure": "33 à 36 cm",
+  "regime": "Vers, escargots, insectes, baies et fruits",
+  "regimeEmoji": [
+    "🪱",
+    "🐌",
+    "🦟",
+    "🐛",
+    "🫐",
+    "🍎"
+  ],
+  "habitat": "Bois, haies, jardins, parcs, vergers, bosquets et lisières",
+  "description": "Grive brune tachetée dessous, connue pour son chant mélodieux.",
+  "keywords": "oiseau grive brun marron taches ventre chant jardin foret bois haie sol feuilles verger",
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_grive-musicienne.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
+}

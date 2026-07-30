@@ -1,0 +1,32 @@
+﻿{
+  "id": "pigeon-biset-domestique",
+  "nom": "Pigeon biset domestique",
+  "nomAlt": "Pigeon de ville",
+  "nomScientifique": "Columba livia domestica",
+  "famille": "Columbidae",
+  "sousFamille": "Columbinae",
+  "ordre": "Columbiforme",
+  "repartition": "Forme domestique du pigeon biset, présente aujourd’hui dans les villes et villages du monde entier.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "30 à 35 cm",
+  "tailleMoyenne": 32,
+  "envergure": "62 à 72 cm",
+  "regime": "Graines, céréales, jeunes pousses, fruits, baies et déchets alimentaires",
+  "regimeEmoji": [
+    "🫘",
+    "🌱",
+    "🍎",
+    "🫐",
+    "🍂"
+  ],
+  "habitat": "Villes, villages, parcs, places, bâtiments, ponts, falaises et zones agricoles",
+  "description": "Pigeon très variable en couleur, souvent gris, blanc, brun ou tacheté.",
+  "keywords": "oiseau pigeon ville gris blanc noir brun tacheté domestique sauvage groupe parc place toit batiment rue",
+  "photos": [
+    {
+      "fichier": "images/birds/20260713_pigeon-biset-domestique.jpg",
+      "lieu": "Alten, Villeneuve-d'Ascq"
+    }
+  ]
+}

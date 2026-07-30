@@ -1,0 +1,34 @@
+﻿{
+  "id": "choucas-des-tours",
+  "nom": "Choucas des tours",
+  "nomAlt": "Choucas",
+  "nomScientifique": "Coloeus monedula",
+  "famille": "Corvidae",
+  "sousFamille": "",
+  "ordre": "Passériforme",
+  "repartition": "Europe, Afrique du Nord et Asie tempérée, de l’Atlantique jusqu’à l’ouest de la Chine.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "34 à 39 cm",
+  "tailleMoyenne": 36,
+  "envergure": "64 à 73 cm",
+  "regime": "Graines, baies, jeunes pousses, insectes, petits invertébrés, œufs et déchets alimentaires",
+  "regimeEmoji": [
+    "🫘",
+    "🫐",
+    "🌱",
+    "🦟",
+    "🐛",
+    "🥚",
+    "🍂"
+  ],
+  "habitat": "Villes, villages, clochers, falaises, carrières, parcs, champs, bois clairs et cavités",
+  "description": "Petit corvidé noir et gris, reconnaissable à sa nuque grise et ses yeux clairs.",
+  "keywords": "oiseau corbeau corneille noir gris nuque yeux clair ville village clocher toit parc champ falaise groupe",
+  "photos": [
+    {
+      "fichier": "images/birds/20260720_choucas-des-tours.jpg",
+      "lieu": "Parc de la Haute-Borne, Villeneuve-d'Ascq"
+    }
+  ]
+}

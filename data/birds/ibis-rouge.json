@@ -1,0 +1,30 @@
+﻿{
+  "id": "ibis-rouge",
+  "nom": "Ibis rouge",
+  "nomScientifique": "Eudocimus ruber",
+  "famille": "Threskiornithidae",
+  "sousFamille": "Threskiornithinae",
+  "ordre": "Pélécaniforme",
+  "repartition": "Nord de l’Amérique du Sud, Caraïbes et zones côtières tropicales voisines.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "56 à 61 cm",
+  "tailleMoyenne": 59,
+  "envergure": "95 à 105 cm",
+  "regime": "Crustacés, crevettes, crabes, insectes aquatiques, petits poissons et amphibiens",
+  "regimeEmoji": [
+    "🦐",
+    "🦟",
+    "🐟",
+    "🐸"
+  ],
+  "habitat": "Mangroves, marais, lagunes, vasières, estuaires et zones humides côtières",
+  "description": "Ibis rouge vif au long bec courbé, souvent observé en groupe dans les zones humides.",
+  "keywords": "oiseau rouge ibis bec courbe long marais mangrove eau lagune groupe tropical crevette",
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_ibis-rouge.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
+}

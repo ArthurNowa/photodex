@@ -1,0 +1,28 @@
+﻿{
+  "id": "condor-des-andes",
+  "nom": "Condor des Andes",
+  "nomScientifique": "Vultur gryphus",
+  "famille": "Cathartidae",
+  "sousFamille": "",
+  "ordre": "Cathartiforme",
+  "repartition": "Cordillère des Andes, de la Colombie et du Venezuela jusqu’au sud du Chili et de l’Argentine.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "100 à 130 cm",
+  "tailleMoyenne": 115,
+  "envergure": "270 à 320 cm",
+  "regime": "Charognes de grands mammifères, carcasses et restes animaux",
+  "regimeEmoji": [
+    "🦴",
+    "🍖"
+  ],
+  "habitat": "Montagnes, falaises, hauts plateaux, zones ouvertes et côtes rocheuses",
+  "description": "Très grand vautour noir et blanc, célèbre pour son immense envergure.",
+  "keywords": "oiseau condor vautour noir blanc montagne andes falaise ailes grand charogne carcasse vol",
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_condor-des-andes.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
+}

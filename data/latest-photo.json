@@ -1,8 +1,8 @@
 {
-  "animalId": "grand-tatou-velu",
-  "category": "mammals",
-  "photo": "../images/mammals/20260725_grand-tatou-velu.jpg",
-  "fileName": "20260725_grand-tatou-velu.jpg",
+  "animalId": "ibis-rouge",
+  "category": "birds",
+  "photo": "../images/birds/20260725_ibis-rouge.jpg",
+  "fileName": "20260725_ibis-rouge.jpg",
   "date": "2026-07-25",
-  "jsonfile": "data/mammals/grand-tatou-velu.json"
+  "jsonfile": "data/birds/ibis-rouge.json"
 }

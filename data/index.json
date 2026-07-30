@@ -6,13 +6,34 @@
         "name": "casoar.json"
       },
       {
+        "name": "choucas-des-tours.json"
+      },
+      {
+        "name": "cigogne-blanche.json"
+      },
+      {
+        "name": "condor-des-andes.json"
+      },
+      {
+        "name": "dindon-domestique.json"
+      },
+      {
         "name": "grand-geocoucou.json"
+      },
+      {
+        "name": "grive-musicienne.json"
+      },
+      {
+        "name": "ibis-rouge.json"
       },
       {
         "name": "loriquet.json"
       },
       {
         "name": "mesange-charbonniere.json"
+      },
+      {
+        "name": "pigeon-biset-domestique.json"
       },
       {
         "name": "troglodyte-mignon.json"
@@ -102,6 +123,9 @@
       },
       {
         "name": "pyrale-du-houblon.json"
+      },
+      {
+        "name": "sympetrum-rouge-sang.json"
       },
       {
         "name": "syrphe-ceinture.json"

@@ -1,0 +1,32 @@
+﻿{
+  "id": "sympetrum-rouge-sang",
+  "nom": "Sympétrum rouge sang",
+  "nomAlt": "Sympétrum sanguin",
+  "nomScientifique": "Sympetrum sanguineum",
+  "famille": "Libellulidae",
+  "sousFamille": "Sympetrinae",
+  "ordre": "Odonate",
+  "repartition": "Europe, Afrique du Nord et Asie occidentale à centrale ; présent en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Corps de 34 à 39 mm",
+  "tailleMoyenne": 37,
+  "regime": "Petits insectes capturés en vol ; les larves chassent de petits invertébrés aquatiques",
+  "regimeEmoji": [
+    "🦟",
+    "🦐"
+  ],
+  "habitat": "Mares, étangs, fossés, marais, prairies humides et eaux stagnantes riches en végétation",
+  "description": "Petite libellule rouge vif, aux pattes noires et à l’abdomen élargi.",
+  "keywords": "libellule rouge sang orange ailes eau mare etang fossé marais prairie humide pattes noires abdomen",
+  "photos": [
+    {
+      "fichier": "images/insects/20260724_sympetrum-rouge-sang_02.jpg",
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+    },
+    {
+      "fichier": "images/insects/20260724_sympetrum-rouge-sang_01.jpg",
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+    }
+  ]
+}

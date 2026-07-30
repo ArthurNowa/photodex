@@ -1,0 +1,34 @@
+﻿{
+  "id": "dindon-domestique",
+  "nom": "Dindon domestique",
+  "nomAlt": "Dinde domestique",
+  "nomScientifique": "Meleagris gallopavo domesticus",
+  "famille": "Phasianidae",
+  "sousFamille": "Meleagridinae",
+  "ordre": "Galliforme",
+  "repartition": "Forme domestique issue du dindon sauvage d’Amérique du Nord ; élevée dans le monde entier.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "70 à 120 cm",
+  "tailleMoyenne": 95,
+  "envergure": "120 à 180 cm",
+  "regime": "Graines, herbes, feuilles, fruits, baies, insectes et petits invertébrés",
+  "regimeEmoji": [
+    "🫘",
+    "🌱",
+    "🥬",
+    "🍎",
+    "🫐",
+    "🦟",
+    "🐛"
+  ],
+  "habitat": "Fermes, élevages, basses-cours, prairies, champs et zones rurales",
+  "description": "Grand oiseau de basse-cour, au plumage sombre et à la tête nue rouge ou bleutée.",
+  "keywords": "oiseau dindon dinde ferme basse-cour gros noir brun rouge bleu tête nue plumes champ prairie",
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_dindon-domestique.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
+}

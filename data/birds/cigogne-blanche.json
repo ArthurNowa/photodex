@@ -1,0 +1,34 @@
+﻿{
+  "id": "cigogne-blanche",
+  "nom": "Cigogne blanche",
+  "nomScientifique": "Ciconia ciconia",
+  "famille": "Ciconiidae",
+  "sousFamille": "",
+  "ordre": "Ciconiiforme",
+  "repartition": "Europe, Afrique du Nord et Asie occidentale ; hiverne surtout en Afrique.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "90 à 115 cm",
+  "tailleMoyenne": 103,
+  "envergure": "195 à 215 cm",
+  "regime": "Insectes, vers, amphibiens, poissons, reptiles, petits mammifères et parfois charognes",
+  "regimeEmoji": [
+    "🦟",
+    "🐛",
+    "🪱",
+    "🐸",
+    "🐟",
+    "🦎",
+    "🐁",
+    "🦴"
+  ],
+  "habitat": "Prairies humides, marais, champs, villages, zones ouvertes et nids en hauteur",
+  "description": "Grand oiseau blanc et noir, au long bec rouge et aux longues pattes rouges.",
+  "keywords": "oiseau blanc noir bec rouge pattes longues nid toit clocher prairie marais champ migration grand",
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_cigogne-blanche.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
+}
