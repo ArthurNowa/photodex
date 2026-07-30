@@ -249,20 +249,21 @@ function updateSizeSlider() {
 }
 
 async function applySizeFilter() {
-  console.log(sizeCheckbox.checked);
   if (sizeCheckbox.checked) {
     const selectedIndex = Number(sizeInput.value);
     const sizeRef = animalScale[selectedIndex].size;
     
     const marge = 0.35 * sizeRef;
-    console.log(sizeRef, marge);
     filteredAnimals = animalsFullData.filter(animal => {
-      const isInRange = animal.tailleMoyenne >= sizeRef - marge &&
-          animal.tailleMoyenne <= sizeRef + marge;
-      console.log(sizeRef - marge, animal.tailleMoyenne, sizeRef + marge, isInRange);
+      let isInRange = true;
+      if (selectedIndex === 0) {
+        isInRange = isInRange && animal.tailleMoyenne >= sizeRef - marge
+      }
+      if (selectedIndex === 7) {
+        isInRange = isInRange && animal.tailleMoyenne <= sizeRef + marge
+      }
       return isInRange;
     });
-    console.log(filteredAnimals.length);
   }
   await applySearchFilter();
 }
