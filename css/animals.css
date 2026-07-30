@@ -69,8 +69,8 @@
     border-radius: 12px;
 }
 
-.badge-progress-card:hover h2 {
-    color: var(--accent-orange);
+.badge-progress-card h2 {
+    color: var(--bright-yellow);
 }
 
 .badge-row {
