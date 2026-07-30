@@ -252,7 +252,7 @@ async function applySizeFilter() {
   console.log(sizeCheckbox.checked);
   if (sizeCheckbox.checked) {
     const selectedIndex = Number(sizeInput.value);
-    const sizeRef = birdSizeLevels[selectedIndex].size;
+    const sizeRef = animalScale[selectedIndex].size;
     
     const marge = 0.35 * sizeRef;
     console.log(sizeRef, marge);
