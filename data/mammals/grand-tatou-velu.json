@@ -11,7 +11,13 @@
   "taille": "40 à 50 cm, sans compter la queue",
   "tailleMoyenne": 20,
   "regime": "Insectes, larves, autres invertébrés, petits vertébrés, végétaux et charognes",
-  "regimeEmoji": ["🐛", "🪱", "🐁", "🌱", "🦴"],
+  "regimeEmoji": [
+    "🐛",
+    "🪱",
+    "🐁",
+    "🌱",
+    "🦴"
+  ],
   "habitat": "Prairies, pampas, savanes, forêts ouvertes, terres agricoles et zones semi-arides",
   "description": "Tatou de taille moyenne reconnaissable à sa carapace sombre formée de nombreuses bandes, ainsi qu’aux longs poils visibles entre les plaques.",
   "keywords": "mammifère xénarthre dasypodidé cuirassé velu brun carapace plaques griffes museau fouisseur terrier nocturne prairie savane steppe insectes vers larves petits animaux végétaux Amérique",
@@ -26,6 +32,10 @@
     },
     {
       "fichier": "images/mammals/20260303_grand-tatou-velu.jpg",
+      "lieu": "Pairi Daiza"
+    },
+    {
+      "fichier": "../images/mammals/20260725_grand-tatou-velu.jpg",
       "lieu": "Pairi Daiza"
     }
   ]

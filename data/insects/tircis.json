@@ -1,0 +1,28 @@
+﻿{
+  "id": "tircis",
+  "nom": "Tircis",
+  "nomAlt": "Argus des bois",
+  "nomScientifique": "Pararge aegeria",
+  "famille": "Nymphalidae",
+  "sousFamille": "Satyrinae",
+  "ordre": "Lépidoptère",
+  "repartition": "Europe, Afrique du Nord et Asie tempérée ; présent presque partout en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Envergure de 32 à 42 mm",
+  "tailleMoyenne": 18,
+  "regime": "Nectar ; les chenilles consomment des graminées",
+  "regimeEmoji": [
+    "🧃",
+    "🌱"
+  ],
+  "habitat": "Bois clairs, lisières, haies, chemins forestiers, parcs et jardins ombragés",
+  "description": "Papillon brun tacheté d’orange, souvent posé dans les zones ombragées.",
+  "keywords": "papillon brun marron orange taches ocelles ailes foret bois lisiere jardin ombre sol feuilles herbe prairie chemin",
+  "photos": [
+    {
+      "fichier": "../images/insects/20260724_tircis.jpg",
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+    }
+  ]
+}

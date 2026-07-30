@@ -1,8 +1,8 @@
 {
-  "animalId": "tircis",
-  "category": "insects",
-  "photo": "../images/insects/20260724_tircis.jpg",
-  "fileName": "20260724_tircis.jpg",
-  "date": "2026-07-24",
-  "jsonfile": "data/insects/tircis.json"
+  "animalId": "grand-tatou-velu",
+  "category": "mammals",
+  "photo": "../images/mammals/20260725_grand-tatou-velu.jpg",
+  "fileName": "20260725_grand-tatou-velu.jpg",
+  "date": "2026-07-25",
+  "jsonfile": "data/mammals/grand-tatou-velu.json"
 }
