@@ -104,7 +104,13 @@
         "name": "blatte-de-vinz.json"
       },
       {
+        "name": "bourdon-des-champs.json"
+      },
+      {
         "name": "cercope-des-pres.json"
+      },
+      {
+        "name": "chrysomele-polie.json"
       },
       {
         "name": "chrysopilus-splendidus.json"
@@ -125,16 +131,28 @@
         "name": "coccinelle-asiatique.json"
       },
       {
+        "name": "criquet-melodieux.json"
+      },
+      {
         "name": "epeire-diademe.json"
       },
       {
         "name": "eristale-horticole.json"
       },
       {
+        "name": "gendarme.json"
+      },
+      {
         "name": "guepe-germanique.json"
       },
       {
+        "name": "guepe-poliste.json"
+      },
+      {
         "name": "larinus-planus.json"
+      },
+      {
+        "name": "lema-cyanella.json"
       },
       {
         "name": "malachite.json"
@@ -149,6 +167,9 @@
         "name": "mouche-bleue.json"
       },
       {
+        "name": "mouche-scorpion.json"
+      },
+      {
         "name": "moustique-commun.json"
       },
       {
@@ -161,7 +182,16 @@
         "name": "nigma-verte.json"
       },
       {
+        "name": "opilion.json"
+      },
+      {
+        "name": "petite-biche.json"
+      },
+      {
         "name": "phalene-du-fusain.json"
+      },
+      {
+        "name": "pieride-du-navet.json"
       },
       {
         "name": "punaise-arlequin.json"
@@ -179,7 +209,10 @@
         "name": "syrphe-ceinture.json"
       },
       {
-        "name": "syrphe-du-groseiller.json"
+        "name": "syrphe-du-groseillier.json"
+      },
+      {
+        "name": "syrphe-porte-plume.json"
       },
       {
         "name": "teigne-du-chou.json"
