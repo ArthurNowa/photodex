@@ -11,9 +11,22 @@
   "taille": "3 à 4,6 m de long",
   "tailleMoyenne": 380,
   "regime": "Poissons, amphibiens, reptiles, oiseaux, mammifères, invertébrés et charognes",
-  "regimeEmoji": ["🐟", "🐸", "🦎", "🐦", "🐁", "🦐", "🦴"],
+  "regimeEmoji": [
+    "🐟",
+    "🐸",
+    "🦎",
+    "🐦",
+    "🐁",
+    "🦐",
+    "🦴"
+  ],
   "habitat": "Marais, bayous, lacs, rivières, étangs, zones humides et eaux douces",
   "description": "Grand reptile sombre au museau large, emblématique des marais américains.",
   "keywords": "alligator crocodile reptile noir sombre museau large Floride marais bayou eau dents",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/reptiles/20260725_alligator-d-amerique.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

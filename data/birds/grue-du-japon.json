@@ -13,9 +13,22 @@
   "tailleMoyenne": 150,
   "envergure": "220 à 250 cm",
   "regime": "Plantes aquatiques, graines, insectes, poissons, amphibiens et petits animaux",
-  "regimeEmoji": ["🌱", "🫘", "🦟", "🐛", "🐟", "🐸", "🐁"],
+  "regimeEmoji": [
+    "🌱",
+    "🫘",
+    "🦟",
+    "🐛",
+    "🐟",
+    "🐸",
+    "🐁"
+  ],
   "habitat": "Marais, prairies humides, rizières, zones humides et plaines ouvertes",
   "description": "Grande grue blanche et noire, avec une tache rouge nue sur la tête.",
   "keywords": "oiseau grue blanc noir rouge tete long cou pattes marais eau prairie Japon danse",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_grue-du-japon.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

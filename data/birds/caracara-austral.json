@@ -12,9 +12,21 @@
   "tailleMoyenne": 59,
   "envergure": "116 à 125 cm",
   "regime": "Charognes, œufs, poussins, petits oiseaux, invertébrés et déchets",
-  "regimeEmoji": ["🦴", "🥚", "🐦", "🦟", "🐛", "🍂"],
+  "regimeEmoji": [
+    "🦴",
+    "🥚",
+    "🐦",
+    "🦟",
+    "🐛",
+    "🍂"
+  ],
   "habitat": "Côtes rocheuses, falaises, landes, prairies, îles subantarctiques et zones ouvertes",
   "description": "Rapace sombre et curieux des régions australes, souvent attiré par les carcasses.",
   "keywords": "oiseau rapace noir brun blanc bec jaune patagonie malouines falaise cote charogne curieux",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_caracara-austral.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

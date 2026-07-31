@@ -12,9 +12,20 @@
   "tailleMoyenne": 37,
   "envergure": "Environ 60 à 65 cm",
   "regime": "Graines, plantes aquatiques, herbes, insectes, larves et petits invertébrés",
-  "regimeEmoji": ["🫘", "🌱", "🥬", "🦟", "🐛"],
+  "regimeEmoji": [
+    "🫘",
+    "🌱",
+    "🥬",
+    "🦟",
+    "🐛"
+  ],
   "habitat": "Étangs, marais, mares, lagunes, plaines inondées et zones humides boisées",
   "description": "Petit canard sud-américain, au collier noir et au plumage finement contrasté.",
   "keywords": "oiseau canard collier noir brun gris eau mare etang marais Amerique Sud palmipede",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_canard-a-collier-noir.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

@@ -12,9 +12,24 @@
   "taille": "90 à 95 cm au garrot",
   "tailleMoyenne": 92,
   "regime": "Fruits, baies, noix, glands, herbes, insectes, miel, poissons, charognes et petits animaux",
-  "regimeEmoji": ["🍎", "🫐", "🥜", "🌱", "🐛", "🍯", "🐟", "🦴", "🐁"],
+  "regimeEmoji": [
+    "🍎",
+    "🫐",
+    "🥜",
+    "🌱",
+    "🐛",
+    "🍯",
+    "🐟",
+    "🦴",
+    "🐁"
+  ],
   "habitat": "Forêts, montagnes, zones boisées, marécages, vallées et milieux proches de l’eau",
   "description": "Ours nord-américain souvent noir, mais parfois brun, cannelle ou clair.",
   "keywords": "ours noir brun cannelle fourrure foret montagne Amerique griffes museau rond omnivore",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/mammals/20260725_ours-noir-americain.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

@@ -12,9 +12,23 @@
   "tailleMoyenne": 34,
   "envergure": "54 à 58 cm",
   "regime": "Glands, graines, noix, fruits, baies, insectes, œufs et petits animaux",
-  "regimeEmoji": ["🥜", "🫘", "🍎", "🫐", "🦟", "🐛", "🥚", "🐁"],
+  "regimeEmoji": [
+    "🥜",
+    "🫘",
+    "🍎",
+    "🫐",
+    "🦟",
+    "🐛",
+    "🥚",
+    "🐁"
+  ],
   "habitat": "Forêts, bois, haies, parcs, jardins, bocages et lisières",
   "description": "Corvidé coloré brun rosé, reconnaissable à ses plumes bleues barrées de noir.",
   "keywords": "oiseau geai brun rose bleu noir blanc aile plumes foret bois chene gland jardin haie cri",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/birds/20260717_geai-des-chenes.jpg",
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+    }
+  ]
 }

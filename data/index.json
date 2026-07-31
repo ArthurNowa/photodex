@@ -3,6 +3,24 @@
     "type": "birds",
     "data": [
       {
+        "name": "ara-de-spix.json"
+      },
+      {
+        "name": "ara-hyacinthe.json"
+      },
+      {
+        "name": "bernache-nonnette.json"
+      },
+      {
+        "name": "canard-a-collier-noir.json"
+      },
+      {
+        "name": "caracara-austral.json"
+      },
+      {
+        "name": "cariama-huppe.json"
+      },
+      {
         "name": "casoar.json"
       },
       {
@@ -18,10 +36,22 @@
         "name": "dindon-domestique.json"
       },
       {
+        "name": "echasse-d-amerique.json"
+      },
+      {
+        "name": "geai-des-chenes.json"
+      },
+      {
+        "name": "goura-de-sclater.json"
+      },
+      {
         "name": "grand-geocoucou.json"
       },
       {
         "name": "grive-musicienne.json"
+      },
+      {
+        "name": "grue-du-japon.json"
       },
       {
         "name": "ibis-rouge.json"
@@ -30,13 +60,25 @@
         "name": "loriquet.json"
       },
       {
+        "name": "mainate-religieux.json"
+      },
+      {
+        "name": "merle-noir.json"
+      },
+      {
         "name": "mesange-charbonniere.json"
+      },
+      {
+        "name": "pelican-blanc.json"
       },
       {
         "name": "pigeon-biset-domestique.json"
       },
       {
         "name": "troglodyte-mignon.json"
+      },
+      {
+        "name": "vautour-moine.json"
       }
     ]
   },
@@ -95,6 +137,9 @@
         "name": "larinus-planus.json"
       },
       {
+        "name": "malachite.json"
+      },
+      {
         "name": "maure.json"
       },
       {
@@ -108,6 +153,9 @@
       },
       {
         "name": "naiade-aux-yeux-rouges.json"
+      },
+      {
+        "name": "nephile-doree.json"
       },
       {
         "name": "nigma-verte.json"
@@ -151,6 +199,9 @@
     "type": "mammals",
     "data": [
       {
+        "name": "agouti-azara.json"
+      },
+      {
         "name": "blonde-d-aquitaine.json"
       },
       {
@@ -163,10 +214,16 @@
         "name": "elan.json"
       },
       {
+        "name": "fennec.json"
+      },
+      {
         "name": "grand-tatou-velu.json"
       },
       {
         "name": "hippopotame-nain.json"
+      },
+      {
+        "name": "jaguar.json"
       },
       {
         "name": "mangouste-naine.json"
@@ -175,10 +232,22 @@
         "name": "orang-outan-de-sumatra.json"
       },
       {
+        "name": "otocyon.json"
+      },
+      {
+        "name": "ours-noir-americain.json"
+      },
+      {
         "name": "ours-polaire.json"
       },
       {
+        "name": "puma.json"
+      },
+      {
         "name": "suricate.json"
+      },
+      {
+        "name": "tamarin-a-crete-blanche.json"
       },
       {
         "name": "tigre-blanc-royal.json"
@@ -189,7 +258,16 @@
     "type": "reptiles",
     "data": [
       {
+        "name": "alligator-d-amerique.json"
+      },
+      {
         "name": "crapaud-commun.json"
+      },
+      {
+        "name": "gavial-du-gange.json"
+      },
+      {
+        "name": "grenouille-rousse.json"
       }
     ]
   }

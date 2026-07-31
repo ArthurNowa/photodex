@@ -11,9 +11,19 @@
   "taille": "Envergure de 80 à 100 mm",
   "tailleMoyenne": 45,
   "regime": "Nectar, fruits mûrs et matières sucrées ; les chenilles consomment des plantes tropicales",
-  "regimeEmoji": ["🧃", "🍎", "🍯", "🌱"],
+  "regimeEmoji": [
+    "🧃",
+    "🍎",
+    "🍯",
+    "🌱"
+  ],
   "habitat": "Forêts tropicales, lisières, clairières, jardins, vergers et zones humides boisées",
   "description": "Grand papillon noir et vert, aux ailes rappelant la pierre malachite.",
   "keywords": "papillon vert noir malachite grand ailes tropical foret jardin fruit Amerique taches",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/insects/20260725_malachite.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

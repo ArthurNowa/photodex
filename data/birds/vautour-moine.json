@@ -12,9 +12,17 @@
   "tailleMoyenne": 105,
   "envergure": "250 à 295 cm",
   "regime": "Charognes, carcasses et restes de grands mammifères",
-  "regimeEmoji": ["🦴", "🍖"],
+  "regimeEmoji": [
+    "🦴",
+    "🍖"
+  ],
   "habitat": "Montagnes, collines boisées, steppes, zones ouvertes et falaises",
   "description": "Très grand vautour sombre, au plumage brun noir et à la tête claire.",
   "keywords": "oiseau vautour noir brun sombre grand charogne carcasse montagne falaise ailes rapace",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_vautour-moine.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

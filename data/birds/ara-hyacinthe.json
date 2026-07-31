@@ -12,9 +12,19 @@
   "tailleMoyenne": 98,
   "envergure": "117 à 127 cm",
   "regime": "Noix de palmiers, fruits, graines et végétaux",
-  "regimeEmoji": ["🥜", "🍎", "🫘", "🌱"],
+  "regimeEmoji": [
+    "🥜",
+    "🍎",
+    "🫘",
+    "🌱"
+  ],
   "habitat": "Savanes arborées, palmeraies, forêts ouvertes, marais et lisières tropicales",
   "description": "Très grand ara bleu vif, au bec massif et aux zones jaunes autour des yeux.",
   "keywords": "oiseau perroquet ara bleu hyacinthe grand bec noir jaune tropical foret palmier noix",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_ara-hyacinthe.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

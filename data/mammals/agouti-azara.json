@@ -11,9 +11,21 @@
   "taille": "Environ 25 à 30 cm au garrot",
   "tailleMoyenne": 28,
   "regime": "Fruits, graines, noix, racines, feuilles, champignons et végétaux tombés au sol",
-  "regimeEmoji": ["🍎", "🫘", "🥜", "🌱", "🥬", "🍄"],
+  "regimeEmoji": [
+    "🍎",
+    "🫘",
+    "🥜",
+    "🌱",
+    "🥬",
+    "🍄"
+  ],
   "habitat": "Forêts tropicales, forêts sèches, savanes boisées, lisières et zones proches de l’eau",
   "description": "Rongeur brun-roux d’Amérique du Sud, souvent au sol à chercher fruits et graines.",
   "keywords": "agouti rongeur brun roux orange sol foret jungle fruit graine noix Amerique Sud rapide petit",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/mammals/20260725_agouti-azara.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

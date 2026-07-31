@@ -12,9 +12,20 @@
   "tailleMoyenne": 28,
   "envergure": "Environ 45 à 50 cm",
   "regime": "Fruits, baies, nectar, insectes et petits invertébrés",
-  "regimeEmoji": ["🍎", "🫐", "🧃", "🦟", "🐛"],
+  "regimeEmoji": [
+    "🍎",
+    "🫐",
+    "🧃",
+    "🦟",
+    "🐛"
+  ],
   "habitat": "Forêts tropicales, lisières, plantations, vergers et zones boisées humides",
   "description": "Oiseau noir brillant aux barbillons jaunes, célèbre pour ses imitations vocales.",
   "keywords": "oiseau mainate noir brillant jaune bec orange parole imitation voix foret fruit tropical",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_mainate-religieux.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

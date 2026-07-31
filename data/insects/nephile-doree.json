@@ -12,9 +12,20 @@
   "taille": "Femelle : 24 à 40 mm ; mâle beaucoup plus petit",
   "tailleMoyenne": 32,
   "regime": "Insectes volants capturés dans sa grande toile",
-  "regimeEmoji": ["🦟"],
+  "regimeEmoji": [
+    "🦟"
+  ],
   "habitat": "Forêts, lisières, jardins, zones boisées, broussailles et milieux tropicaux",
   "description": "Grande araignée à toile dorée, avec une femelle bien plus grande que le mâle.",
   "keywords": "araignee nephile doree toile jaune or grande pattes longues foret jardin insectes tropical",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/insects/20260725_nephile-doree_02.jpg",
+      "lieu": "Pairi Daiza"
+    },
+    {
+      "fichier": "images/insects/20260725_nephile-doree_01.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

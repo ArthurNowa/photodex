@@ -11,9 +11,23 @@
   "taille": "Environ 20 cm au garrot",
   "tailleMoyenne": 20,
   "regime": "Insectes, rongeurs, petits reptiles, oiseaux, œufs, fruits, racines et végétaux",
-  "regimeEmoji": ["🦟", "🐛", "🐁", "🦎", "🐦", "🥚", "🍎", "🌱"],
+  "regimeEmoji": [
+    "🦟",
+    "🐛",
+    "🐁",
+    "🦎",
+    "🐦",
+    "🥚",
+    "🍎",
+    "🌱"
+  ],
   "habitat": "Déserts sableux, dunes, zones arides, steppes sèches et terriers",
   "description": "Petit renard du désert, beige, aux très grandes oreilles.",
   "keywords": "renard fennec desert sable beige oreilles grandes petit canide terrier nuit Sahara",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/mammals/20260725_fennec.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

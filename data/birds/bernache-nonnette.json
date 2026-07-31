@@ -12,9 +12,18 @@
   "tailleMoyenne": 63,
   "envergure": "132 à 145 cm",
   "regime": "Herbes, feuilles, tiges, plantes aquatiques, graines et algues",
-  "regimeEmoji": ["🌱", "🥬", "🫘"],
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🫘"
+  ],
   "habitat": "Toundra, falaises arctiques, marais côtiers, estuaires, prairies humides et vasières",
   "description": "Petite oie noire, blanche et grise, reconnaissable à sa face blanche.",
   "keywords": "oiseau oie bernache noir blanc gris face cou mer cote marais prairie groupe eau migration",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_bernache-nonnette.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

@@ -12,9 +12,21 @@
   "taille": "23 à 26 cm de long, sans compter la queue",
   "tailleMoyenne": 25,
   "regime": "Fruits, nectar, sève, insectes, petits vertébrés et gommes végétales",
-  "regimeEmoji": ["🍎", "🧃", "🦟", "🐛", "🐁", "🌱"],
+  "regimeEmoji": [
+    "🍎",
+    "🧃",
+    "🦟",
+    "🐛",
+    "🐁",
+    "🌱"
+  ],
   "habitat": "Forêts tropicales, lisières, sous-bois, canopée et forêts secondaires",
   "description": "Petit singe colombien à grande crête blanche et visage sombre.",
   "keywords": "singe tamarin blanc crete cheveux tete noir petit primate Colombie foret arbre groupe",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/mammals/20260725_tamarin-a-crete-blanche.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

@@ -12,9 +12,20 @@
   "tailleMoyenne": 70,
   "envergure": "Environ 70 à 80 cm",
   "regime": "Fruits tombés, baies, graines, jeunes pousses et petits invertébrés",
-  "regimeEmoji": ["🍎", "🫐", "🫘", "🌱", "🐛"],
+  "regimeEmoji": [
+    "🍎",
+    "🫐",
+    "🫘",
+    "🌱",
+    "🐛"
+  ],
   "habitat": "Forêts tropicales humides, sous-bois, lisières et zones boisées de basse altitude",
   "description": "Grand pigeon bleu gris à huppe en éventail, vivant surtout au sol.",
   "keywords": "oiseau pigeon goura bleu gris huppe plumes sol foret jungle Nouvelle Guinee fruit",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_goura-de-sclater.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

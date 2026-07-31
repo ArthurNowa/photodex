@@ -11,9 +11,17 @@
   "taille": "3 à 6 m de long",
   "tailleMoyenne": 450,
   "regime": "Principalement poissons ; les jeunes consomment aussi de petits animaux aquatiques",
-  "regimeEmoji": ["🐟", "🦐"],
+  "regimeEmoji": [
+    "🐟",
+    "🦐"
+  ],
   "habitat": "Grands fleuves, rivières profondes, bancs de sable et zones d’eau douce",
   "description": "Grand crocodilien au très long museau fin, spécialisé dans la capture des poissons.",
   "keywords": "gavial crocodile reptile museau long fin dents Inde Gange fleuve riviere poisson sable",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/reptiles/20260725_gavial-du-gange.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

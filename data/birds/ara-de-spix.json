@@ -12,9 +12,20 @@
   "tailleMoyenne": 56,
   "envergure": "Environ 60 à 65 cm",
   "regime": "Graines, fruits, baies, noix et végétaux",
-  "regimeEmoji": ["🫘", "🍎", "🫐", "🥜", "🌱"],
+  "regimeEmoji": [
+    "🫘",
+    "🍎",
+    "🫐",
+    "🥜",
+    "🌱"
+  ],
   "habitat": "Caatinga, forêts sèches, galeries boisées et zones arbustives du Brésil",
   "description": "Ara bleu grisâtre très rare, au long bec noir et à la longue queue bleue.",
   "keywords": "oiseau perroquet ara bleu gris rare Bresil caatinga bec noir queue longue foret",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_ara-de-spix.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

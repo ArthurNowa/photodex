@@ -13,9 +13,18 @@
   "tailleMoyenne": 160,
   "envergure": "226 à 360 cm",
   "regime": "Poissons principalement, parfois amphibiens et petits animaux aquatiques",
-  "regimeEmoji": ["🐟", "🐸", "🦐"],
+  "regimeEmoji": [
+    "🐟",
+    "🐸",
+    "🦐"
+  ],
   "habitat": "Lacs, marais, deltas, lagunes, grands cours d’eau et zones humides",
   "description": "Très grand oiseau blanc au long bec muni d’une grande poche jaune.",
   "keywords": "oiseau pelican blanc grand bec poche jaune eau lac marais poisson groupe ailes",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_pelican-blanc.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

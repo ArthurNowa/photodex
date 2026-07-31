@@ -11,9 +11,20 @@
   "taille": "55 à 76 cm au garrot",
   "tailleMoyenne": 66,
   "regime": "Mammifères, reptiles, poissons, oiseaux, tortues, caïmans et autres proies animales",
-  "regimeEmoji": ["🍗", "🐁", "🦎", "🐟", "🐦"],
+  "regimeEmoji": [
+    "🍗",
+    "🐁",
+    "🦎",
+    "🐟",
+    "🐦"
+  ],
   "habitat": "Forêts tropicales, marais, savanes, berges de rivières et zones humides",
   "description": "Grand félin tacheté, massif et puissant, souvent lié aux forêts humides.",
   "keywords": "jaguar felin taches rosettes jaune noir foret jungle eau riviere Amerique predateur",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/mammals/20260725_jaguar.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

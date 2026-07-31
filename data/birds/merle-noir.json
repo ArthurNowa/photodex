@@ -12,9 +12,21 @@
   "tailleMoyenne": 26,
   "envergure": "34 à 38 cm",
   "regime": "Vers, insectes, escargots, fruits et baies",
-  "regimeEmoji": ["🪱", "🦟", "🐛", "🐌", "🍎", "🫐"],
+  "regimeEmoji": [
+    "🪱",
+    "🦟",
+    "🐛",
+    "🐌",
+    "🍎",
+    "🫐"
+  ],
   "habitat": "Jardins, parcs, haies, bois, lisières, vergers et zones urbaines arborées",
   "description": "Oiseau noir chez le mâle, au bec jaune orangé et au chant très mélodieux.",
   "keywords": "oiseau merle noir bec jaune orange chant jardin parc haie foret sol feuilles ver",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_merle-noir.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

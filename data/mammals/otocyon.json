@@ -12,9 +12,21 @@
   "taille": "30 à 40 cm au garrot",
   "tailleMoyenne": 35,
   "regime": "Termites, insectes, scorpions, petits rongeurs, oiseaux, œufs et fruits",
-  "regimeEmoji": ["🐛", "🦟", "🐁", "🐦", "🥚", "🍎"],
+  "regimeEmoji": [
+    "🐛",
+    "🦟",
+    "🐁",
+    "🐦",
+    "🥚",
+    "🍎"
+  ],
   "habitat": "Savanes, prairies sèches, brousses, plaines ouvertes et zones riches en termites",
   "description": "Petit canidé gris-beige aux très grandes oreilles, grand amateur de termites.",
   "keywords": "renard canide oreilles grandes gris beige Afrique savane termite nuit petit sol",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/mammals/20260725_otocyon.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

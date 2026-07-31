@@ -1,8 +1,8 @@
 {
-  "animalId": "tigre-blanc-royal",
-  "category": "mammals",
-  "photo": "../images/mammals/20260725_tigre-blanc-royal_03.jpg",
-  "fileName": "20260725_tigre-blanc-royal_03.jpg",
+  "animalId": "vautour-moine",
+  "category": "birds",
+  "photo": "../images/birds/20260725_vautour-moine.jpg",
+  "fileName": "20260725_vautour-moine.jpg",
   "date": "2026-07-25",
-  "jsonfile": "data/mammals/tigre-blanc-royal.json"
+  "jsonfile": "data/birds/vautour-moine.json"
 }
