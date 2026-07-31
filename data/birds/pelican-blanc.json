@@ -1,0 +1,21 @@
+﻿{
+  "id": "pelican-blanc",
+  "nom": "Pélican blanc",
+  "nomAlt": "Grand pélican blanc",
+  "nomScientifique": "Pelecanus onocrotalus",
+  "famille": "Pelecanidae",
+  "sousFamille": "",
+  "ordre": "Pélécaniforme",
+  "repartition": "Europe du Sud-Est, Afrique, Moyen-Orient et Asie du Sud, selon les populations.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "140 à 180 cm",
+  "tailleMoyenne": 160,
+  "envergure": "226 à 360 cm",
+  "regime": "Poissons principalement, parfois amphibiens et petits animaux aquatiques",
+  "regimeEmoji": ["🐟", "🐸", "🦐"],
+  "habitat": "Lacs, marais, deltas, lagunes, grands cours d’eau et zones humides",
+  "description": "Très grand oiseau blanc au long bec muni d’une grande poche jaune.",
+  "keywords": "oiseau pelican blanc grand bec poche jaune eau lac marais poisson groupe ailes",
+  "photos": []
+}

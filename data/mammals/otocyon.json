@@ -1,0 +1,20 @@
+﻿{
+  "id": "otocyon",
+  "nom": "Otocyon",
+  "nomAlt": "Renard à oreilles de chauve-souris",
+  "nomScientifique": "Otocyon megalotis",
+  "famille": "Canidae",
+  "sousFamille": "Caninae",
+  "ordre": "Carnivore",
+  "repartition": "Afrique orientale et australe, dans les savanes et zones sèches ouvertes.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "30 à 40 cm au garrot",
+  "tailleMoyenne": 35,
+  "regime": "Termites, insectes, scorpions, petits rongeurs, oiseaux, œufs et fruits",
+  "regimeEmoji": ["🐛", "🦟", "🐁", "🐦", "🥚", "🍎"],
+  "habitat": "Savanes, prairies sèches, brousses, plaines ouvertes et zones riches en termites",
+  "description": "Petit canidé gris-beige aux très grandes oreilles, grand amateur de termites.",
+  "keywords": "renard canide oreilles grandes gris beige Afrique savane termite nuit petit sol",
+  "photos": []
+}

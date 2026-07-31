@@ -1,0 +1,19 @@
+﻿{
+  "id": "gavial-du-gange",
+  "nom": "Gavial du Gange",
+  "nomScientifique": "Gavialis gangeticus",
+  "famille": "Gavialidae",
+  "sousFamille": "Gavialinae",
+  "ordre": "Crocodilien",
+  "repartition": "Nord du sous-continent indien, surtout dans quelques grands fleuves d’Inde et du Népal.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "3 à 6 m de long",
+  "tailleMoyenne": 450,
+  "regime": "Principalement poissons ; les jeunes consomment aussi de petits animaux aquatiques",
+  "regimeEmoji": ["🐟", "🦐"],
+  "habitat": "Grands fleuves, rivières profondes, bancs de sable et zones d’eau douce",
+  "description": "Grand crocodilien au très long museau fin, spécialisé dans la capture des poissons.",
+  "keywords": "gavial crocodile reptile museau long fin dents Inde Gange fleuve riviere poisson sable",
+  "photos": []
+}

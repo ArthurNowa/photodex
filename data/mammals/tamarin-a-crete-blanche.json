@@ -1,0 +1,20 @@
+﻿{
+  "id": "tamarin-a-crete-blanche",
+  "nom": "Tamarin à crête blanche",
+  "nomAlt": "Tamarin pinché",
+  "nomScientifique": "Saguinus oedipus",
+  "famille": "Callitrichidae",
+  "sousFamille": "Callitrichinae",
+  "ordre": "Primates",
+  "repartition": "Nord-ouest de la Colombie, dans les forêts tropicales et zones boisées.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "23 à 26 cm de long, sans compter la queue",
+  "tailleMoyenne": 25,
+  "regime": "Fruits, nectar, sève, insectes, petits vertébrés et gommes végétales",
+  "regimeEmoji": ["🍎", "🧃", "🦟", "🐛", "🐁", "🌱"],
+  "habitat": "Forêts tropicales, lisières, sous-bois, canopée et forêts secondaires",
+  "description": "Petit singe colombien à grande crête blanche et visage sombre.",
+  "keywords": "singe tamarin blanc crete cheveux tete noir petit primate Colombie foret arbre groupe",
+  "photos": []
+}

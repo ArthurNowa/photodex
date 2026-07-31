@@ -1,0 +1,20 @@
+﻿{
+  "id": "mainate-religieux",
+  "nom": "Mainate religieux",
+  "nomScientifique": "Gracula religiosa",
+  "famille": "Sturnidae",
+  "sousFamille": "Graculinae",
+  "ordre": "Passériforme",
+  "repartition": "Asie du Sud et du Sud-Est, de l’Inde à l’Indonésie.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "25 à 30 cm",
+  "tailleMoyenne": 28,
+  "envergure": "Environ 45 à 50 cm",
+  "regime": "Fruits, baies, nectar, insectes et petits invertébrés",
+  "regimeEmoji": ["🍎", "🫐", "🧃", "🦟", "🐛"],
+  "habitat": "Forêts tropicales, lisières, plantations, vergers et zones boisées humides",
+  "description": "Oiseau noir brillant aux barbillons jaunes, célèbre pour ses imitations vocales.",
+  "keywords": "oiseau mainate noir brillant jaune bec orange parole imitation voix foret fruit tropical",
+  "photos": []
+}

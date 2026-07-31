@@ -1,0 +1,20 @@
+﻿{
+  "id": "vautour-moine",
+  "nom": "Vautour moine",
+  "nomScientifique": "Aegypius monachus",
+  "famille": "Accipitridae",
+  "sousFamille": "Aegypiinae",
+  "ordre": "Accipitriforme",
+  "repartition": "Europe du Sud, Moyen-Orient et Asie centrale jusqu’à la Mongolie et la Chine.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "100 à 110 cm",
+  "tailleMoyenne": 105,
+  "envergure": "250 à 295 cm",
+  "regime": "Charognes, carcasses et restes de grands mammifères",
+  "regimeEmoji": ["🦴", "🍖"],
+  "habitat": "Montagnes, collines boisées, steppes, zones ouvertes et falaises",
+  "description": "Très grand vautour sombre, au plumage brun noir et à la tête claire.",
+  "keywords": "oiseau vautour noir brun sombre grand charogne carcasse montagne falaise ailes rapace",
+  "photos": []
+}

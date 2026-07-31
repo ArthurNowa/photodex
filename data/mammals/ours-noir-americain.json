@@ -1,0 +1,20 @@
+﻿{
+  "id": "ours-noir-americain",
+  "nom": "Ours noir américain",
+  "nomAlt": "Baribal",
+  "nomScientifique": "Ursus americanus",
+  "famille": "Ursidae",
+  "sousFamille": "Ursinae",
+  "ordre": "Carnivore",
+  "repartition": "Amérique du Nord, surtout au Canada, aux États-Unis et dans le nord du Mexique.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "90 à 95 cm au garrot",
+  "tailleMoyenne": 92,
+  "regime": "Fruits, baies, noix, glands, herbes, insectes, miel, poissons, charognes et petits animaux",
+  "regimeEmoji": ["🍎", "🫐", "🥜", "🌱", "🐛", "🍯", "🐟", "🦴", "🐁"],
+  "habitat": "Forêts, montagnes, zones boisées, marécages, vallées et milieux proches de l’eau",
+  "description": "Ours nord-américain souvent noir, mais parfois brun, cannelle ou clair.",
+  "keywords": "ours noir brun cannelle fourrure foret montagne Amerique griffes museau rond omnivore",
+  "photos": []
+}

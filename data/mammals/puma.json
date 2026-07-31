@@ -1,0 +1,20 @@
+﻿{
+  "id": "puma",
+  "nom": "Puma",
+  "nomAlt": "Couguar",
+  "nomScientifique": "Puma concolor",
+  "famille": "Felidae",
+  "sousFamille": "Felinae",
+  "ordre": "Carnivore",
+  "repartition": "Amérique, du Canada jusqu’au sud de l’Argentine et du Chili.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "60 à 70 cm au garrot",
+  "tailleMoyenne": 65,
+  "regime": "Cervidés, rongeurs, petits mammifères, oiseaux, reptiles et autres proies animales",
+  "regimeEmoji": ["🍗", "🐁", "🐦", "🦎"],
+  "habitat": "Forêts, montagnes, déserts, prairies, brousses et zones rocheuses",
+  "description": "Grand félin beige sans taches, agile et discret, à longue queue.",
+  "keywords": "puma couguar felin chat beige fauve queue montagne foret rocher amerique predateur",
+  "photos": []
+}

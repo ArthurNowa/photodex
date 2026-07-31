@@ -1,0 +1,19 @@
+﻿{
+  "id": "grenouille-rousse",
+  "nom": "Grenouille rousse",
+  "nomScientifique": "Rana temporaria",
+  "famille": "Ranidae",
+  "sousFamille": "Raninae",
+  "ordre": "Anoure",
+  "repartition": "Europe et nord de l’Asie, jusqu’à la Sibérie occidentale ; présente en France.",
+  "categorie": "amphibians",
+  "type": "Amphibien",
+  "taille": "6 à 10 cm",
+  "tailleMoyenne": 8,
+  "regime": "Insectes, vers, limaces, araignées et autres petits invertébrés",
+  "regimeEmoji": ["🦟", "🐛", "🪱", "🐌", "🕷️"],
+  "habitat": "Bois, prairies humides, jardins, mares, fossés, marais et zones fraîches",
+  "description": "Grenouille brune à rousse, avec un masque sombre derrière l’œil.",
+  "keywords": "grenouille rousse brune marron amphibien mare eau foret jardin humide masque oeil saut",
+  "photos": []
+}

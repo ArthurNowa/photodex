@@ -1,0 +1,19 @@
+﻿{
+  "id": "jaguar",
+  "nom": "Jaguar",
+  "nomScientifique": "Panthera onca",
+  "famille": "Felidae",
+  "sousFamille": "Pantherinae",
+  "ordre": "Carnivore",
+  "repartition": "Amérique centrale et Amérique du Sud, surtout dans les forêts tropicales et zones humides.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "55 à 76 cm au garrot",
+  "tailleMoyenne": 66,
+  "regime": "Mammifères, reptiles, poissons, oiseaux, tortues, caïmans et autres proies animales",
+  "regimeEmoji": ["🍗", "🐁", "🦎", "🐟", "🐦"],
+  "habitat": "Forêts tropicales, marais, savanes, berges de rivières et zones humides",
+  "description": "Grand félin tacheté, massif et puissant, souvent lié aux forêts humides.",
+  "keywords": "jaguar felin taches rosettes jaune noir foret jungle eau riviere Amerique predateur",
+  "photos": []
+}

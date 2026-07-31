@@ -1,0 +1,19 @@
+﻿{
+  "id": "fennec",
+  "nom": "Fennec",
+  "nomScientifique": "Vulpes zerda",
+  "famille": "Canidae",
+  "sousFamille": "Caninae",
+  "ordre": "Carnivore",
+  "repartition": "Déserts d’Afrique du Nord, notamment Sahara, Sinaï et régions arides voisines.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "Environ 20 cm au garrot",
+  "tailleMoyenne": 20,
+  "regime": "Insectes, rongeurs, petits reptiles, oiseaux, œufs, fruits, racines et végétaux",
+  "regimeEmoji": ["🦟", "🐛", "🐁", "🦎", "🐦", "🥚", "🍎", "🌱"],
+  "habitat": "Déserts sableux, dunes, zones arides, steppes sèches et terriers",
+  "description": "Petit renard du désert, beige, aux très grandes oreilles.",
+  "keywords": "renard fennec desert sable beige oreilles grandes petit canide terrier nuit Sahara",
+  "photos": []
+}

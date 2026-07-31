@@ -1,0 +1,20 @@
+﻿{
+  "id": "bernache-nonnette",
+  "nom": "Bernache nonnette",
+  "nomScientifique": "Branta leucopsis",
+  "famille": "Anatidae",
+  "sousFamille": "Anserinae",
+  "ordre": "Ansériforme",
+  "repartition": "Niche dans l’Arctique nord-atlantique ; hiverne surtout sur les côtes d’Europe du Nord et de l’Ouest.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "55 à 70 cm",
+  "tailleMoyenne": 63,
+  "envergure": "132 à 145 cm",
+  "regime": "Herbes, feuilles, tiges, plantes aquatiques, graines et algues",
+  "regimeEmoji": ["🌱", "🥬", "🫘"],
+  "habitat": "Toundra, falaises arctiques, marais côtiers, estuaires, prairies humides et vasières",
+  "description": "Petite oie noire, blanche et grise, reconnaissable à sa face blanche.",
+  "keywords": "oiseau oie bernache noir blanc gris face cou mer cote marais prairie groupe eau migration",
+  "photos": []
+}

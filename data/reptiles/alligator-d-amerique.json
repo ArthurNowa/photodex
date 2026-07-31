@@ -1,0 +1,19 @@
+﻿{
+  "id": "alligator-d-amerique",
+  "nom": "Alligator d’Amérique",
+  "nomScientifique": "Alligator mississippiensis",
+  "famille": "Alligatoridae",
+  "sousFamille": "Alligatorinae",
+  "ordre": "Crocodilien",
+  "repartition": "Sud-est des États-Unis, notamment Floride, Louisiane, Géorgie et Carolines.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "3 à 4,6 m de long",
+  "tailleMoyenne": 380,
+  "regime": "Poissons, amphibiens, reptiles, oiseaux, mammifères, invertébrés et charognes",
+  "regimeEmoji": ["🐟", "🐸", "🦎", "🐦", "🐁", "🦐", "🦴"],
+  "habitat": "Marais, bayous, lacs, rivières, étangs, zones humides et eaux douces",
+  "description": "Grand reptile sombre au museau large, emblématique des marais américains.",
+  "keywords": "alligator crocodile reptile noir sombre museau large Floride marais bayou eau dents",
+  "photos": []
+}

@@ -1,0 +1,19 @@
+﻿{
+  "id": "papillon-malachite",
+  "nom": "Malachite",
+  "nomScientifique": "Siproeta stelenes",
+  "famille": "Nymphalidae",
+  "sousFamille": "Nymphalinae",
+  "ordre": "Lépidoptère",
+  "repartition": "Amérique centrale, Caraïbes et nord de l’Amérique du Sud, jusqu’au sud des États-Unis.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Envergure de 80 à 100 mm",
+  "tailleMoyenne": 45,
+  "regime": "Nectar, fruits mûrs et matières sucrées ; les chenilles consomment des plantes tropicales",
+  "regimeEmoji": ["🧃", "🍎", "🍯", "🌱"],
+  "habitat": "Forêts tropicales, lisières, clairières, jardins, vergers et zones humides boisées",
+  "description": "Grand papillon noir et vert, aux ailes rappelant la pierre malachite.",
+  "keywords": "papillon vert noir malachite grand ailes tropical foret jardin fruit Amerique taches",
+  "photos": []
+}

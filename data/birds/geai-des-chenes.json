@@ -1,0 +1,20 @@
+﻿{
+  "id": "geai-des-chenes",
+  "nom": "Geai des chênes",
+  "nomScientifique": "Garrulus glandarius",
+  "famille": "Corvidae",
+  "sousFamille": "",
+  "ordre": "Passériforme",
+  "repartition": "Europe, Afrique du Nord et grande partie de l’Asie tempérée ; présent partout en France.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "32 à 36 cm",
+  "tailleMoyenne": 34,
+  "envergure": "54 à 58 cm",
+  "regime": "Glands, graines, noix, fruits, baies, insectes, œufs et petits animaux",
+  "regimeEmoji": ["🥜", "🫘", "🍎", "🫐", "🦟", "🐛", "🥚", "🐁"],
+  "habitat": "Forêts, bois, haies, parcs, jardins, bocages et lisières",
+  "description": "Corvidé coloré brun rosé, reconnaissable à ses plumes bleues barrées de noir.",
+  "keywords": "oiseau geai brun rose bleu noir blanc aile plumes foret bois chene gland jardin haie cri",
+  "photos": []
+}

@@ -1,0 +1,20 @@
+﻿{
+  "id": "merle-noir",
+  "nom": "Merle noir",
+  "nomScientifique": "Turdus merula",
+  "famille": "Turdidae",
+  "sousFamille": "",
+  "ordre": "Passériforme",
+  "repartition": "Europe, Afrique du Nord, Moyen-Orient et Asie occidentale ; introduit en Océanie.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "23 à 29 cm",
+  "tailleMoyenne": 26,
+  "envergure": "34 à 38 cm",
+  "regime": "Vers, insectes, escargots, fruits et baies",
+  "regimeEmoji": ["🪱", "🦟", "🐛", "🐌", "🍎", "🫐"],
+  "habitat": "Jardins, parcs, haies, bois, lisières, vergers et zones urbaines arborées",
+  "description": "Oiseau noir chez le mâle, au bec jaune orangé et au chant très mélodieux.",
+  "keywords": "oiseau merle noir bec jaune orange chant jardin parc haie foret sol feuilles ver",
+  "photos": []
+}

@@ -1,0 +1,20 @@
+﻿{
+  "id": "ara-de-spix",
+  "nom": "Ara de Spix",
+  "nomScientifique": "Cyanopsitta spixii",
+  "famille": "Psittacidae",
+  "sousFamille": "Arinae",
+  "ordre": "Psittaciforme",
+  "repartition": "Endémique du nord-est du Brésil, surtout dans la Caatinga de Bahia.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "55 à 57 cm",
+  "tailleMoyenne": 56,
+  "envergure": "Environ 60 à 65 cm",
+  "regime": "Graines, fruits, baies, noix et végétaux",
+  "regimeEmoji": ["🫘", "🍎", "🫐", "🥜", "🌱"],
+  "habitat": "Caatinga, forêts sèches, galeries boisées et zones arbustives du Brésil",
+  "description": "Ara bleu grisâtre très rare, au long bec noir et à la longue queue bleue.",
+  "keywords": "oiseau perroquet ara bleu gris rare Bresil caatinga bec noir queue longue foret",
+  "photos": []
+}

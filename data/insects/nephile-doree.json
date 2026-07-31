@@ -1,0 +1,20 @@
+﻿{
+  "id": "nephile-doree",
+  "nom": "Néphile dorée",
+  "nomAlt": "Araignée à soie dorée",
+  "nomScientifique": "Trichonephila clavipes",
+  "famille": "Araneidae",
+  "sousFamille": "Nephilinae",
+  "ordre": "Aranéide",
+  "repartition": "Amériques, du sud des États-Unis à l’Amérique centrale et à une partie de l’Amérique du Sud.",
+  "categorie": "insects",
+  "type": "Arachnide",
+  "taille": "Femelle : 24 à 40 mm ; mâle beaucoup plus petit",
+  "tailleMoyenne": 32,
+  "regime": "Insectes volants capturés dans sa grande toile",
+  "regimeEmoji": ["🦟"],
+  "habitat": "Forêts, lisières, jardins, zones boisées, broussailles et milieux tropicaux",
+  "description": "Grande araignée à toile dorée, avec une femelle bien plus grande que le mâle.",
+  "keywords": "araignee nephile doree toile jaune or grande pattes longues foret jardin insectes tropical",
+  "photos": []
+}

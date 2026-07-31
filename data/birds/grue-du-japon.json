@@ -1,0 +1,21 @@
+﻿{
+  "id": "grue-du-japon",
+  "nom": "Grue du Japon",
+  "nomAlt": "Grue à couronne rouge",
+  "nomScientifique": "Grus japonensis",
+  "famille": "Gruidae",
+  "sousFamille": "Gruinae",
+  "ordre": "Gruiforme",
+  "repartition": "Extrême-Orient russe, nord-est de la Chine, Corée et Japon.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "140 à 158 cm",
+  "tailleMoyenne": 150,
+  "envergure": "220 à 250 cm",
+  "regime": "Plantes aquatiques, graines, insectes, poissons, amphibiens et petits animaux",
+  "regimeEmoji": ["🌱", "🫘", "🦟", "🐛", "🐟", "🐸", "🐁"],
+  "habitat": "Marais, prairies humides, rizières, zones humides et plaines ouvertes",
+  "description": "Grande grue blanche et noire, avec une tache rouge nue sur la tête.",
+  "keywords": "oiseau grue blanc noir rouge tete long cou pattes marais eau prairie Japon danse",
+  "photos": []
+}

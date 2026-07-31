@@ -1,0 +1,20 @@
+﻿{
+  "id": "ara-hyacinthe",
+  "nom": "Ara hyacinthe",
+  "nomScientifique": "Anodorhynchus hyacinthinus",
+  "famille": "Psittacidae",
+  "sousFamille": "Arinae",
+  "ordre": "Psittaciforme",
+  "repartition": "Amérique du Sud, surtout Brésil, Bolivie et Paraguay.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "95 à 100 cm",
+  "tailleMoyenne": 98,
+  "envergure": "117 à 127 cm",
+  "regime": "Noix de palmiers, fruits, graines et végétaux",
+  "regimeEmoji": ["🥜", "🍎", "🫘", "🌱"],
+  "habitat": "Savanes arborées, palmeraies, forêts ouvertes, marais et lisières tropicales",
+  "description": "Très grand ara bleu vif, au bec massif et aux zones jaunes autour des yeux.",
+  "keywords": "oiseau perroquet ara bleu hyacinthe grand bec noir jaune tropical foret palmier noix",
+  "photos": []
+}
