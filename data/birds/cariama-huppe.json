@@ -13,9 +13,24 @@
   "tailleMoyenne": 82,
   "envergure": "Environ 90 à 110 cm",
   "regime": "Insectes, reptiles, amphibiens, petits mammifères, oiseaux, œufs, graines et fruits",
-  "regimeEmoji": ["🦟", "🐛", "🦎", "🐸", "🐁", "🐦", "🥚", "🫘", "🍎"],
+  "regimeEmoji": [
+    "🦟",
+    "🐛",
+    "🦎",
+    "🐸",
+    "🐁",
+    "🐦",
+    "🥚",
+    "🫘",
+    "🍎"
+  ],
   "habitat": "Savanes, prairies sèches, cerrado, brousses, champs ouverts et zones semi-arides",
   "description": "Grand oiseau terrestre beige, aux longues pattes rouges et à la huppe dressée.",
   "keywords": "oiseau beige huppe pattes rouges long cou sol savane prairie Amerique cri course",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_cariama-huppe.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }
