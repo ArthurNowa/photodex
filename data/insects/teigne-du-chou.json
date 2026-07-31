@@ -10,6 +10,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "Chenille : jusqu’à 10 à 12 mm",
+  "tailleMoyenne": 12,
   "regime": "Feuilles de Brassicacées, notamment choux, colzas, moutardes et plantes apparentées",
   "regimeEmoji": ["🥬"],
   "habitat": "Potagers, cultures de choux, champs de colza, friches et zones avec plantes crucifères",

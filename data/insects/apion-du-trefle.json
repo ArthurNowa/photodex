@@ -10,6 +10,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "Environ 2 à 3 mm",
+  "tailleMoyenne": 3,
   "regime": "Trèfles et autres légumineuses ; les larves se développent dans les inflorescences",
   "regimeEmoji": ["🥬", "🌱"],
   "habitat": "Prairies, pelouses, friches, bords de chemins, cultures et zones riches en trèfles",

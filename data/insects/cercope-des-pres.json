@@ -10,6 +10,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "5 à 7 mm",
+  "tailleMoyenne": 6,
   "regime": "Sève de nombreuses plantes herbacées, arbustes et jeunes pousses",
   "regimeEmoji": ["🧃"],
   "habitat": "Prairies, jardins, friches, haies, bords de chemins et végétation herbacée",

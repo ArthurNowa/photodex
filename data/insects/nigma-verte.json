@@ -10,6 +10,7 @@
   "categorie": "insects",
   "type": "Arachnide",
   "taille": "3 à 5 mm",
+  "tailleMoyenne": 5,
   "regime": "Petits insectes et autres arthropodes capturés sur sa toile",
   "regimeEmoji": ["🦟", "🐛"],
   "habitat": "Jardins, haies, lisières, murs végétalisés et feuilles d’arbustes",

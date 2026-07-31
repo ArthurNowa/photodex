@@ -9,6 +9,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "2,5 à 3,5 mm",
+  "tailleMoyenne": 3.5,
   "regime": "Champignons microscopiques, spores, pollen et parfois petits pucerons",
   "regimeEmoji": ["🍄", "🌺", "🐛"],
   "habitat": "Prairies, friches, dunes, marais et zones herbeuses sèches ou humides",

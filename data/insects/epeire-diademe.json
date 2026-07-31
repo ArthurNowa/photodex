@@ -9,6 +9,7 @@
   "categorie": "insects",
   "type": "Arachnide",
   "taille": "Femelle : 10 à 18 mm ; mâle : 5 à 13 mm",
+  "tailleMoyenne": 12,
   "regime": "Insectes capturés dans sa toile, principalement des mouches, moustiques, papillons et autres petits arthropodes",
   "regimeEmoji": ["🦟", "🐛"],
   "habitat": "Jardins, haies, parcs, lisières, friches, bois clairs et abords des habitations",

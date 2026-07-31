@@ -9,6 +9,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "5 à 8 mm",
+  "tailleMoyenne": 7,
   "regime": "Principalement pucerons ; elle consomme aussi d’autres petits insectes à corps mou, comme des aleurodes, thrips ou acariens",
   "regimeEmoji": ["🐛"],
   "habitat": "Prairies, jardins, parcs, haies, vergers, cultures, friches et autres zones riches en pucerons",

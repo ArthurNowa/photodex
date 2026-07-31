@@ -9,6 +9,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "11 à 15 mm",
+  "tailleMoyenne": 11,
   "regime": "Nectar et pollen",
   "regimeEmoji": ["🧃", "🌺"],
   "habitat": "Prairies, jardins, vergers, champs, lisières, ruches et milieux fleuris",

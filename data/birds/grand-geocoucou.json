@@ -10,7 +10,7 @@
   "categorie": "birds",
   "type": "Oiseau",
   "taille": "50 à 60 cm",
-  "tailleMoyenne": 45,
+  "tailleMoyenne": 40,
   "envergure": "49 à 60 cm",
   "regime": "Insectes, lézards, serpents, petits mammifères, œufs, oiseaux et fruits",
   "regimeEmoji": ["🐛", "🦎", "🐍", "🐁", "🐦", "🥚", "🍎"],

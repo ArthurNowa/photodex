@@ -9,6 +9,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "12 à 17 mm",
+  "tailleMoyenne": 16,
   "regime": "Insectes, nectar, fruits mûrs, matières sucrées et charognes",
   "regimeEmoji": ["🐛", "🧃", "🍎", "🍯", "🦴"],
   "habitat": "Jardins, parcs, lisières, prairies, zones urbaines et abords des habitations",

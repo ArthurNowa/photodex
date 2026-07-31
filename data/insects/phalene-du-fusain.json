@@ -9,6 +9,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "Envergure de 25 à 30 mm",
+  "tailleMoyenne": 26,
   "regime": "Les chenilles se nourrissent principalement de feuilles de fusain",
   "regimeEmoji": ["🥬"],
   "habitat": "Friches arbustives, haies, lisières, parcs et jardins",

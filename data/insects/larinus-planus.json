@@ -9,6 +9,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "5 à 10 mm",
+  "tailleMoyenne": 7,
   "regime": "Chardons et cirses ; les larves se développent dans les capitules",
   "regimeEmoji": ["🥬", "🌱"],
   "habitat": "Prairies, friches, talus, bords de chemins et milieux riches en chardons",

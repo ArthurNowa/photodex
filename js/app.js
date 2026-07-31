@@ -21,7 +21,7 @@ const birdSizeLevels = [
   { label: "Mésange", size: 10, image: "images/silhouettes/mesange.png" },
   { label: "Moineau", size: 14, image: "images/silhouettes/moineau.png" },
   { label: "Merle", size: 18, image: "images/silhouettes/merle.png" },
-  { label: "Pigeon", size: 30, image: "images/silhouettes/pigeon.png" },
+  { label: "Pigeon", size: 28, image: "images/silhouettes/pigeon.png" },
   { label: "Poule", size: 45, image: "images/silhouettes/poule.png" },
   { label: "Oie", size: 70, image: "images/silhouettes/oie.png" },
   { label: "Cigogne", size: 105, image: "images/silhouettes/cigogne.png" },
@@ -39,10 +39,10 @@ const mammalSizeLevels = [
 ];
 
 const insectSizeLevels = [
-  { label: "Puceron", size: 3, image: "images/silhouettes/puceron.png" },
-  { label: "Fourmi", size: 6, image: "images/silhouettes/fourmi.png" },
-  { label: "Coccinelle", size: 10, image: "images/silhouettes/coccinelle.png" },
-  { label: "Abeille", size: 18, image: "images/silhouettes/abeille.png" },
+  { label: "Puceron", size: 2.5, image: "images/silhouettes/puceron.png" },
+  { label: "Fourmi", size: 5, image: "images/silhouettes/fourmi.png" },
+  { label: "Coccinelle", size: 9, image: "images/silhouettes/coccinelle.png" },
+  { label: "Abeille", size: 16, image: "images/silhouettes/abeille.png" },
   { label: "Sauterelle", size: 35, image: "images/silhouettes/sauterelle.png" },
   { label: "Lucane", size: 70, image: "images/silhouettes/lucane.png" },
   { label: "Monarque", size: 110, image: "images/silhouettes/monarque.png" },

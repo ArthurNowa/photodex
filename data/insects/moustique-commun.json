@@ -9,6 +9,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "5 à 7 mm",
+  "tailleMoyenne": 7,
   "regime": "Nectar et sucs végétaux ; les femelles peuvent aussi prélever du sang",
   "regimeEmoji": ["🧃", "🩸"],
   "habitat": "Jardins, zones humides, mares, fossés, récupérateurs d’eau et abords des habitations",

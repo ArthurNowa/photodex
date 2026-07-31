@@ -9,6 +9,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "11 à 16 mm",
+  "tailleMoyenne": 18,
   "regime": "Petits insectes, pucerons, larves et autres petits arthropodes",
   "regimeEmoji": ["🦟", "🐛"],
   "habitat": "Arbres feuillus, haies, jardins, parcs, lisières et milieux urbains arborés",

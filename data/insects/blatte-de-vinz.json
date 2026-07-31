@@ -9,6 +9,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "Environ 7 à 10 mm",
+  "tailleMoyenne": 8,
   "regime": "Débris végétaux, matières organiques en décomposition et petits restes végétaux",
   "regimeEmoji": ["🍂", "🌱"],
   "habitat": "Jardins, haies, friches, parcs, murs végétalisés, litière de feuilles et abords des habitations",

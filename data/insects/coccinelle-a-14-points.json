@@ -10,6 +10,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "4,5 à 6 mm",
+  "tailleMoyenne": 5,
   "regime": "Pucerons, psylles et autres petits insectes trouvés sur les arbres feuillus",
   "regimeEmoji": ["🐛"],
   "habitat": "Feuillus, lisières, haies, jardins, parcs et bois clairs",

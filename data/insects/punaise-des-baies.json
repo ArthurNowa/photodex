@@ -9,6 +9,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "10 à 12 mm",
+  "tailleMoyenne": 11,
   "regime": "Sève, graines, fruits et baies de nombreuses plantes ; parfois petits insectes",
   "regimeEmoji": ["🧃", "🫘", "🍎", "🫐", "🐛"],
   "habitat": "Prairies, friches, haies, jardins, lisières, bords de chemins et zones herbacées",

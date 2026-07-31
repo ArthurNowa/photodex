@@ -9,6 +9,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "Environ 10 à 14 mm",
+  "tailleMoyenne": 13,
   "regime": "Nectar et pollen ; les larves aquatiques vivent dans des eaux riches en matière organique",
   "regimeEmoji": ["🧃", "🌺", "🍂"],
   "habitat": "Zones humides, bords de mares, ruisseaux, fossés, bois clairs, jardins et milieux fleuris",

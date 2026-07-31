@@ -9,6 +9,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "10 à 14 mm",
+  "tailleMoyenne": 12,
   "regime": "Les adultes consomment surtout des liquides sucrés, du nectar, des fruits très mûrs et diverses matières organiques ; les larves se développent dans la viande, les cadavres et autres matières animales en décomposition.",
   "regimeEmoji": ["🧃", "🍯", "🍎", "🍂", "🦴"],
   "habitat": "Jardins, zones rurales, lisières, bois, abords des habitations, déchets organiques et carcasses d’animaux",

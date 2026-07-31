@@ -9,6 +9,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "9 à 13 mm",
+  "tailleMoyenne": 12,
   "regime": "Nectar, pollen et miellat ; les larves consomment surtout des pucerons",
   "regimeEmoji": ["🧃", "🌺", "🐛"],
   "habitat": "Jardins, vergers, parcs, prairies fleuries, lisières et milieux boisés",

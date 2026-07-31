@@ -9,6 +9,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "Environ 7 à 10 mm",
+  "tailleMoyenne": 8,
   "regime": "Petits insectes et autres invertébrés ; les larves sont prédatrices",
   "regimeEmoji": ["🦟", "🐛"],
   "habitat": "Bois humides, lisières ombragées, bords de cours d’eau, haies et végétation basse",

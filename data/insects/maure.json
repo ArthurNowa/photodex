@@ -9,6 +9,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "Envergure de 55 à 65 mm",
+  "tailleMoyenne": 40,
   "regime": "Les chenilles se nourrissent de nombreuses plantes herbacées, arbustes et arbres, notamment des oseilles, pissenlits, saules, aubépines et fusains",
   "regimeEmoji": ["🥬", "🌱"],
   "habitat": "Bords de rivières, étangs, zones humides, vallées boisées, haies, lisières et jardins ombragés",

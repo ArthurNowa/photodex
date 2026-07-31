@@ -10,6 +10,7 @@
   "categorie": "insects",
   "type": "Insecte",
   "taille": "30 à 36 mm",
+  "tailleMoyenne": 45,
   "regime": "Petits insectes capturés en vol ; les larves chassent de petits invertébrés aquatiques",
   "regimeEmoji": ["🦟", "🦐"],
   "habitat": "Étangs, lacs, bras morts et eaux calmes riches en végétation flottante",
