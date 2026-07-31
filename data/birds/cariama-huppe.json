@@ -1,29 +1,21 @@
 ﻿{
-  "id": "bernache-nonnette",
-  "nom": "Bernache nonnette",
-  "nomScientifique": "Branta leucopsis",
-  "famille": "Anatidae",
-  "sousFamille": "Anserinae",
-  "ordre": "Ansériforme",
-  "repartition": "Niche dans l’Arctique nord-atlantique ; hiverne surtout sur les côtes d’Europe du Nord et de l’Ouest.",
+  "id": "cariama-huppe",
+  "nom": "Cariama huppé",
+  "nomAlt": "Sériema huppé",
+  "nomScientifique": "Cariama cristata",
+  "famille": "Cariamidae",
+  "sousFamille": "",
+  "ordre": "Cariamiforme",
+  "repartition": "Amérique du Sud : Brésil, Bolivie, Paraguay, Uruguay et nord de l’Argentine.",
   "categorie": "birds",
   "type": "Oiseau",
-  "taille": "55 à 70 cm",
-  "tailleMoyenne": 63,
-  "envergure": "132 à 145 cm",
-  "regime": "Herbes, feuilles, tiges, plantes aquatiques, graines et algues",
-  "regimeEmoji": [
-    "🌱",
-    "🥬",
-    "🫘"
-  ],
-  "habitat": "Toundra, falaises arctiques, marais côtiers, estuaires, prairies humides et vasières",
-  "description": "Petite oie noire, blanche et grise, reconnaissable à sa face blanche.",
-  "keywords": "oiseau oie bernache noir blanc gris face cou mer cote marais prairie groupe eau migration",
-  "photos": [
-    {
-      "fichier": "images/birds/20260725_cariama-huppe.jpg",
-      "lieu": "Pairi Daiza"
-    }
-  ]
+  "taille": "75 à 90 cm",
+  "tailleMoyenne": 82,
+  "envergure": "Environ 90 à 110 cm",
+  "regime": "Insectes, reptiles, amphibiens, petits mammifères, oiseaux, œufs, graines et fruits",
+  "regimeEmoji": ["🦟", "🐛", "🦎", "🐸", "🐁", "🐦", "🥚", "🫘", "🍎"],
+  "habitat": "Savanes, prairies sèches, cerrado, brousses, champs ouverts et zones semi-arides",
+  "description": "Grand oiseau terrestre beige, aux longues pattes rouges et à la huppe dressée.",
+  "keywords": "oiseau beige huppe pattes rouges long cou sol savane prairie Amerique cri course",
+  "photos": []
 }
