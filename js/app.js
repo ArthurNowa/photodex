@@ -232,7 +232,7 @@ function enableSizeSlider() {
 
 function updateSizeSlider() {
   const selectedIndex = Number(sizeInput.value);
-  const selectedLevel = birdSizeLevels[selectedIndex];
+  const selectedLevel = animalScale[selectedIndex];
 
   sizeLabel.textContent = selectedLevel.label;
 
