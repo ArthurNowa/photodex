@@ -1,0 +1,27 @@
+﻿{
+  "id": "criquet-melodieux",
+  "nom": "Criquet mélodieux",
+  "nomScientifique": "Chorthippus biguttulus",
+  "famille": "Acrididae",
+  "sousFamille": "Gomphocerinae",
+  "ordre": "Orthoptère",
+  "repartition": "Europe et Asie tempérée ; commun en France dans les milieux ouverts.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "13 à 22 mm",
+  "tailleMoyenne": 17,
+  "regime": "Herbes, graminées, jeunes pousses et autres végétaux bas",
+  "regimeEmoji": [
+    "🌱",
+    "🥬"
+  ],
+  "habitat": "Prairies sèches, pelouses, friches, talus, bords de chemins et zones herbeuses",
+  "description": "Petit criquet brun ou verdâtre des herbes, connu pour son chant stridulant.",
+  "keywords": "insecte criquet sauterelle brun vert herbe prairie sol chant pattes saut talus chemin",
+  "photos": [
+    {
+      "fichier": "images/insects/20260724_criquet-melodieux.jpg",
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+    }
+  ]
+}

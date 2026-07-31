@@ -1,0 +1,35 @@
+﻿{
+  "id": "pieride-du-navet",
+  "nom": "Piéride du navet",
+  "nomScientifique": "Pieris napi",
+  "famille": "Pieridae",
+  "sousFamille": "Pierinae",
+  "ordre": "Lépidoptère",
+  "repartition": "Europe, Afrique du Nord et Asie tempérée ; commune en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Envergure de 35 à 45 mm",
+  "tailleMoyenne": 20,
+  "regime": "Nectar ; les chenilles consomment les feuilles de Brassicacées sauvages",
+  "regimeEmoji": [
+    "🧃",
+    "🥬"
+  ],
+  "habitat": "Prairies, jardins, friches, lisières, haies, chemins et zones fleuries",
+  "description": "Papillon blanc aux nervures grisâtres visibles sous les ailes.",
+  "keywords": "papillon blanc gris nervures ailes jardin prairie fleur navet chou feuilles herbe lisiere",
+  "photos": [
+    {
+      "fichier": "images/insects/20260724_pieride-du-navet.jpg",
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+    },
+    {
+      "fichier": "images/insects/20260717_pieride-du-navet_02.jpg",
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+    },
+    {
+      "fichier": "images/insects/20260717_pieride-du-navet_01.jpg",
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+    }
+  ]
+}

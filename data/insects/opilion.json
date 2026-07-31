@@ -1,0 +1,30 @@
+﻿{
+  "id": "opilion",
+  "nom": "Opilion",
+  "nomAlt": "Faucheux",
+  "nomScientifique": "Opiliones",
+  "famille": "",
+  "sousFamille": "",
+  "ordre": "Opilion",
+  "repartition": "Présent sur presque tous les continents ; commun en Europe et en France.",
+  "categorie": "insects",
+  "type": "Arachnide",
+  "taille": "Corps de 2 à 10 mm, pattes beaucoup plus longues",
+  "tailleMoyenne": 6,
+  "regime": "Petits insectes, acariens, débris organiques, champignons et matières animales ou végétales",
+  "regimeEmoji": [
+    "🦟",
+    "🐛",
+    "🍂",
+    "🍄"
+  ],
+  "habitat": "Jardins, murs, haies, sous-bois, litière de feuilles, herbes hautes et zones ombragées",
+  "description": "Arachnide à petit corps rond et longues pattes fines, souvent appelé faucheux.",
+  "keywords": "arachnide opilion faucheux longues pattes rond mur jardin foret feuilles herbe sol araignee",
+  "photos": [
+    {
+      "fichier": "images/insects/20260724_opilion.jpg",
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+    }
+  ]
+}

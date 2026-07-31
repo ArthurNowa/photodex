@@ -1,0 +1,29 @@
+﻿{
+  "id": "mouche-scorpion",
+  "nom": "Mouche scorpion",
+  "nomAlt": "Panorpe commune",
+  "nomScientifique": "Panorpa communis",
+  "famille": "Panorpidae",
+  "sousFamille": "Panorpinae",
+  "ordre": "Mécoptère",
+  "repartition": "Europe occidentale et centrale ; commune en France dans les milieux frais et ombragés.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "15 à 20 mm",
+  "tailleMoyenne": 18,
+  "regime": "Petits insectes, insectes morts, larves et matières organiques animales",
+  "regimeEmoji": [
+    "🦟",
+    "🐛",
+    "🍂"
+  ],
+  "habitat": "Haies, lisières, sous-bois, jardins ombragés, prairies humides et végétation basse",
+  "description": "Insecte aux ailes tachetées, dont le mâle a l’abdomen relevé comme un scorpion.",
+  "keywords": "insecte mouche scorpion panorpe ailes taches brun jaune queue abdomen foret lisiere ombre feuilles",
+  "photos": [
+    {
+      "fichier": "images/insects/20260717_mouche-scorpion.jpg",
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+    }
+  ]
+}

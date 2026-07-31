@@ -1,0 +1,29 @@
+﻿{
+  "id": "syrphe-porte-plume",
+  "nom": "Syrphe porte-plume",
+  "nomAlt": "Sphaérophore notée",
+  "nomScientifique": "Sphaerophoria scripta",
+  "famille": "Syrphidae",
+  "sousFamille": "Syrphinae",
+  "ordre": "Diptère",
+  "repartition": "Europe, Afrique du Nord et Asie tempérée ; commun en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "7 à 12 mm",
+  "tailleMoyenne": 10,
+  "regime": "Nectar, pollen et miellat ; les larves consomment surtout des pucerons",
+  "regimeEmoji": [
+    "🧃",
+    "🌺",
+    "🐛"
+  ],
+  "habitat": "Prairies, jardins, haies, friches, cultures, lisières et zones fleuries",
+  "description": "Syrphe fin jaune et noir, souvent vu en vol stationnaire au-dessus des fleurs.",
+  "keywords": "insecte syrphe mouche jaune noir rayures fleur jardin prairie vol stationnaire guepe abdomen",
+  "photos": [
+    {
+      "fichier": "images/insects/20260717_syrphe-porte-plume.jpg",
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+    }
+  ]
+}

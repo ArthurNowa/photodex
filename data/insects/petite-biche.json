@@ -1,0 +1,30 @@
+﻿{
+  "id": "petite-biche",
+  "nom": "Petite biche",
+  "nomAlt": "Petite lucane",
+  "nomScientifique": "Dorcus parallelipipedus",
+  "famille": "Lucanidae",
+  "sousFamille": "Lucaninae",
+  "ordre": "Coléoptère",
+  "repartition": "Europe et Asie occidentale ; présente en France, surtout dans les zones avec bois mort.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "20 à 32 mm",
+  "tailleMoyenne": 26,
+  "regime": "Sève, fruits mûrs et bois mort en décomposition pour les larves",
+  "regimeEmoji": [
+    "🧃",
+    "🍎",
+    "🪵",
+    "🍂"
+  ],
+  "habitat": "Bois, haies, vieux arbres, vergers, parcs, jardins et souches en décomposition",
+  "description": "Petit lucane noir et aplati, aux mandibules courtes et puissantes.",
+  "keywords": "insecte scarabee lucane noir brun mandibules pince bois souche arbre foret jardin sol nuit",
+  "photos": [
+    {
+      "fichier": "images/insects/20260724_petite-biche.jpg",
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+    }
+  ]
+}

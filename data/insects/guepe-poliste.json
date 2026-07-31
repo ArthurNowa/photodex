@@ -1,0 +1,31 @@
+﻿{
+  "id": "guepe-poliste",
+  "nom": "Guêpe poliste",
+  "nomAlt": "Poliste gaulois",
+  "nomScientifique": "Polistes dominula",
+  "famille": "Vespidae",
+  "sousFamille": "Polistinae",
+  "ordre": "Hyménoptère",
+  "repartition": "Europe, Afrique du Nord et Asie occidentale ; introduite dans plusieurs autres régions.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "11 à 17 mm",
+  "tailleMoyenne": 14,
+  "regime": "Petits insectes, chenilles, nectar, fruits mûrs et aliments sucrés",
+  "regimeEmoji": [
+    "🐛",
+    "🦟",
+    "🧃",
+    "🍎",
+    "🍯"
+  ],
+  "habitat": "Jardins, haies, friches, murs, abris, lisières et milieux chauds et ouverts",
+  "description": "Guêpe fine jaune et noire, aux longues pattes souvent pendantes en vol.",
+  "keywords": "insecte guepe poliste jaune noir rayures pattes longues nid papier jardin mur fleur",
+  "photos": [
+    {
+      "fichier": "images/insects/20260719_guepe-poliste.jpg",
+      "lieu": "Jardin, Sailly-Lez-Lannoy"
+    }
+  ]
+}

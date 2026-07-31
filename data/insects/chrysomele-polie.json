@@ -1,0 +1,27 @@
+﻿{
+  "id": "chrysomele-polie",
+  "nom": "Chrysomèle polie",
+  "nomScientifique": "Chrysolina polita",
+  "famille": "Chrysomelidae",
+  "sousFamille": "Chrysomelinae",
+  "ordre": "Coléoptère",
+  "repartition": "Europe, Afrique du Nord et Asie tempérée ; présente en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "6,5 à 8 mm",
+  "tailleMoyenne": 7,
+  "regime": "Feuilles de menthes et autres plantes de milieux humides",
+  "regimeEmoji": [
+    "🥬",
+    "🌱"
+  ],
+  "habitat": "Berges, fossés, prairies humides, jardins, friches et zones riches en menthes",
+  "description": "Petit coléoptère brillant vert métallique, avec des reflets dorés ou cuivrés.",
+  "keywords": "insecte scarabee chrysomele vert metallique brillant dore cuivre feuille menthe eau humide",
+  "photos": [
+    {
+      "fichier": "images/insects/20260724_chrysomele-polie.jpg",
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+    }
+  ]
+}

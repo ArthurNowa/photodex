@@ -12,9 +12,19 @@
   "tailleMoyenne": 37,
   "envergure": "67 à 83 cm",
   "regime": "Insectes aquatiques, larves, crustacés, petits mollusques et autres invertébrés",
-  "regimeEmoji": ["🦟", "🐛", "🦐", "🐌"],
+  "regimeEmoji": [
+    "🦟",
+    "🐛",
+    "🦐",
+    "🐌"
+  ],
   "habitat": "Marais, lagunes, vasières, salines, étangs peu profonds et zones humides",
   "description": "Limicole noir et blanc aux très longues pattes roses.",
   "keywords": "oiseau echasse noir blanc rose pattes longues eau marais lagune vase limicole Amerique",
-  "photos": []
+  "photos": [
+    {
+      "fichier": "images/birds/20260725_echasse-d-amerique.jpg",
+      "lieu": "Pairi Daiza"
+    }
+  ]
 }

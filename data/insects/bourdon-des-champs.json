@@ -1,0 +1,27 @@
+﻿{
+  "id": "bourdon-des-champs",
+  "nom": "Bourdon des champs",
+  "nomScientifique": "Bombus pascuorum",
+  "famille": "Apidae",
+  "sousFamille": "Apinae",
+  "ordre": "Hyménoptère",
+  "repartition": "Europe et Asie tempérée ; très commun en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "9 à 18 mm",
+  "tailleMoyenne": 14,
+  "regime": "Nectar et pollen de nombreuses fleurs",
+  "regimeEmoji": [
+    "🧃",
+    "🌺"
+  ],
+  "habitat": "Prairies, jardins, haies, friches, parcs, lisières et milieux fleuris",
+  "description": "Bourdon roux et velu, très commun sur les fleurs des jardins et prairies.",
+  "keywords": "insecte bourdon abeille roux orange poilu fleur pollen nectar jardin prairie herbe vol",
+  "photos": [
+    {
+      "fichier": "images/insects/20260724_bourdon-des-champs.jpg",
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+    }
+  ]
+}

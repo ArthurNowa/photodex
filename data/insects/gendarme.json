@@ -1,0 +1,31 @@
+﻿{
+  "id": "gendarme",
+  "nom": "Gendarme",
+  "nomAlt": "Pyrrhocore",
+  "nomScientifique": "Pyrrhocoris apterus",
+  "famille": "Pyrrhocoridae",
+  "sousFamille": "Pyrrhocorinae",
+  "ordre": "Hémiptère",
+  "repartition": "Europe, Afrique du Nord et Asie occidentale ; très commun en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "8 à 12 mm",
+  "tailleMoyenne": 10,
+  "regime": "Graines, fruits tombés, sève, déchets végétaux et parfois petits insectes morts",
+  "regimeEmoji": [
+    "🫘",
+    "🍎",
+    "🧃",
+    "🍂",
+    "🐛"
+  ],
+  "habitat": "Pieds de murs, jardins, parcs, haies, friches, troncs et abords de tilleuls ou mauves",
+  "description": "Punaise rouge et noire très commune, souvent regroupée au soleil.",
+  "keywords": "insecte punaise rouge noir gendarme groupe soleil mur jardin arbre tilleul sol graine",
+  "photos": [
+    {
+      "fichier": "images/insects/20260713_gendarme.jpg",
+      "lieu": "Jardin, Sailly-lez-Lannoy"
+    }
+  ]
+}

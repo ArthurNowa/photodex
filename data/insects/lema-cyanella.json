@@ -1,0 +1,27 @@
+﻿{
+  "id": "lema-cyanella",
+  "nom": "Lema cyanella",
+  "nomScientifique": "Lema cyanella",
+  "famille": "Chrysomelidae",
+  "sousFamille": "Criocerinae",
+  "ordre": "Coléoptère",
+  "repartition": "Europe et Asie tempérée ; présente en France dans les milieux herbacés.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "4 à 5 mm",
+  "tailleMoyenne": 4.5,
+  "regime": "Feuilles de plantes herbacées, notamment chardons, cirses et plantes proches",
+  "regimeEmoji": [
+    "🥬",
+    "🌱"
+  ],
+  "habitat": "Prairies, friches, talus, lisières, bords de chemins et végétation herbacée",
+  "description": "Petit coléoptère bleu métallique, allongé, souvent posé sur les feuilles.",
+  "keywords": "insecte scarabee bleu metallique brillant feuille herbe prairie chardon plante petit allonge",
+  "photos": [
+    {
+      "fichier": "images/insects/20260713_lema-cyanella.jpg",
+      "lieu": "Jardin, Sailly-lez-Lannoy"
+    }
+  ]
+}
