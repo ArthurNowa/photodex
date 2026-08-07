@@ -4,7 +4,7 @@
 
 .about-section h2 {
     margin-bottom: 1.5rem;
-    color: var(--accent-orange);
+    color: var(--golden);
 }
 
 .about-section p {
@@ -35,7 +35,7 @@
 
 .about-card h3 {
     margin-bottom: 1rem;
-    color: var(--golden);
+    color: var(--bright-yellow);
 }
 
 
@@ -89,12 +89,12 @@
     padding: 1rem;
     text-align: left;
 
-    border-bottom: 1px solid var(--dark-gray);
+    border-bottom: 1px solid var(--darker-gray);
 }
 
 .objectives-table th {
-    color: var(--golden);
-    background: var(--petrol_blue);
+    color: var(--bright-yellow);
+    background: var(--dark-gray);
 }
 
 .badge-icon {
@@ -105,7 +105,7 @@
 }
 
 .ultimate-objective {
-    color: var(--golden);
+    color: var(--bright-yellow);
     font-weight: bold;
 }
 
@@ -115,17 +115,6 @@
 .project-objectives {
     margin-top: 1.5rem;
     padding: 0;
-
-    list-style: none;
-}
-
-.project-objectives li {
-    margin-bottom: 0.8rem;
-    padding: 1rem 1.3rem;
-
-    background: var(--darker-gray);
-
-    border-radius: 8px;
 }
 
 
