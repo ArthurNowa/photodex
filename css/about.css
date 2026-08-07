@@ -1,0 +1,157 @@
+﻿.about-section {
+    padding: 2.5rem 0;
+}
+
+.about-section h2 {
+    margin-bottom: 1.5rem;
+    color: var(--accent-orange);
+}
+
+.about-section p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.about-lead {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+/* CARTES */
+
+.about-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.about-card {
+    padding: 1.5rem;
+    background: var(--darker-gray);
+    border-radius: 10px;
+}
+
+.about-card h3 {
+    margin-bottom: 1rem;
+    color: var(--golden);
+}
+
+
+/* CATEGORIES */
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.category-chip {
+    padding: 0.8rem 1.2rem;
+
+    color: white;
+    background: var(--darker-gray);
+
+    border-radius: 50px;
+
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+.category-chip:hover {
+    background: var(--petrol_blue);
+    transform: translateY(-2px);
+}
+
+
+/* OBJECTIFS */
+
+.objectives-table-wrapper {
+    margin-top: 2rem;
+    overflow-x: auto;
+}
+
+.objectives-table {
+    width: 100%;
+    border-collapse: collapse;
+
+    background: var(--darker-gray);
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.objectives-table th,
+.objectives-table td {
+    padding: 1rem;
+    text-align: left;
+
+    border-bottom: 1px solid var(--dark-gray);
+}
+
+.objectives-table th {
+    color: var(--golden);
+    background: var(--petrol_blue);
+}
+
+.badge-icon {
+    width: 80px;
+
+    text-align: center !important;
+    font-size: 1.7rem;
+}
+
+.ultimate-objective {
+    color: var(--golden);
+    font-weight: bold;
+}
+
+
+/* LISTE OBJECTIFS */
+
+.project-objectives {
+    margin-top: 1.5rem;
+    padding: 0;
+
+    list-style: none;
+}
+
+.project-objectives li {
+    margin-bottom: 0.8rem;
+    padding: 1rem 1.3rem;
+
+    background: var(--darker-gray);
+
+    border-radius: 8px;
+}
+
+
+/* NOTE FINALE */
+
+.about-note {
+    text-align: center;
+    opacity: 0.9;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .about-section {
+        padding: 1.5rem 0;
+    }
+
+    .about-features {
+        grid-template-columns: 1fr;
+    }
+
+    .objectives-table th,
+    .objectives-table td {
+        padding: 0.7rem;
+    }
+
+}
