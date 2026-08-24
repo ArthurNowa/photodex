@@ -1,0 +1,30 @@
+﻿{
+  "id": "limace-leopard",
+  "nom": "Limace léopard",
+  "nomScientifique": "Limax maximus",
+  "famille": "Limacidae",
+  "sousFamille": "Limacinae",
+  "ordre": "Stylommatophore",
+  "repartition": "Originaire d’Europe ; aujourd’hui largement répandue dans de nombreuses régions tempérées du monde.",
+  "categorie": "mollusks",
+  "type": "Mollusque",
+  "taille": "10 à 20 cm de long",
+  "tailleMoyenne": 15,
+  "regime": "Champignons, végétaux, déchets organiques, plantes mortes et parfois autres limaces",
+  "regimeEmoji": [
+    "🍄",
+    "🌱",
+    "🥬",
+    "🍂",
+    "🐌"
+  ],
+  "habitat": "Jardins, bois, haies, caves, murs humides, composts et zones ombragées",
+  "description": "Grande limace grise tachetée de noir, active surtout la nuit ou par temps humide.",
+  "keywords": "limace leopard gris noir taches mollusque gluant jardin nuit humide mur compost feuilles ombre",
+  "photos": [
+    {
+      "fichier": "images/insects/20260817_limace-leopard.jpg",
+      "lieu": "Gerbépal, Vosges"
+    }
+  ]
+}

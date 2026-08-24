@@ -89,10 +89,16 @@
         "name": "abeille-melifere.json"
       },
       {
+        "name": "acrossus-rufipes.json"
+      },
+      {
         "name": "amaryllis.json"
       },
       {
         "name": "apion-du-trefle.json"
+      },
+      {
+        "name": "argiope-frelon.json"
       },
       {
         "name": "argus-bleu.json"
@@ -155,6 +161,9 @@
         "name": "lema-cyanella.json"
       },
       {
+        "name": "limace-leopard.json"
+      },
+      {
         "name": "malachite.json"
       },
       {
@@ -213,6 +222,9 @@
       },
       {
         "name": "syrphe-porte-plume.json"
+      },
+      {
+        "name": "tabac-d-espagne.json"
       },
       {
         "name": "teigne-du-chou.json"

@@ -1,0 +1,32 @@
+﻿{
+  "id": "argiope-frelon",
+  "nom": "Argiope frelon",
+  "nomAlt": "Épeire frelon",
+  "nomScientifique": "Argiope bruennichi",
+  "famille": "Araneidae",
+  "sousFamille": "Araneinae",
+  "ordre": "Aranéide",
+  "repartition": "Europe, Afrique du Nord et Asie tempérée ; présente en France, surtout dans les milieux ouverts.",
+  "categorie": "insects",
+  "type": "Arachnide",
+  "taille": "Femelle : 15 à 25 mm ; mâle : 4 à 6 mm",
+  "tailleMoyenne": 20,
+  "regime": "Insectes volants, criquets, sauterelles et autres petits arthropodes capturés dans sa toile",
+  "regimeEmoji": [
+    "🦟",
+    "🐛"
+  ],
+  "habitat": "Prairies, friches, jardins, herbes hautes, bords de chemins et milieux ensoleillés",
+  "description": "Grande araignée rayée jaune, noire et blanche, souvent au centre de sa toile.",
+  "keywords": "araignee argiope frelon jaune noir blanc rayures toile prairie jardin herbe haute soleil abdomen",
+  "photos": [
+    {
+      "fichier": "images/insects/20260811_argiope-frelon-02.jpg",
+      "lieu": "Gerbépal, Vosges"
+    },
+    {
+      "fichier": "images/insects/20260811_argiope-frelon-01.jpg",
+      "lieu": "Gerbépal, Vosges"
+    }
+  ]
+}

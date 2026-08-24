@@ -1,0 +1,27 @@
+﻿{
+  "id": "tabac-d-espagne",
+  "nom": "Tabac d’Espagne",
+  "nomScientifique": "Argynnis paphia",
+  "famille": "Nymphalidae",
+  "sousFamille": "Heliconiinae",
+  "ordre": "Lépidoptère",
+  "repartition": "Europe, Afrique du Nord et Asie tempérée jusqu’au Japon ; présent en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Envergure de 54 à 70 mm",
+  "tailleMoyenne": 30,
+  "regime": "Nectar ; les chenilles consomment surtout des violettes",
+  "regimeEmoji": [
+    "🧃",
+    "🌱"
+  ],
+  "habitat": "Lisières, clairières, chemins forestiers, bois clairs, haies et prairies fleuries",
+  "description": "Grand papillon orangé tacheté de noir, fréquent près des lisières en été.",
+  "keywords": "papillon orange noir taches grand ailes foret bois lisiere clairiere chemin fleur ete",
+  "photos": [
+    {
+      "fichier": "images/insects/20260815_tabac-d-espagne.jpg",
+      "lieu": "Parc Sainte-Croix, Rhodes"
+    }
+  ]
+}

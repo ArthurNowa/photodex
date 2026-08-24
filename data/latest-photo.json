@@ -1,8 +1,8 @@
 {
-  "animalId": "vautour-moine",
-  "category": "birds",
-  "photo": "../images/birds/20260725_vautour-moine.jpg",
-  "fileName": "20260725_vautour-moine.jpg",
-  "date": "2026-07-25",
-  "jsonfile": "data/birds/vautour-moine.json"
+  "animalId": "gendarme",
+  "category": "insects",
+  "photo": "../images/insects/20260822_gendarme.jpg",
+  "fileName": "20260822_gendarme.jpg",
+  "date": "2026-08-22",
+  "jsonfile": "data/insects/gendarme.json"
 }

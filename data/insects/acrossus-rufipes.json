@@ -1,0 +1,28 @@
+﻿{
+  "id": "acrossus-rufipes",
+  "nom": "Acrossus rufipes",
+  "nomAlt": "Aphodius rufipes",
+  "nomScientifique": "Acrossus rufipes",
+  "famille": "Scarabaeidae",
+  "sousFamille": "Aphodiinae",
+  "ordre": "Coléoptère",
+  "repartition": "Europe, Afrique du Nord, Asie tempérée et Amérique du Nord ; présent en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "9 à 13 mm",
+  "tailleMoyenne": 11,
+  "regime": "Excréments, matières organiques en décomposition et parfois champignons",
+  "regimeEmoji": [
+    "🍂",
+    "🍄"
+  ],
+  "habitat": "Prairies, pâturages, champs, bouses, crottins, sols herbeux et milieux ouverts",
+  "description": "Scarabée sombre aux pattes rousses, souvent observé près des excréments.",
+  "keywords": "insecte scarabee bousier noir brun roux pattes excrement bouse crottin prairie champ sol",
+  "photos": [
+    {
+      "fichier": "images/insects/20260820_acrossus-rufipes.jpg",
+      "lieu": "Drèves des Frênes, Willems"
+    }
+  ]
+}
