@@ -40,10 +40,10 @@ const mammalSizeLevels = [
 
 const insectSizeLevels = [
   { label: "Puceron", size: 2.5, image: "images/silhouettes/puceron.png" },
-  { label: "Fourmi", size: 5, image: "images/silhouettes/fourmi.png" },
-  { label: "Coccinelle", size: 9, image: "images/silhouettes/coccinelle.png" },
-  { label: "Abeille", size: 16, image: "images/silhouettes/abeille.png" },
-  { label: "Sauterelle", size: 35, image: "images/silhouettes/sauterelle.png" },
+  { label: "Fourmi", size: 4, image: "images/silhouettes/fourmi.png" },
+  { label: "Coccinelle", size: 8, image: "images/silhouettes/coccinelle.png" },
+  { label: "Abeille", size: 15, image: "images/silhouettes/abeille.png" },
+  { label: "cigale", size: 35, image: "images/silhouettes/sauterelle.png" },
   { label: "Lucane", size: 70, image: "images/silhouettes/lucane.png" },
   { label: "Monarque", size: 110, image: "images/silhouettes/monarque.png" },
   { label: "Scorpion Empereur", size: 180, image: "images/silhouettes/scorpion-empereur.png" }
