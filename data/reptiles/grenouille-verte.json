@@ -1,0 +1,34 @@
+﻿{
+  "id": "grenouille-verte",
+  "nom": "Grenouille verte",
+  "nomScientifique": "Pelophylax kl. esculentus",
+  "famille": "Ranidae",
+  "sousFamille": "Raninae",
+  "ordre": "Anoure",
+  "repartition": "Europe occidentale et centrale ; présente en France dans de nombreux points d’eau.",
+  "categorie": "amphibians",
+  "type": "Amphibien",
+  "taille": "5 à 11 cm",
+  "tailleMoyenne": 8,
+  "regime": "Insectes, vers, araignées, petits invertébrés et parfois petits vertébrés",
+  "regimeEmoji": [
+    "🦟",
+    "🐛",
+    "🪱",
+    "🕷️",
+    "🐁"
+  ],
+  "habitat": "Mares, étangs, fossés, marais, berges, jardins humides et eaux calmes",
+  "description": "Grenouille verte commune, souvent posée au bord de l’eau.",
+  "keywords": "grenouille verte amphibien mare etang eau berge humide jardin saut chant feuilles herbe",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20260815_grenouille-verte-02.jpg",
+      "lieu": "Parc Sainte-Croix, Rhodes"
+    },
+    {
+      "fichier": "images/reptiles/20260815_grenouille-verte-01.jpg",
+      "lieu": "Parc Sainte-Croix, Rhodes"
+    }
+  ]
+}

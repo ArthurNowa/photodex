@@ -1,0 +1,33 @@
+﻿{
+  "id": "grand-tetra",
+  "nom": "Grand tétras",
+  "nomAlt": "Coq de bruyère",
+  "nomScientifique": "Tetrao urogallus",
+  "famille": "Phasianidae",
+  "sousFamille": "Tetraoninae",
+  "ordre": "Galliforme",
+  "repartition": "Forêts boréales et montagnes d’Europe et d’Asie ; rare et localisé en France.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "60 à 87 cm",
+  "tailleMoyenne": 74,
+  "envergure": "87 à 125 cm",
+  "regime": "Aiguilles de conifères, bourgeons, feuilles, baies, graines et insectes",
+  "regimeEmoji": [
+    "🥬",
+    "🌱",
+    "🫐",
+    "🫘",
+    "🦟",
+    "🐛"
+  ],
+  "habitat": "Forêts de conifères, bois mixtes, clairières, landes, montagnes et zones calmes",
+  "description": "Grand galliforme forestier sombre, célèbre pour ses parades au printemps.",
+  "keywords": "oiseau tetra coq bruyere grand noir brun foret montagne conifere parade queue",
+  "photos": [
+    {
+      "fichier": "images/birds/20260815_grand-tetra.jpg",
+      "lieu": "Parc Sainte-Croix, Rhodes"
+    }
+  ]
+}

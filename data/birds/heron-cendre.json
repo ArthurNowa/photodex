@@ -1,0 +1,33 @@
+﻿{
+  "id": "heron-cendre",
+  "nom": "Héron cendré",
+  "nomScientifique": "Ardea cinerea",
+  "famille": "Ardeidae",
+  "sousFamille": "Ardeinae",
+  "ordre": "Pélécaniforme",
+  "repartition": "Europe, Afrique et Asie ; très répandu en France près des zones humides.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "90 à 98 cm",
+  "tailleMoyenne": 94,
+  "envergure": "175 à 195 cm",
+  "regime": "Poissons, amphibiens, petits mammifères, insectes, reptiles et petits oiseaux",
+  "regimeEmoji": [
+    "🐟",
+    "🐸",
+    "🐁",
+    "🦟",
+    "🐛",
+    "🦎",
+    "🐦"
+  ],
+  "habitat": "Rivières, étangs, marais, lacs, prairies humides, champs et berges",
+  "description": "Grand héron gris au long cou, souvent immobile au bord de l’eau.",
+  "keywords": "oiseau heron gris cendre grand long cou bec eau riviere etang marais poisson",
+  "photos": [
+    {
+      "fichier": "images/birds/20260815_heron-cendre.jpg",
+      "lieu": "Parc Sainte-Croix, Rhodes"
+    }
+  ]
+}

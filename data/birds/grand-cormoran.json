@@ -1,0 +1,28 @@
+﻿{
+  "id": "grand-cormoran",
+  "nom": "Grand cormoran",
+  "nomScientifique": "Phalacrocorax carbo",
+  "famille": "Phalacrocoracidae",
+  "sousFamille": "",
+  "ordre": "Suliforme",
+  "repartition": "Europe, Afrique, Asie, Australie et côtes de l’Atlantique Nord.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "80 à 100 cm",
+  "tailleMoyenne": 90,
+  "envergure": "130 à 160 cm",
+  "regime": "Poissons principalement, parfois crustacés et petits animaux aquatiques",
+  "regimeEmoji": [
+    "🐟",
+    "🦐"
+  ],
+  "habitat": "Lacs, rivières, étangs, estuaires, côtes, ports et zones humides",
+  "description": "Grand oiseau noir pêcheur, souvent posé ailes ouvertes pour les sécher.",
+  "keywords": "oiseau cormoran noir eau lac riviere mer poisson ailes ouvertes peche plongeon",
+  "photos": [
+    {
+      "fichier": "images/birds/20260815_grand-cormoran.jpg",
+      "lieu": "Parc Sainte-Croix, Rhodes"
+    }
+  ]
+}

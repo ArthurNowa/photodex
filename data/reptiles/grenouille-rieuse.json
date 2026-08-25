@@ -1,0 +1,33 @@
+﻿{
+  "id": "grenouille-rieuse",
+  "nom": "Grenouille rieuse",
+  "nomScientifique": "Pelophylax ridibundus",
+  "famille": "Ranidae",
+  "sousFamille": "Raninae",
+  "ordre": "Anoure",
+  "repartition": "Europe, Afrique du Nord et Asie occidentale ; largement présente en France.",
+  "categorie": "amphibians",
+  "type": "Amphibien",
+  "taille": "8 à 17 cm",
+  "tailleMoyenne": 12,
+  "regime": "Insectes, vers, araignées, crustacés, petits poissons, amphibiens et petits vertébrés",
+  "regimeEmoji": [
+    "🦟",
+    "🐛",
+    "🪱",
+    "🕷️",
+    "🦐",
+    "🐟",
+    "🐸",
+    "🐁"
+  ],
+  "habitat": "Grands étangs, lacs, rivières lentes, canaux, marais et berges végétalisées",
+  "description": "Grande grenouille verte au chant puissant, souvent bruyante près de l’eau.",
+  "keywords": "grenouille verte rieuse grande amphibien mare lac etang eau chant bruit berge humide",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20260815_grenouille-rieuse.jpg",
+      "lieu": "Parc Sainte-Croix, Rhodes"
+    }
+  ]
+}

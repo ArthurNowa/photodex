@@ -1,0 +1,33 @@
+﻿{
+  "id": "rouge-gorge-familier",
+  "nom": "Rouge-gorge familier",
+  "nomAlt": "Rouge-gorge",
+  "nomScientifique": "Erithacus rubecula",
+  "famille": "Muscicapidae",
+  "sousFamille": "",
+  "ordre": "Passériforme",
+  "repartition": "Europe, Afrique du Nord et Asie occidentale ; très commun en France.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "12 à 14 cm",
+  "tailleMoyenne": 13,
+  "envergure": "20 à 22 cm",
+  "regime": "Insectes, vers, araignées, petits invertébrés, baies et fruits",
+  "regimeEmoji": [
+    "🦟",
+    "🐛",
+    "🪱",
+    "🕷️",
+    "🫐",
+    "🍎"
+  ],
+  "habitat": "Jardins, haies, bois, parcs, sous-bois, lisières et zones avec buissons",
+  "description": "Petit oiseau brun au plastron orange, souvent curieux près du sol.",
+  "keywords": "oiseau rouge gorge orange brun petit jardin haie foret sol feuilles buisson chant",
+  "photos": [
+    {
+      "fichier": "images/birds/20260814_rouge-gorge-familier.jpg",
+      "lieu": "Lac de Gérardmer, Vosges"
+    }
+  ]
+}

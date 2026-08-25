@@ -1,0 +1,32 @@
+﻿{
+  "id": "chouette-hulotte",
+  "nom": "Chouette hulotte",
+  "nomScientifique": "Strix aluco",
+  "famille": "Strigidae",
+  "sousFamille": "Striginae",
+  "ordre": "Strigiforme",
+  "repartition": "Europe, Afrique du Nord et Asie occidentale ; commune en France.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "37 à 43 cm",
+  "tailleMoyenne": 40,
+  "envergure": "81 à 96 cm",
+  "regime": "Petits mammifères, oiseaux, amphibiens, insectes, vers et autres petites proies",
+  "regimeEmoji": [
+    "🐁",
+    "🐦",
+    "🐸",
+    "🦟",
+    "🐛",
+    "🪱"
+  ],
+  "habitat": "Forêts, bois, parcs, vieux arbres, jardins arborés, bocages et cavités",
+  "description": "Chouette forestière brune ou grise, aux grands yeux sombres.",
+  "keywords": "oiseau chouette hibou brun gris nuit yeux foret bois arbre cavite rapace nocturne",
+  "photos": [
+    {
+      "fichier": "images/birds/20260815_chouette-hulotte.jpg",
+      "lieu": "Parc Sainte-Croix, Rhodes"
+    }
+  ]
+}

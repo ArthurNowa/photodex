@@ -1,0 +1,30 @@
+﻿{
+  "id": "pygargue-a-queue-blanche",
+  "nom": "Pygargue à queue blanche",
+  "nomScientifique": "Haliaeetus albicilla",
+  "famille": "Accipitridae",
+  "sousFamille": "Haliaeetinae",
+  "ordre": "Accipitriforme",
+  "repartition": "Europe du Nord, Europe de l’Est, Russie et Asie septentrionale.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "70 à 92 cm",
+  "tailleMoyenne": 81,
+  "envergure": "200 à 245 cm",
+  "regime": "Poissons, oiseaux aquatiques, mammifères, charognes et proies trouvées près de l’eau",
+  "regimeEmoji": [
+    "🐟",
+    "🐦",
+    "🐁",
+    "🦴"
+  ],
+  "habitat": "Côtes, grands lacs, rivières, falaises, forêts proches de l’eau et zones humides",
+  "description": "Grand rapace brun à tête claire, bec massif et queue blanche.",
+  "keywords": "oiseau rapace aigle pygargue brun blanc queue bec jaune mer lac eau poisson grand",
+  "photos": [
+    {
+      "fichier": "images/birds/20260815_pygargue-a-queue-blanche.jpg",
+      "lieu": "Parc Sainte-Croix, Rhodes"
+    }
+  ]
+}

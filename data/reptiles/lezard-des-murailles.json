@@ -1,0 +1,30 @@
+﻿{
+  "id": "lezard-des-murailles",
+  "nom": "Lézard des murailles",
+  "nomScientifique": "Podarcis muralis",
+  "famille": "Lacertidae",
+  "sousFamille": "Lacertinae",
+  "ordre": "Squamate",
+  "repartition": "Europe occidentale, centrale et méridionale ; très commun en France.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "15 à 20 cm de long",
+  "tailleMoyenne": 18,
+  "regime": "Insectes, araignées, vers, petits invertébrés et parfois fruits mûrs",
+  "regimeEmoji": [
+    "🦟",
+    "🐛",
+    "🕷️",
+    "🪱",
+    "🍎"
+  ],
+  "habitat": "Murs, pierres, rochers, jardins, talus, friches, voies ferrées et zones ensoleillées",
+  "description": "Petit lézard brun agile, souvent vu au soleil sur les murs et pierres.",
+  "keywords": "lezard reptile brun gris mur pierre soleil jardin rocher rapide queue rayures sol",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20260815_lezard-des-murailles.jpg",
+      "lieu": "Parc Sainte-Croix, Rhodes"
+    }
+  ]
+}

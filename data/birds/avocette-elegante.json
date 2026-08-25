@@ -1,0 +1,30 @@
+﻿{
+  "id": "avocette-elegante",
+  "nom": "Avocette élégante",
+  "nomScientifique": "Recurvirostra avosetta",
+  "famille": "Recurvirostridae",
+  "sousFamille": "",
+  "ordre": "Charadriiforme",
+  "repartition": "Europe, Afrique et Asie occidentale ; présente en France surtout sur les zones humides littorales.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "42 à 46 cm",
+  "tailleMoyenne": 44,
+  "envergure": "77 à 80 cm",
+  "regime": "Petits crustacés, insectes aquatiques, larves, vers et petits invertébrés",
+  "regimeEmoji": [
+    "🦐",
+    "🦟",
+    "🐛",
+    "🪱"
+  ],
+  "habitat": "Lagunes, vasières, marais salants, estuaires, étangs peu profonds et salines",
+  "description": "Limicole noir et blanc au long bec fin recourbé vers le haut.",
+  "keywords": "oiseau avocette noir blanc bec recourbe eau vase marais lagune longues pattes limicole",
+  "photos": [
+    {
+      "fichier": "images/birds/20260815_avocette-elegante.jpg",
+      "lieu": "Parc Sainte-Croix, Rhodes"
+    }
+  ]
+}

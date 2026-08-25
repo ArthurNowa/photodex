@@ -9,10 +9,19 @@
         "name": "ara-hyacinthe.json"
       },
       {
+        "name": "avocette-elegante.json"
+      },
+      {
         "name": "bernache-nonnette.json"
       },
       {
+        "name": "buse-variable.json"
+      },
+      {
         "name": "canard-a-collier-noir.json"
+      },
+      {
+        "name": "canard-colvert.json"
       },
       {
         "name": "caracara-austral.json"
@@ -27,6 +36,9 @@
         "name": "choucas-des-tours.json"
       },
       {
+        "name": "chouette-hulotte.json"
+      },
+      {
         "name": "cigogne-blanche.json"
       },
       {
@@ -36,7 +48,13 @@
         "name": "dindon-domestique.json"
       },
       {
+        "name": "echasse-blanche.json"
+      },
+      {
         "name": "echasse-d-amerique.json"
+      },
+      {
+        "name": "fuligule-morillon.json"
       },
       {
         "name": "geai-des-chenes.json"
@@ -45,13 +63,22 @@
         "name": "goura-de-sclater.json"
       },
       {
+        "name": "grand-cormoran.json"
+      },
+      {
         "name": "grand-geocoucou.json"
+      },
+      {
+        "name": "grand-tetra.json"
       },
       {
         "name": "grive-musicienne.json"
       },
       {
         "name": "grue-du-japon.json"
+      },
+      {
+        "name": "heron-cendre.json"
       },
       {
         "name": "ibis-rouge.json"
@@ -73,6 +100,12 @@
       },
       {
         "name": "pigeon-biset-domestique.json"
+      },
+      {
+        "name": "pygargue-a-queue-blanche.json"
+      },
+      {
+        "name": "rouge-gorge-familier.json"
       },
       {
         "name": "troglodyte-mignon.json"
@@ -312,7 +345,16 @@
         "name": "gavial-du-gange.json"
       },
       {
+        "name": "grenouille-rieuse.json"
+      },
+      {
         "name": "grenouille-rousse.json"
+      },
+      {
+        "name": "grenouille-verte.json"
+      },
+      {
+        "name": "lezard-des-murailles.json"
       }
     ]
   }

@@ -1,0 +1,33 @@
+﻿{
+  "id": "canard-colvert",
+  "nom": "Canard colvert",
+  "nomScientifique": "Anas platyrhynchos",
+  "famille": "Anatidae",
+  "sousFamille": "Anatinae",
+  "ordre": "Ansériforme",
+  "repartition": "Hémisphère Nord ; très commun en Europe et largement introduit ailleurs.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "50 à 65 cm",
+  "tailleMoyenne": 58,
+  "envergure": "81 à 98 cm",
+  "regime": "Plantes aquatiques, graines, herbes, insectes, larves, mollusques et petits crustacés",
+  "regimeEmoji": [
+    "🌱",
+    "🫘",
+    "🥬",
+    "🦟",
+    "🐛",
+    "🐌",
+    "🦐"
+  ],
+  "habitat": "Mares, étangs, lacs, rivières, canaux, marais, parcs et zones urbaines",
+  "description": "Canard commun dont le mâle a la tête verte et le collier blanc.",
+  "keywords": "oiseau canard colvert vert tete male brun eau mare etang parc bec palme",
+  "photos": [
+    {
+      "fichier": "images/birds/20260814_canard-colvert.jpg",
+      "lieu": "Lac de Gérardmer, Vosges"
+    }
+  ]
+}

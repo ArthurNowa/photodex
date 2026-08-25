@@ -1,0 +1,33 @@
+﻿{
+  "id": "buse-variable",
+  "nom": "Buse variable",
+  "nomScientifique": "Buteo buteo",
+  "famille": "Accipitridae",
+  "sousFamille": "Buteoninae",
+  "ordre": "Accipitriforme",
+  "repartition": "Europe, Afrique du Nord et Asie occidentale ; très commune en France.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "50 à 57 cm",
+  "tailleMoyenne": 54,
+  "envergure": "110 à 130 cm",
+  "regime": "Rongeurs, petits mammifères, oiseaux, reptiles, amphibiens, insectes et charognes",
+  "regimeEmoji": [
+    "🐁",
+    "🐦",
+    "🦎",
+    "🐸",
+    "🦟",
+    "🐛",
+    "🦴"
+  ],
+  "habitat": "Champs, prairies, bocages, lisières, bois, haies, routes et zones ouvertes",
+  "description": "Rapace brun très variable, souvent vu perché ou planant au-dessus des champs.",
+  "keywords": "oiseau rapace buse brun variable champ prairie route perche vol plane foret haie",
+  "photos": [
+    {
+      "fichier": "images/birds/20260815_buse-variable.jpg",
+      "lieu": "D162, Meurthe-et-Moselle"
+    }
+  ]
+}

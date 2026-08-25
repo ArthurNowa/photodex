@@ -1,0 +1,40 @@
+﻿{
+  "id": "fuligule-morillon",
+  "nom": "Fuligule morillon",
+  "nomScientifique": "Aythya fuligula",
+  "famille": "Anatidae",
+  "sousFamille": "Aythyinae",
+  "ordre": "Ansériforme",
+  "repartition": "Europe et Asie septentrionale ; hiverne plus au sud, présent en France.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "40 à 47 cm",
+  "tailleMoyenne": 44,
+  "envergure": "65 à 72 cm",
+  "regime": "Mollusques, insectes aquatiques, crustacés, graines et plantes aquatiques",
+  "regimeEmoji": [
+    "🐌",
+    "🦟",
+    "🐛",
+    "🦐",
+    "🫘",
+    "🌱"
+  ],
+  "habitat": "Lacs, étangs, marais, gravières, rivières lentes et zones d’eau douce",
+  "description": "Canard plongeur noir et blanc, avec une huppe fine à l’arrière de la tête.",
+  "keywords": "oiseau canard noir blanc huppe eau lac etang plongeur morillon bec gris",
+  "photos": [
+    {
+      "fichier": "images/birds/20260813_fuligule-morillon-03.jpg",
+      "lieu": "Europa Park, Allemagne"
+    },
+    {
+      "fichier": "images/birds/20260813_fuligule-morillon-02.jpg",
+      "lieu": "Europa Park, Allemagne"
+    },
+    {
+      "fichier": "images/birds/20260813_fuligule-morillon-01.jpg",
+      "lieu": "Europa Park, Allemagne"
+    }
+  ]
+}

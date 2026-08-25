@@ -1,0 +1,35 @@
+﻿{
+  "id": "echasse-blanche",
+  "nom": "Échasse blanche",
+  "nomScientifique": "Himantopus himantopus",
+  "famille": "Recurvirostridae",
+  "sousFamille": "",
+  "ordre": "Charadriiforme",
+  "repartition": "Europe du Sud, Afrique, Asie et Océanie ; présente en France dans les zones humides.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "35 à 40 cm",
+  "tailleMoyenne": 38,
+  "envergure": "67 à 83 cm",
+  "regime": "Insectes aquatiques, larves, crustacés, mollusques, vers et petits invertébrés",
+  "regimeEmoji": [
+    "🦟",
+    "🐛",
+    "🦐",
+    "🐌",
+    "🪱"
+  ],
+  "habitat": "Marais, lagunes, salines, vasières, étangs peu profonds et zones humides ouvertes",
+  "description": "Limicole noir et blanc aux très longues pattes roses.",
+  "keywords": "oiseau echasse blanc noir rose pattes longues eau marais lagune vase limicole",
+  "photos": [
+    {
+      "fichier": "images/birds/20260815_echasse-blanche-02.jpg",
+      "lieu": "Parc Sainte-Croix, Rhodes"
+    },
+    {
+      "fichier": "images/birds/20260815_echasse-blanche-01.jpg",
+      "lieu": "Parc Sainte-Croix, Rhodes"
+    }
+  ]
+}
