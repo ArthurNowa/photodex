@@ -95,7 +95,10 @@
     border-radius: 10px;
     gap: 1rem;
     margin-bottom: 1rem;
-    height: 250px;
+}
+
+.badgelist-item {
+    align-items: center;
 }
 
 .badge strong {
@@ -130,19 +133,22 @@
     color: var(--bright-yellow);
     font-size: 1rem;
     text-align: center;
-    height: 100px;
 }
 
 .acquired-badge img {
     display: inline;
+    align-self: center;
     height: 100px;
     width: 100px;
+    margin-bottom: 20px;
 }
 
 .next-badge img {
     display: inline;
+    align-self: center;
     height: 70px;
     width: 70px;
+    margin-bottom: 35px;
 }
 
 .current-badge strong {
@@ -150,19 +156,28 @@
     color: var(--golden);
     font-size: 1.2rem;
     text-align: center;
-    height: 100px;
 }
 
 .current-badge img {
     display: inline;
-    height: 150px;
-    width: 150px;
+    align-self: center;
+    height: 140px;
+    width: 140px;
+    margin-bottom: 0;
+}
+
+.current-badge small {
+    display: block;
+    color: var(--primary-green);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
 }
 
 .objective strong, .objective img, .objective small,
 .next-badge strong, .next-badge img, .next-badge small {
     filter: grayscale(90%);
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 .progress-bar {

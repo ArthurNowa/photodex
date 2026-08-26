@@ -8,7 +8,7 @@ const BADGES = [
     { name: "Explor'Amateur", goal: 100, image:"images/badges/badge-exploramateur.png" },
     { name: "Attrapez-les tous !", goal: 151, image:"images/badges/badge-attrapez-les-tous.png" },
     { name: "Naturaliste", goal: 200, image:"images/badges/badge-naturaliste.png" },
-    { name: "Ca fait beaucoup là, non ?", goal: 500, image:"images/badges/badge-ca-fait-beaucoup.png" },
+    { name: "Bien rempli...", goal: 500, image:"images/badges/badge-ca-fait-beaucoup.png" },
     { name: "Encyclopédie", goal: 1000, image:"images/badges/badge-encyclopedie.png" },
     { name: "Omniscient", goal: 10000, image:"images/badges/badge-omniscient.png" }
 ];
@@ -133,8 +133,8 @@ function displayBadgeProgress() {
         badgesList +=
             `<div class="badgelist-item ${badgeClass}">
                 <strong>${badge.name}</strong>
-                <img src="./${badge.image}" alt="${badge.image}"/>
                 <small>${badge.goal}</small>
+                <img src="./${badge.image}" alt="${badge.image}"/>
             </div>`;
     }
     badgesList += `</div>
