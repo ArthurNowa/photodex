@@ -115,7 +115,7 @@ function displayBadgeProgress() {
     
     let badgesList =
         `<section class="badge-progress-card">
-            <div class="badge">`;
+            <div class="badgelist">`;
     
     let isAcquiredBadge = true;
     for (const badge of BADGES) {

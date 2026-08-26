@@ -80,12 +80,21 @@
     margin-bottom: 1rem;
 }
 
-.badge, .badgelist-item {
+.badge {
     position: relative;
     background: #1f232b;
     padding: 1rem;
     border-radius: 10px;
     width: 48%;
+}
+
+.badgelist {
+    display: flex;
+    justify-content: space-between;
+    background: #1f232b;
+    border-radius: 10px;
+    gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 .badge strong {
