@@ -133,10 +133,16 @@
     height: 100px;
 }
 
-.acquired-badge img, .next-badge img {
+.acquired-badge img {
     display: inline;
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
+}
+
+.next-badge img {
+    display: inline;
+    height: 70px;
+    width: 70px;
 }
 
 .current-badge strong {
