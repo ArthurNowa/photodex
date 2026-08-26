@@ -120,7 +120,7 @@ function displayBadgeProgress() {
     let isAcquiredBadge = true;
     for (const badge of BADGES) {
         let badgeClass = "";
-        if (!isAcquiredBadge) {
+        if (isAcquiredBadge) {
             if (badge === currentBadge) {
                 badgeClass = "current-badge";
                 isAcquiredBadge = false;

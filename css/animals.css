@@ -114,6 +114,14 @@
     top: 0;
  }
 
+.acquired-badge, .next-badge {
+    flex: 1;
+}
+
+.current-badge {
+    flex: 2;
+}
+
 .acquired-badge strong, .next-badge strong {
     display: block;
     color: var(--bright-yellow);
