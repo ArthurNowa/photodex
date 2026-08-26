@@ -80,7 +80,7 @@
     margin-bottom: 1rem;
 }
 
-.badge {
+.badge, .badgelist-item {
     position: relative;
     background: #1f232b;
     padding: 1rem;
@@ -105,7 +105,34 @@
     top: 0;
  }
 
-.objective strong, .objective img, .objective small {
+.acquired-badge strong, .next-badge strong {
+    display: block;
+    color: var(--bright-yellow);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.acquired-badge img, .next-badge img {
+    display: inline;
+    height: 80px;
+    width: 80px;
+}
+
+.current-badge strong {
+    display: block;
+    color: var(--golden);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.current-badge img {
+    display: inline;
+    height: 100px;
+    width: 100px;
+}
+
+.objective strong, .objective img, .objective small,
+.next-badge strong, .next-badge img, .next-badge small {
     filter: grayscale(90%);
     opacity: 0.5;
 }

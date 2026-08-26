@@ -111,9 +111,38 @@ function displayBadgeProgress() {
         <div class="progress-fill" style="width: ${progress}%">${count} / ${nextBadge.goal}</div>
       </div>
     </section>`;
-    console.log(`badge path : ${nextBadge.image}`);
-}
+    
+    
+    let badgesList =
+        `<section class="badge-progress-card">
+            <div class="badge-row">`;
+    
+    let isAcquiredBadge = true;
+    for (const badge of BADGES) {
+        let badgeClass = "";
+        if (!isAcquiredBadge) {
+            if (badge === currentBadge) {
+                badgeClass = "current-badge";
+                isAcquiredBadge = false;
+            } else {
+                badgeClass = "acquired-badge";
+            }
+        } else {
+            badgeClass = "next-badge";
+        }
+        badgesList +=
+            `<div class="badgelist-item ${badgeClass}">
+                <strong>${badge.name}</strong>
+                <img src="./${badge.image}" alt="${badge.image}"/>
+                <small>${badge.goal}</small>
+            </div>`;
+    }
+    badgesList += `</div>
+        </section>`;
 
+    progressBarContainer.innerHTML += badgesList;
+}
+    
 
 async function init() {
     await countDataEntries();
