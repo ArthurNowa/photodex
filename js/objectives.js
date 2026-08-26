@@ -6,7 +6,7 @@ const BADGES = [
     { name: "Un Bon Début", goal: 25, image:"images/badges/badge-bon-debut.png" },
     { name: "Curieux", goal: 50, image:"images/badges/badge-curieux.png" },
     { name: "Explor'Amateur", goal: 100, image:"images/badges/badge-exploramateur.png" },
-    { name: "Attrapez-les tous !", goal: 151, image:"images/badges/badge-attrapez-lez-tous.png" },
+    { name: "Attrapez-les tous !", goal: 151, image:"images/badges/badge-attrapez-les-tous.png" },
     { name: "Naturaliste", goal: 200, image:"images/badges/badge-naturaliste.png" },
     { name: "Ca fait beaucoup là, non ?", goal: 500, image:"images/badges/badge-ca-fait-beaucoup.png" },
     { name: "Encyclopédie", goal: 1000, image:"images/badges/badge-encyclopedie.png" },
@@ -115,7 +115,7 @@ function displayBadgeProgress() {
     
     let badgesList =
         `<section class="badge-progress-card">
-            <div class="badge-row">`;
+            <div class="badge">`;
     
     let isAcquiredBadge = true;
     for (const badge of BADGES) {
@@ -138,6 +138,9 @@ function displayBadgeProgress() {
             </div>`;
     }
     badgesList += `</div>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: ${progress}%">${count} / ${nextBadge.goal}</div>
+          </div>
         </section>`;
 
     progressBarContainer.innerHTML += badgesList;
