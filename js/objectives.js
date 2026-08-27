@@ -1,7 +1,7 @@
 ﻿import { loadIndex } from "./dataLoader.js";
 
 const BADGES = [
-    { name: "Aucun", goal: 0, image:"images/badges/badge-aucun.png" },
+    { name: "Starter", goal: 1, image:"images/badges/badge-aucun.png" },
     { name: "Premiers Pas", goal: 10, image:"images/badges/badge-premiers-pas.png" },
     { name: "Un Bon Début", goal: 25, image:"images/badges/badge-bon-debut.png" },
     { name: "Curieux", goal: 50, image:"images/badges/badge-curieux.png" },

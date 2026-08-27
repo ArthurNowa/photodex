@@ -70,7 +70,7 @@
 }
 
 .badge-progress-card h2 {
-    color: var(--bright-yellow);
+    color: white;
 }
 
 .badge-row {
@@ -111,7 +111,7 @@
 }
 
 .acquired-badge strong, .next-badge strong {
-    padding-top: 5px;
+    padding-top: 10px;
     color: var(--bright-yellow);
     font-size: 1rem;
     text-align: center;
@@ -132,7 +132,7 @@
 }
 
 .current-badge strong {
-    padding-top: 0;
+    padding-top: 5px;
     color: var(--golden);
     font-size: 1.2rem;
     text-align: center;
@@ -154,8 +154,8 @@
 
 .objective strong, .objective img, .objective small,
 .next-badge strong, .next-badge img, .next-badge small {
-    filter: grayscale(95%);
-    opacity: 0.4;
+    filter: grayscale(60%);
+    opacity: 0.3;
 }
 
 .progress-bar {
