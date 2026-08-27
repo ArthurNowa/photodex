@@ -154,7 +154,7 @@
 
 .objective strong, .objective img, .objective small,
 .next-badge strong, .next-badge img, .next-badge small {
-    filter: grayscale(60%);
+    filter: grayscale(80%);
     opacity: 0.3;
 }
 
