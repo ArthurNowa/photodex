@@ -132,13 +132,14 @@
 }
 
 .acquired-badge strong, .next-badge strong {
-    padding-top: 20px;
+    padding-top: 5px;
     color: var(--bright-yellow);
     font-size: 1rem;
     text-align: center;
 }
 
 .acquired-badge img {
+    display:block;
     align-self: center;
     height: 100px;
     width: 100px;
@@ -147,6 +148,7 @@
 }
 
 .next-badge img {
+    display:block;
     align-self: center;
     height: 70px;
     width: 70px;
@@ -155,13 +157,14 @@
 }
 
 .current-badge strong {
-    padding-top: 15px;
+    padding-top: 0;
     color: var(--golden);
     font-size: 1.2rem;
     text-align: center;
 }
 
 .current-badge img {
+    display:block;
     align-self: center;
     height: 140px;
     width: 140px;
