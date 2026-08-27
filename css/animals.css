@@ -123,12 +123,14 @@
     flex: 1;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 .current-badge {
     flex: 2;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 .acquired-badge strong, .next-badge strong {
@@ -139,8 +141,7 @@
 }
 
 .acquired-badge img {
-    display:block;
-    align-self: center;
+    display: block;
     height: 100px;
     width: 100px;
     margin-bottom: 20px;
@@ -148,11 +149,10 @@
 }
 
 .next-badge img {
-    display:block;
-    align-self: center;
-    height: 90px;
-    width: 90px;
-    margin-bottom: 25px;
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 30px;
     margin-top : auto;
 }
 
@@ -164,8 +164,7 @@
 }
 
 .current-badge img {
-    display:block;
-    align-self: center;
+    display: block;
     height: 140px;
     width: 140px;
     margin-bottom: 0;
