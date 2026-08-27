@@ -84,37 +84,11 @@ function displayBadgeProgress() {
             objectivesText = type.text;
         }
     }
-
-    progressBarContainer.innerHTML = `
-    <section class="badge-progress-card">
-      <h2>Progression Photodex ${objectivesText}</h2>
-
-      <p>${count} espèces rencontrées</p>
-
-      <div class="badge-row">
-        <div class="badge current">
-          <span>Badge actuel</span>
-          <strong>${currentBadge.name}</strong>
-          <img src="./${currentBadge.image}" alt="${currentBadge.image}">
-          <small>${currentBadge.goal} espèces</small>
-        </div>
-
-        <div class="badge objective">
-          <span>Prochain badge</span>
-          <strong>${nextBadge ? nextBadge.name : "Tous obtenus"}</strong>
-          <img src="./${nextBadge.image}" alt="${nextBadge.name}">
-          <small>${nextBadge ? `${nextBadge.goal} espèces` : "Photodex complété"}</small>
-        </div>
-      </div>
-
-      <div class="progress-bar">
-        <div class="progress-fill" style="width: ${progress}%">${count} / ${nextBadge.goal}</div>
-      </div>
-    </section>`;
-    
     
     let badgesList =
         `<section class="badge-progress-card">
+            <h2>Progression Photodex ${objectivesText}</h2>
+            <p>${count} espèces rencontrées</p>
             <div class="badgelist">`;
     
     let isAcquiredBadge = true;
@@ -143,7 +117,7 @@ function displayBadgeProgress() {
           </div>
         </section>`;
 
-    progressBarContainer.innerHTML += badgesList;
+    progressBarContainer.innerHTML = badgesList;
 }
     
 

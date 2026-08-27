@@ -80,14 +80,6 @@
     margin-bottom: 1rem;
 }
 
-.badge {
-    position: relative;
-    background: #1f232b;
-    padding: 1rem;
-    border-radius: 10px;
-    width: 48%;
-}
-
 .badgelist {
     display: flex;
     justify-content: space-between;
@@ -101,23 +93,6 @@
     display: grid;
     align-items: center;
 }
-
-.badge strong {
-    display: block;
-    color: var(--golden);
-    font-size: 1.2rem;
-    text-align: center;
-}
-
-.badge img {
-    display: inline;
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    /*transform: translate(50vw, -60px);*/
-    right: 10%;
-    top: 0;
- }
 
 .acquired-badge, .next-badge {
     flex: 1;
