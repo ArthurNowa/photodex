@@ -98,6 +98,7 @@
 }
 
 .badgelist-item {
+    display: grid;
     align-items: center;
 }
 
@@ -131,6 +132,7 @@
 }
 
 .acquired-badge strong, .next-badge strong {
+    padding-top: 20px;
     color: var(--bright-yellow);
     font-size: 1rem;
     text-align: center;
@@ -141,6 +143,7 @@
     height: 100px;
     width: 100px;
     margin-bottom: 20px;
+    margin-top : auto;
 }
 
 .next-badge img {
@@ -148,9 +151,11 @@
     height: 70px;
     width: 70px;
     margin-bottom: 35px;
+    margin-top : auto;
 }
 
 .current-badge strong {
+    padding-top: 15px;
     color: var(--golden);
     font-size: 1.2rem;
     text-align: center;
@@ -161,6 +166,7 @@
     height: 140px;
     width: 140px;
     margin-bottom: 0;
+    margin-top : auto;
 }
 
 .current-badge small {
