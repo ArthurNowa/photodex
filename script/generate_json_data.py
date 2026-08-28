@@ -102,6 +102,7 @@ def check_photos_in_json (animal_id, category_dir, photo_id):
     if not photo_id in DATA_LIST[json_filename]:
         file_data = None
         datafile = DATA_DIR.joinpath(category_dir, json_filename)
+        last_place = "TBD"
         with open(datafile, "r", encoding="utf-8-sig") as f:
             file_data = json.load(f)
             photo_path = str(IMAGES_DIR).replace(os.sep, "/") + "/" + category_dir + "/" + photo_id
@@ -111,6 +112,8 @@ def check_photos_in_json (animal_id, category_dir, photo_id):
             if place == "":
                 place = "TBD"
                 DATA_TO_COMPLETE.add(datafile)
+            elif place == " ":
+                place = last_place
             photos = file_data["photos"] + [{"fichier": photo_path, "lieu": place}]
             photos.sort(key=lambda photo : photo["fichier"], reverse=True)
             file_data["photos"] = photos

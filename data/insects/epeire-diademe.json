@@ -11,10 +11,17 @@
   "taille": "Femelle : 10 à 18 mm ; mâle : 5 à 13 mm",
   "tailleMoyenne": 12,
   "regime": "Insectes capturés dans sa toile, principalement des mouches, moustiques, papillons et autres petits arthropodes",
-  "regimeEmoji": ["🦟", "🐛"],
+  "regimeEmoji": [
+    "🦟",
+    "🐛"
+  ],
   "habitat": "Jardins, haies, parcs, lisières, friches, bois clairs et abords des habitations",
   "description": "Araignée orbiculaire très commune. Souvent installée au centre de sa grande toile ronde, elle se reconnaît aux tâches blanches formant une croix sur son abdomen. Sa couleur peut varier du beige au brun foncé.",
   "photos": [
+    {
+      "fichier": "images/insects/20260826_epeire-diademe.jpg",
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+    },
     {
       "fichier": "images/insects/20260628_epeire-diademe.jpg",
       "lieu": "jardin"

@@ -1,8 +1,8 @@
 {
-  "animalId": "gendarme",
+  "animalId": "sympetrum-rouge-sang",
   "category": "insects",
-  "photo": "../images/insects/20260822_gendarme.jpg",
-  "fileName": "20260822_gendarme.jpg",
-  "date": "2026-08-22",
-  "jsonfile": "data/insects/gendarme.json"
+  "photo": "../images/insects/20260826_sympetrum-rouge-sang_03.jpg",
+  "fileName": "20260826_sympetrum-rouge-sang_03.jpg",
+  "date": "2026-08-26",
+  "jsonfile": "data/insects/sympetrum-rouge-sang.json"
 }

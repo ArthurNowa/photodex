@@ -11,19 +11,34 @@
   "taille": "19 à 25 cm, sans compter la queue",
   "tailleMoyenne": 14,
   "regime": "Graines, noix, fruits, bourgeons, champignons, insectes et parfois œufs d’oiseaux",
-  "regimeEmoji": ["🫘", "🥜", "🍎", "🫐", "🌱", "🍄", "🐛", "🥚"],
+  "regimeEmoji": [
+    "🫘",
+    "🥜",
+    "🍎",
+    "🫐",
+    "🌱",
+    "🍄",
+    "🐛",
+    "🥚"
+  ],
   "habitat": "Forêts de conifères ou de feuillus, parcs, jardins arborés et haies",
   "description": "Petit rongeur agile à queue touffue, souvent roux, reconnaissable à ses pinceaux d’oreilles en hiver.",
   "keywords": "mammifère rongeur sciuridé roux brun gris blanc arboricole touffes oreilles longue queue panache agile grimpeur forêt bois parc jardin graines noisettes noix fruits champignons cônes cache solitaire Europe",
   "photos": [
     {
-      "fichier": "images/mammals/20260703_ecureuil-roux-01.jpg",
+      "fichier": "images/mammals/20260815_ecureuil-roux.jpg",
+      "lieu": "Parc Sainte-Croix, Rhodes"
+    },
+    {
+      "fichier": "images/mammals/20260703_ecureuil-roux-03.jpg",
       "lieu": "Chemin des écluses, Chéreng"
-    }, {
+    },
+    {
       "fichier": "images/mammals/20260703_ecureuil-roux-02.jpg",
       "lieu": "Chemin des écluses, Chéreng"
-    }, {
-      "fichier": "images/mammals/20260703_ecureuil-roux-03.jpg",
+    },
+    {
+      "fichier": "images/mammals/20260703_ecureuil-roux-01.jpg",
       "lieu": "Chemin des écluses, Chéreng"
     }
   ]
