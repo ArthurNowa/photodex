@@ -27,7 +27,8 @@
   "photos": [
     {
       "fichier": "images/reptiles/20260815_grenouille-rieuse.jpg",
-      "lieu": "Parc Sainte-Croix, Rhodes"
+      "lieu": "Parc Sainte-Croix, Rhodes",
+      "date": "2026-08-15"
     }
   ]
 }

@@ -11,13 +11,16 @@
   "taille": "Envergure de 25 à 30 mm",
   "tailleMoyenne": 26,
   "regime": "Les chenilles se nourrissent principalement de feuilles de fusain",
-  "regimeEmoji": ["🥬"],
+  "regimeEmoji": [
+    "🥬"
+  ],
   "habitat": "Friches arbustives, haies, lisières, parcs et jardins",
   "description": "Petit papillon de nuit aux ailes claires, marquées d’une large zone brun foncé sur leur extrémité. Il peut être reconnu à son aspect contrasté, comme si les pointes de ses ailes avaient été brunies ou brûlées.",
   "photos": [
     {
       "fichier": "images/insects/20260628_phalene-du-fusain.jpg",
-      "lieu": "jardin"
+      "lieu": "jardin",
+      "date": "2026-06-28"
     }
   ]
 }

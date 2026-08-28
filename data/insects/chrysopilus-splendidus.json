@@ -11,13 +11,17 @@
   "taille": "Environ 7 à 10 mm",
   "tailleMoyenne": 8,
   "regime": "Petits insectes et autres invertébrés ; les larves sont prédatrices",
-  "regimeEmoji": ["🦟", "🐛"],
+  "regimeEmoji": [
+    "🦟",
+    "🐛"
+  ],
   "habitat": "Bois humides, lisières ombragées, bords de cours d’eau, haies et végétation basse",
   "description": "Mouche prédatrice de la famille des Rhagionidae, reconnaissable à son corps élancé et à ses reflets dorés ou verdâtres selon la lumière.",
   "photos": [
     {
       "fichier": "images/insects/20260628_chrysopilus-splendidus.jpg",
-      "lieu": "jardin"
+      "lieu": "jardin",
+      "date": "2026-06-28"
     }
   ]
 }

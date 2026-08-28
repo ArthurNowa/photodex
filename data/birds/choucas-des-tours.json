@@ -28,7 +28,8 @@
   "photos": [
     {
       "fichier": "images/birds/20260720_choucas-des-tours.jpg",
-      "lieu": "Parc de la Haute-Borne, Villeneuve-d'Ascq"
+      "lieu": "Parc de la Haute-Borne, Villeneuve-d'Ascq",
+      "date": "2026-07-20"
     }
   ]
 }

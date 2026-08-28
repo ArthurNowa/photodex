@@ -28,7 +28,8 @@
   "photos": [
     {
       "fichier": "images/birds/20260725_cigogne-blanche.jpg",
-      "lieu": "Pairi Daiza"
+      "lieu": "Pairi Daiza",
+      "date": "2026-07-25"
     }
   ]
 }

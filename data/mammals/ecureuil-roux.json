@@ -27,19 +27,23 @@
   "photos": [
     {
       "fichier": "images/mammals/20260815_ecureuil-roux.jpg",
-      "lieu": "Parc Sainte-Croix, Rhodes"
+      "lieu": "Parc Sainte-Croix, Rhodes",
+      "date": "2026-08-15"
     },
     {
       "fichier": "images/mammals/20260703_ecureuil-roux-03.jpg",
-      "lieu": "Chemin des écluses, Chéreng"
+      "lieu": "Chemin des écluses, Chéreng",
+      "date": "2026-07-03"
     },
     {
       "fichier": "images/mammals/20260703_ecureuil-roux-02.jpg",
-      "lieu": "Chemin des écluses, Chéreng"
+      "lieu": "Chemin des écluses, Chéreng",
+      "date": "2026-07-03"
     },
     {
       "fichier": "images/mammals/20260703_ecureuil-roux-01.jpg",
-      "lieu": "Chemin des écluses, Chéreng"
+      "lieu": "Chemin des écluses, Chéreng",
+      "date": "2026-07-03"
     }
   ]
 }

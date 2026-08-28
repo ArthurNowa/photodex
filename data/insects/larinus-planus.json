@@ -11,13 +11,17 @@
   "taille": "5 à 10 mm",
   "tailleMoyenne": 7,
   "regime": "Chardons et cirses ; les larves se développent dans les capitules",
-  "regimeEmoji": ["🥬", "🌱"],
+  "regimeEmoji": [
+    "🥬",
+    "🌱"
+  ],
   "habitat": "Prairies, friches, talus, bords de chemins et milieux riches en chardons",
   "description": "Charançon grisâtre lié aux chardons, souvent observé sur les capitules.",
   "photos": [
     {
       "fichier": "images/insects/20260713_larinus-planus.jpg",
-      "lieu": "Parc de la Haute Borne, Villeneuve-d'Ascq"
+      "lieu": "Parc de la Haute Borne, Villeneuve-d'Ascq",
+      "date": "2026-07-13"
     }
   ]
 }

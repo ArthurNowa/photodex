@@ -27,7 +27,8 @@
   "photos": [
     {
       "fichier": "images/birds/20260815_buse-variable.jpg",
-      "lieu": "D162, Meurthe-et-Moselle"
+      "lieu": "D162, Meurthe-et-Moselle",
+      "date": "2026-08-15"
     }
   ]
 }

@@ -22,11 +22,13 @@
   "photos": [
     {
       "fichier": "images/insects/20260811_argiope-frelon-02.jpg",
-      "lieu": "Gerbépal, Vosges"
+      "lieu": "Gerbépal, Vosges",
+      "date": "2026-08-11"
     },
     {
       "fichier": "images/insects/20260811_argiope-frelon-01.jpg",
-      "lieu": "Gerbépal, Vosges"
+      "lieu": "Gerbépal, Vosges",
+      "date": "2026-08-11"
     }
   ]
 }

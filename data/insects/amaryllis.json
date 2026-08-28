@@ -12,13 +12,17 @@
   "taille": "Envergure de 35 à 45 mm",
   "tailleMoyenne": 40,
   "regime": "Nectar ; les chenilles se nourrissent de graminées",
-  "regimeEmoji": ["🧃", "🌱"],
+  "regimeEmoji": [
+    "🧃",
+    "🌱"
+  ],
   "habitat": "Prairies, friches, haies, lisières, clairières et chemins forestiers",
   "description": "Papillon orangé bordé de brun, avec un ocelle noir doublement pupillé de blanc.",
   "photos": [
     {
       "fichier": "images/insects/20260710_amaryllis.jpg",
-      "lieu": "jardin, Sailly-lez-Lannoy"
+      "lieu": "jardin, Sailly-lez-Lannoy",
+      "date": "2026-07-10"
     }
   ]
 }

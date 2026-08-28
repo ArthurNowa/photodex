@@ -21,19 +21,23 @@
   "photos": [
     {
       "fichier": "images/mammals/20260815_elan_02.jpg",
-      "lieu": "TBD"
+      "lieu": "TBD",
+      "date": "2026-08-15"
     },
     {
       "fichier": "images/mammals/20260815_elan_01.jpg",
-      "lieu": "TBD"
+      "lieu": "TBD",
+      "date": "2026-08-15"
     },
     {
       "fichier": "images/mammals/20260725_elan.jpg",
-      "lieu": "Pairi Daiza"
+      "lieu": "Pairi Daiza",
+      "date": "2026-07-25"
     },
     {
       "fichier": "images/mammals/20260505_elan.jpg",
-      "lieu": "Pairi Daiza"
+      "lieu": "Pairi Daiza",
+      "date": "2026-05-05"
     }
   ]
 }

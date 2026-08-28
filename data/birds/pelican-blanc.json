@@ -24,11 +24,13 @@
   "photos": [
     {
       "fichier": "images/birds/20260815_pelican-blanc.jpg",
-      "lieu": "Parc Sainte-Croix, Rhodes"
+      "lieu": "Parc Sainte-Croix, Rhodes",
+      "date": "2026-08-15"
     },
     {
       "fichier": "images/birds/20260725_pelican-blanc.jpg",
-      "lieu": "Pairi Daiza"
+      "lieu": "Pairi Daiza",
+      "date": "2026-07-25"
     }
   ]
 }

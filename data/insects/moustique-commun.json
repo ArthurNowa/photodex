@@ -11,13 +11,17 @@
   "taille": "5 à 7 mm",
   "tailleMoyenne": 7,
   "regime": "Nectar et sucs végétaux ; les femelles peuvent aussi prélever du sang",
-  "regimeEmoji": ["🧃", "🩸"],
+  "regimeEmoji": [
+    "🧃",
+    "🩸"
+  ],
   "habitat": "Jardins, zones humides, mares, fossés, récupérateurs d’eau et abords des habitations",
   "description": "Petit moustique brunâtre commun près des eaux stagnantes, actif surtout au crépuscule.",
   "photos": [
     {
       "fichier": "images/insects/20260710_moustique-commun.jpg",
-      "lieu": "Chemin des écluses, Chéreng"
+      "lieu": "Chemin des écluses, Chéreng",
+      "date": "2026-07-10"
     }
   ]
 }

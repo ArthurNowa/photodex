@@ -114,7 +114,7 @@ def check_photos_in_json (animal_id, category_dir, photo_id):
                 DATA_TO_COMPLETE.add(datafile)
             elif place == " ":
                 place = last_place
-            photos = file_data["photos"] + [{"fichier": photo_path, "lieu": place}]
+            photos = file_data["photos"] + [{"fichier": photo_path, "lieu": place, "date": extract_date(extract_filename_from_path(photo_path))}]
             photos.sort(key=lambda photo : photo["fichier"], reverse=True)
             file_data["photos"] = photos
         
@@ -123,18 +123,33 @@ def check_photos_in_json (animal_id, category_dir, photo_id):
                 json.dump(file_data, f, ensure_ascii=False, indent=2)
 
 
+       
 
 
 ## Register existing data files and associated photos
 def register_data(filename, category_dir):
     registered_photos = []
     datafile = DATA_DIR.joinpath(category_dir, filename)
+    file_data = None
+    is_data_ok = True
     with open(datafile, "r", encoding="utf-8-sig") as f:
         file_data = json.load(f)
-        for photo_data in file_data["photos"]:
+        for i in range (len(file_data["photos"])):
+            photo_data = file_data["photos"][i]
             photo = extract_filename_from_path(photo_data["fichier"])
             registered_photos += [photo]
+            
+            # register "date" data if not already there
+            if "date" not in photo_data.keys():
+                file_data["photos"][i]["date"] = extract_date(photo)
+                is_data_ok = False
+    
     DATA_LIST[filename] = registered_photos
+    
+    # write missing data
+    if file_data != None and not is_data_ok:
+        with open(datafile, "w", encoding="utf-8-sig") as f:
+            json.dump(file_data, f, ensure_ascii=False, indent=2)
             
     
     

@@ -26,15 +26,18 @@
   "photos": [
     {
       "fichier": "images/mammals/20260725_suricate_03.jpg",
-      "lieu": "Pairi Daiza"
+      "lieu": "Pairi Daiza",
+      "date": "2026-07-25"
     },
     {
       "fichier": "images/mammals/20260725_suricate_02.jpg",
-      "lieu": "Pairi Daiza"
+      "lieu": "Pairi Daiza",
+      "date": "2026-07-25"
     },
     {
       "fichier": "images/mammals/20260725_suricate_01.jpg",
-      "lieu": "Pairi Daiza"
+      "lieu": "Pairi Daiza",
+      "date": "2026-07-25"
     }
   ]
 }

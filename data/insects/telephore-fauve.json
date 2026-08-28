@@ -11,13 +11,18 @@
   "taille": "7 à 14 mm",
   "tailleMoyenne": 12,
   "regime": "Pollen, nectar, pucerons, petits insectes et chenilles",
-  "regimeEmoji": ["🌺", "🧃", "🐛"],
+  "regimeEmoji": [
+    "🌺",
+    "🧃",
+    "🐛"
+  ],
   "habitat": "Prairies fleuries, jardins, haies, lisières, friches et bords de chemins",
   "description": "Coléoptère orange aux extrémités noires des élytres, souvent observé sur les fleurs en été.",
   "photos": [
     {
       "fichier": "images/insects/20260703_telephore-fauve.jpg",
-      "lieu": "Chemin des écluses, Chéreng"
+      "lieu": "Chemin des écluses, Chéreng",
+      "date": "2026-07-03"
     }
   ]
 }

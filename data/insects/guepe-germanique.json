@@ -11,13 +11,20 @@
   "taille": "12 à 17 mm",
   "tailleMoyenne": 16,
   "regime": "Insectes, nectar, fruits mûrs, matières sucrées et charognes",
-  "regimeEmoji": ["🐛", "🧃", "🍎", "🍯", "🦴"],
+  "regimeEmoji": [
+    "🐛",
+    "🧃",
+    "🍎",
+    "🍯",
+    "🦴"
+  ],
   "habitat": "Jardins, parcs, lisières, prairies, zones urbaines et abords des habitations",
   "description": "Guêpe jaune et noire, reconnaissable aux trois petits points noirs sur sa face.",
   "photos": [
     {
       "fichier": "images/insects/20260703_guepe-germanique.jpg",
-      "lieu": "Chemin des écluses, Chéreng"
+      "lieu": "Chemin des écluses, Chéreng",
+      "date": "2026-07-03"
     }
   ]
 }

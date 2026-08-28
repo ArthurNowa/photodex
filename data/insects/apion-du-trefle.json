@@ -12,17 +12,22 @@
   "taille": "Environ 2 à 3 mm",
   "tailleMoyenne": 3,
   "regime": "Trèfles et autres légumineuses ; les larves se développent dans les inflorescences",
-  "regimeEmoji": ["🥬", "🌱"],
+  "regimeEmoji": [
+    "🥬",
+    "🌱"
+  ],
   "habitat": "Prairies, pelouses, friches, bords de chemins, cultures et zones riches en trèfles",
   "description": "Petit charançon sombre lié aux trèfles, dont les larves vivent dans les fleurs.",
   "photos": [
     {
       "fichier": "images/insects/20260710_apion-du-trefle-01.jpg",
-      "lieu": "jardin, Sailly-lez-Lannoy"
+      "lieu": "jardin, Sailly-lez-Lannoy",
+      "date": "2026-07-10"
     },
     {
       "fichier": "images/insects/20260710_apion-du-trefle-02.jpg",
-      "lieu": "jardin, Sailly-lez-Lannoy"
+      "lieu": "jardin, Sailly-lez-Lannoy",
+      "date": "2026-07-10"
     }
   ]
 }

@@ -26,7 +26,8 @@
   "photos": [
     {
       "fichier": "images/mammals/20260725_mangouste-naine.jpg",
-      "lieu": "Pairi Daiza"
+      "lieu": "Pairi Daiza",
+      "date": "2026-07-25"
     }
   ]
 }

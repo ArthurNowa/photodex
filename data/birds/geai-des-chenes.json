@@ -28,11 +28,13 @@
   "photos": [
     {
       "fichier": "images/birds/20260826_geai-des-chenes.jpg",
-      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois",
+      "date": "2026-08-26"
     },
     {
       "fichier": "images/birds/20260717_geai-des-chenes.jpg",
-      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois",
+      "date": "2026-07-17"
     }
   ]
 }

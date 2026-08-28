@@ -11,13 +11,20 @@
   "taille": "10 à 12 mm",
   "tailleMoyenne": 11,
   "regime": "Sève, graines, fruits et baies de nombreuses plantes ; parfois petits insectes",
-  "regimeEmoji": ["🧃", "🫘", "🍎", "🫐", "🐛"],
+  "regimeEmoji": [
+    "🧃",
+    "🫘",
+    "🍎",
+    "🫐",
+    "🐛"
+  ],
   "habitat": "Prairies, friches, haies, jardins, lisières, bords de chemins et zones herbacées",
   "description": "Punaise velue brun rosé, aux antennes annelées et aux bords abdominaux noir et blanc.",
   "photos": [
     {
       "fichier": "images/insects/20260713_punaise-des-baies.jpg",
-      "lieu": ""
+      "lieu": "",
+      "date": "2026-07-13"
     }
   ]
 }

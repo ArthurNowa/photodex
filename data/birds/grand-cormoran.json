@@ -22,7 +22,8 @@
   "photos": [
     {
       "fichier": "images/birds/20260815_grand-cormoran.jpg",
-      "lieu": "Parc Sainte-Croix, Rhodes"
+      "lieu": "Parc Sainte-Croix, Rhodes",
+      "date": "2026-08-15"
     }
   ]
 }

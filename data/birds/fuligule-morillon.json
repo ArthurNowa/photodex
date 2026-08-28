@@ -26,15 +26,18 @@
   "photos": [
     {
       "fichier": "images/birds/20260813_fuligule-morillon-03.jpg",
-      "lieu": "Europa Park, Allemagne"
+      "lieu": "Europa Park, Allemagne",
+      "date": "2026-08-13"
     },
     {
       "fichier": "images/birds/20260813_fuligule-morillon-02.jpg",
-      "lieu": "Europa Park, Allemagne"
+      "lieu": "Europa Park, Allemagne",
+      "date": "2026-08-13"
     },
     {
       "fichier": "images/birds/20260813_fuligule-morillon-01.jpg",
-      "lieu": "Europa Park, Allemagne"
+      "lieu": "Europa Park, Allemagne",
+      "date": "2026-08-13"
     }
   ]
 }

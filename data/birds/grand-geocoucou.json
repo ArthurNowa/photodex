@@ -13,22 +13,33 @@
   "tailleMoyenne": 40,
   "envergure": "49 à 60 cm",
   "regime": "Insectes, lézards, serpents, petits mammifères, œufs, oiseaux et fruits",
-  "regimeEmoji": ["🐛", "🦎", "🐍", "🐁", "🐦", "🥚", "🍎"],
+  "regimeEmoji": [
+    "🐛",
+    "🦎",
+    "🐍",
+    "🐁",
+    "🐦",
+    "🥚",
+    "🍎"
+  ],
   "habitat": "Déserts broussailleux, zones semi-arides, prairies sèches et lisières ouvertes",
   "description": "Grand coucou terrestre à longue queue, rapide à la course et souvent observé dans les milieux arides.",
   "keywords": "oiseau cuculidé terrestre élancé brun beige blanc rayé crête longue queue pattes course désert aride broussailles cactus lézards serpents insectes rongeurs scorpions prédateur Amérique",
   "photos": [
     {
       "fichier": "images/birds/20260303_grand-geocoucou-01.jpg",
-      "lieu": "pairi daiza"
+      "lieu": "pairi daiza",
+      "date": "2026-03-03"
     },
     {
       "fichier": "images/birds/20260303_grand-geocoucou-02.jpg",
-      "lieu": "pairi daiza"
+      "lieu": "pairi daiza",
+      "date": "2026-03-03"
     },
     {
       "fichier": "images/birds/20260505_grand-geocoucou.jpg",
-      "lieu": "pairi daiza"
+      "lieu": "pairi daiza",
+      "date": "2026-05-05"
     }
   ]
 }

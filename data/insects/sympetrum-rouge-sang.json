@@ -22,23 +22,28 @@
   "photos": [
     {
       "fichier": "images/insects/20260826_sympetrum-rouge-sang_03.jpg",
-      "lieu": "TBD"
+      "lieu": "TBD",
+      "date": "2026-08-26"
     },
     {
       "fichier": "images/insects/20260826_sympetrum-rouge-sang_02.jpg",
-      "lieu": "TBD"
+      "lieu": "TBD",
+      "date": "2026-08-26"
     },
     {
       "fichier": "images/insects/20260826_sympetrum-rouge-sang_01.jpg",
-      "lieu": "TBD"
+      "lieu": "TBD",
+      "date": "2026-08-26"
     },
     {
       "fichier": "images/insects/20260724_sympetrum-rouge-sang_02.jpg",
-      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois",
+      "date": "2026-07-24"
     },
     {
       "fichier": "images/insects/20260724_sympetrum-rouge-sang_01.jpg",
-      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois",
+      "date": "2026-07-24"
     }
   ]
 }

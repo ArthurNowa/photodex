@@ -25,7 +25,8 @@
   "photos": [
     {
       "fichier": "images/insects/20260719_guepe-poliste.jpg",
-      "lieu": "Jardin, Sailly-Lez-Lannoy"
+      "lieu": "Jardin, Sailly-Lez-Lannoy",
+      "date": "2026-07-19"
     }
   ]
 }

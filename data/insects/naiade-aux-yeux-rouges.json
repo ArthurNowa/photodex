@@ -12,13 +12,17 @@
   "taille": "30 à 36 mm",
   "tailleMoyenne": 45,
   "regime": "Petits insectes capturés en vol ; les larves chassent de petits invertébrés aquatiques",
-  "regimeEmoji": ["🦟", "🦐"],
+  "regimeEmoji": [
+    "🦟",
+    "🦐"
+  ],
   "habitat": "Étangs, lacs, bras morts et eaux calmes riches en végétation flottante",
   "description": "Demoiselle aux yeux rouges vifs, souvent posée sur les feuilles flottantes près de l’eau.",
   "photos": [
     {
       "fichier": "images/insects/20260703_naiade-aux-yeux-rouges.jpg",
-      "lieu": "Chemin des écluses, Chéreng"
+      "lieu": "Chemin des écluses, Chéreng",
+      "date": "2026-07-03"
     }
   ]
 }

@@ -27,7 +27,8 @@
   "photos": [
     {
       "fichier": "images/birds/20260814_rouge-gorge-familier.jpg",
-      "lieu": "Lac de Gérardmer, Vosges"
+      "lieu": "Lac de Gérardmer, Vosges",
+      "date": "2026-08-14"
     }
   ]
 }

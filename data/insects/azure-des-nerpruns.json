@@ -12,17 +12,25 @@
   "taille": "Envergure de 26 à 34 mm",
   "tailleMoyenne": 28,
   "regime": "Nectar et miellat ; les chenilles mangent boutons, fleurs, fruits et jeunes feuilles.",
-  "regimeEmoji": ["🧃", "🌺", "🍯", "🥬", "🌱"],
+  "regimeEmoji": [
+    "🧃",
+    "🌺",
+    "🍯",
+    "🥬",
+    "🌱"
+  ],
   "habitat": "Haies, lisières, friches, jardins, parcs, bois clairs et bords de cours d’eau",
   "description": "Petit papillon bleu clair, au revers pâle ponctué de noir et sans taches orange.",
   "photos": [
     {
       "fichier": "images/insects/20260707_azure-des-nerpruns-01.jpg",
-      "lieu": "Jardin, Sailly-lez-Lannoy"
+      "lieu": "Jardin, Sailly-lez-Lannoy",
+      "date": "2026-07-07"
     },
     {
       "fichier": "images/insects/20260707_azure-des-nerpruns-02.jpg",
-      "lieu": "Jardin, Sailly-lez-Lannoy"
+      "lieu": "Jardin, Sailly-lez-Lannoy",
+      "date": "2026-07-07"
     }
   ]
 }

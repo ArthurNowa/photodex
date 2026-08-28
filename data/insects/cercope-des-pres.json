@@ -12,13 +12,16 @@
   "taille": "5 à 7 mm",
   "tailleMoyenne": 6,
   "regime": "Sève de nombreuses plantes herbacées, arbustes et jeunes pousses",
-  "regimeEmoji": ["🧃"],
+  "regimeEmoji": [
+    "🧃"
+  ],
   "habitat": "Prairies, jardins, friches, haies, bords de chemins et végétation herbacée",
   "description": "Petit insecte sauteur très variable, dont les larves vivent dans une mousse appelée crachat de coucou.",
   "photos": [
     {
       "fichier": "images/insects/20260703_cercope-des-pres.jpg",
-      "lieu": "Chemin des écluses, Chéreng"
+      "lieu": "Chemin des écluses, Chéreng",
+      "date": "2026-07-03"
     }
   ]
 }

@@ -21,15 +21,18 @@
   "photos": [
     {
       "fichier": "images/insects/20260724_pieride-du-navet.jpg",
-      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois",
+      "date": "2026-07-24"
     },
     {
       "fichier": "images/insects/20260717_pieride-du-navet_02.jpg",
-      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois",
+      "date": "2026-07-17"
     },
     {
       "fichier": "images/insects/20260717_pieride-du-navet_01.jpg",
-      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois"
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois",
+      "date": "2026-07-17"
     }
   ]
 }

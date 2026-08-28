@@ -23,15 +23,18 @@
   "photos": [
     {
       "fichier": "images/reptiles/20260820_crapaud-commun-02.jpg",
-      "lieu": "Drèves des Frênes, Willems"
+      "lieu": "Drèves des Frênes, Willems",
+      "date": "2026-08-20"
     },
     {
       "fichier": "images/reptiles/20260820_crapaud-commun-01.jpg",
-      "lieu": "Drèves des Frênes, Willems"
+      "lieu": "Drèves des Frênes, Willems",
+      "date": "2026-08-20"
     },
     {
       "fichier": "images/reptiles/20260710_crapaud-commun.jpg",
-      "lieu": "Chemin des écluses, Chéreng"
+      "lieu": "Chemin des écluses, Chéreng",
+      "date": "2026-07-10"
     }
   ]
 }

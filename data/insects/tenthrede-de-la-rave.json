@@ -11,13 +11,17 @@
   "taille": "6 à 8 mm",
   "tailleMoyenne": 7,
   "regime": "Nectar ; les larves consomment les feuilles de Brassicacées comme les raves, choux et colzas",
-  "regimeEmoji": ["🧃", "🥬"],
+  "regimeEmoji": [
+    "🧃",
+    "🥬"
+  ],
   "habitat": "Champs, potagers, jardins, friches, bords de chemins et milieux riches en Brassicacées",
   "description": "Tenthrède orange et noire, aux larves semblables à de petites chenilles.",
   "photos": [
     {
       "fichier": "images/insects/20260713_tenthrede-de-la-rave.jpg",
-      "lieu": "Parc de la Haute Borne, Villeneuve d'Ascq"
+      "lieu": "Parc de la Haute Borne, Villeneuve d'Ascq",
+      "date": "2026-07-13"
     }
   ]
 }

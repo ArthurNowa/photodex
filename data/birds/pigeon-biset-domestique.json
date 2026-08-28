@@ -26,11 +26,13 @@
   "photos": [
     {
       "fichier": "images/birds/20260822_pigeon-biset-domestique.jpg",
-      "lieu": "Place du Récital, Villeneuve d'Ascq"
+      "lieu": "Place du Récital, Villeneuve d'Ascq",
+      "date": "2026-08-22"
     },
     {
       "fichier": "images/birds/20260713_pigeon-biset-domestique.jpg",
-      "lieu": "Alten, Villeneuve-d'Ascq"
+      "lieu": "Alten, Villeneuve-d'Ascq",
+      "date": "2026-07-13"
     }
   ]
 }

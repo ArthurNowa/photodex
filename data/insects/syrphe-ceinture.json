@@ -11,11 +11,19 @@
   "taille": "8 à 12 mm",
   "tailleMoyenne": 10,
   "regime": "Nectar, pollen et miellat ; les larves se nourrissent principalement de pucerons",
-  "regimeEmoji": ["🧃", "🌺", "🐛"],
+  "regimeEmoji": [
+    "🧃",
+    "🌺",
+    "🐛"
+  ],
   "habitat": "Prairies, jardins, parcs, lisières, forêts ensoleillées et milieux fleuris",
   "datePhoto": "2026-06-15",
   "description": "Petit syrphe au vol stationnaire caractéristique, souvent confondu avec une guêpe mais totalement inoffensif.",
   "photos": [
-    {"fichier": "images/insects/20260618_syrphe-ceinture.jpg", "lieu": "jardin"}
+    {
+      "fichier": "images/insects/20260618_syrphe-ceinture.jpg",
+      "lieu": "jardin",
+      "date": "2026-06-18"
+    }
   ]
 }

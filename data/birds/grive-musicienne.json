@@ -26,7 +26,8 @@
   "photos": [
     {
       "fichier": "images/birds/20260725_grive-musicienne.jpg",
-      "lieu": "Pairi Daiza"
+      "lieu": "Pairi Daiza",
+      "date": "2026-07-25"
     }
   ]
 }

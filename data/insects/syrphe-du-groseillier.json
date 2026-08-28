@@ -11,13 +11,18 @@
   "taille": "9 à 13 mm",
   "tailleMoyenne": 12,
   "regime": "Nectar, pollen et miellat ; les larves consomment surtout des pucerons",
-  "regimeEmoji": ["🧃", "🌺", "🐛"],
+  "regimeEmoji": [
+    "🧃",
+    "🌺",
+    "🐛"
+  ],
   "habitat": "Jardins, vergers, parcs, prairies fleuries, lisières et milieux boisés",
   "description": "Syrphe jaune et noir ressemblant à une guêpe, reconnaissable à ses yeux nus et son abdomen plat.",
   "photos": [
     {
       "fichier": "images/insects/20260703_syrphe-du-groseillier.jpg",
-      "lieu": "Chemin des écluses, Chéreng"
+      "lieu": "Chemin des écluses, Chéreng",
+      "date": "2026-07-03"
     }
   ]
 }
