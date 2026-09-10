@@ -1,0 +1,36 @@
+﻿{
+  "id": "raton-laveur",
+  "nom": "Raton laveur",
+  "nomScientifique": "Procyon lotor",
+  "famille": "Procyonidae",
+  "sousFamille": "Procyoninae",
+  "ordre": "Carnivore",
+  "repartition": "Originaire d’Amérique du Nord ; introduit en Europe et en Asie.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "25 à 35 cm au garrot",
+  "tailleMoyenne": 30,
+  "regime": "Fruits, baies, insectes, vers, poissons, amphibiens, œufs, petits animaux et déchets",
+  "regimeEmoji": [
+    "🍎",
+    "🫐",
+    "🦟",
+    "🐛",
+    "🪱",
+    "🐟",
+    "🐸",
+    "🥚",
+    "🐁",
+    "🍂"
+  ],
+  "habitat": "Forêts, rivières, marais, parcs, jardins, zones urbaines et milieux proches de l’eau",
+  "description": "Petit carnivore gris au masque noir et à la queue annelée.",
+  "keywords": "raton laveur gris masque noir queue annelée eau foret ville nuit Amerique",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_raton-laveur.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    }
+  ]
+}

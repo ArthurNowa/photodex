@@ -1,0 +1,33 @@
+﻿{
+  "id": "cochon-nain",
+  "nom": "Cochon nain",
+  "nomScientifique": "Sus scrofa domesticus",
+  "famille": "Suidae",
+  "sousFamille": "Suinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Forme domestique élevée dans de nombreux pays comme animal de ferme ou de compagnie.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "35 à 50 cm au garrot",
+  "tailleMoyenne": 42,
+  "regime": "Graines, fruits, racines, feuilles, légumes, déchets organiques, insectes et vers",
+  "regimeEmoji": [
+    "🫘",
+    "🍎",
+    "🌱",
+    "🥬",
+    "🍂",
+    "🐛",
+    "🪱"
+  ],
+  "habitat": "Fermes, enclos, jardins, pâtures, basses-cours et élevages domestiques",
+  "description": "Petit cochon domestique trapu, intelligent et fouisseur.",
+  "keywords": "cochon nain porc rose noir ferme enclos groin petit domestique fouille sol",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_cochon-nain.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    }
+  ]
+}

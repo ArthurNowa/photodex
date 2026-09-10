@@ -280,7 +280,34 @@
         "name": "agouti-azara.json"
       },
       {
+        "name": "alpaga.json"
+      },
+      {
+        "name": "bison-d-europe.json"
+      },
+      {
         "name": "blonde-d-aquitaine.json"
+      },
+      {
+        "name": "cerf-elaphe.json"
+      },
+      {
+        "name": "cheval-de-przewalski.json"
+      },
+      {
+        "name": "chevre-naine.json"
+      },
+      {
+        "name": "chien-de-prairie.json"
+      },
+      {
+        "name": "cochon-nain.json"
+      },
+      {
+        "name": "coyote.json"
+      },
+      {
+        "name": "daim-d-europe.json"
       },
       {
         "name": "dromadaire.json"
@@ -295,6 +322,9 @@
         "name": "fennec.json"
       },
       {
+        "name": "glouton.json"
+      },
+      {
         "name": "grand-tatou-velu.json"
       },
       {
@@ -302,6 +332,18 @@
       },
       {
         "name": "jaguar.json"
+      },
+      {
+        "name": "loup-arctique.json"
+      },
+      {
+        "name": "loup-gris.json"
+      },
+      {
+        "name": "lynx-boreal.json"
+      },
+      {
+        "name": "maki-catta.json"
       },
       {
         "name": "mangouste-naine.json"
@@ -319,7 +361,19 @@
         "name": "ours-polaire.json"
       },
       {
+        "name": "panda-roux.json"
+      },
+      {
+        "name": "porc-epic-d-amerique.json"
+      },
+      {
         "name": "puma.json"
+      },
+      {
+        "name": "raton-laveur.json"
+      },
+      {
+        "name": "sanglier.json"
       },
       {
         "name": "suricate.json"
@@ -329,6 +383,12 @@
       },
       {
         "name": "tigre-blanc-royal.json"
+      },
+      {
+        "name": "vache-vosgienne.json"
+      },
+      {
+        "name": "vari-noir-et-blanc.json"
       }
     ]
   },

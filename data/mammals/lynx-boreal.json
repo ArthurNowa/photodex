@@ -1,0 +1,40 @@
+﻿{
+  "id": "lynx-boreal",
+  "nom": "Lynx boréal",
+  "nomAlt": "Lynx d’Eurasie",
+  "nomScientifique": "Lynx lynx",
+  "famille": "Felidae",
+  "sousFamille": "Felinae",
+  "ordre": "Carnivore",
+  "repartition": "Europe et Asie du Nord, des massifs forestiers européens jusqu’à la Sibérie.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "60 à 75 cm au garrot",
+  "tailleMoyenne": 65,
+  "regime": "Chevreuils, lièvres, rongeurs, oiseaux et autres proies animales",
+  "regimeEmoji": [
+    "🍗",
+    "🐁",
+    "🐦"
+  ],
+  "habitat": "Forêts, montagnes, taïga, zones rocheuses et grands massifs boisés",
+  "description": "Félin tacheté aux oreilles à pinceaux noirs et à la queue courte.",
+  "keywords": "lynx felin tacheté oreilles pinceaux chat foret montagne queue courte carnivore",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_lynx-boreal_03.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    },
+    {
+      "fichier": "images/mammals/20260815_lynx-boreal_02.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    },
+    {
+      "fichier": "images/mammals/20260815_lynx-boreal_01.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    }
+  ]
+}

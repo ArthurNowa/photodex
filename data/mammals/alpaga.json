@@ -1,0 +1,28 @@
+﻿{
+  "id": "alpaga",
+  "nom": "Alpaga",
+  "nomScientifique": "Vicugna pacos",
+  "famille": "Camelidae",
+  "sousFamille": "Camelinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Originaire des Andes d’Amérique du Sud ; élevé aujourd’hui dans de nombreux pays.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "80 à 100 cm au garrot",
+  "tailleMoyenne": 90,
+  "regime": "Herbes, foin, feuilles, jeunes pousses et végétaux bas",
+  "regimeEmoji": [
+    "🌱",
+    "🥬"
+  ],
+  "habitat": "Hauts plateaux andins, pâturages, prairies et élevages",
+  "description": "Camélidé domestique laineux, au long cou et au pelage très dense.",
+  "keywords": "alpaga lama laine blanc brun noir long cou doux ferme prairie andes",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_alpaga.jpg",
+      "lieu": "parc Sainte-Croix, Rhodes",
+      "date": "2026-08-15"
+    }
+  ]
+}

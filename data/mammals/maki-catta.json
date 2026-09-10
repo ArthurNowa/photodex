@@ -1,0 +1,38 @@
+﻿{
+  "id": "maki-catta",
+  "nom": "Maki catta",
+  "nomAlt": "Lémur catta",
+  "nomScientifique": "Lemur catta",
+  "famille": "Lemuridae",
+  "sousFamille": "Lemurinae",
+  "ordre": "Primates",
+  "repartition": "Sud et sud-ouest de Madagascar, dans les forêts sèches et zones broussailleuses.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "39 à 46 cm de long, sans compter la queue",
+  "tailleMoyenne": 25,
+  "regime": "Fruits, feuilles, fleurs, sève, écorces, insectes et petits invertébrés",
+  "regimeEmoji": [
+    "🍎",
+    "🥬",
+    "🌺",
+    "🧃",
+    "🪵",
+    "🐛"
+  ],
+  "habitat": "Forêts sèches, galeries forestières, broussailles, rochers et zones arborées",
+  "description": "Lémurien gris à longue queue annelée noire et blanche.",
+  "keywords": "lemur maki catta singe Madagascar gris queue annelee noir blanc groupe rocher",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_maki-catta_02.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    },
+    {
+      "fichier": "images/mammals/20260815_maki-catta_01.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    }
+  ]
+}

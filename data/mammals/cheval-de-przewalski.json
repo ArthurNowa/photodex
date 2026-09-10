@@ -1,0 +1,29 @@
+﻿{
+  "id": "cheval-de-przewalski",
+  "nom": "Cheval de Przewalski",
+  "nomScientifique": "Equus ferus przewalskii",
+  "famille": "Equidae",
+  "sousFamille": "Equinae",
+  "ordre": "Périssodactyle",
+  "repartition": "Steppes de Mongolie et de Chine, avec des populations réintroduites.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "120 à 146 cm au garrot",
+  "tailleMoyenne": 133,
+  "regime": "Herbes, graminées, feuilles, écorces, jeunes pousses et végétaux secs",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🪵"
+  ],
+  "habitat": "Steppes, prairies sèches, plaines ouvertes, zones semi-arides et réserves",
+  "description": "Cheval sauvage trapu, beige, à crinière courte et sombre.",
+  "keywords": "cheval przewalski sauvage beige brun criniere courte Mongolie steppe prairie troupeau",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_cheval-de-przewalski.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    }
+  ]
+}

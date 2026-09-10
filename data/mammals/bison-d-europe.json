@@ -1,0 +1,34 @@
+﻿{
+  "id": "bison-d-europe",
+  "nom": "Bison d’Europe",
+  "nomScientifique": "Bison bonasus",
+  "famille": "Bovidae",
+  "sousFamille": "Bovinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Europe centrale et orientale, avec des populations réintroduites après extinction sauvage.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "160 à 200 cm au garrot",
+  "tailleMoyenne": 180,
+  "regime": "Herbes, feuilles, jeunes pousses, écorces, rameaux et végétaux forestiers",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🪵"
+  ],
+  "habitat": "Forêts claires, prairies, clairières, lisières, plaines boisées et réserves naturelles",
+  "description": "Très grand bovidé brun, massif, avec bosse haute et petites cornes courbées.",
+  "keywords": "bison bovin grand brun massif cornes bosse foret prairie Europe sauvage troupeau",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_bison-d-europe_02.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    },
+    {
+      "fichier": "images/mammals/20260815_bison-d-europe_01.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+﻿{
+  "id": "cerf-elaphe",
+  "nom": "Cerf élaphe",
+  "nomScientifique": "Cervus elaphus",
+  "famille": "Cervidae",
+  "sousFamille": "Cervinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Europe, Afrique du Nord et Asie occidentale ; introduit dans plusieurs autres régions.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "100 à 150 cm au garrot",
+  "tailleMoyenne": 120,
+  "regime": "Herbes, feuilles, jeunes pousses, écorces, glands, fruits et baies",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🪵",
+    "🥜",
+    "🍎",
+    "🫐"
+  ],
+  "habitat": "Forêts, clairières, lisières, prairies, landes, montagnes et bocages",
+  "description": "Grand cervidé brun, dont le mâle porte de grands bois ramifiés.",
+  "keywords": "cerf cervide brun bois cornes foret prairie lisiere grand male biche faon",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_cerf-elaphe_02.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    },
+    {
+      "fichier": "images/mammals/20260815_cerf-elaphe_01.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    }
+  ]
+}

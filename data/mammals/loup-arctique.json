@@ -1,0 +1,37 @@
+﻿{
+  "id": "loup-arctique",
+  "nom": "Loup arctique",
+  "nomAlt": "Loup blanc",
+  "nomScientifique": "Canis lupus arctos",
+  "famille": "Canidae",
+  "sousFamille": "Caninae",
+  "ordre": "Carnivore",
+  "repartition": "Îles arctiques canadiennes et nord du Groenland.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "60 à 90 cm au garrot",
+  "tailleMoyenne": 75,
+  "regime": "Mammifères, lièvres arctiques, bœufs musqués, caribous, oiseaux et charognes",
+  "regimeEmoji": [
+    "🍖",
+    "🍗",
+    "🐁",
+    "🐦",
+    "🦴"
+  ],
+  "habitat": "Toundra arctique, plaines glacées, zones rocheuses et régions polaires ouvertes",
+  "description": "Loup clair adapté au froid, au pelage épais blanc à crème.",
+  "keywords": "loup blanc arctique neige froid canide meute fourrure polaire toundra carnivore",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_loup-arctique_02.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    },
+    {
+      "fichier": "images/mammals/20260815_loup-arctique_01.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    }
+  ]
+}

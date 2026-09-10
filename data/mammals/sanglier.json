@@ -1,0 +1,35 @@
+﻿{
+  "id": "sanglier",
+  "nom": "Sanglier",
+  "nomScientifique": "Sus scrofa",
+  "famille": "Suidae",
+  "sousFamille": "Suinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Europe, Afrique du Nord et Asie ; introduit dans plusieurs autres régions du monde.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "70 à 100 cm au garrot",
+  "tailleMoyenne": 75,
+  "regime": "Racines, glands, fruits, graines, vers, insectes, petits animaux, œufs et charognes",
+  "regimeEmoji": [
+    "🌱",
+    "🥜",
+    "🍎",
+    "🫘",
+    "🪱",
+    "🐛",
+    "🐁",
+    "🥚",
+    "🦴"
+  ],
+  "habitat": "Forêts, bois, broussailles, marais, cultures, prairies et lisières",
+  "description": "Suidé sauvage brun sombre, massif, au groin puissant et aux défenses visibles.",
+  "keywords": "sanglier porc sauvage brun noir foret bois groin defenses marcassin sol boue",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_sanglier.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    }
+  ]
+}

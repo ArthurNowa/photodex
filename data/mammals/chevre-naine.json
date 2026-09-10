@@ -1,0 +1,34 @@
+﻿{
+  "id": "chevre-naine",
+  "nom": "Chèvre naine",
+  "nomScientifique": "Capra hircus",
+  "famille": "Bovidae",
+  "sousFamille": "Caprinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Forme domestique élevée dans de nombreux pays, surtout en ferme et parc animalier.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "40 à 50 cm au garrot",
+  "tailleMoyenne": 45,
+  "regime": "Herbes, feuilles, foin, jeunes pousses, écorces et végétaux variés",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🪵"
+  ],
+  "habitat": "Fermes, pâturages, prairies, enclos, broussailles et zones rurales",
+  "description": "Petite chèvre domestique, agile, curieuse et souvent élevée en ferme pédagogique.",
+  "keywords": "chevre naine petite ferme cornes barbiche blanc brun noir prairie enclos",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_chevre-naine_02.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    },
+    {
+      "fichier": "images/mammals/20260815_chevre-naine.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    }
+  ]
+}

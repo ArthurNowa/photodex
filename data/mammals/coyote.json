@@ -1,0 +1,34 @@
+﻿{
+  "id": "coyote",
+  "nom": "Coyote",
+  "nomScientifique": "Canis latrans",
+  "famille": "Canidae",
+  "sousFamille": "Caninae",
+  "ordre": "Carnivore",
+  "repartition": "Amérique du Nord et centrale, du Canada au Panama.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "50 à 60 cm au garrot",
+  "tailleMoyenne": 55,
+  "regime": "Rongeurs, lièvres, oiseaux, reptiles, insectes, charognes, fruits et baies",
+  "regimeEmoji": [
+    "🐁",
+    "🍗",
+    "🐦",
+    "🦎",
+    "🐛",
+    "🦴",
+    "🍎",
+    "🫐"
+  ],
+  "habitat": "Prairies, déserts, forêts claires, brousses, montagnes, campagnes et zones urbaines",
+  "description": "Canidé élancé gris fauve, proche du loup mais plus petit.",
+  "keywords": "coyote canide loup chien gris fauve Amerique prairie desert foret nuit hurlement",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_coyote.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+﻿{
+  "id": "loup-gris",
+  "nom": "Loup gris",
+  "nomScientifique": "Canis lupus",
+  "famille": "Canidae",
+  "sousFamille": "Caninae",
+  "ordre": "Carnivore",
+  "repartition": "Hémisphère Nord : Europe, Asie et Amérique du Nord, selon les populations.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "60 à 90 cm au garrot",
+  "tailleMoyenne": 75,
+  "regime": "Ongulés, mammifères, rongeurs, oiseaux, charognes et parfois fruits",
+  "regimeEmoji": [
+    "🍖",
+    "🍗",
+    "🐁",
+    "🐦",
+    "🦴",
+    "🍎"
+  ],
+  "habitat": "Forêts, montagnes, toundra, steppes, plaines, landes et zones sauvages",
+  "description": "Grand canidé social vivant en meute, au pelage gris, brun ou clair.",
+  "keywords": "loup gris canide meute chien sauvage foret montagne hurlement carnivore fourrure",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_loup-gris.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+﻿{
+  "id": "panda-roux",
+  "nom": "Panda roux",
+  "nomScientifique": "Ailurus fulgens",
+  "famille": "Ailuridae",
+  "sousFamille": "Ailurinae",
+  "ordre": "Carnivore",
+  "repartition": "Himalaya oriental et sud-ouest de la Chine.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "25 à 30 cm au garrot",
+  "tailleMoyenne": 28,
+  "regime": "Bambou, fruits, baies, feuilles, racines, œufs et petits animaux",
+  "regimeEmoji": [
+    "🎋",
+    "🍎",
+    "🫐",
+    "🥬",
+    "🌱",
+    "🥚",
+    "🐁"
+  ],
+  "habitat": "Forêts tempérées de montagne, bambouseraies, arbres et sous-bois humides",
+  "description": "Petit mammifère roux arboricole, à longue queue annelée.",
+  "keywords": "panda roux rouge orange arbre bambou queue annelée mignon montagne Chine Himalaya",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_panda-roux.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    }
+  ]
+}

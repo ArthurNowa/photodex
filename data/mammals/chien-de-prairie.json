@@ -1,0 +1,52 @@
+﻿{
+  "id": "chien-de-prairie",
+  "nom": "Chien de prairie",
+  "nomAlt": "Chien de prairie à queue noire",
+  "nomScientifique": "Cynomys ludovicianus",
+  "famille": "Sciuridae",
+  "sousFamille": "Xerinae",
+  "ordre": "Rongeur",
+  "repartition": "Grandes plaines d’Amérique du Nord, surtout aux États-Unis, au Canada et au nord du Mexique.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "Environ 15 à 20 cm au garrot",
+  "tailleMoyenne": 18,
+  "regime": "Herbes, feuilles, graines, racines, fleurs et parfois insectes",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🫘",
+    "🌺",
+    "🐛"
+  ],
+  "habitat": "Prairies, plaines herbeuses, steppes sèches et réseaux de terriers",
+  "description": "Petit rongeur social des prairies, souvent dressé près de son terrier.",
+  "keywords": "rongeur prairie terrier groupe debout brun beige herbe sol Amerique petit",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_chien-de-prairie_05.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    },
+    {
+      "fichier": "images/mammals/20260815_chien-de-prairie_04.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    },
+    {
+      "fichier": "images/mammals/20260815_chien-de-prairie_03.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    },
+    {
+      "fichier": "images/mammals/20260815_chien-de-prairie_02.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    },
+    {
+      "fichier": "images/mammals/20260815_chien-de-prairie_01.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    }
+  ]
+}

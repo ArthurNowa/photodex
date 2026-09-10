@@ -1,0 +1,31 @@
+﻿{
+  "id": "porc-epic-d-amerique",
+  "nom": "Porc-épic d’Amérique",
+  "nomScientifique": "Erethizon dorsatum",
+  "famille": "Erethizontidae",
+  "sousFamille": "Erethizontinae",
+  "ordre": "Rongeur",
+  "repartition": "Amérique du Nord, du Canada au nord du Mexique.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "30 à 40 cm au garrot",
+  "tailleMoyenne": 35,
+  "regime": "Écorces, feuilles, aiguilles de conifères, bourgeons, fruits, graines et végétaux",
+  "regimeEmoji": [
+    "🪵",
+    "🥬",
+    "🌱",
+    "🍎",
+    "🫘"
+  ],
+  "habitat": "Forêts, boisements, zones rocheuses, taïga, broussailles et arbres",
+  "description": "Rongeur trapu couvert de piquants, souvent grimpeur et actif la nuit.",
+  "keywords": "porc epic piquants rongeur brun noir arbre foret Amerique nuit grimpeur",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_porc-epic-d-amerique.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    }
+  ]
+}

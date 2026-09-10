@@ -1,0 +1,29 @@
+﻿{
+  "id": "vache-vosgienne",
+  "nom": "Vache vosgienne",
+  "nomScientifique": "Bos taurus",
+  "famille": "Bovidae",
+  "sousFamille": "Bovinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Race bovine originaire du massif des Vosges, surtout élevée dans l’est de la France.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "125 à 135 cm au garrot",
+  "tailleMoyenne": 130,
+  "regime": "Herbes, foin, fourrages, feuilles, céréales et végétaux",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🫘"
+  ],
+  "habitat": "Prairies, pâturages, fermes de montagne, alpages et élevages bovins",
+  "description": "Vache noire et blanche, rustique, originaire du massif des Vosges.",
+  "keywords": "vache vosgienne bovin noir blanc ferme prairie montagne Vosges cornes lait",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_vache-vosgienne.jpg",
+      "lieu": "parc Sainte-Croix, Rhodes",
+      "date": "2026-08-15"
+    }
+  ]
+}

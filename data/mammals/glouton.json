@@ -1,0 +1,33 @@
+﻿{
+  "id": "glouton",
+  "nom": "Glouton",
+  "nomAlt": "Carcajou",
+  "nomScientifique": "Gulo gulo",
+  "famille": "Mustelidae",
+  "sousFamille": "Guloninae",
+  "ordre": "Carnivore",
+  "repartition": "Régions boréales d’Eurasie et d’Amérique du Nord.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "36 à 45 cm au garrot",
+  "tailleMoyenne": 40,
+  "regime": "Charognes, rongeurs, oiseaux, œufs, lièvres, cervidés jeunes ou affaiblis et baies",
+  "regimeEmoji": [
+    "🦴",
+    "🐁",
+    "🐦",
+    "🥚",
+    "🍗",
+    "🫐"
+  ],
+  "habitat": "Taïga, toundra, forêts boréales, montagnes froides et zones sauvages isolées",
+  "description": "Mustélidé trapu et puissant, brun sombre, adapté aux régions froides.",
+  "keywords": "glouton carcajou mustelide brun noir froid neige foret toundra puissant carnivore",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_glouton.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-15"
+    }
+  ]
+}
