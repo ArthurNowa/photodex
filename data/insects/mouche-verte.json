@@ -1,0 +1,31 @@
+﻿{
+  "id": "mouche-verte",
+  "nom": "Mouche verte",
+  "nomAlt": "Lucilie soyeuse",
+  "nomScientifique": "Lucilia sericata",
+  "famille": "Calliphoridae",
+  "sousFamille": "Calliphorinae",
+  "ordre": "Diptère",
+  "repartition": "Europe, Afrique, Asie et Amérique du Nord ; très commune en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "10 à 14 mm",
+  "tailleMoyenne": 12,
+  "regime": "Nectar, liquides sucrés, matières organiques et charognes ; les larves vivent sur tissus animaux",
+  "regimeEmoji": [
+    "🧃",
+    "🍯",
+    "🍂",
+    "🦴"
+  ],
+  "habitat": "Jardins, prairies, habitations, déchets organiques, carcasses et milieux riches en fleurs",
+  "description": "Mouche vert métallique brillante, souvent attirée par les déchets et les fleurs.",
+  "keywords": "insecte mouche verte metallique brillant lucilie fleur dechet charogne jardin maison",
+  "photos": [
+    {
+      "fichier": "images/insects/20260826_mouche-verte.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-26"
+    }
+  ]
+}

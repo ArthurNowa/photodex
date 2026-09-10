@@ -1,0 +1,28 @@
+﻿{
+  "id": "acidia-cognata",
+  "nom": "Acidia cognata",
+  "nomScientifique": "Acidia cognata",
+  "famille": "Tephritidae",
+  "sousFamille": "",
+  "ordre": "Diptère",
+  "repartition": "Europe et Asie tempérée ; présente localement en France selon les plantes hôtes.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Environ 5 à 7 mm",
+  "tailleMoyenne": 6,
+  "regime": "Nectar et sucs végétaux ; les larves minent les feuilles de tussilage et pétasites",
+  "regimeEmoji": [
+    "🧃",
+    "🥬"
+  ],
+  "habitat": "Bords de chemins, friches, berges, zones humides et milieux riches en tussilage ou pétasites",
+  "description": "Petite mouche orangée aux ailes marquées, liée aux feuilles de tussilage.",
+  "keywords": "insecte mouche orange ailes taches feuilles plante tussilage petasite friche berge chemin",
+  "photos": [
+    {
+      "fichier": "images/insects/20260826_acidia-cognata.jpg",
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois",
+      "date": "2026-08-26"
+    }
+  ]
+}

@@ -122,6 +122,9 @@
         "name": "abeille-melifere.json"
       },
       {
+        "name": "acidia-cognata.json"
+      },
+      {
         "name": "acrossus-rufipes.json"
       },
       {
@@ -194,6 +197,9 @@
         "name": "lema-cyanella.json"
       },
       {
+        "name": "leste-vert.json"
+      },
+      {
         "name": "limace-leopard.json"
       },
       {
@@ -210,6 +216,9 @@
       },
       {
         "name": "mouche-scorpion.json"
+      },
+      {
+        "name": "mouche-verte.json"
       },
       {
         "name": "moustique-commun.json"

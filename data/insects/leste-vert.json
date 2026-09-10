@@ -1,0 +1,33 @@
+﻿{
+  "id": "leste-vert",
+  "nom": "Leste vert",
+  "nomScientifique": "Chalcolestes viridis",
+  "famille": "Lestidae",
+  "sousFamille": "Lestinae",
+  "ordre": "Odonate",
+  "repartition": "Europe occidentale, centrale et méridionale ; présent en France près des eaux calmes.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Corps de 39 à 48 mm",
+  "tailleMoyenne": 44,
+  "regime": "Petits insectes capturés en vol ; les larves chassent de petits invertébrés aquatiques",
+  "regimeEmoji": [
+    "🦟",
+    "🦐"
+  ],
+  "habitat": "Mares, étangs, fossés, canaux et eaux calmes bordées d’arbres ou d’arbustes",
+  "description": "Demoiselle vert métallique, souvent posée ailes entrouvertes près de l’eau.",
+  "keywords": "demoiselle libellule vert metallique ailes eau mare etang fossé arbre roseau",
+  "photos": [
+    {
+      "fichier": "images/insects/20260826_leste-vert_02.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-26"
+    },
+    {
+      "fichier": "images/insects/20260826_leste-vert_01.jpg",
+      "lieu": "TBD",
+      "date": "2026-08-26"
+    }
+  ]
+}
