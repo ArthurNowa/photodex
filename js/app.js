@@ -50,9 +50,9 @@ const insectSizeLevels = [
 ];
 
 const reptileSizeLevels = [
-  { label: "Mésange", size: 14, image: "images/silhouettes/mesange.png" },
-  { label: "Moineau", size: 16, image: "images/silhouettes/moineau.png" },
-  { label: "Merle", size: 25, image: "images/silhouettes/merle.png" },
+  { label: "Dendrobate", size: 3, image: "images/silhouettes/dendrobate.png" },
+  { label: "Grenouille verte", size: 6, image: "images/silhouettes/moineau.png" },
+  { label: "Lézard des murailles", size: 25, image: "images/silhouettes/merle.png" },
   { label: "Pigeon", size: 35, image: "images/silhouettes/pigeon.png" },
   { label: "Poule", size: 60, image: "images/silhouettes/poule.png" },
   { label: "Héron", size: 90, image: "images/silhouettes/heron.png" },

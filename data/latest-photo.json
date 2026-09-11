@@ -1,8 +1,8 @@
 {
-  "animalId": "sympetrum-rouge-sang",
+  "animalId": "trachys-minutus",
   "category": "insects",
-  "photo": "../images/insects/20260826_sympetrum-rouge-sang_03.jpg",
-  "fileName": "20260826_sympetrum-rouge-sang_03.jpg",
-  "date": "2026-08-26",
-  "jsonfile": "data/insects/sympetrum-rouge-sang.json"
+  "photo": "../images/insects/20260911_trachys-minutus.jpg",
+  "fileName": "20260911_trachys-minutus.jpg",
+  "date": "2026-09-11",
+  "jsonfile": "data/insects/trachys-minutus.json"
 }
