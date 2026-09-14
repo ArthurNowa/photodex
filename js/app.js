@@ -53,9 +53,9 @@ const reptileSizeLevels = [
   { label: "Dendrobate", size: 3, image: "images/silhouettes/dendrobate.png" },
   { label: "Grenouille verte", size: 6, image: "images/silhouettes/moineau.png" },
   { label: "Lézard des murailles", size: 25, image: "images/silhouettes/merle.png" },
-  { label: "Pigeon", size: 35, image: "images/silhouettes/pigeon.png" },
-  { label: "Poule", size: 60, image: "images/silhouettes/poule.png" },
-  { label: "Héron", size: 90, image: "images/silhouettes/heron.png" },
+  { label: "gecko léopard", size: 35, image: "images/silhouettes/pigeon.png" },
+  { label: "Tortue d'Argentine", size: 60, image: "images/silhouettes/poule.png" },
+  { label: "Pogona", size: 75, image: "images/silhouettes/heron.png" },
   { label: "Cigogne", size: 105, image: "images/silhouettes/cigogne.png" },
   { label: "Emeu", size: 170, image: "images/silhouettes/emeu.png" }
 ];
