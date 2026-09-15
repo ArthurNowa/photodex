@@ -1,0 +1,27 @@
+﻿{
+  "id": "trachys-minutus",
+  "nom": "Trachys minutus",
+  "nomScientifique": "Trachys minutus",
+  "famille": "Buprestidae",
+  "sousFamille": "Agrilinae",
+  "ordre": "Coléoptère",
+  "repartition": "Europe, Afrique du Nord et Asie tempérée ; présent en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "2,5 à 3,5 mm",
+  "tailleMoyenne": 3,
+  "regime": "Feuilles de feuillus ; les larves minent notamment noisetiers, saules, bouleaux et peupliers",
+  "regimeEmoji": [
+    "🥬"
+  ],
+  "habitat": "Bois, lisières, haies, jardins, friches et zones riches en feuillus",
+  "description": "Minuscule coléoptère sombre et métallique, lié aux feuilles de feuillus.",
+  "keywords": "insecte coleoptere petit minuscule noir metallique feuille arbre noisetier saule bouleau peuplier",
+  "photos": [
+    {
+      "fichier": "images/insects/20260911_trachys-minutus.jpg",
+      "lieu": "TBD",
+      "date": "2026-09-11"
+    }
+  ]
+}

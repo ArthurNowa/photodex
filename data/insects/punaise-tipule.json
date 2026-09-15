@@ -1,0 +1,28 @@
+﻿{
+  "id": "punaise-tipule",
+  "nom": "Punaise tipule",
+  "nomScientifique": "Neides tipularius",
+  "famille": "Berytidae",
+  "sousFamille": "Berytinae",
+  "ordre": "Hémiptère",
+  "repartition": "Europe, Afrique du Nord et Asie occidentale ; présente en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "9 à 11 mm",
+  "tailleMoyenne": 10,
+  "regime": "Sève et sucs végétaux de plantes basses, notamment en milieux secs",
+  "regimeEmoji": [
+    "🧃",
+    "🌱"
+  ],
+  "habitat": "Prairies sèches, friches, talus, pelouses, bords de chemins et végétation basse",
+  "description": "Punaise très fine aux longues pattes, rappelant une petite tipule.",
+  "keywords": "insecte punaise tipule long fin pattes antennes brun beige herbe prairie seche sol",
+  "photos": [
+    {
+      "fichier": "images/insects/20260911_punaise-tipule.jpg",
+      "lieu": "TBD",
+      "date": "2026-09-11"
+    }
+  ]
+}

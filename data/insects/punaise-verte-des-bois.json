@@ -1,0 +1,31 @@
+﻿{
+  "id": "punaise-verte-des-bois",
+  "nom": "Punaise verte des bois",
+  "nomScientifique": "Palomena prasina",
+  "famille": "Pentatomidae",
+  "sousFamille": "Pentatominae",
+  "ordre": "Hémiptère",
+  "repartition": "Europe et Asie tempérée ; très commune en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "12 à 14 mm",
+  "tailleMoyenne": 13,
+  "regime": "Sève, fruits, baies, graines et jeunes pousses de nombreuses plantes",
+  "regimeEmoji": [
+    "🧃",
+    "🍎",
+    "🫐",
+    "🫘",
+    "🌱"
+  ],
+  "habitat": "Bois, haies, jardins, vergers, lisières, prairies, parcs et arbustes",
+  "description": "Grande punaise verte, devenant brunâtre avant l’hiver.",
+  "keywords": "insecte punaise verte bois jardin haie feuille fruit baie arbre arbuste brun hiver",
+  "photos": [
+    {
+      "fichier": "images/insects/20260911_punaise-verte-des-bois.jpg",
+      "lieu": "TBD",
+      "date": "2026-09-11"
+    }
+  ]
+}

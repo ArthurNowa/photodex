@@ -84,7 +84,7 @@
         "name": "ibis-rouge.json"
       },
       {
-        "name": "loriquet.json"
+        "name": "loriquet-arc-en-ciel.json"
       },
       {
         "name": "mainate-religieux.json"
@@ -245,10 +245,19 @@
         "name": "pieride-du-navet.json"
       },
       {
+        "name": "pisaure-admirable.json"
+      },
+      {
         "name": "punaise-arlequin.json"
       },
       {
         "name": "punaise-des-baies.json"
+      },
+      {
+        "name": "punaise-tipule.json"
+      },
+      {
+        "name": "punaise-verte-des-bois.json"
       },
       {
         "name": "pyrale-du-houblon.json"
@@ -279,6 +288,9 @@
       },
       {
         "name": "tircis.json"
+      },
+      {
+        "name": "trachys-minutus.json"
       }
     ]
   },

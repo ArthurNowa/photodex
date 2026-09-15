@@ -1,0 +1,33 @@
+﻿{
+  "id": "pisaure-admirable",
+  "nom": "Pisaure admirable",
+  "nomScientifique": "Pisaura mirabilis",
+  "famille": "Pisauridae",
+  "sousFamille": "",
+  "ordre": "Aranéide",
+  "repartition": "Europe et Asie tempérée ; très commune en France.",
+  "categorie": "insects",
+  "type": "Arachnide",
+  "taille": "Corps de 10 à 15 mm",
+  "tailleMoyenne": 13,
+  "regime": "Petits insectes et autres arthropodes chassés au sol ou dans la végétation",
+  "regimeEmoji": [
+    "🦟",
+    "🐛"
+  ],
+  "habitat": "Prairies, haies, lisières, jardins, herbes hautes, buissons et zones ensoleillées",
+  "description": "Araignée fine brun clair, souvent vue avec son cocon porté sous le corps.",
+  "keywords": "araignee pisaure brun beige cocon herbe prairie jardin buisson lisiere soleil longues pattes",
+  "photos": [
+    {
+      "fichier": "images/insects/20260911_pisaure-admirable-02.jpg",
+      "lieu": "TBD",
+      "date": "2026-09-11"
+    },
+    {
+      "fichier": "images/insects/20260911_pisaure-admirable-01.jpg",
+      "lieu": "Bois de la Noyelle, Sainghin-en-Mélantois",
+      "date": "2026-09-11"
+    }
+  ]
+}
