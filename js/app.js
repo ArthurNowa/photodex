@@ -51,14 +51,15 @@ const insectSizeLevels = [
 
 const reptileSizeLevels = [
   { label: "Dendrobate", size: 3, image: "images/silhouettes/dendrobate.png" },
-  { label: "Grenouille verte", size: 6, image: "images/silhouettes/moineau.png" },
-  { label: "Lézard des murailles", size: 12, image: "images/silhouettes/merle.png" },
-  { label: "Gecko Léopard", size: 20, image: "images/silhouettes/merle.png" },
-  { label: "Tortue de Floride", size: 28, image: "images/silhouettes/poule.png" },
-  { label: "Pogona", size: 48, image: "images/silhouettes/heron.png" },
-  { label: "Iguane vert", size: 48, image: "images/silhouettes/heron.png" },
-  { label: "Cigogne", size: 105, image: "images/silhouettes/cigogne.png" },
-  { label: "Emeu", size: 170, image: "images/silhouettes/emeu.png" }
+  { label: "Grenouille verte", size: 6, image: "images/silhouettes/grenouille-verte.png" },
+  { label: "Lézard des murailles", size: 12, image: "images/silhouettes/lezard-des-murailles.png" },
+  { label: "Gecko Léopard", size: 20, image: "images/silhouettes/gecko-leopard.png" },
+  { label: "Tortue de Floride", size: 30, image: "images/silhouettes/tortue-de-floride.png" },
+  { label: "Pogona Vitticeps", size: 50, image: "images/silhouettes/pogona.png" },
+  { label: "Iguane vert", size: 90, image: "images/silhouettes/iguane-vert.png" },
+  { label: "Tortue géante des Galapagos", size: 140, image: "images/silhouettes/tortue-des-galapagos.png" },
+  { label: "Dragon de Komodo", size: 220, image: "images/silhouettes/dragon-de-komodo.png" },
+  { label: "Alligator", size: 300, image: "images/silhouettes/alligator.png" }
 ];
 
 let animalScale = birdSizeLevels;
@@ -104,6 +105,9 @@ function sortAnimals() {
       const lastPhoto1 = animal1.photos[animal1.photos.length-1].fichier;
       const lastPhoto2 = animal2.photos[animal2.photos.length-1].fichier;
       return lastPhoto1.localeCompare(lastPhoto2);
+    }
+    if (order === "size") {
+      return animal1.tailleMoyenne.localeCompare(animal2.tailleMoyenne);
     }
   });
   displayAnimals(animals);
