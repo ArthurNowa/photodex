@@ -1,8 +1,8 @@
 {
-  "animalId": "trachys-minutus",
-  "category": "insects",
-  "photo": "../images/insects/20260911_trachys-minutus.jpg",
-  "fileName": "20260911_trachys-minutus.jpg",
-  "date": "2026-09-11",
-  "jsonfile": "data/insects/trachys-minutus.json"
+  "animalId": "wapiti",
+  "category": "mammals",
+  "photo": "../images/mammals/20260927_wapiti.jpg",
+  "fileName": "20260927_wapiti.jpg",
+  "date": "2026-09-27",
+  "jsonfile": "data/mammals/wapiti.json"
 }
