@@ -1,8 +1,8 @@
 {
-  "animalId": "wapiti",
-  "category": "mammals",
-  "photo": "../images/mammals/20260927_wapiti.jpg",
-  "fileName": "20260927_wapiti.jpg",
-  "date": "2026-09-27",
-  "jsonfile": "data/mammals/wapiti.json"
+  "animalId": "foulque",
+  "category": "birds",
+  "photo": "../images/birds/20261010_foulque.jpg",
+  "fileName": "20261010_foulque.jpg",
+  "date": "2026-10-10",
+  "jsonfile": "data/birds/foulque.json"
 }
