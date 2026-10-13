@@ -1,0 +1,32 @@
+﻿{
+  "id": "emyde-de-chine",
+  "nom": "Émyde de Chine",
+  "nomScientifique": "Mauremys reevesii",
+  "famille": "Geoemydidae",
+  "sousFamille": "",
+  "ordre": "Testudines",
+  "repartition": "Chine, Corée, Japon et Taïwan ; souvent élevée en captivité.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "12 à 24 cm de long",
+  "tailleMoyenne": 18,
+  "regime": "Plantes aquatiques, insectes, vers, mollusques, poissons et petits animaux aquatiques",
+  "regimeEmoji": [
+    "🌱",
+    "🐛",
+    "🪱",
+    "🐌",
+    "🐟",
+    "🦐"
+  ],
+  "habitat": "Mares, étangs, rizières, canaux, fossés et eaux calmes",
+  "description": "Petite tortue d’eau sombre à lignes claires sur la tête.",
+  "keywords": "tortue eau Chine carapace sombre mare etang aquatique lignes",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20240807_emyde-de-chine.jpg",
+      "lieu": "Den Blå Planet, Copenhague, Danemark",
+      "date": "2024-08-07"
+    }
+  ]
+}

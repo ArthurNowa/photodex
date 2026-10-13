@@ -1,0 +1,33 @@
+﻿{
+  "id": "coati-a-nez-blanc",
+  "nom": "Coati à nez blanc",
+  "nomScientifique": "Nasua narica",
+  "famille": "Procyonidae",
+  "sousFamille": "Procyoninae",
+  "ordre": "Carnivore",
+  "repartition": "Amérique centrale, Mexique et sud-ouest des États-Unis.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "30 à 40 cm de haut",
+  "tailleMoyenne": 35,
+  "regime": "Fruits, insectes, vers, petits reptiles, œufs, petits mammifères et déchets",
+  "regimeEmoji": [
+    "🍎",
+    "🐛",
+    "🪱",
+    "🦎",
+    "🥚",
+    "🐁",
+    "🍂"
+  ],
+  "habitat": "Forêts tropicales, bois secs, lisières, mangroves, montagnes et zones arborées",
+  "description": "Petit carnivore au long museau et à la queue annelée dressée.",
+  "keywords": "coati nez blanc museau long queue annelee brun foret groupe Amerique sol",
+  "photos": [
+    {
+      "fichier": "images/mammals/20240803_coati-a-nez-blanc.jpg",
+      "lieu": "Aalborg Zoo, Danemark",
+      "date": "2024-08-03"
+    }
+  ]
+}

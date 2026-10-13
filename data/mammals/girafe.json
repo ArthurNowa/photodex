@@ -1,0 +1,41 @@
+﻿{
+  "id": "girafe",
+  "nom": "Girafe",
+  "nomScientifique": "Giraffa camelopardalis",
+  "famille": "Giraffidae",
+  "sousFamille": "Giraffinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Afrique subsaharienne, dans les savanes et boisements ouverts.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "450 à 550 cm de haut",
+  "tailleMoyenne": 500,
+  "regime": "Feuilles, jeunes pousses, fleurs, fruits et rameaux, surtout d’acacias",
+  "regimeEmoji": [
+    "🥬",
+    "🌱",
+    "🌺",
+    "🍎",
+    "🪵"
+  ],
+  "habitat": "Savanes arborées, bois clairs, brousses, plaines et zones semi-arides",
+  "description": "Très grand mammifère au long cou, au pelage tacheté et aux ossicônes.",
+  "keywords": "girafe long cou taches jaune brun savane Afrique grand acacia cornes",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260505_girafe.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-05-05"
+    },
+    {
+      "fichier": "images/mammals/20250802_girafe.jpg",
+      "lieu": "Knuthenborg Safaripark, Danemark",
+      "date": "2025-08-02"
+    },
+    {
+      "fichier": "images/mammals/20240803_girafe.jpg",
+      "lieu": "Aalborg Zoo, Danemark",
+      "date": "2024-08-03"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+﻿{
+  "id": "tortue-geante-des-galapagos",
+  "nom": "Tortue géante des Galápagos",
+  "nomScientifique": "Chelonoidis niger",
+  "famille": "Testudinidae",
+  "sousFamille": "Testudininae",
+  "ordre": "Testudines",
+  "repartition": "Îles Galápagos, dans l’océan Pacifique.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "100 à 150 cm de long",
+  "tailleMoyenne": 125,
+  "regime": "Herbes, feuilles, fruits, cactus, fleurs et végétaux",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🍎",
+    "🌺"
+  ],
+  "habitat": "Îles volcaniques, prairies, broussailles, forêts sèches et zones humides d’altitude",
+  "description": "Très grande tortue terrestre, massive, à long cou.",
+  "keywords": "tortue geante Galapagos carapace ile volcan lente herbivore",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20260303_tortue-geante-des-galapagos.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-03-03"
+    }
+  ]
+}

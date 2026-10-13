@@ -1,0 +1,31 @@
+﻿{
+  "id": "couleuvre-a-collier",
+  "nom": "Couleuvre à collier",
+  "nomScientifique": "Natrix helvetica",
+  "famille": "Colubridae",
+  "sousFamille": "Natricinae",
+  "ordre": "Squamate",
+  "repartition": "Europe occidentale ; commune en France près des zones humides.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "70 à 120 cm de long",
+  "tailleMoyenne": 95,
+  "regime": "Amphibiens, poissons, petits reptiles, vers et petits animaux aquatiques",
+  "regimeEmoji": [
+    "🐸",
+    "🐟",
+    "🦎",
+    "🪱",
+    "🦐"
+  ],
+  "habitat": "Mares, étangs, rivières, marais, jardins humides, haies et berges",
+  "description": "Serpent non venimeux, souvent près de l’eau, avec un collier clair.",
+  "keywords": "serpent couleuvre collier reptile eau mare brun gris jaune non venimeux",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20240815_couleuvre-a-collier.jpg",
+      "lieu": "Randonnée nocturne, Danemark",
+      "date": "2024-08-15"
+    }
+  ]
+}

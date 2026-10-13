@@ -1,0 +1,28 @@
+﻿{
+  "id": "lamantin",
+  "nom": "Lamantin des Caraïbes",
+  "nomScientifique": "Trichechus manatus",
+  "famille": "Trichechidae",
+  "sousFamille": "",
+  "ordre": "Sirenia",
+  "repartition": "Caraïbes, golfe du Mexique et côtes atlantiques tropicales d’Amérique.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "80 à 120 cm de haut",
+  "tailleMoyenne": 100,
+  "regime": "Plantes aquatiques, herbes marines, algues et végétaux flottants",
+  "regimeEmoji": [
+    "🌱",
+    "🥬"
+  ],
+  "habitat": "Eaux côtières chaudes, estuaires, lagunes, rivières lentes et herbiers marins",
+  "description": "Grand mammifère marin gris, paisible, au corps arrondi.",
+  "keywords": "lamantin marin gris eau mer riviere herbier doux nage mammifere",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260505_lamantin.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-05-05"
+    }
+  ]
+}

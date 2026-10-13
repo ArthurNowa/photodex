@@ -1,0 +1,33 @@
+﻿{
+  "id": "kangourou-roux",
+  "nom": "Kangourou roux",
+  "nomScientifique": "Osphranter rufus",
+  "famille": "Macropodidae",
+  "sousFamille": "Macropodinae",
+  "ordre": "Diprotodonte",
+  "repartition": "Australie intérieure, surtout plaines sèches et zones arides.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "120 à 180 cm de haut",
+  "tailleMoyenne": 150,
+  "regime": "Herbes, feuilles, jeunes pousses et végétaux secs",
+  "regimeEmoji": [
+    "🌱",
+    "🥬"
+  ],
+  "habitat": "Plaines arides, savanes, brousses, steppes, zones semi-désertiques et prairies",
+  "description": "Grand kangourou roux, puissant sauteur des milieux ouverts australiens.",
+  "keywords": "kangourou roux Australie saut poche queue prairie desert grand marsupial",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260927_kangourou-roux.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    },
+    {
+      "fichier": "images/mammals/20260505_kangourou-roux.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-05-05"
+    }
+  ]
+}

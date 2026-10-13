@@ -1,0 +1,30 @@
+﻿{
+  "id": "axolotl",
+  "nom": "Axolotl",
+  "nomScientifique": "Ambystoma mexicanum",
+  "famille": "Ambystomatidae",
+  "sousFamille": "",
+  "ordre": "Urodèle",
+  "repartition": "Endémique des canaux de Xochimilco, au Mexique.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "15 à 30 cm de long",
+  "tailleMoyenne": 22,
+  "regime": "Vers, larves, petits crustacés, petits poissons et invertébrés aquatiques",
+  "regimeEmoji": [
+    "🪱",
+    "🐛",
+    "🦐",
+    "🐟"
+  ],
+  "habitat": "Canaux, lacs, eaux douces calmes, végétation aquatique et aquariums",
+  "description": "Salamandre aquatique à branchies externes plumeuses.",
+  "keywords": "axolotl salamandre mexique rose blanc branchies eau aquarium amphibien",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20260919_axolotl.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

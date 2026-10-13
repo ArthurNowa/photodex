@@ -1,0 +1,35 @@
+﻿{
+  "id": "chien-viverrin",
+  "nom": "Chien viverrin",
+  "nomScientifique": "Nyctereutes procyonoides",
+  "famille": "Canidae",
+  "sousFamille": "Caninae",
+  "ordre": "Carnivore",
+  "repartition": "Asie de l’Est ; introduit en Europe orientale et septentrionale.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "35 à 45 cm de haut",
+  "tailleMoyenne": 40,
+  "regime": "Fruits, baies, insectes, amphibiens, poissons, rongeurs, oiseaux, œufs et charognes",
+  "regimeEmoji": [
+    "🍎",
+    "🫐",
+    "🐛",
+    "🐸",
+    "🐟",
+    "🐁",
+    "🐦",
+    "🥚",
+    "🦴"
+  ],
+  "habitat": "Forêts, marais, berges, broussailles, prairies humides et zones agricoles",
+  "description": "Petit canidé au masque sombre, ressemblant à un raton laveur.",
+  "keywords": "chien viverrin canide raton masque brun gris Asie foret marais",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260303_chien-viverrin.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-03-03"
+    }
+  ]
+}

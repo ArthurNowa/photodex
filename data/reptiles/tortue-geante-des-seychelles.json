@@ -1,0 +1,29 @@
+﻿{
+  "id": "tortue-geante-des-seychelles",
+  "nom": "Tortue géante des Seychelles",
+  "nomScientifique": "Aldabrachelys gigantea",
+  "famille": "Testudinidae",
+  "sousFamille": "Testudininae",
+  "ordre": "Testudines",
+  "repartition": "Atoll d’Aldabra aux Seychelles ; introduite dans quelques îles de l’océan Indien.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "90 à 120 cm de long",
+  "tailleMoyenne": 105,
+  "regime": "Herbes, feuilles, fruits, plantes basses, cactus et végétaux",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🍎"
+  ],
+  "habitat": "Îles, prairies, broussailles, zones côtières, forêts claires et enclos",
+  "description": "Très grande tortue terrestre sombre, lente et massive.",
+  "keywords": "tortue geante Seychelles Aldabra carapace grande ile herbivore",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20260927_tortue-geante-des-seychelles.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

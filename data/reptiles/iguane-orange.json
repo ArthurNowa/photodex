@@ -1,0 +1,30 @@
+﻿{
+  "id": "iguane-orange",
+  "nom": "Iguane orange",
+  "nomScientifique": "Iguana iguana",
+  "famille": "Iguanidae",
+  "sousFamille": "Iguaninae",
+  "ordre": "Squamate",
+  "repartition": "Forme colorée de l’iguane vert, originaire d’Amérique tropicale en tant qu’espèce.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "120 à 180 cm de long",
+  "tailleMoyenne": 150,
+  "regime": "Feuilles, fleurs, fruits, jeunes pousses et végétaux",
+  "regimeEmoji": [
+    "🥬",
+    "🌺",
+    "🍎",
+    "🌱"
+  ],
+  "habitat": "Forêts tropicales, berges, arbres, mangroves, terrariums et parcs animaliers",
+  "description": "Iguane de forme orangée, arboricole, à grande crête dorsale.",
+  "keywords": "iguane orange lezard reptile crete arbre tropical terrarium queue longue",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20260919_iguane-orange.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

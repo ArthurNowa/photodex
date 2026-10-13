@@ -1,0 +1,32 @@
+﻿{
+  "id": "grue-a-cou-blanc",
+  "nom": "Grue à cou blanc",
+  "nomScientifique": "Antigone vipio",
+  "famille": "Gruidae",
+  "sousFamille": "Gruinae",
+  "ordre": "Gruiforme",
+  "repartition": "Mongolie, nord de la Chine, Russie orientale, Corée et Japon en hiver.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "112 à 125 cm",
+  "tailleMoyenne": 118,
+  "envergure": "200 à 210 cm",
+  "regime": "Racines, graines, plantes aquatiques, insectes, poissons et petits animaux",
+  "regimeEmoji": [
+    "🌱",
+    "🫘",
+    "🦟",
+    "🐟",
+    "🐁"
+  ],
+  "habitat": "Zones humides, marais, prairies, rizières, lacs peu profonds et plaines",
+  "description": "Grande grue grise au cou blanc et à la face rouge.",
+  "keywords": "oiseau grue cou blanc gris rouge pattes longues marais Asie",
+  "photos": [
+    {
+      "fichier": "images/birds/20260919_grue-a-cou-blanc.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

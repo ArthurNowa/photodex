@@ -1,0 +1,31 @@
+﻿{
+  "id": "vautour-a-tete-blanche",
+  "nom": "Vautour à tête blanche",
+  "nomScientifique": "Trigonoceps occipitalis",
+  "famille": "Accipitridae",
+  "sousFamille": "Aegypiinae",
+  "ordre": "Accipitriforme",
+  "repartition": "Afrique subsaharienne, surtout savanes et zones ouvertes.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "72 à 85 cm",
+  "tailleMoyenne": 78,
+  "envergure": "200 à 230 cm",
+  "regime": "Charognes, petits vertébrés, œufs, oiseaux et restes animaux",
+  "regimeEmoji": [
+    "🦴",
+    "🐁",
+    "🥚",
+    "🐦"
+  ],
+  "habitat": "Savanes, plaines ouvertes, zones semi-arides, arbres isolés et réserves",
+  "description": "Vautour africain sombre à tête claire et bec puissant.",
+  "keywords": "oiseau vautour tete blanche Afrique charogne savane rapace grand",
+  "photos": [
+    {
+      "fichier": "images/birds/20251025_vautour-a-tete-blanche.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-25"
+    }
+  ]
+}

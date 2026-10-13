@@ -1,0 +1,39 @@
+﻿{
+  "id": "paon-bleu",
+  "nom": "Paon bleu",
+  "nomScientifique": "Pavo cristatus",
+  "famille": "Phasianidae",
+  "sousFamille": "Phasianinae",
+  "ordre": "Galliforme",
+  "repartition": "Inde et Sri Lanka ; introduit dans de nombreux parcs du monde.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "90 à 130 cm",
+  "tailleMoyenne": 110,
+  "envergure": "140 à 160 cm",
+  "regime": "Graines, fruits, baies, insectes, petits reptiles, fleurs et végétaux",
+  "regimeEmoji": [
+    "🫘",
+    "🍎",
+    "🫐",
+    "🐛",
+    "🦎",
+    "🌺",
+    "🌱"
+  ],
+  "habitat": "Forêts claires, jardins, parcs, villages, prairies et zones arborées",
+  "description": "Grand oiseau bleu, célèbre pour la roue du mâle.",
+  "keywords": "oiseau paon bleu roue plumes queue inde parc jardin colore",
+  "photos": [
+    {
+      "fichier": "images/birds/20260927_paon-bleu.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    },
+    {
+      "fichier": "images/birds/20250806_paon-bleu.jpg",
+      "lieu": "Skansen, Stockholm, Suède",
+      "date": "2025-08-06"
+    }
+  ]
+}

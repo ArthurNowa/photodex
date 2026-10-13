@@ -1,0 +1,30 @@
+﻿{
+  "id": "capybara",
+  "nom": "Capybara",
+  "nomScientifique": "Hydrochoerus hydrochaeris",
+  "famille": "Caviidae",
+  "sousFamille": "Hydrochoerinae",
+  "ordre": "Rongeur",
+  "repartition": "Amérique du Sud, surtout zones humides et bassins fluviaux.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "50 à 60 cm de haut",
+  "tailleMoyenne": 55,
+  "regime": "Herbes, plantes aquatiques, feuilles, écorces, fruits et végétaux",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🪵",
+    "🍎"
+  ],
+  "habitat": "Marais, rivières, étangs, savanes inondables, berges et zones humides",
+  "description": "Plus grand rongeur actuel, brun, semi-aquatique et social.",
+  "keywords": "capybara cabiai rongeur brun eau riviere marais nage groupe Amerique Sud",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260725_capybara.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-07-25"
+    }
+  ]
+}

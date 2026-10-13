@@ -1,0 +1,30 @@
+﻿{
+  "id": "heliconius-a-bandes-noires",
+  "nom": "Héliconius à bandes noires",
+  "nomAlt": "Papillon zèbre",
+  "nomScientifique": "Heliconius charithonia",
+  "famille": "Nymphalidae",
+  "sousFamille": "Heliconiinae",
+  "ordre": "Lépidoptère",
+  "repartition": "Amérique centrale, Caraïbes, nord de l’Amérique du Sud et sud des États-Unis.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Envergure de 70 à 100 mm",
+  "tailleMoyenne": 45,
+  "regime": "Nectar et pollen ; les chenilles consomment des passiflores",
+  "regimeEmoji": [
+    "🧃",
+    "🌺",
+    "🌱"
+  ],
+  "habitat": "Forêts tropicales, lisières, jardins, clairières, serres tropicales et zones fleuries",
+  "description": "Papillon sombre à longues ailes zébrées de bandes claires.",
+  "keywords": "papillon heliconius zebre noir blanc jaune bandes rayures ailes longues tropical serre fleur nectar pollen passiflore foret jardin amerique",
+  "photos": [
+    {
+      "fichier": "images/insects/20240808_heliconius-a-bandes-noires.jpg",
+      "lieu": "Den Blå Planet, Copenhague, Danemark",
+      "date": "2024-08-08"
+    }
+  ]
+}

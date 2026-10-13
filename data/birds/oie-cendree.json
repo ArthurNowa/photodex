@@ -1,0 +1,36 @@
+﻿{
+  "id": "oie-cendree",
+  "nom": "Oie cendrée",
+  "nomScientifique": "Anser anser",
+  "famille": "Anatidae",
+  "sousFamille": "Anserinae",
+  "ordre": "Ansériforme",
+  "repartition": "Europe et Asie ; hiverne plus au sud selon les populations.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "75 à 90 cm",
+  "tailleMoyenne": 82,
+  "envergure": "147 à 180 cm",
+  "regime": "Herbes, feuilles, plantes aquatiques, graines, céréales et baies",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🫘",
+    "🫐"
+  ],
+  "habitat": "Marais, prairies humides, lacs, étangs, champs et zones côtières",
+  "description": "Grande oie grise au bec orangé et aux pattes roses.",
+  "keywords": "oiseau oie cendree grise bec orange eau champ prairie groupe migration",
+  "photos": [
+    {
+      "fichier": "images/birds/20260909_oie-cendree.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-09"
+    },
+    {
+      "fichier": "images/birds/20260505_oie-cendree.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-05-05"
+    }
+  ]
+}

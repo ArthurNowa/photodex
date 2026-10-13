@@ -1,0 +1,30 @@
+﻿{
+  "id": "gecko-geant-de-madagascar",
+  "nom": "Gecko géant de Madagascar",
+  "nomScientifique": "Phelsuma grandis",
+  "famille": "Gekkonidae",
+  "sousFamille": "",
+  "ordre": "Squamate",
+  "repartition": "Nord de Madagascar et îles voisines ; introduit dans quelques régions tropicales.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "23 à 30 cm de long",
+  "tailleMoyenne": 27,
+  "regime": "Insectes, nectar, fruits mûrs, pollen et petits invertébrés",
+  "regimeEmoji": [
+    "🐛",
+    "🧃",
+    "🍎",
+    "🌺"
+  ],
+  "habitat": "Forêts tropicales, jardins, palmiers, bâtiments, troncs et feuillages",
+  "description": "Grand gecko vert vif, souvent marqué de rouge sur le dos.",
+  "keywords": "gecko Madagascar vert rouge lezard arbre tropical mur ventouses",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20240803_gecko-geant-de-madagascar.jpg",
+      "lieu": "Aalborg Zoo, Danemark",
+      "date": "2024-08-03"
+    }
+  ]
+}

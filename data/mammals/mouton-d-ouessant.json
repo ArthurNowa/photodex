@@ -1,0 +1,28 @@
+﻿{
+  "id": "mouton-d-ouessant",
+  "nom": "Mouton d’Ouessant",
+  "nomScientifique": "Ovis aries",
+  "famille": "Bovidae",
+  "sousFamille": "Caprinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Race domestique originaire de l’île d’Ouessant, en Bretagne.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "45 à 50 cm de haut",
+  "tailleMoyenne": 48,
+  "regime": "Herbes, foin, feuilles, jeunes pousses et végétaux bas",
+  "regimeEmoji": [
+    "🌱",
+    "🥬"
+  ],
+  "habitat": "Prairies, pâturages, fermes, landes, enclos et zones rurales",
+  "description": "Petit mouton rustique, souvent noir, blanc ou brun.",
+  "keywords": "mouton ouessant petit breton laine cornes noir blanc ferme prairie",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260919_mouton-d-ouessant.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

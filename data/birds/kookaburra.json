@@ -1,0 +1,33 @@
+﻿{
+  "id": "kookaburra",
+  "nom": "Kookaburra rieur",
+  "nomScientifique": "Dacelo novaeguineae",
+  "famille": "Alcedinidae",
+  "sousFamille": "Halcyoninae",
+  "ordre": "Coraciiforme",
+  "repartition": "Est et sud-est de l’Australie ; introduit dans quelques îles voisines.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "39 à 42 cm",
+  "tailleMoyenne": 40,
+  "envergure": "Environ 60 à 65 cm",
+  "regime": "Insectes, reptiles, petits mammifères, oiseaux, amphibiens et poissons",
+  "regimeEmoji": [
+    "🐛",
+    "🦎",
+    "🐁",
+    "🐦",
+    "🐸",
+    "🐟"
+  ],
+  "habitat": "Forêts claires, boisements, savanes, parcs, jardins et zones rurales",
+  "description": "Grand martin-chasseur australien, célèbre pour son cri rieur.",
+  "keywords": "oiseau kookaburra rieur Australie bec grand brun blanc cri arbre",
+  "photos": [
+    {
+      "fichier": "images/birds/20260919_kookaburra.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

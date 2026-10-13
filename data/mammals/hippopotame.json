@@ -1,0 +1,28 @@
+﻿{
+  "id": "hippopotame",
+  "nom": "Hippopotame amphibie",
+  "nomScientifique": "Hippopotamus amphibius",
+  "famille": "Hippopotamidae",
+  "sousFamille": "",
+  "ordre": "Artiodactyle",
+  "repartition": "Afrique subsaharienne, près des grands cours d’eau et lacs.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "130 à 170 cm de haut",
+  "tailleMoyenne": 150,
+  "regime": "Herbes, plantes aquatiques et végétaux des berges",
+  "regimeEmoji": [
+    "🌱",
+    "🥬"
+  ],
+  "habitat": "Rivières, lacs, marais, berges, plaines inondables et savanes proches de l’eau",
+  "description": "Très grand mammifère semi-aquatique, massif, à large gueule.",
+  "keywords": "hippopotame gros gris eau riviere lac Afrique bouche dents nage",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260919_hippopotame.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

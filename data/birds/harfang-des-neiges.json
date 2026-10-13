@@ -1,0 +1,30 @@
+﻿{
+  "id": "harfang-des-neiges",
+  "nom": "Harfang des neiges",
+  "nomScientifique": "Bubo scandiacus",
+  "famille": "Strigidae",
+  "sousFamille": "Striginae",
+  "ordre": "Strigiforme",
+  "repartition": "Arctique d’Amérique du Nord et d’Eurasie ; hiverne parfois plus au sud.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "53 à 66 cm",
+  "tailleMoyenne": 60,
+  "envergure": "125 à 150 cm",
+  "regime": "Lemmings, rongeurs, oiseaux, lièvres et autres petites proies",
+  "regimeEmoji": [
+    "🐁",
+    "🐦",
+    "🍗"
+  ],
+  "habitat": "Toundra, plaines arctiques, dunes, côtes, prairies froides et zones ouvertes",
+  "description": "Grand hibou blanc des régions arctiques, parfois tacheté de sombre.",
+  "keywords": "oiseau harfang hibou blanc neige arctique toundra froid rapace",
+  "photos": [
+    {
+      "fichier": "images/birds/20251025_harfang-des-neiges.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-25"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+﻿{
+  "id": "cheval-pure-race-espagnol",
+  "nom": "Cheval pure race espagnol",
+  "nomScientifique": "Equus caballus",
+  "famille": "Equidae",
+  "sousFamille": "Equinae",
+  "ordre": "Périssodactyle",
+  "repartition": "Race domestique originaire d’Espagne, élevée dans de nombreux pays.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "155 à 165 cm de haut",
+  "tailleMoyenne": 160,
+  "regime": "Herbes, foin, céréales, feuilles et végétaux",
+  "regimeEmoji": [
+    "🌱",
+    "🫘",
+    "🥬"
+  ],
+  "habitat": "Élevages, prés, paddocks, centres équestres, fermes et pâturages",
+  "description": "Cheval élégant d’origine espagnole, souvent gris, noir ou bai.",
+  "keywords": "cheval espagnol pur race blanc gris noir bai criniere ferme prairie dressage",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260919_cheval-pure-race-espagnol.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

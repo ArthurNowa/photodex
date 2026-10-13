@@ -1,0 +1,38 @@
+﻿{
+  "id": "toucan-toco",
+  "nom": "Toucan toco",
+  "nomScientifique": "Ramphastos toco",
+  "famille": "Ramphastidae",
+  "sousFamille": "",
+  "ordre": "Piciforme",
+  "repartition": "Amérique du Sud, surtout Brésil, Bolivie, Paraguay et nord de l’Argentine.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "55 à 65 cm",
+  "tailleMoyenne": 60,
+  "envergure": "Environ 110 à 120 cm",
+  "regime": "Fruits, baies, insectes, œufs, petits oiseaux et petits reptiles",
+  "regimeEmoji": [
+    "🍎",
+    "🫐",
+    "🐛",
+    "🥚",
+    "🐦",
+    "🦎"
+  ],
+  "habitat": "Forêts ouvertes, savanes arborées, lisières, plantations et zones tropicales",
+  "description": "Grand toucan noir et blanc au très grand bec orange.",
+  "keywords": "oiseau toucan toco bec orange noir blanc tropical fruit Amerique Sud",
+  "photos": [
+    {
+      "fichier": "images/birds/20260505_toucan-toco.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-05-05"
+    },
+    {
+      "fichier": "images/birds/20260303_toucan-toco.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-03-03"
+    }
+  ]
+}

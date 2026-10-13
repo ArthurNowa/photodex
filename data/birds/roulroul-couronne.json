@@ -1,0 +1,32 @@
+﻿{
+  "id": "roulroul-couronne",
+  "nom": "Roulroul couronné",
+  "nomScientifique": "Rollulus rouloul",
+  "famille": "Phasianidae",
+  "sousFamille": "Rollulinae",
+  "ordre": "Galliforme",
+  "repartition": "Asie du Sud-Est, surtout péninsule Malaise, Sumatra et Bornéo.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "24 à 27 cm",
+  "tailleMoyenne": 25,
+  "envergure": "Environ 35 à 40 cm",
+  "regime": "Graines, fruits, baies, insectes, vers et petits invertébrés",
+  "regimeEmoji": [
+    "🫘",
+    "🍎",
+    "🫐",
+    "🐛",
+    "🪱"
+  ],
+  "habitat": "Forêts tropicales humides, sous-bois, litière de feuilles et zones denses",
+  "description": "Petit galliforme forestier, le mâle ayant une huppe rouge.",
+  "keywords": "oiseau roulroul couronne huppe rouge vert foret tropical sol feuilles",
+  "photos": [
+    {
+      "fichier": "images/birds/20251025_roulroul-couronne.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-25"
+    }
+  ]
+}

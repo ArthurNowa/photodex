@@ -1,0 +1,31 @@
+﻿{
+  "id": "argus-geant",
+  "nom": "Argus géant",
+  "nomScientifique": "Argusianus argus",
+  "famille": "Phasianidae",
+  "sousFamille": "Phasianinae",
+  "ordre": "Galliforme",
+  "repartition": "Asie du Sud-Est, surtout péninsule Malaise, Sumatra et Bornéo.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "160 à 200 cm avec la longue queue",
+  "tailleMoyenne": 180,
+  "envergure": "Environ 120 à 140 cm",
+  "regime": "Fruits, graines, insectes, vers et petits invertébrés",
+  "regimeEmoji": [
+    "🍎",
+    "🫘",
+    "🐛",
+    "🪱"
+  ],
+  "habitat": "Forêts tropicales humides, sous-bois, lisières et sol forestier",
+  "description": "Grand faisan brun, célèbre pour les ocelles de ses longues plumes.",
+  "keywords": "oiseau argus faisan brun ocelles plumes longues queue foret Asie",
+  "photos": [
+    {
+      "fichier": "images/birds/20260919_argus-geant.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+﻿{
+  "id": "paon-blanc",
+  "nom": "Paon blanc",
+  "nomScientifique": "Pavo cristatus",
+  "famille": "Phasianidae",
+  "sousFamille": "Phasianinae",
+  "ordre": "Galliforme",
+  "repartition": "Forme blanche domestique du paon bleu, présente surtout en parcs et élevages.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "90 à 130 cm",
+  "tailleMoyenne": 110,
+  "envergure": "140 à 160 cm",
+  "regime": "Graines, fruits, baies, insectes, petits reptiles, fleurs et végétaux",
+  "regimeEmoji": [
+    "🫘",
+    "🍎",
+    "🫐",
+    "🐛",
+    "🦎",
+    "🌺",
+    "🌱"
+  ],
+  "habitat": "Parcs, jardins, volières, domaines, fermes et zones arborées",
+  "description": "Paon entièrement blanc, connu pour la roue spectaculaire du mâle.",
+  "keywords": "oiseau paon blanc roue plumes queue parc jardin albinos leucique",
+  "photos": [
+    {
+      "fichier": "images/birds/20260927_paon-blanc.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

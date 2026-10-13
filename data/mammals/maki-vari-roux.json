@@ -1,0 +1,32 @@
+﻿{
+  "id": "maki-vari-roux",
+  "nom": "Maki vari roux",
+  "nomScientifique": "Varecia rubra",
+  "famille": "Lemuridae",
+  "sousFamille": "Lemurinae",
+  "ordre": "Primates",
+  "repartition": "Nord-est de Madagascar, dans les forêts tropicales humides.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "50 à 60 cm de long, sans compter la queue",
+  "tailleMoyenne": 55,
+  "regime": "Fruits, nectar, fleurs, feuilles, graines et parfois champignons",
+  "regimeEmoji": [
+    "🍎",
+    "🧃",
+    "🌺",
+    "🥬",
+    "🫘",
+    "🍄"
+  ],
+  "habitat": "Forêts tropicales humides, canopée, grands arbres et lisières",
+  "description": "Lémurien roux à longue queue, très vocal et arboricole.",
+  "keywords": "lemurien maki vari roux rouge orange Madagascar singe arbre foret queue cri groupe",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_maki-vari-roux.jpg",
+      "lieu": "Parc Sainte-Croix, Rhodes",
+      "date": "2026-08-15"
+    }
+  ]
+}

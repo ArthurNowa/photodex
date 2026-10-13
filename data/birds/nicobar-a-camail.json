@@ -1,0 +1,37 @@
+﻿{
+  "id": "nicobar-a-camail",
+  "nom": "Nicobar à camail",
+  "nomScientifique": "Caloenas nicobarica",
+  "famille": "Columbidae",
+  "sousFamille": "Caloenadinae",
+  "ordre": "Columbiforme",
+  "repartition": "Îles de l’océan Indien et du Pacifique occidental, de l’Inde à la Mélanésie.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "38 à 42 cm",
+  "tailleMoyenne": 40,
+  "envergure": "Environ 55 à 60 cm",
+  "regime": "Graines, fruits, baies, noix et petits invertébrés",
+  "regimeEmoji": [
+    "🫘",
+    "🍎",
+    "🫐",
+    "🥜",
+    "🐛"
+  ],
+  "habitat": "Forêts insulaires, mangroves, îlots boisés, sol forestier et lisières",
+  "description": "Pigeon sombre irisé, au long camail de plumes brillantes.",
+  "keywords": "oiseau pigeon nicobar vert bleu metallique plumes camail ile foret",
+  "photos": [
+    {
+      "fichier": "images/birds/20260919_nicobar-a-camail.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    },
+    {
+      "fichier": "images/birds/20240807_nicobar-a-camail.jpg",
+      "lieu": "Den Blå Planet, Copenhague, Danemark",
+      "date": "2024-08-07"
+    }
+  ]
+}

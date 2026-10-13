@@ -1,0 +1,29 @@
+﻿{
+  "id": "cochon-d-inde",
+  "nom": "Cochon d’Inde",
+  "nomScientifique": "Cavia porcellus",
+  "famille": "Caviidae",
+  "sousFamille": "",
+  "ordre": "Rongeur",
+  "repartition": "Forme domestique originaire d’Amérique du Sud, élevée dans le monde entier.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "10 à 15 cm de haut",
+  "tailleMoyenne": 12,
+  "regime": "Herbes, foin, feuilles, légumes, fruits et végétaux variés",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🍎"
+  ],
+  "habitat": "Habitations, élevages, enclos, jardins et animaleries",
+  "description": "Petit rongeur domestique trapu, au pelage très variable.",
+  "keywords": "cochon inde cobaye rongeur petit domestique brun blanc noir poil enclos",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260919_cochon-d-inde.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

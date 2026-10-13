@@ -1,0 +1,27 @@
+﻿{
+  "id": "fourmilier-geant",
+  "nom": "Fourmilier géant",
+  "nomScientifique": "Myrmecophaga tridactyla",
+  "famille": "Myrmecophagidae",
+  "sousFamille": "Myrmecophaginae",
+  "ordre": "Pilosa",
+  "repartition": "Amérique centrale et Amérique du Sud, des savanes aux forêts ouvertes.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "70 à 90 cm de haut",
+  "tailleMoyenne": 80,
+  "regime": "Fourmis, termites et autres insectes sociaux",
+  "regimeEmoji": [
+    "🐛"
+  ],
+  "habitat": "Savanes, prairies, forêts ouvertes, marais, brousses et lisières",
+  "description": "Grand mammifère au long museau, sans dents, à queue touffue.",
+  "keywords": "fourmilier geant fourmi termite museau long queue Amerique savane griffes",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260505_fourmilier-geant.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-05-05"
+    }
+  ]
+}

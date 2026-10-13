@@ -1,0 +1,32 @@
+﻿{
+  "id": "oedicneme-bride",
+  "nom": "Œdicnème bridé",
+  "nomScientifique": "Burhinus grallarius",
+  "famille": "Burhinidae",
+  "sousFamille": "",
+  "ordre": "Charadriiforme",
+  "repartition": "Australie, Nouvelle-Guinée et îles voisines.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "50 à 60 cm",
+  "tailleMoyenne": 55,
+  "envergure": "Environ 90 à 100 cm",
+  "regime": "Insectes, petits reptiles, amphibiens, petits mammifères et graines",
+  "regimeEmoji": [
+    "🐛",
+    "🦎",
+    "🐸",
+    "🐁",
+    "🫘"
+  ],
+  "habitat": "Bois clairs, savanes, prairies sèches, zones ouvertes et lisières",
+  "description": "Grand limicole terrestre aux grands yeux et longues pattes.",
+  "keywords": "oiseau oedicneme bride grands yeux pattes longues Australie sol nuit",
+  "photos": [
+    {
+      "fichier": "images/birds/20260927_oedicneme-bride.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

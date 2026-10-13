@@ -1,0 +1,30 @@
+﻿{
+  "id": "renne",
+  "nom": "Renne",
+  "nomScientifique": "Rangifer tarandus",
+  "famille": "Cervidae",
+  "sousFamille": "Capreolinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Régions arctiques et subarctiques d’Europe, d’Asie et d’Amérique du Nord.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "90 à 140 cm de haut",
+  "tailleMoyenne": 115,
+  "regime": "Lichens, herbes, feuilles, mousses, champignons, écorces et jeunes pousses",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🍄",
+    "🪵"
+  ],
+  "habitat": "Toundra, taïga, forêts boréales, montagnes froides et plaines arctiques",
+  "description": "Cervidé nordique dont mâles et femelles peuvent porter des bois.",
+  "keywords": "renne caribou cervide bois cornes neige toundra froid lichen troupeau noel",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260927_renne.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

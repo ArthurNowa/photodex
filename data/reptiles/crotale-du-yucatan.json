@@ -1,0 +1,29 @@
+﻿{
+  "id": "crotale-du-yucatan",
+  "nom": "Crotale du Yucatán",
+  "nomScientifique": "Crotalus tzabcan",
+  "famille": "Viperidae",
+  "sousFamille": "Crotalinae",
+  "ordre": "Squamate",
+  "repartition": "Péninsule du Yucatán, au Mexique et régions voisines.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "90 à 150 cm de long",
+  "tailleMoyenne": 120,
+  "regime": "Rongeurs, oiseaux, lézards et autres petits vertébrés",
+  "regimeEmoji": [
+    "🐁",
+    "🐦",
+    "🦎"
+  ],
+  "habitat": "Forêts sèches, broussailles, savanes, zones rocheuses et milieux tropicaux secs",
+  "description": "Serpent venimeux à sonnette, brun, originaire du Yucatán.",
+  "keywords": "serpent crotale sonnette venimeux Yucatan Mexique brun reptile",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20250811_crotale-du-yucatan.jpg",
+      "lieu": "Universeum, Göteborg, Suède",
+      "date": "2025-08-11"
+    }
+  ]
+}

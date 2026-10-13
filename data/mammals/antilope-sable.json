@@ -1,0 +1,28 @@
+﻿{
+  "id": "antilope-sable",
+  "nom": "Antilope sable",
+  "nomScientifique": "Hippotragus niger",
+  "famille": "Bovidae",
+  "sousFamille": "Hippotraginae",
+  "ordre": "Artiodactyle",
+  "repartition": "Afrique orientale et australe, dans les savanes et boisements ouverts.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "120 à 140 cm de haut",
+  "tailleMoyenne": 130,
+  "regime": "Herbes, feuilles, jeunes pousses et végétaux de savane",
+  "regimeEmoji": [
+    "🌱",
+    "🥬"
+  ],
+  "habitat": "Savanes arborées, prairies, bois clairs, plaines et zones proches de l’eau",
+  "description": "Grande antilope sombre aux longues cornes recourbées.",
+  "keywords": "antilope sable noire brun cornes longues Afrique savane prairie",
+  "photos": [
+    {
+      "fichier": "images/mammals/20250802_antilope-sable.jpg",
+      "lieu": "Knuthenborg Safaripark, Danemark",
+      "date": "2025-08-02"
+    }
+  ]
+}

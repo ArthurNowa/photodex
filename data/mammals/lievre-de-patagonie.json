@@ -1,0 +1,30 @@
+﻿{
+  "id": "lievre-de-patagonie",
+  "nom": "Lièvre de Patagonie",
+  "nomScientifique": "Dolichotis patagonum",
+  "famille": "Caviidae",
+  "sousFamille": "Dolichotinae",
+  "ordre": "Rongeur",
+  "repartition": "Argentine, surtout Patagonie et zones sèches ouvertes.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "40 à 50 cm de haut",
+  "tailleMoyenne": 45,
+  "regime": "Herbes, feuilles, graines, racines, écorces et végétaux secs",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🫘",
+    "🪵"
+  ],
+  "habitat": "Steppes, brousses sèches, prairies arides et zones ouvertes",
+  "description": "Grand rongeur élancé aux longues pattes, rappelant un lièvre.",
+  "keywords": "lievre patagonie mara rongeur brun longues pattes steppe argentine prairie sec",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260919_lievre-de-patagonie.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

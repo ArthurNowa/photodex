@@ -1,0 +1,32 @@
+﻿{
+  "id": "bernache-nene",
+  "nom": "Bernache néné",
+  "nomScientifique": "Branta sandvicensis",
+  "famille": "Anatidae",
+  "sousFamille": "Anserinae",
+  "ordre": "Ansériforme",
+  "repartition": "Endémique d’Hawaï, surtout sur les pentes volcaniques et prairies.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "53 à 66 cm",
+  "tailleMoyenne": 60,
+  "envergure": "110 à 120 cm",
+  "regime": "Herbes, feuilles, graines, baies, fleurs et végétaux",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🫘",
+    "🫐",
+    "🌺"
+  ],
+  "habitat": "Prairies, pentes volcaniques, zones broussailleuses, côtes et parcs hawaïens",
+  "description": "Oie hawaïenne brun gris, au cou strié et aux pattes sombres.",
+  "keywords": "oiseau bernache nene oie Hawai gris brun cou strie prairie volcan",
+  "photos": [
+    {
+      "fichier": "images/birds/20260927_bernache-nene.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

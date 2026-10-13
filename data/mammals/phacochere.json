@@ -1,0 +1,31 @@
+﻿{
+  "id": "phacochere",
+  "nom": "Phacochère",
+  "nomScientifique": "Phacochoerus africanus",
+  "famille": "Suidae",
+  "sousFamille": "Suinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Afrique subsaharienne, surtout savanes et zones ouvertes.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "60 à 85 cm de haut",
+  "tailleMoyenne": 72,
+  "regime": "Herbes, racines, tubercules, fruits, graines, insectes et charognes",
+  "regimeEmoji": [
+    "🌱",
+    "🍎",
+    "🫘",
+    "🐛",
+    "🦴"
+  ],
+  "habitat": "Savanes, prairies, brousses, zones semi-arides, terriers et points d’eau",
+  "description": "Suidé africain gris-brun, aux défenses et verrues faciales visibles.",
+  "keywords": "phacochere porc sauvage Afrique defenses verrues savane genoux",
+  "photos": [
+    {
+      "fichier": "images/mammals/20240803_phacochere.jpg",
+      "lieu": "Aalborg Zoo, Danemark",
+      "date": "2024-08-03"
+    }
+  ]
+}

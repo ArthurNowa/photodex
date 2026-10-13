@@ -1,0 +1,39 @@
+﻿{
+  "id": "ours-brun",
+  "nom": "Ours brun",
+  "nomScientifique": "Ursus arctos",
+  "famille": "Ursidae",
+  "sousFamille": "Ursinae",
+  "ordre": "Carnivore",
+  "repartition": "Europe, Asie et Amérique du Nord, selon les populations.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "120 à 180 cm de haut",
+  "tailleMoyenne": 150,
+  "regime": "Fruits, baies, racines, insectes, poissons, petits mammifères, charognes et miel",
+  "regimeEmoji": [
+    "🍎",
+    "🫐",
+    "🌱",
+    "🐛",
+    "🐟",
+    "🐁",
+    "🦴",
+    "🍯"
+  ],
+  "habitat": "Forêts, montagnes, taïga, vallées, prairies et zones sauvages",
+  "description": "Grand ours brun omnivore, puissant, souvent solitaire.",
+  "keywords": "ours brun foret montagne griffe museau omnivore poisson miel baie grand",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260303_ours-brun.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-03-03"
+    },
+    {
+      "fichier": "images/mammals/20250806_ours-brun.jpg",
+      "lieu": "Skansen, Stockholm, Suède",
+      "date": "2025-08-06"
+    }
+  ]
+}

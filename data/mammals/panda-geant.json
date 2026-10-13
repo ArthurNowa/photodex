@@ -1,0 +1,36 @@
+﻿{
+  "id": "panda-geant",
+  "nom": "Panda géant",
+  "nomScientifique": "Ailuropoda melanoleuca",
+  "famille": "Ursidae",
+  "sousFamille": "Ailuropodinae",
+  "ordre": "Carnivore",
+  "repartition": "Montagnes du centre de la Chine, surtout forêts de bambous.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "80 à 100 cm de haut",
+  "tailleMoyenne": 90,
+  "regime": "Bambou principalement, parfois fruits, jeunes pousses, œufs et petits animaux",
+  "regimeEmoji": [
+    "🎋",
+    "🍎",
+    "🌱",
+    "🥚",
+    "🐁"
+  ],
+  "habitat": "Forêts tempérées de montagne, bambouseraies, vallées humides et sous-bois",
+  "description": "Grand ours noir et blanc, spécialisé dans la consommation de bambou.",
+  "keywords": "panda geant noir blanc ours bambou Chine montagne foret rond mignon",
+  "photos": [
+    {
+      "fichier": "images/mammals/20251025_panda-geant.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-25"
+    },
+    {
+      "fichier": "images/mammals/20231222_panda-geant.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2023-12-22"
+    }
+  ]
+}

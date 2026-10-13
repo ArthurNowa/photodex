@@ -1,0 +1,33 @@
+﻿{
+  "id": "civette-palmiste-commune",
+  "nom": "Civette palmiste commune",
+  "nomScientifique": "Paradoxurus hermaphroditus",
+  "famille": "Viverridae",
+  "sousFamille": "Paradoxurinae",
+  "ordre": "Carnivore",
+  "repartition": "Asie du Sud et du Sud-Est, des forêts aux zones urbaines arborées.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "35 à 45 cm de haut",
+  "tailleMoyenne": 40,
+  "regime": "Fruits, baies, graines, insectes, petits vertébrés, œufs et nectar",
+  "regimeEmoji": [
+    "🍎",
+    "🫐",
+    "🫘",
+    "🐛",
+    "🐁",
+    "🥚",
+    "🧃"
+  ],
+  "habitat": "Forêts tropicales, plantations, jardins, arbres, villages et zones cultivées",
+  "description": "Petit carnivore arboricole brun-gris, à longue queue et museau sombre.",
+  "keywords": "civette palmiste luwak brun gris arbre foret fruit nuit Asie queue",
+  "photos": [
+    {
+      "fichier": "images/mammals/20251025_civette-palmiste-commune.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-25"
+    }
+  ]
+}

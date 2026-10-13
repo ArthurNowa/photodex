@@ -1,0 +1,32 @@
+﻿{
+  "id": "monstre-de-gila",
+  "nom": "Monstre de Gila",
+  "nomScientifique": "Heloderma suspectum",
+  "famille": "Helodermatidae",
+  "sousFamille": "",
+  "ordre": "Squamate",
+  "repartition": "Sud-ouest des États-Unis et nord-ouest du Mexique.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "35 à 55 cm de long",
+  "tailleMoyenne": 45,
+  "regime": "Œufs, petits mammifères, oiseaux, reptiles, insectes et charognes",
+  "regimeEmoji": [
+    "🥚",
+    "🐁",
+    "🐦",
+    "🦎",
+    "🐛",
+    "🦴"
+  ],
+  "habitat": "Déserts, broussailles, rochers, terriers, zones arides et semi-désertiques",
+  "description": "Lézard venimeux noir et orangé, au corps trapu et granuleux.",
+  "keywords": "lezard monstre gila orange noir venimeux desert Mexique reptile",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20250811_monstre-de-gila.jpg",
+      "lieu": "Universeum, Göteborg, Suède",
+      "date": "2025-08-11"
+    }
+  ]
+}

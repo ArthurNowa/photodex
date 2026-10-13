@@ -1,0 +1,30 @@
+﻿{
+  "id": "chevre-a-cou-noir-du-valais",
+  "nom": "Chèvre à cou noir du Valais",
+  "nomAlt": "Chèvre col noir du Valais",
+  "nomScientifique": "Capra hircus",
+  "famille": "Bovidae",
+  "sousFamille": "Caprinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Race domestique originaire du Valais, en Suisse.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "Environ 95 à 115 cm de haut",
+  "tailleMoyenne": 105,
+  "regime": "Herbes, foin, feuilles, jeunes pousses, écorces, rameaux et végétaux variés",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🪵"
+  ],
+  "habitat": "Pâturages, prairies alpines, fermes, enclos, zones montagneuses et élevages caprins",
+  "description": "Chèvre alpine noire à l’avant et blanche à l’arrière, au long pelage.",
+  "keywords": "chevre valais suisse noir blanc cou col alpine montagne ferme cornes poils longs pelage prairie paturage enclos domestique",
+  "photos": [
+    {
+      "fichier": "images/mammals/20250802_chevre-a-cou-noir-du-valais.jpg",
+      "lieu": "Knuthenborg Safaripark, Danemark",
+      "date": "2025-08-02"
+    }
+  ]
+}

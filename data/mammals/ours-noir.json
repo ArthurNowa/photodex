@@ -1,0 +1,35 @@
+﻿{
+  "id": "ours-noir",
+  "nom": "Ours noir américain",
+  "nomScientifique": "Ursus americanus",
+  "famille": "Ursidae",
+  "sousFamille": "Ursinae",
+  "ordre": "Carnivore",
+  "repartition": "Amérique du Nord, surtout Canada, États-Unis et nord du Mexique.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "100 à 160 cm de haut",
+  "tailleMoyenne": 130,
+  "regime": "Fruits, baies, noix, herbes, insectes, miel, poissons, charognes et petits animaux",
+  "regimeEmoji": [
+    "🍎",
+    "🫐",
+    "🥜",
+    "🌱",
+    "🐛",
+    "🍯",
+    "🐟",
+    "🦴",
+    "🐁"
+  ],
+  "habitat": "Forêts, montagnes, zones boisées, marécages, vallées et milieux proches de l’eau",
+  "description": "Ours nord-américain souvent noir, mais parfois brun ou clair.",
+  "keywords": "ours noir brun americain foret montagne griffe museau omnivore baie miel",
+  "photos": [
+    {
+      "fichier": "images/mammals/20251212_ours-noir.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-12-12"
+    }
+  ]
+}

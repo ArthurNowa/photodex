@@ -1,0 +1,31 @@
+﻿{
+  "id": "flamant-rose",
+  "nom": "Flamant rose",
+  "nomScientifique": "Phoenicopterus roseus",
+  "famille": "Phoenicopteridae",
+  "sousFamille": "",
+  "ordre": "Phoenicoptériforme",
+  "repartition": "Afrique, Europe du Sud, Moyen-Orient et Asie du Sud-Ouest.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "120 à 145 cm",
+  "tailleMoyenne": 132,
+  "envergure": "140 à 165 cm",
+  "regime": "Petits crustacés, algues, larves, mollusques et organismes filtrés dans l’eau",
+  "regimeEmoji": [
+    "🦐",
+    "🌱",
+    "🐛",
+    "🐌"
+  ],
+  "habitat": "Lagunes, marais salants, étangs saumâtres, vasières et zones côtières",
+  "description": "Grand oiseau rose aux longues pattes et au bec recourbé.",
+  "keywords": "oiseau flamant rose long cou pattes eau lagune groupe bec",
+  "photos": [
+    {
+      "fichier": "images/birds/20240803_flamant-rose.jpg",
+      "lieu": "Aalborg Zoo, Danemark",
+      "date": "2024-08-03"
+    }
+  ]
+}

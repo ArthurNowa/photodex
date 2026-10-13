@@ -1,0 +1,30 @@
+﻿{
+  "id": "moineau-de-java",
+  "nom": "Moineau de Java",
+  "nomScientifique": "Padda oryzivora",
+  "famille": "Estrildidae",
+  "sousFamille": "Lonchurinae",
+  "ordre": "Passériforme",
+  "repartition": "Java, Bali et îles voisines ; introduit dans plusieurs régions tropicales.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "15 à 17 cm",
+  "tailleMoyenne": 16,
+  "envergure": "Environ 25 cm",
+  "regime": "Graines, riz, herbes, jeunes pousses et petits insectes",
+  "regimeEmoji": [
+    "🫘",
+    "🌱",
+    "🐛"
+  ],
+  "habitat": "Rizières, prairies, jardins, villages, cultures et zones ouvertes arborées",
+  "description": "Petit oiseau gris, noir et blanc, au gros bec rose.",
+  "keywords": "oiseau moineau java gris noir blanc bec rose riz graine cage groupe",
+  "photos": [
+    {
+      "fichier": "images/birds/20260505_moineau-de-java.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-05-05"
+    }
+  ]
+}

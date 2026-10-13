@@ -1,0 +1,31 @@
+﻿{
+  "id": "pape-de-noumea",
+  "nom": "Pape de Nouméa",
+  "nomScientifique": "Erythrura psittacea",
+  "famille": "Estrildidae",
+  "sousFamille": "Erythrurinae",
+  "ordre": "Passériforme",
+  "repartition": "Nouvelle-Calédonie, surtout forêts, lisières et zones arborées.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "11 à 12 cm",
+  "tailleMoyenne": 12,
+  "envergure": "Environ 18 cm",
+  "regime": "Graines, fruits, baies et petits végétaux",
+  "regimeEmoji": [
+    "🫘",
+    "🍎",
+    "🫐",
+    "🌱"
+  ],
+  "habitat": "Forêts, lisières, jardins, broussailles, prairies arborées et zones cultivées",
+  "description": "Petit diamant vert à tête rouge et queue rouge.",
+  "keywords": "oiseau pape noumea diamant vert rouge petit graine Nouvelle Caledonie",
+  "photos": [
+    {
+      "fichier": "images/birds/20251010_pape-de-noumea.jpg",
+      "lieu": "TBD",
+      "date": "2025-10-10"
+    }
+  ]
+}

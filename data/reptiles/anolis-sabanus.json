@@ -1,0 +1,29 @@
+﻿{
+  "id": "anolis-sabanus",
+  "nom": "Anolis sabanus",
+  "nomScientifique": "Anolis sabanus",
+  "famille": "Dactyloidae",
+  "sousFamille": "",
+  "ordre": "Squamate",
+  "repartition": "Île de Saba, dans les Petites Antilles.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "12 à 18 cm de long",
+  "tailleMoyenne": 15,
+  "regime": "Insectes, petits invertébrés et parfois nectar",
+  "regimeEmoji": [
+    "🐛",
+    "🦟",
+    "🧃"
+  ],
+  "habitat": "Forêts tropicales, arbustes, troncs, jardins, lisières et zones humides",
+  "description": "Petit anolis insulaire, agile, souvent posé sur les branches.",
+  "keywords": "anolis lezard Saba vert brun arbre branche Antilles petit",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20240807_anolis-sabanus.jpg",
+      "lieu": "Den Blå Planet, Copenhague, Danemark",
+      "date": "2024-08-07"
+    }
+  ]
+}

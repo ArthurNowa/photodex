@@ -1,0 +1,30 @@
+﻿{
+  "id": "couscous-des-celebes",
+  "nom": "Couscous des Célèbes",
+  "nomScientifique": "Ailurops ursinus",
+  "famille": "Phalangeridae",
+  "sousFamille": "",
+  "ordre": "Diprotodonte",
+  "repartition": "Sulawesi et îles voisines, en Indonésie.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "45 à 60 cm de haut",
+  "tailleMoyenne": 52,
+  "regime": "Feuilles, fruits, jeunes pousses et fleurs",
+  "regimeEmoji": [
+    "🥬",
+    "🍎",
+    "🌱",
+    "🌺"
+  ],
+  "habitat": "Forêts tropicales, canopée, arbres, mangroves et forêts secondaires",
+  "description": "Marsupial arboricole gris-brun, lent, à queue préhensile.",
+  "keywords": "couscous celebes marsupial arbre gris brun Sulawesi queue foret lent",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260919_couscous-des-celebes.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

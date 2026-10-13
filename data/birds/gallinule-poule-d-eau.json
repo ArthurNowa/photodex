@@ -1,0 +1,33 @@
+﻿{
+  "id": "gallinule-poule-d-eau",
+  "nom": "Gallinule poule-d’eau",
+  "nomScientifique": "Gallinula chloropus",
+  "famille": "Rallidae",
+  "sousFamille": "Rallinae",
+  "ordre": "Gruiforme",
+  "repartition": "Europe, Afrique, Asie et Amériques, près des eaux douces.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "30 à 38 cm",
+  "tailleMoyenne": 34,
+  "envergure": "50 à 55 cm",
+  "regime": "Plantes aquatiques, graines, fruits, insectes, vers, mollusques et petits invertébrés",
+  "regimeEmoji": [
+    "🌱",
+    "🫘",
+    "🍎",
+    "🐛",
+    "🪱",
+    "🐌"
+  ],
+  "habitat": "Mares, étangs, marais, canaux, roselières, rivières lentes et berges",
+  "description": "Oiseau d’eau sombre au bec rouge et jaune, souvent discret dans les roseaux.",
+  "keywords": "oiseau poule eau gallinule noir bec rouge jaune mare etang roseaux",
+  "photos": [
+    {
+      "fichier": "images/birds/20260927_gallinule-poule-d-eau.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

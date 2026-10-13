@@ -1,0 +1,33 @@
+﻿{
+  "id": "conure-doree",
+  "nom": "Conure dorée",
+  "nomScientifique": "Guaruba guarouba",
+  "famille": "Psittacidae",
+  "sousFamille": "Arinae",
+  "ordre": "Psittaciforme",
+  "repartition": "Nord du Brésil, surtout en Amazonie orientale.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "34 à 36 cm",
+  "tailleMoyenne": 35,
+  "envergure": "Environ 60 cm",
+  "regime": "Fruits, graines, noix, baies, fleurs et végétaux",
+  "regimeEmoji": [
+    "🍎",
+    "🫘",
+    "🥜",
+    "🫐",
+    "🌺",
+    "🌱"
+  ],
+  "habitat": "Forêts tropicales humides, lisières, palmiers et canopée",
+  "description": "Perroquet jaune vif aux ailes vertes, très sociable.",
+  "keywords": "oiseau conure doree jaune vert perroquet Bresil Amazonie fruit arbre",
+  "photos": [
+    {
+      "fichier": "images/birds/20260505_conure-doree.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-05-05"
+    }
+  ]
+}

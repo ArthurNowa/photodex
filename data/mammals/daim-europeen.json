@@ -1,0 +1,37 @@
+﻿{
+  "id": "daim-europeen",
+  "nom": "Daim européen",
+  "nomScientifique": "Dama dama",
+  "famille": "Cervidae",
+  "sousFamille": "Cervinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Originaire du bassin méditerranéen ; introduit largement en Europe et ailleurs.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "90 à 110 cm de haut",
+  "tailleMoyenne": 100,
+  "regime": "Herbes, feuilles, jeunes pousses, fruits, glands, écorces et baies",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🍎",
+    "🥜",
+    "🪵",
+    "🫐"
+  ],
+  "habitat": "Bois clairs, parcs, prairies, lisières, forêts mixtes et plaines ouvertes",
+  "description": "Cervidé souvent tacheté, dont le mâle porte de larges bois palmés.",
+  "keywords": "daim cervide tacheté brun blanc bois cornes foret prairie parc faon",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260927_daim-europeen.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    },
+    {
+      "fichier": "images/mammals/20260303_daim-europeen.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-03-03"
+    }
+  ]
+}

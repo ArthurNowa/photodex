@@ -1,0 +1,33 @@
+﻿{
+  "id": "grand-duc-de-verreau",
+  "nom": "Grand-duc de Verreaux",
+  "nomScientifique": "Bubo lacteus",
+  "famille": "Strigidae",
+  "sousFamille": "Striginae",
+  "ordre": "Strigiforme",
+  "repartition": "Afrique subsaharienne, surtout savanes arborées et zones boisées.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "58 à 66 cm",
+  "tailleMoyenne": 62,
+  "envergure": "140 à 164 cm",
+  "regime": "Mammifères, oiseaux, reptiles, amphibiens, insectes et parfois charognes",
+  "regimeEmoji": [
+    "🐁",
+    "🐦",
+    "🦎",
+    "🐸",
+    "🐛",
+    "🦴"
+  ],
+  "habitat": "Savanes, bois clairs, grands arbres, plaines, brousses et zones semi-arides",
+  "description": "Grand hibou africain gris, aux paupières roses caractéristiques.",
+  "keywords": "oiseau hibou grand duc gris Afrique yeux roses nuit rapace arbre",
+  "photos": [
+    {
+      "fichier": "images/birds/20260927_grand-duc-de-verreau.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

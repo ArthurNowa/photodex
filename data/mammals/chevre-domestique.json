@@ -1,0 +1,29 @@
+﻿{
+  "id": "chevre-domestique",
+  "nom": "Chèvre domestique",
+  "nomScientifique": "Capra hircus",
+  "famille": "Bovidae",
+  "sousFamille": "Caprinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Forme domestique de la chèvre, élevée dans de nombreuses régions du monde.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "Environ 70 à 120 cm de haut selon les races",
+  "tailleMoyenne": 90,
+  "regime": "Herbes, feuilles, foin, jeunes pousses, écorces, rameaux et végétaux variés",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🪵"
+  ],
+  "habitat": "Fermes, pâturages, prairies, enclos, zones rurales et milieux rocheux",
+  "description": "Chèvre domestique agile, curieuse, souvent élevée pour le lait ou l’entretien des terrains.",
+  "keywords": "chevre domestique ferme cornes barbiche sabot blanc brun noir lait prairie paturage enclos herbe foin montagne agile curieuse",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260927_chevre-domestique.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

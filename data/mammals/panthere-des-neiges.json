@@ -1,0 +1,30 @@
+﻿{
+  "id": "panthere-des-neiges",
+  "nom": "Panthère des neiges",
+  "nomScientifique": "Panthera uncia",
+  "famille": "Felidae",
+  "sousFamille": "Pantherinae",
+  "ordre": "Carnivore",
+  "repartition": "Hautes montagnes d’Asie centrale et himalayenne.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "55 à 65 cm de haut",
+  "tailleMoyenne": 60,
+  "regime": "Bouquetins, moutons sauvages, marmottes, lièvres, oiseaux et charognes",
+  "regimeEmoji": [
+    "🍗",
+    "🐁",
+    "🐦",
+    "🦴"
+  ],
+  "habitat": "Montagnes rocheuses, falaises, steppes alpines et zones froides d’altitude",
+  "description": "Grand félin gris tacheté, à très longue queue épaisse.",
+  "keywords": "panthere neige felin gris taches montagne froid roche queue longue leopard altitude",
+  "photos": [
+    {
+      "fichier": "images/mammals/20231222_panthere-des-neiges.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2023-12-22"
+    }
+  ]
+}

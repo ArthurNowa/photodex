@@ -1,0 +1,30 @@
+﻿{
+  "id": "iguane-vert",
+  "nom": "Iguane vert",
+  "nomScientifique": "Iguana iguana",
+  "famille": "Iguanidae",
+  "sousFamille": "Iguaninae",
+  "ordre": "Squamate",
+  "repartition": "Amérique centrale, Amérique du Sud tropicale et Caraïbes ; introduit localement ailleurs.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "120 à 200 cm de long",
+  "tailleMoyenne": 160,
+  "regime": "Feuilles, fleurs, fruits, jeunes pousses et végétaux variés",
+  "regimeEmoji": [
+    "🥬",
+    "🌺",
+    "🍎",
+    "🌱"
+  ],
+  "habitat": "Forêts tropicales, mangroves, berges, arbres, zones humides et milieux chauds",
+  "description": "Grand lézard arboricole vert, avec une crête dorsale et un fanon sous la gorge.",
+  "keywords": "iguane vert lezard reptile grand tropical arbre foret mangrove eau crete fanon queue longue soleil herbivore",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20260303_iguane-vert.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-03-03"
+    }
+  ]
+}

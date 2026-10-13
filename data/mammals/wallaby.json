@@ -1,0 +1,29 @@
+﻿{
+  "id": "wallaby",
+  "nom": "Wallaby de Bennett",
+  "nomScientifique": "Macropus rufogriseus",
+  "famille": "Macropodidae",
+  "sousFamille": "",
+  "ordre": "Diprotodonte",
+  "repartition": "Est et sud-est de l’Australie, Tasmanie et îles voisines.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "70 à 90 cm de haut",
+  "tailleMoyenne": 80,
+  "regime": "Herbes, feuilles, jeunes pousses, écorces et végétaux variés",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🪵"
+  ],
+  "habitat": "Forêts claires, broussailles, prairies, lisières et parcs animaliers",
+  "description": "Petit kangourou gris-brun, sauteur, à longue queue d’équilibre.",
+  "keywords": "wallaby kangourou petit australie brun gris queue longue saut poche prairie foret",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260919_wallaby.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+﻿{
+  "id": "morpho-bleu",
+  "nom": "Morpho bleu",
+  "nomScientifique": "Morpho peleides",
+  "famille": "Nymphalidae",
+  "sousFamille": "Satyrinae",
+  "ordre": "Lépidoptère",
+  "repartition": "Amérique centrale et nord de l’Amérique du Sud.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Envergure de 100 à 150 mm",
+  "tailleMoyenne": 60,
+  "regime": "Fruits mûrs, jus fermentés, sève et matières sucrées",
+  "regimeEmoji": [
+    "🍎",
+    "🍯",
+    "🧃"
+  ],
+  "habitat": "Forêts tropicales humides, lisières, rivières, clairières et serres tropicales",
+  "description": "Grand papillon bleu métallique, très visible en vol.",
+  "keywords": "papillon morpho bleu metallique grand tropical serre foret ailes",
+  "photos": [
+    {
+      "fichier": "images/insects/20260402_morpho-bleu.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-04-02"
+    }
+  ]
+}

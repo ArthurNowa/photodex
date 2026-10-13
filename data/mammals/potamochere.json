@@ -1,0 +1,33 @@
+﻿{
+  "id": "potamochere",
+  "nom": "Potamochère",
+  "nomScientifique": "Potamochoerus porcus",
+  "famille": "Suidae",
+  "sousFamille": "Suinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Afrique subsaharienne, surtout forêts, savanes humides et zones proches de l’eau.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "55 à 80 cm de haut",
+  "tailleMoyenne": 68,
+  "regime": "Racines, fruits, graines, tubercules, insectes, vers, petits animaux et charognes",
+  "regimeEmoji": [
+    "🌱",
+    "🍎",
+    "🫘",
+    "🐛",
+    "🪱",
+    "🐁",
+    "🦴"
+  ],
+  "habitat": "Forêts humides, marais, savanes, broussailles, berges et zones cultivées",
+  "description": "Suidé roux à bande claire sur le dos et longues touffes aux oreilles.",
+  "keywords": "potamochere porc sauvage roux Afrique foret marais oreilles touffes groin",
+  "photos": [
+    {
+      "fichier": "images/mammals/20251212_potamochere.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-12-12"
+    }
+  ]
+}

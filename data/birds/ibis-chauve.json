@@ -1,0 +1,31 @@
+﻿{
+  "id": "ibis-chauve",
+  "nom": "Ibis chauve",
+  "nomScientifique": "Geronticus eremita",
+  "famille": "Threskiornithidae",
+  "sousFamille": "Threskiornithinae",
+  "ordre": "Pélécaniforme",
+  "repartition": "Maroc et quelques régions réintroduites en Europe et au Moyen-Orient.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "70 à 80 cm",
+  "tailleMoyenne": 75,
+  "envergure": "125 à 135 cm",
+  "regime": "Insectes, vers, petits reptiles, amphibiens et petits invertébrés",
+  "regimeEmoji": [
+    "🐛",
+    "🪱",
+    "🦎",
+    "🐸"
+  ],
+  "habitat": "Falaises, steppes, prairies sèches, zones rocheuses et milieux ouverts",
+  "description": "Ibis sombre à tête nue rouge et long bec courbé.",
+  "keywords": "oiseau ibis chauve noir rouge tete bec courbe falaise prairie",
+  "photos": [
+    {
+      "fichier": "images/birds/20260927_ibis-chauve.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

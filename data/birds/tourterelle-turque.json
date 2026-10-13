@@ -1,0 +1,32 @@
+﻿{
+  "id": "tourterelle-turque",
+  "nom": "Tourterelle turque",
+  "nomScientifique": "Streptopelia decaocto",
+  "famille": "Columbidae",
+  "sousFamille": "Columbinae",
+  "ordre": "Columbiforme",
+  "repartition": "Europe, Asie occidentale et Afrique du Nord ; très commune en France.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "31 à 33 cm",
+  "tailleMoyenne": 32,
+  "envergure": "47 à 55 cm",
+  "regime": "Graines, céréales, fruits, baies, jeunes pousses et déchets alimentaires",
+  "regimeEmoji": [
+    "🫘",
+    "🍎",
+    "🫐",
+    "🌱",
+    "🍂"
+  ],
+  "habitat": "Villes, villages, jardins, parcs, fermes, haies et zones cultivées",
+  "description": "Tourterelle beige grisâtre au fin demi-collier noir.",
+  "keywords": "oiseau tourterelle beige gris collier noir ville jardin toit graine",
+  "photos": [
+    {
+      "fichier": "images/birds/20230224_tourterelle-turque.jpg",
+      "lieu": "Jardin, Sailly-Lez-Lannoy",
+      "date": "2023-02-24"
+    }
+  ]
+}

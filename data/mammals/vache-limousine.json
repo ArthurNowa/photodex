@@ -1,0 +1,29 @@
+﻿{
+  "id": "vache-limousine",
+  "nom": "Vache limousine",
+  "nomScientifique": "Bos taurus",
+  "famille": "Bovidae",
+  "sousFamille": "Bovinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Race bovine originaire du Limousin, élevée dans de nombreux pays.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "135 à 150 cm de haut",
+  "tailleMoyenne": 142,
+  "regime": "Herbes, foin, fourrages, feuilles, céréales et végétaux",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🫘"
+  ],
+  "habitat": "Prairies, pâturages, fermes, bocages et élevages bovins",
+  "description": "Vache rousse robuste, connue comme race bouchère française.",
+  "keywords": "vache limousine bovin roux brun ferme prairie cornes France viande",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260909_vache-limousine.jpg",
+      "lieu": "Randonnée Eclipse Vosges",
+      "date": "2026-09-09"
+    }
+  ]
+}

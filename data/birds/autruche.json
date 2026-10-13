@@ -1,0 +1,34 @@
+﻿{
+  "id": "autruche",
+  "nom": "Autruche",
+  "nomScientifique": "Struthio camelus",
+  "famille": "Struthionidae",
+  "sousFamille": "",
+  "ordre": "Struthioniforme",
+  "repartition": "Afrique subsaharienne, dans les savanes, steppes et zones semi-arides.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "210 à 275 cm",
+  "tailleMoyenne": 240,
+  "envergure": "Environ 200 cm",
+  "regime": "Herbes, feuilles, graines, fruits, fleurs, insectes et petits animaux",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🫘",
+    "🍎",
+    "🌺",
+    "🐛",
+    "🐁"
+  ],
+  "habitat": "Savanes, steppes, plaines ouvertes, brousses et zones semi-arides",
+  "description": "Très grand oiseau incapable de voler, rapide à la course.",
+  "keywords": "oiseau autruche grand Afrique long cou longues pattes course savane noir blanc",
+  "photos": [
+    {
+      "fichier": "images/birds/20260927_autruche.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

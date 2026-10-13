@@ -1,0 +1,32 @@
+﻿{
+  "id": "touraco-pauline",
+  "nom": "Touraco pauline",
+  "nomScientifique": "Tauraco erythrolophus",
+  "famille": "Musophagidae",
+  "sousFamille": "Musophaginae",
+  "ordre": "Musophagiforme",
+  "repartition": "Angola et régions voisines d’Afrique australe.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "40 à 48 cm",
+  "tailleMoyenne": 44,
+  "envergure": "Environ 60 à 70 cm",
+  "regime": "Fruits, baies, feuilles, fleurs et jeunes pousses",
+  "regimeEmoji": [
+    "🍎",
+    "🫐",
+    "🥬",
+    "🌺",
+    "🌱"
+  ],
+  "habitat": "Forêts, lisières, galeries boisées, jardins arborés et zones tropicales",
+  "description": "Touraco vert à crête rouge, vif et arboricole.",
+  "keywords": "oiseau touraco vert rouge huppe Afrique fruit arbre foret",
+  "photos": [
+    {
+      "fichier": "images/birds/20251212_touraco-pauline.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-12-12"
+    }
+  ]
+}

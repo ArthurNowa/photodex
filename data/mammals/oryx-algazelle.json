@@ -1,0 +1,34 @@
+﻿{
+  "id": "oryx-algazelle",
+  "nom": "Oryx algazelle",
+  "nomScientifique": "Oryx dammah",
+  "famille": "Bovidae",
+  "sousFamille": "Hippotraginae",
+  "ordre": "Artiodactyle",
+  "repartition": "Originaire du Sahara et du Sahel ; réintroduit dans certaines zones protégées.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "110 à 125 cm de haut",
+  "tailleMoyenne": 118,
+  "regime": "Herbes, feuilles, plantes sèches, graines, racines et végétaux du désert",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🫘"
+  ],
+  "habitat": "Déserts, steppes arides, plaines sableuses, savanes sèches et zones semi-désertiques",
+  "description": "Antilope claire aux longues cornes courbées vers l’arrière.",
+  "keywords": "oryx algazelle antilope blanc roux cornes longues desert Sahara Sahel",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260919_oryx-algazelle.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    },
+    {
+      "fichier": "images/mammals/20240803_oryx-algazelle.jpg",
+      "lieu": "Aalborg Zoo, Danemark",
+      "date": "2024-08-03"
+    }
+  ]
+}

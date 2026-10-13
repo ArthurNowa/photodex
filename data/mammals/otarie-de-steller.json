@@ -1,0 +1,28 @@
+﻿{
+  "id": "otarie-de-steller",
+  "nom": "Otarie de Steller",
+  "nomScientifique": "Eumetopias jubatus",
+  "famille": "Otariidae",
+  "sousFamille": "",
+  "ordre": "Carnivore",
+  "repartition": "Pacifique Nord, des côtes du Japon à l’Alaska et à la Californie.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "100 à 150 cm de haut",
+  "tailleMoyenne": 125,
+  "regime": "Poissons, calmars, poulpes et autres animaux marins",
+  "regimeEmoji": [
+    "🐟",
+    "🦐"
+  ],
+  "habitat": "Côtes rocheuses, îles, plages, eaux froides, ports et zones marines",
+  "description": "Grande otarie brun clair, massive, vivant en colonies côtières.",
+  "keywords": "otarie steller phoque mer brun cote rocher nage colonie moustaches",
+  "photos": [
+    {
+      "fichier": "images/mammals/20251010_otarie-de-steller.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-10"
+    }
+  ]
+}

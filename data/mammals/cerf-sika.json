@@ -1,0 +1,37 @@
+﻿{
+  "id": "cerf-sika",
+  "nom": "Cerf sika",
+  "nomScientifique": "Cervus nippon",
+  "famille": "Cervidae",
+  "sousFamille": "Cervinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Asie de l’Est ; introduit dans plusieurs régions d’Europe.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "70 à 110 cm de haut",
+  "tailleMoyenne": 90,
+  "regime": "Herbes, feuilles, jeunes pousses, écorces, fruits, graines et baies",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🪵",
+    "🍎",
+    "🫘",
+    "🫐"
+  ],
+  "habitat": "Forêts, lisières, prairies, parcs, zones boisées et clairières",
+  "description": "Cervidé asiatique brun, souvent tacheté de blanc en été.",
+  "keywords": "cerf sika cervide brun taches blanc bois foret prairie Asie",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260505_cerf-sika.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-05-05"
+    },
+    {
+      "fichier": "images/mammals/20251010_cerf-sika.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-10"
+    }
+  ]
+}

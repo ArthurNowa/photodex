@@ -1,0 +1,31 @@
+﻿{
+  "id": "vanneau-soldat",
+  "nom": "Vanneau soldat",
+  "nomScientifique": "Vanellus miles",
+  "famille": "Charadriidae",
+  "sousFamille": "Vanellinae",
+  "ordre": "Charadriiforme",
+  "repartition": "Australie, Nouvelle-Guinée et Nouvelle-Zélande.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "30 à 38 cm",
+  "tailleMoyenne": 34,
+  "envergure": "75 à 85 cm",
+  "regime": "Insectes, vers, crustacés, mollusques et petits invertébrés",
+  "regimeEmoji": [
+    "🐛",
+    "🪱",
+    "🦐",
+    "🐌"
+  ],
+  "habitat": "Prairies, marais, pelouses, berges, parcs, terrains ouverts et zones humides",
+  "description": "Vanneau brun et blanc, aux caroncules jaunes visibles sur la face.",
+  "keywords": "oiseau vanneau soldat jaune blanc brun Australie prairie eau pattes",
+  "photos": [
+    {
+      "fichier": "images/birds/20260927_vanneau-soldat.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

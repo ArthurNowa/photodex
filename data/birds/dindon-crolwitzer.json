@@ -1,0 +1,33 @@
+﻿{
+  "id": "dindon-crolwitzer",
+  "nom": "Dindon Crollwitzer",
+  "nomScientifique": "Meleagris gallopavo domesticus",
+  "famille": "Phasianidae",
+  "sousFamille": "Meleagridinae",
+  "ordre": "Galliforme",
+  "repartition": "Race domestique élevée surtout en Europe, notamment en Allemagne.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "70 à 110 cm",
+  "tailleMoyenne": 90,
+  "envergure": "120 à 160 cm",
+  "regime": "Graines, herbes, feuilles, fruits, baies, insectes et petits invertébrés",
+  "regimeEmoji": [
+    "🫘",
+    "🌱",
+    "🥬",
+    "🍎",
+    "🫐",
+    "🐛"
+  ],
+  "habitat": "Fermes, basses-cours, prairies, enclos, champs et élevages domestiques",
+  "description": "Dindon domestique blanc et noir, issu d’une race ancienne européenne.",
+  "keywords": "oiseau dindon crollwitzer dinde blanc noir ferme basse cour plumes",
+  "photos": [
+    {
+      "fichier": "images/birds/20260919_dindon-crolwitzer.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

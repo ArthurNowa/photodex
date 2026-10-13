@@ -1,0 +1,30 @@
+﻿{
+  "id": "lion-d-afrique",
+  "nom": "Lion d’Afrique",
+  "nomScientifique": "Panthera leo",
+  "famille": "Felidae",
+  "sousFamille": "Pantherinae",
+  "ordre": "Carnivore",
+  "repartition": "Afrique subsaharienne, surtout savanes et zones ouvertes protégées.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "100 à 130 cm de haut",
+  "tailleMoyenne": 115,
+  "regime": "Grandes proies, ongulés, mammifères, oiseaux et charognes",
+  "regimeEmoji": [
+    "🍖",
+    "🍗",
+    "🐦",
+    "🦴"
+  ],
+  "habitat": "Savanes, prairies, brousses, plaines ouvertes et réserves naturelles",
+  "description": "Grand félin social à pelage fauve, le mâle portant souvent une crinière.",
+  "keywords": "lion felin fauve criniere savane Afrique troupe predateur carnivore grand chat",
+  "photos": [
+    {
+      "fichier": "images/mammals/20251010_lion-d-afrique.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-10"
+    }
+  ]
+}

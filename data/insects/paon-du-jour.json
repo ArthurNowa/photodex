@@ -1,0 +1,28 @@
+﻿{
+  "id": "paon-du-jour",
+  "nom": "Paon du jour",
+  "nomScientifique": "Aglais io",
+  "famille": "Nymphalidae",
+  "sousFamille": "Nymphalinae",
+  "ordre": "Lépidoptère",
+  "repartition": "Europe et Asie tempérée ; commun en France.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Envergure de 50 à 60 mm",
+  "tailleMoyenne": 25,
+  "regime": "Nectar ; les chenilles consomment surtout des orties",
+  "regimeEmoji": [
+    "🧃",
+    "🌱"
+  ],
+  "habitat": "Jardins, prairies, haies, friches, lisières, bois clairs et zones fleuries",
+  "description": "Papillon rouge sombre à grands ocelles colorés sur les ailes.",
+  "keywords": "papillon paon jour rouge ocelles yeux ailes jardin fleur ortie",
+  "photos": [
+    {
+      "fichier": "images/insects/20250807_paon-du-jour.jpg",
+      "lieu": "Den Blå Planet, Copenhague, Danemark",
+      "date": "2025-08-07"
+    }
+  ]
+}

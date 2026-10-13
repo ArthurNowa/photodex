@@ -1,0 +1,30 @@
+﻿{
+  "id": "takin-dore",
+  "nom": "Takin doré",
+  "nomScientifique": "Budorcas taxicolor bedfordi",
+  "famille": "Bovidae",
+  "sousFamille": "Caprinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Montagnes du centre de la Chine.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "120 à 140 cm de haut",
+  "tailleMoyenne": 130,
+  "regime": "Feuilles, jeunes pousses, herbes, bambou, écorces et rameaux",
+  "regimeEmoji": [
+    "🥬",
+    "🌱",
+    "🎋",
+    "🪵"
+  ],
+  "habitat": "Forêts de montagne, pentes rocheuses, bambouseraies et prairies d’altitude",
+  "description": "Grand bovidé doré et trapu, adapté aux montagnes froides.",
+  "keywords": "takin dore jaune bovide montagne Chine cornes poils epais foret bambou",
+  "photos": [
+    {
+      "fichier": "images/mammals/20231222_takin-dore.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2023-12-22"
+    }
+  ]
+}

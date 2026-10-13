@@ -1,0 +1,31 @@
+﻿{
+  "id": "varan-de-komodo",
+  "nom": "Varan de Komodo",
+  "nomScientifique": "Varanus komodoensis",
+  "famille": "Varanidae",
+  "sousFamille": "Varaninae",
+  "ordre": "Squamate",
+  "repartition": "Îles indonésiennes de Komodo, Rinca, Flores, Gili Motang et voisines.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "200 à 300 cm de long",
+  "tailleMoyenne": 250,
+  "regime": "Grands mammifères, oiseaux, reptiles, œufs, charognes et proies animales",
+  "regimeEmoji": [
+    "🍖",
+    "🐦",
+    "🦎",
+    "🥚",
+    "🦴"
+  ],
+  "habitat": "Savanes sèches, forêts claires, collines, plages et zones tropicales arides",
+  "description": "Très grand lézard indonésien, massif, puissant et carnivore.",
+  "keywords": "varan komodo lezard geant reptile Indonesie langue fourchue carnivore",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20251010_varan-de-komodo.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-10"
+    }
+  ]
+}

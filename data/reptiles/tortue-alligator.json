@@ -1,0 +1,32 @@
+﻿{
+  "id": "tortue-alligator",
+  "nom": "Tortue alligator",
+  "nomScientifique": "Macrochelys temminckii",
+  "famille": "Chelydridae",
+  "sousFamille": "",
+  "ordre": "Testudines",
+  "repartition": "Sud-est des États-Unis, dans les grands cours d’eau et marais.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "50 à 80 cm de long",
+  "tailleMoyenne": 65,
+  "regime": "Poissons, amphibiens, crustacés, oiseaux, petits mammifères et charognes",
+  "regimeEmoji": [
+    "🐟",
+    "🐸",
+    "🦐",
+    "🐦",
+    "🐁",
+    "🦴"
+  ],
+  "habitat": "Rivières lentes, marais, lacs, bayous, eaux profondes et fonds vaseux",
+  "description": "Grande tortue aquatique massive, à carapace rugueuse et mâchoires puissantes.",
+  "keywords": "tortue alligator eau carapace crocodile grosse machoire riviere bayou",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20240807_tortue-alligator.jpg",
+      "lieu": "Den Blå Planet, Copenhague, Danemark",
+      "date": "2024-08-07"
+    }
+  ]
+}

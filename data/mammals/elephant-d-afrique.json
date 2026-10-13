@@ -1,0 +1,30 @@
+﻿{
+  "id": "elephant-d-afrique",
+  "nom": "Éléphant d’Afrique",
+  "nomScientifique": "Loxodonta africana",
+  "famille": "Elephantidae",
+  "sousFamille": "",
+  "ordre": "Proboscidien",
+  "repartition": "Afrique subsaharienne, surtout savanes, forêts claires et zones protégées.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "300 à 400 cm de haut",
+  "tailleMoyenne": 350,
+  "regime": "Herbes, feuilles, écorces, branches, fruits, racines et végétaux variés",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🪵",
+    "🍎"
+  ],
+  "habitat": "Savanes, forêts claires, marais, plaines, brousses et points d’eau",
+  "description": "Très grand mammifère gris, à trompe longue et grandes oreilles.",
+  "keywords": "elephant Afrique gris trompe grandes oreilles defenses savane eau troupeau grand",
+  "photos": [
+    {
+      "fichier": "images/mammals/20250802_elephant-d-afrique.jpg",
+      "lieu": "Knuthenborg Safaripark, Danemark",
+      "date": "2025-08-02"
+    }
+  ]
+}

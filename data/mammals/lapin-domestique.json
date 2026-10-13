@@ -1,0 +1,28 @@
+﻿{
+  "id": "lapin-domestique",
+  "nom": "Lapin domestique",
+  "nomScientifique": "Oryctolagus cuniculus domesticus",
+  "famille": "Leporidae",
+  "sousFamille": "",
+  "ordre": "Lagomorphe",
+  "repartition": "Lapin issu du lapin de garenne, élevé dans de nombreux pays.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "25 à 35 cm de haut",
+  "tailleMoyenne": 30,
+  "regime": "Herbes, foin, feuilles, légumes, racines et jeunes pousses",
+  "regimeEmoji": [
+    "🌱",
+    "🥬"
+  ],
+  "habitat": "Fermes, clapiers, jardins, enclos, prairies et habitations",
+  "description": "Lapin familier aux formes et couleurs très variées.",
+  "keywords": "lapin domestique blanc brun noir gris oreilles longues ferme jardin enclos herbe foin doux",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260919_lapin-domestique.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

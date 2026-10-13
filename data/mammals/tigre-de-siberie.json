@@ -1,0 +1,28 @@
+﻿{
+  "id": "tigre-de-siberie",
+  "nom": "Tigre de Sibérie",
+  "nomScientifique": "Panthera tigris altaica",
+  "famille": "Felidae",
+  "sousFamille": "Pantherinae",
+  "ordre": "Carnivore",
+  "repartition": "Extrême-Orient russe et nord-est de la Chine, dans les forêts froides.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "90 à 110 cm de haut",
+  "tailleMoyenne": 100,
+  "regime": "Cervidés, sangliers, grands mammifères et autres proies animales",
+  "regimeEmoji": [
+    "🍖",
+    "🍗"
+  ],
+  "habitat": "Forêts tempérées froides, taïga, montagnes boisées et vallées",
+  "description": "Très grand tigre orangé rayé de noir, adapté aux forêts froides.",
+  "keywords": "tigre siberie felin orange noir rayures neige froid foret predateur grand chat",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260927_tigre-de-siberie.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

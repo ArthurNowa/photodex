@@ -1,0 +1,33 @@
+﻿{
+  "id": "perroquet-gris-du-gabon",
+  "nom": "Perroquet gris du Gabon",
+  "nomScientifique": "Psittacus erithacus",
+  "famille": "Psittacidae",
+  "sousFamille": "Psittacinae",
+  "ordre": "Psittaciforme",
+  "repartition": "Afrique équatoriale occidentale et centrale.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "30 à 36 cm",
+  "tailleMoyenne": 33,
+  "envergure": "45 à 52 cm",
+  "regime": "Fruits, noix, graines, baies, fleurs et jeunes pousses",
+  "regimeEmoji": [
+    "🍎",
+    "🥜",
+    "🫘",
+    "🫐",
+    "🌺",
+    "🌱"
+  ],
+  "habitat": "Forêts tropicales, lisières, plantations, mangroves et grands arbres",
+  "description": "Perroquet gris à queue rouge, célèbre pour ses capacités vocales.",
+  "keywords": "oiseau perroquet gris gabon queue rouge parole imitation Afrique",
+  "photos": [
+    {
+      "fichier": "images/birds/20260919_perroquet-gris-du-gabon.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

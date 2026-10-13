@@ -1,0 +1,32 @@
+﻿{
+  "id": "alligator-de-chine",
+  "nom": "Alligator de Chine",
+  "nomScientifique": "Alligator sinensis",
+  "famille": "Alligatoridae",
+  "sousFamille": "Alligatorinae",
+  "ordre": "Crocodilien",
+  "repartition": "Est de la Chine, surtout bassin inférieur du Yangtsé.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "150 à 220 cm de long",
+  "tailleMoyenne": 185,
+  "regime": "Poissons, amphibiens, crustacés, mollusques, oiseaux et petits mammifères",
+  "regimeEmoji": [
+    "🐟",
+    "🐸",
+    "🦐",
+    "🐌",
+    "🐦",
+    "🐁"
+  ],
+  "habitat": "Rivières lentes, marais, étangs, rizières, berges et zones humides",
+  "description": "Petit alligator sombre, rare, au museau court et large.",
+  "keywords": "alligator Chine crocodile reptile eau mare riviere rare dents",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20260919_alligator-de-chine.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

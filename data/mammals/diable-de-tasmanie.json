@@ -1,0 +1,32 @@
+﻿{
+  "id": "diable-de-tasmanie",
+  "nom": "Diable de Tasmanie",
+  "nomScientifique": "Sarcophilus harrisii",
+  "famille": "Dasyuridae",
+  "sousFamille": "",
+  "ordre": "Dasyuromorphe",
+  "repartition": "Tasmanie, avec quelques populations réintroduites en Australie continentale.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "25 à 35 cm de haut",
+  "tailleMoyenne": 30,
+  "regime": "Charognes, petits mammifères, oiseaux, reptiles, insectes et autres proies animales",
+  "regimeEmoji": [
+    "🦴",
+    "🐁",
+    "🐦",
+    "🦎",
+    "🐛",
+    "🍗"
+  ],
+  "habitat": "Forêts, brousses, landes, zones côtières, terriers et milieux secs tasmaniens",
+  "description": "Marsupial noir trapu, connu pour ses cris et sa puissante mâchoire.",
+  "keywords": "diable Tasmanie noir marsupial dents cri carnivore Australie nocturne",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260927_diable-de-tasmanie.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

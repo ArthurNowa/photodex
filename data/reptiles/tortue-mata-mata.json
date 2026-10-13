@@ -1,0 +1,29 @@
+﻿{
+  "id": "tortue-mata-mata",
+  "nom": "Tortue mata-mata",
+  "nomScientifique": "Chelus fimbriata",
+  "famille": "Chelidae",
+  "sousFamille": "",
+  "ordre": "Testudines",
+  "repartition": "Amazonie et Orénoque, en Amérique du Sud.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "40 à 50 cm de long",
+  "tailleMoyenne": 45,
+  "regime": "Poissons, petits animaux aquatiques et amphibiens",
+  "regimeEmoji": [
+    "🐟",
+    "🦐",
+    "🐸"
+  ],
+  "habitat": "Rivières lentes, marais, bras morts, eaux boueuses et zones inondées",
+  "description": "Tortue aquatique camouflée, à tête plate et carapace bosselée.",
+  "keywords": "tortue mata mata eau Amazonie feuille camouflage carapace bizarre poisson",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20240803_tortue-mata-mata.jpg",
+      "lieu": "Aalborg Zoo, Danemark",
+      "date": "2024-08-03"
+    }
+  ]
+}

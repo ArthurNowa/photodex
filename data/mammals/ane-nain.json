@@ -1,0 +1,29 @@
+﻿{
+  "id": "ane-nain",
+  "nom": "Âne nain",
+  "nomScientifique": "Equus asinus",
+  "famille": "Equidae",
+  "sousFamille": "Equinae",
+  "ordre": "Périssodactyle",
+  "repartition": "Forme domestique de l’âne, élevée dans de nombreux pays.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "Environ 100 à 120 cm de haut",
+  "tailleMoyenne": 110,
+  "regime": "Herbes, foin, feuilles, jeunes pousses, écorces et végétaux secs",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🪵"
+  ],
+  "habitat": "Fermes, pâturages, prairies, enclos, zones rurales et parcs animaliers",
+  "description": "Petit âne domestique robuste, aux longues oreilles et au tempérament calme.",
+  "keywords": "ane anesse nain petit ferme domestique gris brun blanc oreilles sabot enclos prairie foin herbe campagne calme",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260919_ane-nain.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

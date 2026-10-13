@@ -1,0 +1,28 @@
+﻿{
+  "id": "zebre",
+  "nom": "Zèbre des plaines",
+  "nomScientifique": "Equus quagga",
+  "famille": "Equidae",
+  "sousFamille": "Equinae",
+  "ordre": "Périssodactyle",
+  "repartition": "Afrique de l’Est et australe, dans les savanes et plaines herbeuses.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "130 à 150 cm de haut",
+  "tailleMoyenne": 140,
+  "regime": "Herbes, graminées, feuilles, jeunes pousses et végétaux secs",
+  "regimeEmoji": [
+    "🌱",
+    "🥬"
+  ],
+  "habitat": "Savanes, prairies, plaines ouvertes, brousses et points d’eau",
+  "description": "Équidé rayé noir et blanc vivant souvent en troupeau.",
+  "keywords": "zebre rayures noir blanc cheval savane Afrique troupeau herbe prairie",
+  "photos": [
+    {
+      "fichier": "images/mammals/20240803_zebre.jpg",
+      "lieu": "Aalborg Zoo, Danemark",
+      "date": "2024-08-03"
+    }
+  ]
+}

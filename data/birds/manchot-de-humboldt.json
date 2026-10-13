@@ -1,0 +1,29 @@
+﻿{
+  "id": "manchot-de-humboldt",
+  "nom": "Manchot de Humboldt",
+  "nomScientifique": "Spheniscus humboldti",
+  "famille": "Spheniscidae",
+  "sousFamille": "",
+  "ordre": "Sphénisciforme",
+  "repartition": "Côtes du Pérou et du Chili, dans le courant de Humboldt.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "56 à 70 cm",
+  "tailleMoyenne": 63,
+  "envergure": "Environ 65 à 75 cm",
+  "regime": "Poissons, anchois, sardines, crustacés et calmars",
+  "regimeEmoji": [
+    "🐟",
+    "🦐"
+  ],
+  "habitat": "Côtes rocheuses, îles, plages, eaux froides et grottes de nidification",
+  "description": "Manchot noir et blanc à bande sombre sur la poitrine.",
+  "keywords": "oiseau manchot humboldt pingouin noir blanc Chili Perou mer poisson",
+  "photos": [
+    {
+      "fichier": "images/birds/20240803_manchot-de-humboldt.jpg",
+      "lieu": "Aalborg Zoo, Danemark",
+      "date": "2024-08-03"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+﻿{
+  "id": "pogona-vitticeps",
+  "nom": "Pogona vitticeps",
+  "nomScientifique": "Pogona vitticeps",
+  "famille": "Agamidae",
+  "sousFamille": "Amphibolurinae",
+  "ordre": "Squamate",
+  "repartition": "Australie intérieure, dans les zones arides et semi-arides.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "40 à 60 cm de long",
+  "tailleMoyenne": 50,
+  "regime": "Insectes, feuilles, fleurs, fruits, jeunes pousses et petits invertébrés",
+  "regimeEmoji": [
+    "🐛",
+    "🥬",
+    "🌺",
+    "🍎",
+    "🌱"
+  ],
+  "habitat": "Déserts, brousses, savanes sèches, rochers, branches et terrariums",
+  "description": "Lézard australien trapu, appelé dragon barbu.",
+  "keywords": "pogona dragon barbu lezard Australie desert barbe terrarium",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20260919_pogona-vitticeps.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+﻿{
+  "id": "tapir-terrestre",
+  "nom": "Tapir terrestre",
+  "nomScientifique": "Tapirus terrestris",
+  "famille": "Tapiridae",
+  "sousFamille": "Tapirinae",
+  "ordre": "Périssodactyle",
+  "repartition": "Amérique du Sud, surtout bassins forestiers et zones humides.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "80 à 110 cm de haut",
+  "tailleMoyenne": 95,
+  "regime": "Feuilles, fruits, jeunes pousses, plantes aquatiques, écorces et végétaux",
+  "regimeEmoji": [
+    "🥬",
+    "🍎",
+    "🌱",
+    "🪵"
+  ],
+  "habitat": "Forêts tropicales, marais, berges, rivières, zones humides et sous-bois",
+  "description": "Grand mammifère brun au museau court en petite trompe.",
+  "keywords": "tapir brun museau trompe foret jungle eau riviere Amerique Sud herbivore",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260303_tapir-terrestre.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-03-03"
+    }
+  ]
+}

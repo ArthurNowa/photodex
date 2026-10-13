@@ -1,0 +1,31 @@
+﻿{
+  "id": "aigrette-a-face-blanche",
+  "nom": "Aigrette à face blanche",
+  "nomScientifique": "Egretta novaehollandiae",
+  "famille": "Ardeidae",
+  "sousFamille": "Ardeinae",
+  "ordre": "Pélécaniforme",
+  "repartition": "Australie, Nouvelle-Guinée, Indonésie orientale et Nouvelle-Zélande.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "60 à 70 cm",
+  "tailleMoyenne": 65,
+  "envergure": "95 à 105 cm",
+  "regime": "Poissons, crustacés, insectes aquatiques, amphibiens et petits animaux",
+  "regimeEmoji": [
+    "🐟",
+    "🦐",
+    "🦟",
+    "🐸"
+  ],
+  "habitat": "Berges, marais, estuaires, vasières, mangroves, étangs et zones côtières",
+  "description": "Aigrette grise et blanche au bec sombre, souvent près de l’eau.",
+  "keywords": "oiseau aigrette heron gris blanc face blanche eau marais bec long Australie poisson",
+  "photos": [
+    {
+      "fichier": "images/birds/20260927_aigrette-a-face-blanche.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

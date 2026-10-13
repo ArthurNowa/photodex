@@ -1,0 +1,27 @@
+﻿{
+  "id": "rhinoceros-blanc",
+  "nom": "Rhinocéros blanc",
+  "nomScientifique": "Ceratotherium simum",
+  "famille": "Rhinocerotidae",
+  "sousFamille": "Rhinocerotinae",
+  "ordre": "Périssodactyle",
+  "repartition": "Afrique australe et orientale, dans les savanes et réserves.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "160 à 190 cm de haut",
+  "tailleMoyenne": 175,
+  "regime": "Herbes, graminées et végétaux bas",
+  "regimeEmoji": [
+    "🌱"
+  ],
+  "habitat": "Savanes, prairies, plaines ouvertes, brousses, points d’eau et réserves",
+  "description": "Grand rhinocéros gris à large bouche carrée et deux cornes.",
+  "keywords": "rhinoceros blanc gris cornes Afrique savane grand bouche large",
+  "photos": [
+    {
+      "fichier": "images/mammals/20251010_rhinoceros-blanc.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-10"
+    }
+  ]
+}

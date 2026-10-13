@@ -1,0 +1,45 @@
+﻿{
+  "id": "morse",
+  "nom": "Morse",
+  "nomScientifique": "Odobenus rosmarus",
+  "famille": "Odobenidae",
+  "sousFamille": "",
+  "ordre": "Carnivore",
+  "repartition": "Arctique et mers subarctiques de l’Atlantique et du Pacifique Nord.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "100 à 140 cm de haut",
+  "tailleMoyenne": 120,
+  "regime": "Coquillages, mollusques, crustacés, vers marins et parfois poissons",
+  "regimeEmoji": [
+    "🦪",
+    "🦐",
+    "🪱",
+    "🐟"
+  ],
+  "habitat": "Banquise, côtes arctiques, plages, eaux froides et zones marines peu profondes",
+  "description": "Grand mammifère marin brun, aux longues défenses et moustaches épaisses.",
+  "keywords": "morse marin arctique defenses moustaches brun banquise mer phoque",
+  "photos": [
+    {
+      "fichier": "images/mammals/20251010_morse.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-10"
+    },
+    {
+      "fichier": "images/mammals/20251010_morse-04.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-10"
+    },
+    {
+      "fichier": "images/mammals/20251010_morse-03.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-10"
+    },
+    {
+      "fichier": "images/mammals/20251010_morse-02.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-10"
+    }
+  ]
+}

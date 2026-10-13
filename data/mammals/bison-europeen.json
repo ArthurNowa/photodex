@@ -1,0 +1,29 @@
+﻿{
+  "id": "bison-europeen",
+  "nom": "Bison européen",
+  "nomScientifique": "Bison bonasus",
+  "famille": "Bovidae",
+  "sousFamille": "Bovinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Europe centrale et orientale, avec des populations réintroduites.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "170 à 200 cm de haut",
+  "tailleMoyenne": 185,
+  "regime": "Herbes, feuilles, jeunes pousses, écorces, rameaux et végétaux forestiers",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🪵"
+  ],
+  "habitat": "Forêts claires, prairies, clairières, lisières, plaines boisées et réserves",
+  "description": "Très grand bovidé brun, massif, avec bosse haute et petites cornes.",
+  "keywords": "bison europe bovin grand brun cornes bosse foret prairie troupeau",
+  "photos": [
+    {
+      "fichier": "images/mammals/20250802_bison-europeen.jpg",
+      "lieu": "Knuthenborg Safaripark, Danemark",
+      "date": "2025-08-02"
+    }
+  ]
+}

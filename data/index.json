@@ -3,13 +3,31 @@
     "type": "birds",
     "data": [
       {
+        "name": "aigrette-a-face-blanche.json"
+      },
+      {
         "name": "ara-de-spix.json"
       },
       {
         "name": "ara-hyacinthe.json"
       },
       {
+        "name": "aracari-de-beauharnais.json"
+      },
+      {
+        "name": "argus-geant.json"
+      },
+      {
+        "name": "autruche.json"
+      },
+      {
         "name": "avocette-elegante.json"
+      },
+      {
+        "name": "bec-en-sabot-du-nil.json"
+      },
+      {
+        "name": "bernache-nene.json"
       },
       {
         "name": "bernache-nonnette.json"
@@ -18,10 +36,19 @@
         "name": "buse-variable.json"
       },
       {
+        "name": "cacatoes-des-moluques.json"
+      },
+      {
+        "name": "cacatoes-rosalbin.json"
+      },
+      {
         "name": "canard-a-collier-noir.json"
       },
       {
         "name": "canard-colvert.json"
+      },
+      {
+        "name": "canard-mandarin.json"
       },
       {
         "name": "caracara-austral.json"
@@ -36,6 +63,9 @@
         "name": "choucas-des-tours.json"
       },
       {
+        "name": "chouette-effraie.json"
+      },
+      {
         "name": "chouette-hulotte.json"
       },
       {
@@ -43,6 +73,12 @@
       },
       {
         "name": "condor-des-andes.json"
+      },
+      {
+        "name": "conure-doree.json"
+      },
+      {
+        "name": "dindon-crolwitzer.json"
       },
       {
         "name": "dindon-domestique.json"
@@ -54,7 +90,16 @@
         "name": "echasse-d-amerique.json"
       },
       {
+        "name": "flamant-rose.json"
+      },
+      {
+        "name": "foulque.json"
+      },
+      {
         "name": "fuligule-morillon.json"
+      },
+      {
+        "name": "gallinule-poule-d-eau.json"
       },
       {
         "name": "geai-des-chenes.json"
@@ -66,6 +111,12 @@
         "name": "grand-cormoran.json"
       },
       {
+        "name": "grand-duc-de-verreau.json"
+      },
+      {
+        "name": "grand-eclectus.json"
+      },
+      {
         "name": "grand-geocoucou.json"
       },
       {
@@ -75,13 +126,28 @@
         "name": "grive-musicienne.json"
       },
       {
+        "name": "grue-a-cou-blanc.json"
+      },
+      {
         "name": "grue-du-japon.json"
+      },
+      {
+        "name": "harfang-des-neiges.json"
       },
       {
         "name": "heron-cendre.json"
       },
       {
+        "name": "heron-garde-boeuf.json"
+      },
+      {
+        "name": "ibis-chauve.json"
+      },
+      {
         "name": "ibis-rouge.json"
+      },
+      {
+        "name": "kookaburra.json"
       },
       {
         "name": "loriquet-arc-en-ciel.json"
@@ -90,13 +156,46 @@
         "name": "mainate-religieux.json"
       },
       {
+        "name": "manchot-de-humboldt.json"
+      },
+      {
+        "name": "manchot-papou.json"
+      },
+      {
         "name": "merle-noir.json"
       },
       {
         "name": "mesange-charbonniere.json"
       },
       {
+        "name": "moineau-de-java.json"
+      },
+      {
+        "name": "nicobar-a-camail.json"
+      },
+      {
+        "name": "oedicneme-bride.json"
+      },
+      {
+        "name": "oie-cendree.json"
+      },
+      {
+        "name": "paon-blanc.json"
+      },
+      {
+        "name": "paon-bleu.json"
+      },
+      {
+        "name": "pape-de-noumea.json"
+      },
+      {
         "name": "pelican-blanc.json"
+      },
+      {
+        "name": "perroquet-gris-du-gabon.json"
+      },
+      {
+        "name": "perruche-ondulee.json"
       },
       {
         "name": "pigeon-biset-domestique.json"
@@ -105,10 +204,34 @@
         "name": "pygargue-a-queue-blanche.json"
       },
       {
+        "name": "rollier-a-ventre-bleu.json"
+      },
+      {
         "name": "rouge-gorge-familier.json"
       },
       {
+        "name": "roulroul-couronne.json"
+      },
+      {
+        "name": "serpentaire.json"
+      },
+      {
+        "name": "toucan-toco.json"
+      },
+      {
+        "name": "touraco-pauline.json"
+      },
+      {
+        "name": "tourterelle-turque.json"
+      },
+      {
         "name": "troglodyte-mignon.json"
+      },
+      {
+        "name": "vanneau-soldat.json"
+      },
+      {
+        "name": "vautour-a-tete-blanche.json"
       },
       {
         "name": "vautour-moine.json"
@@ -152,6 +275,9 @@
         "name": "cercope-des-pres.json"
       },
       {
+        "name": "chenille-sphinx-du-pin.json"
+      },
+      {
         "name": "chrysomele-polie.json"
       },
       {
@@ -173,6 +299,9 @@
         "name": "coccinelle-asiatique.json"
       },
       {
+        "name": "cordonnier-grec.json"
+      },
+      {
         "name": "criquet-melodieux.json"
       },
       {
@@ -185,10 +314,16 @@
         "name": "gendarme.json"
       },
       {
+        "name": "greta-oto.json"
+      },
+      {
         "name": "guepe-germanique.json"
       },
       {
         "name": "guepe-poliste.json"
+      },
+      {
+        "name": "heliconius-a-bandes-noires.json"
       },
       {
         "name": "larinus-planus.json"
@@ -210,6 +345,9 @@
       },
       {
         "name": "meconeme-fragile.json"
+      },
+      {
+        "name": "morpho-bleu.json"
       },
       {
         "name": "mouche-bleue.json"
@@ -234,6 +372,15 @@
       },
       {
         "name": "opilion.json"
+      },
+      {
+        "name": "paon-du-jour.json"
+      },
+      {
+        "name": "papillon-zebre.json"
+      },
+      {
+        "name": "petit-facteur.json"
       },
       {
         "name": "petite-biche.json"
@@ -304,16 +451,46 @@
         "name": "alpaga.json"
       },
       {
+        "name": "ane-nain.json"
+      },
+      {
+        "name": "antilope-sable.json"
+      },
+      {
         "name": "bison-d-europe.json"
+      },
+      {
+        "name": "bison-europeen.json"
       },
       {
         "name": "blonde-d-aquitaine.json"
       },
       {
+        "name": "capybara.json"
+      },
+      {
         "name": "cerf-elaphe.json"
       },
       {
+        "name": "cerf-sika.json"
+      },
+      {
+        "name": "chameau.json"
+      },
+      {
         "name": "cheval-de-przewalski.json"
+      },
+      {
+        "name": "cheval-pure-race-espagnol.json"
+      },
+      {
+        "name": "chevre-a-cou-noir-du-valais.json"
+      },
+      {
+        "name": "chevre-angora.json"
+      },
+      {
+        "name": "chevre-domestique.json"
       },
       {
         "name": "chevre-naine.json"
@@ -322,13 +499,37 @@
         "name": "chien-de-prairie.json"
       },
       {
+        "name": "chien-viverrin.json"
+      },
+      {
+        "name": "civette-palmiste-commune.json"
+      },
+      {
+        "name": "coati-a-nez-blanc.json"
+      },
+      {
+        "name": "coati.json"
+      },
+      {
+        "name": "cochon-d-inde.json"
+      },
+      {
         "name": "cochon-nain.json"
+      },
+      {
+        "name": "couscous-des-celebes.json"
       },
       {
         "name": "coyote.json"
       },
       {
         "name": "daim-d-europe.json"
+      },
+      {
+        "name": "daim-europeen.json"
+      },
+      {
+        "name": "diable-de-tasmanie.json"
       },
       {
         "name": "dromadaire.json"
@@ -340,7 +541,19 @@
         "name": "elan.json"
       },
       {
+        "name": "elephant-d-afrique.json"
+      },
+      {
         "name": "fennec.json"
+      },
+      {
+        "name": "fossa.json"
+      },
+      {
+        "name": "fourmilier-geant.json"
+      },
+      {
+        "name": "girafe.json"
       },
       {
         "name": "glouton.json"
@@ -352,7 +565,37 @@
         "name": "hippopotame-nain.json"
       },
       {
+        "name": "hippopotame.json"
+      },
+      {
         "name": "jaguar.json"
+      },
+      {
+        "name": "kangourou-roux.json"
+      },
+      {
+        "name": "lamantin.json"
+      },
+      {
+        "name": "langur-de-francois.json"
+      },
+      {
+        "name": "lapin-domestique.json"
+      },
+      {
+        "name": "lapin-geant-des-flandres.json"
+      },
+      {
+        "name": "lemur-noir.json"
+      },
+      {
+        "name": "lievre-de-patagonie.json"
+      },
+      {
+        "name": "lion-d-afrique.json"
+      },
+      {
+        "name": "loup-a-criniere.json"
       },
       {
         "name": "loup-arctique.json"
@@ -361,31 +604,76 @@
         "name": "loup-gris.json"
       },
       {
+        "name": "loutre-naine-d-asie.json"
+      },
+      {
         "name": "lynx-boreal.json"
       },
       {
         "name": "maki-catta.json"
       },
       {
+        "name": "maki-vari-noir-et-blanc.json"
+      },
+      {
+        "name": "maki-vari-roux.json"
+      },
+      {
         "name": "mangouste-naine.json"
+      },
+      {
+        "name": "morse.json"
+      },
+      {
+        "name": "mouffette-rayee.json"
+      },
+      {
+        "name": "mouton-d-ouessant.json"
       },
       {
         "name": "orang-outan-de-sumatra.json"
       },
       {
+        "name": "oryx-algazelle.json"
+      },
+      {
+        "name": "otarie-de-steller.json"
+      },
+      {
         "name": "otocyon.json"
+      },
+      {
+        "name": "ours-brun.json"
       },
       {
         "name": "ours-noir-americain.json"
       },
       {
+        "name": "ours-noir.json"
+      },
+      {
         "name": "ours-polaire.json"
+      },
+      {
+        "name": "panda-geant.json"
       },
       {
         "name": "panda-roux.json"
       },
       {
+        "name": "panthere-des-neiges.json"
+      },
+      {
+        "name": "paresseux-a-2-doigts.json"
+      },
+      {
+        "name": "phacochere.json"
+      },
+      {
         "name": "porc-epic-d-amerique.json"
+      },
+      {
+        "name": "potamochere.json"
       },
       {
         "name": "puma.json"
@@ -394,22 +682,64 @@
         "name": "raton-laveur.json"
       },
       {
+        "name": "renard-volant-de-lyle.json"
+      },
+      {
+        "name": "renne.json"
+      },
+      {
+        "name": "rhinoceros-blanc.json"
+      },
+      {
+        "name": "saimiri.json"
+      },
+      {
         "name": "sanglier.json"
+      },
+      {
+        "name": "singe-dore.json"
+      },
+      {
+        "name": "sitatunga.json"
       },
       {
         "name": "suricate.json"
       },
       {
+        "name": "takin-dore.json"
+      },
+      {
         "name": "tamarin-a-crete-blanche.json"
       },
       {
+        "name": "tapir-terrestre.json"
+      },
+      {
         "name": "tigre-blanc-royal.json"
+      },
+      {
+        "name": "tigre-de-siberie.json"
+      },
+      {
+        "name": "vache-limousine.json"
+      },
+      {
+        "name": "vache-montbeliarde.json"
       },
       {
         "name": "vache-vosgienne.json"
       },
       {
         "name": "vari-noir-et-blanc.json"
+      },
+      {
+        "name": "wallaby.json"
+      },
+      {
+        "name": "wapiti.json"
+      },
+      {
+        "name": "zebre.json"
       }
     ]
   },
@@ -420,10 +750,43 @@
         "name": "alligator-d-amerique.json"
       },
       {
+        "name": "alligator-de-chine.json"
+      },
+      {
+        "name": "anolis-sabanus.json"
+      },
+      {
+        "name": "axolotl.json"
+      },
+      {
+        "name": "basilic-vert.json"
+      },
+      {
+        "name": "cameleion-casque-du-yemen.json"
+      },
+      {
+        "name": "cameleon-casque-du-yemen.json"
+      },
+      {
+        "name": "couleuvre-a-collier.json"
+      },
+      {
         "name": "crapaud-commun.json"
       },
       {
+        "name": "crotale-du-yucatan.json"
+      },
+      {
+        "name": "dendrobate-d-anthony.json"
+      },
+      {
+        "name": "emyde-de-chine.json"
+      },
+      {
         "name": "gavial-du-gange.json"
+      },
+      {
+        "name": "gecko-geant-de-madagascar.json"
       },
       {
         "name": "grenouille-rieuse.json"
@@ -435,7 +798,46 @@
         "name": "grenouille-verte.json"
       },
       {
+        "name": "iguane-orange.json"
+      },
+      {
+        "name": "iguane-vert.json"
+      },
+      {
         "name": "lezard-des-murailles.json"
+      },
+      {
+        "name": "monstre-de-gila.json"
+      },
+      {
+        "name": "pleurodele-de-waltl.json"
+      },
+      {
+        "name": "pogona-vitticeps.json"
+      },
+      {
+        "name": "rainette-verte.json"
+      },
+      {
+        "name": "salamandre-tachetee.json"
+      },
+      {
+        "name": "tortue-alligator.json"
+      },
+      {
+        "name": "tortue-geante-des-galapagos.json"
+      },
+      {
+        "name": "tortue-geante-des-seychelles.json"
+      },
+      {
+        "name": "tortue-mata-mata.json"
+      },
+      {
+        "name": "tortue-sillonnee.json"
+      },
+      {
+        "name": "varan-de-komodo.json"
       }
     ]
   }

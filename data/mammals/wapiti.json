@@ -1,0 +1,31 @@
+﻿{
+  "id": "wapiti",
+  "nom": "Wapiti",
+  "nomScientifique": "Cervus canadensis",
+  "famille": "Cervidae",
+  "sousFamille": "Cervinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Amérique du Nord et Asie orientale, selon les populations.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "130 à 160 cm de haut",
+  "tailleMoyenne": 145,
+  "regime": "Herbes, feuilles, jeunes pousses, écorces, fruits et baies",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🪵",
+    "🍎",
+    "🫐"
+  ],
+  "habitat": "Forêts claires, prairies, montagnes, vallées, lisières et plaines ouvertes",
+  "description": "Grand cervidé brun, au mâle doté de grands bois ramifiés.",
+  "keywords": "wapiti cerf cervide brun bois cornes Amerique montagne foret prairie",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260927_wapiti.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

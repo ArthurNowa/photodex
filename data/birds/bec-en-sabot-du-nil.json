@@ -1,0 +1,32 @@
+﻿{
+  "id": "bec-en-sabot-du-nil",
+  "nom": "Bec-en-sabot du Nil",
+  "nomScientifique": "Balaeniceps rex",
+  "famille": "Balaenicipitidae",
+  "sousFamille": "",
+  "ordre": "Pélécaniforme",
+  "repartition": "Marais d’Afrique centrale et orientale, surtout Soudan du Sud, Ouganda et Zambie.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "110 à 140 cm",
+  "tailleMoyenne": 125,
+  "envergure": "230 à 260 cm",
+  "regime": "Poissons, amphibiens, reptiles, petits oiseaux et petits mammifères",
+  "regimeEmoji": [
+    "🐟",
+    "🐸",
+    "🦎",
+    "🐦",
+    "🐁"
+  ],
+  "habitat": "Marais, papyrus, roselières, zones inondées et grands marécages",
+  "description": "Grand oiseau gris au bec énorme en forme de sabot.",
+  "keywords": "oiseau bec sabot nil gris grand marais papyrus Afrique bec large poisson",
+  "photos": [
+    {
+      "fichier": "images/birds/20260919_bec-en-sabot-du-nil.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+﻿{
+  "id": "greta-oto",
+  "nom": "Greta oto",
+  "nomScientifique": "Greta oto",
+  "famille": "Nymphalidae",
+  "sousFamille": "Danainae",
+  "ordre": "Lépidoptère",
+  "repartition": "Amérique centrale et nord de l’Amérique du Sud.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Envergure de 50 à 60 mm",
+  "tailleMoyenne": 25,
+  "regime": "Nectar ; les chenilles consomment des plantes tropicales",
+  "regimeEmoji": [
+    "🧃",
+    "🌱"
+  ],
+  "habitat": "Forêts tropicales humides, lisières, clairières, jardins et serres tropicales",
+  "description": "Papillon aux ailes transparentes bordées de brun orangé.",
+  "keywords": "papillon transparent verre ailes brun orange tropical serre foret",
+  "photos": [
+    {
+      "fichier": "images/insects/20240808_greta-oto.jpg",
+      "lieu": "Den Blå Planet, Copenhague, Danemark",
+      "date": "2024-08-08"
+    }
+  ]
+}

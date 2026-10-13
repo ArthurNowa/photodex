@@ -1,0 +1,31 @@
+﻿{
+  "id": "basilic-vert",
+  "nom": "Basilic vert",
+  "nomScientifique": "Basiliscus plumifrons",
+  "famille": "Corytophanidae",
+  "sousFamille": "",
+  "ordre": "Squamate",
+  "repartition": "Amérique centrale, surtout zones tropicales humides.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "60 à 75 cm de long",
+  "tailleMoyenne": 68,
+  "regime": "Insectes, petits invertébrés, fruits, fleurs et petits vertébrés",
+  "regimeEmoji": [
+    "🐛",
+    "🦟",
+    "🍎",
+    "🌺",
+    "🐁"
+  ],
+  "habitat": "Forêts tropicales, berges, rivières, végétation dense et branches au-dessus de l’eau",
+  "description": "Lézard vert vif à crête, capable de courir sur l’eau.",
+  "keywords": "lezard basilic vert crete eau tropical riviere arbre courir",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20240803_basilic-vert.jpg",
+      "lieu": "Aalborg Zoo, Danemark",
+      "date": "2024-08-03"
+    }
+  ]
+}

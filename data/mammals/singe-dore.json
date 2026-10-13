@@ -1,0 +1,32 @@
+﻿{
+  "id": "singe-dore",
+  "nom": "Singe doré",
+  "nomScientifique": "Rhinopithecus roxellana",
+  "famille": "Cercopithecidae",
+  "sousFamille": "Colobinae",
+  "ordre": "Primates",
+  "repartition": "Montagnes du centre de la Chine, dans les forêts tempérées froides.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "55 à 70 cm de haut",
+  "tailleMoyenne": 62,
+  "regime": "Feuilles, lichens, fruits, graines, bourgeons, écorces et fleurs",
+  "regimeEmoji": [
+    "🥬",
+    "🌱",
+    "🍎",
+    "🫘",
+    "🪵",
+    "🌺"
+  ],
+  "habitat": "Forêts de montagne, conifères, feuillus, ravins et zones froides boisées",
+  "description": "Singe au pelage doré orangé et au visage bleuté.",
+  "keywords": "singe dore orange bleu Chine montagne foret primate nez retrousse groupe arbre",
+  "photos": [
+    {
+      "fichier": "images/mammals/20251010_singe-dore.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-10"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+﻿{
+  "id": "chameau",
+  "nom": "Chameau de Bactriane",
+  "nomScientifique": "Camelus bactrianus",
+  "famille": "Camelidae",
+  "sousFamille": "Camelinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Asie centrale ; forme domestique élevée dans les régions arides et froides.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "190 à 230 cm de haut",
+  "tailleMoyenne": 210,
+  "regime": "Herbes, feuilles, plantes sèches, rameaux, buissons épineux et végétaux salés",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🪵"
+  ],
+  "habitat": "Déserts froids, steppes, zones arides, élevages et régions semi-désertiques",
+  "description": "Grand camélidé à deux bosses, robuste et adapté aux milieux arides.",
+  "keywords": "chameau bactriane deux bosses desert steppe beige brun Asie caravane long cou",
+  "photos": [
+    {
+      "fichier": "images/mammals/20250802_chameau.jpg",
+      "lieu": "Knuthenborg Safaripark, Danemark",
+      "date": "2025-08-02"
+    }
+  ]
+}

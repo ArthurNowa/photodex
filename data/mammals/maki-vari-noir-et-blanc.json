@@ -1,0 +1,32 @@
+﻿{
+  "id": "maki-vari-noir-et-blanc",
+  "nom": "Maki vari noir et blanc",
+  "nomScientifique": "Varecia variegata",
+  "famille": "Lemuridae",
+  "sousFamille": "Lemurinae",
+  "ordre": "Primates",
+  "repartition": "Est de Madagascar, dans les forêts tropicales humides.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "50 à 60 cm de long, sans compter la queue",
+  "tailleMoyenne": 55,
+  "regime": "Fruits, nectar, fleurs, feuilles, graines et parfois champignons",
+  "regimeEmoji": [
+    "🍎",
+    "🧃",
+    "🌺",
+    "🥬",
+    "🫘",
+    "🍄"
+  ],
+  "habitat": "Forêts tropicales humides, canopée, grands arbres et lisières",
+  "description": "Lémurien noir et blanc à collerette claire et longue queue touffue.",
+  "keywords": "lemurien maki vari noir blanc Madagascar singe arbre foret queue collerette groupe",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260815_maki-vari-noir-et-blanc.jpg",
+      "lieu": "Parc Sainte-Croix, Rhodes",
+      "date": "2026-08-15"
+    }
+  ]
+}

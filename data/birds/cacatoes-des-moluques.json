@@ -1,0 +1,33 @@
+﻿{
+  "id": "cacatoes-des-moluques",
+  "nom": "Cacatoès des Moluques",
+  "nomScientifique": "Cacatua moluccensis",
+  "famille": "Cacatuidae",
+  "sousFamille": "Cacatuinae",
+  "ordre": "Psittaciforme",
+  "repartition": "Sud des Moluques, en Indonésie.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "46 à 52 cm",
+  "tailleMoyenne": 49,
+  "envergure": "90 à 100 cm",
+  "regime": "Graines, noix, fruits, baies, fleurs et jeunes pousses",
+  "regimeEmoji": [
+    "🫘",
+    "🥜",
+    "🍎",
+    "🫐",
+    "🌺",
+    "🌱"
+  ],
+  "habitat": "Forêts tropicales, lisières, mangroves, plantations et zones arborées",
+  "description": "Grand cacatoès blanc rosé à huppe saumon spectaculaire.",
+  "keywords": "oiseau cacatoes moluques blanc rose huppe saumon perroquet Indonesie",
+  "photos": [
+    {
+      "fichier": "images/birds/20260927_cacatoes-des-moluques.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

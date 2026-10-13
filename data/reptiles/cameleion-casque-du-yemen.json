@@ -1,0 +1,32 @@
+﻿{
+  "id": "cameleion-casque-du-yemen",
+  "nom": "Caméléon casqué du Yémen",
+  "nomAlt": "Caméléon voilé",
+  "nomScientifique": "Chamaeleo calyptratus",
+  "famille": "Chamaeleonidae",
+  "sousFamille": "Chamaeleoninae",
+  "ordre": "Squamate",
+  "repartition": "Sud-ouest de la péninsule Arabique, principalement Yémen et Arabie saoudite.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "35 à 60 cm de long",
+  "tailleMoyenne": 48,
+  "regime": "Insectes, petits invertébrés et parfois feuilles, fleurs ou fruits",
+  "regimeEmoji": [
+    "🦟",
+    "🐛",
+    "🥬",
+    "🌺",
+    "🍎"
+  ],
+  "habitat": "Zones arborées sèches, vallées, broussailles, jardins, arbustes et milieux chauds",
+  "description": "Caméléon à grand casque, capable de changer de couleur selon son état.",
+  "keywords": "cameleon casque voile Yemen reptile lezard vert jaune rayures couleur changeante yeux langue arbre branche chaud exotique",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20231222_cameleion-casque-du-yemen.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2023-12-22"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+﻿{
+  "id": "paresseux-a-2-doigts",
+  "nom": "Paresseux à deux doigts",
+  "nomScientifique": "Choloepus didactylus",
+  "famille": "Choloepodidae",
+  "sousFamille": "",
+  "ordre": "Pilosa",
+  "repartition": "Nord de l’Amérique du Sud, dans les forêts tropicales humides.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "50 à 70 cm de long",
+  "tailleMoyenne": 60,
+  "regime": "Feuilles, fruits, fleurs, jeunes pousses et végétaux arboricoles",
+  "regimeEmoji": [
+    "🥬",
+    "🍎",
+    "🌺",
+    "🌱"
+  ],
+  "habitat": "Forêts tropicales humides, canopée, grands arbres et lisières",
+  "description": "Mammifère arboricole lent, suspendu aux branches par ses longues griffes.",
+  "keywords": "paresseux deux doigts lent arbre foret jungle griffes suspendu Amerique Sud",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260303_paresseux-a-2-doigts.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-03-03"
+    },
+    {
+      "fichier": "images/mammals/20240807_paresseux-a-2-doigts.jpg",
+      "lieu": "Den Blå Planet, Copenhague, Danemark",
+      "date": "2024-08-07"
+    },
+    {
+      "fichier": "images/mammals/20240807_paresseux-a-2-doigts-02.jpg",
+      "lieu": "Den Blå Planet, Copenhague, Danemark",
+      "date": "2024-08-07"
+    }
+  ]
+}

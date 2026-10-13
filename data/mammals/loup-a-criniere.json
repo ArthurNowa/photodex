@@ -1,0 +1,32 @@
+﻿{
+  "id": "loup-a-criniere",
+  "nom": "Loup à crinière",
+  "nomScientifique": "Chrysocyon brachyurus",
+  "famille": "Canidae",
+  "sousFamille": "Caninae",
+  "ordre": "Carnivore",
+  "repartition": "Amérique du Sud, surtout Brésil, Bolivie, Paraguay et nord de l’Argentine.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "80 à 90 cm de haut",
+  "tailleMoyenne": 85,
+  "regime": "Fruits, petits mammifères, oiseaux, reptiles, insectes et végétaux",
+  "regimeEmoji": [
+    "🍎",
+    "🐁",
+    "🐦",
+    "🦎",
+    "🐛",
+    "🌱"
+  ],
+  "habitat": "Savanes, cerrados, prairies hautes, zones ouvertes et broussailles",
+  "description": "Grand canidé roux aux très longues pattes et à la crinière sombre.",
+  "keywords": "loup criniere canide roux orange longues pattes savane Amerique Sud renard",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260505_loup-a-criniere.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-05-05"
+    }
+  ]
+}

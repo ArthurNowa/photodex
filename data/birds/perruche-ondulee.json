@@ -1,0 +1,30 @@
+﻿{
+  "id": "perruche-ondulee",
+  "nom": "Perruche ondulée",
+  "nomScientifique": "Melopsittacus undulatus",
+  "famille": "Psittaculidae",
+  "sousFamille": "Loriinae",
+  "ordre": "Psittaciforme",
+  "repartition": "Australie intérieure ; élevée comme oiseau domestique dans le monde entier.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "17 à 20 cm",
+  "tailleMoyenne": 18,
+  "envergure": "Environ 30 cm",
+  "regime": "Graines, herbes, jeunes pousses, fruits et végétaux",
+  "regimeEmoji": [
+    "🫘",
+    "🌱",
+    "🍎"
+  ],
+  "habitat": "Prairies sèches, savanes, brousses, zones arides, volières et habitations",
+  "description": "Petite perruche colorée au plumage ondulé, très commune en captivité.",
+  "keywords": "oiseau perruche ondulee jaune vert bleu cage Australie graine perroquet",
+  "photos": [
+    {
+      "fichier": "images/birds/20260927_perruche-ondulee.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

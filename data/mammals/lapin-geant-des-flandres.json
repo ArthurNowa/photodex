@@ -1,0 +1,28 @@
+﻿{
+  "id": "lapin-geant-des-flandres",
+  "nom": "Lapin géant des Flandres",
+  "nomScientifique": "Oryctolagus cuniculus domesticus",
+  "famille": "Leporidae",
+  "sousFamille": "",
+  "ordre": "Lagomorphe",
+  "repartition": "Race domestique originaire de Belgique, élevée dans de nombreux pays.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "35 à 45 cm de haut",
+  "tailleMoyenne": 40,
+  "regime": "Foin, herbes, feuilles, légumes, racines et jeunes pousses",
+  "regimeEmoji": [
+    "🌱",
+    "🥬"
+  ],
+  "habitat": "Fermes, enclos, jardins, clapiers, élevages et habitations",
+  "description": "Très grand lapin domestique au corps massif et aux longues oreilles.",
+  "keywords": "lapin geant flandres grand domestique belge oreilles longues ferme enclos gris brun",
+  "photos": [
+    {
+      "fichier": "images/mammals/20251010_lapin-geant-des-flandres.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-10"
+    }
+  ]
+}

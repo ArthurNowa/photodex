@@ -1,0 +1,28 @@
+﻿{
+  "id": "chenille-sphinx-du-pin",
+  "nom": "Chenille du sphinx du pin",
+  "nomScientifique": "Sphinx pinastri",
+  "famille": "Sphingidae",
+  "sousFamille": "Sphinginae",
+  "ordre": "Lépidoptère",
+  "repartition": "Europe et Asie tempérée ; présent en France dans les régions avec pins.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Chenille jusqu’à 70 à 80 mm",
+  "tailleMoyenne": 75,
+  "regime": "Aiguilles de pins et autres conifères",
+  "regimeEmoji": [
+    "🥬",
+    "🌱"
+  ],
+  "habitat": "Pinèdes, forêts de conifères, bois mixtes, lisières, parcs et jardins avec pins",
+  "description": "Grande chenille verte rayée, avec une corne sombre à l’arrière.",
+  "keywords": "chenille verte rayures corne sphinx pin conifere foret arbre aiguilles grosse",
+  "photos": [
+    {
+      "fichier": "images/insects/20260811_chenille-sphinx-du-pin.jpg",
+      "lieu": "Sentier des perles de vologne, Gérardmer, Vosges",
+      "date": "2026-08-11"
+    }
+  ]
+}

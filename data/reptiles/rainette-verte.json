@@ -1,0 +1,29 @@
+﻿{
+  "id": "rainette-verte",
+  "nom": "Rainette verte",
+  "nomScientifique": "Hyla arborea",
+  "famille": "Hylidae",
+  "sousFamille": "Hylinae",
+  "ordre": "Anoure",
+  "repartition": "Europe occidentale et centrale ; présente localement en France.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "3 à 5 cm",
+  "tailleMoyenne": 4,
+  "regime": "Insectes, araignées, petits invertébrés et larves",
+  "regimeEmoji": [
+    "🦟",
+    "🐛",
+    "🕷️"
+  ],
+  "habitat": "Mares, haies, roselières, buissons, jardins humides et zones ensoleillées",
+  "description": "Petite grenouille verte arboricole, aux doigts adhésifs.",
+  "keywords": "grenouille rainette verte amphibien arbre mare doigt ventouse chant",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20250806_rainette-verte.jpg",
+      "lieu": "Skansen, Stockholm, Suède",
+      "date": "2025-08-06"
+    }
+  ]
+}

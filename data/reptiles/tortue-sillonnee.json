@@ -1,0 +1,29 @@
+﻿{
+  "id": "tortue-sillonnee",
+  "nom": "Tortue sillonnée",
+  "nomScientifique": "Centrochelys sulcata",
+  "famille": "Testudinidae",
+  "sousFamille": "Testudininae",
+  "ordre": "Testudines",
+  "repartition": "Sahel et zones sèches d’Afrique subsaharienne.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "60 à 80 cm de long",
+  "tailleMoyenne": 70,
+  "regime": "Herbes, plantes sèches, feuilles, fleurs et végétaux pauvres en eau",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🌺"
+  ],
+  "habitat": "Savanes sèches, steppes, zones semi-désertiques, terriers et broussailles",
+  "description": "Grande tortue terrestre beige, à carapace fortement sillonnée.",
+  "keywords": "tortue sillonnee reptile carapace beige desert Afrique terrestre herbe",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20260927_tortue-sillonnee.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+﻿{
+  "id": "fossa",
+  "nom": "Fossa",
+  "nomScientifique": "Cryptoprocta ferox",
+  "famille": "Eupleridae",
+  "sousFamille": "Euplerinae",
+  "ordre": "Carnivore",
+  "repartition": "Madagascar, dans les forêts sèches et humides.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "35 à 45 cm de haut",
+  "tailleMoyenne": 40,
+  "regime": "Lémuriens, petits mammifères, oiseaux, reptiles, amphibiens et insectes",
+  "regimeEmoji": [
+    "🍗",
+    "🐁",
+    "🐦",
+    "🦎",
+    "🐸",
+    "🐛"
+  ],
+  "habitat": "Forêts tropicales, forêts sèches, lisières, arbres et sous-bois",
+  "description": "Carnivore malgache brun, agile, à longue queue et corps allongé.",
+  "keywords": "fossa Madagascar carnivore brun long queue arbre foret predateur lemurien",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260725_fossa.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-07-25"
+    }
+  ]
+}

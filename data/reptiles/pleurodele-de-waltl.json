@@ -1,0 +1,30 @@
+﻿{
+  "id": "pleurodele-de-waltl",
+  "nom": "Pleurodèle de Waltl",
+  "nomScientifique": "Pleurodeles waltl",
+  "famille": "Salamandridae",
+  "sousFamille": "Pleurodelinae",
+  "ordre": "Urodèle",
+  "repartition": "Péninsule Ibérique et Maroc.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "20 à 30 cm de long",
+  "tailleMoyenne": 25,
+  "regime": "Vers, insectes, larves, crustacés, petits poissons et invertébrés aquatiques",
+  "regimeEmoji": [
+    "🪱",
+    "🐛",
+    "🦐",
+    "🐟"
+  ],
+  "habitat": "Mares, étangs temporaires, fossés, eaux calmes, zones humides et aquariums",
+  "description": "Grand triton brun, capable de faire saillir ses côtes en défense.",
+  "keywords": "triton pleurodele amphibien brun eau mare Espagne Maroc aquatique",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20260919_pleurodele-de-waltl.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

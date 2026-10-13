@@ -1,0 +1,31 @@
+﻿{
+  "id": "loutre-naine-d-asie",
+  "nom": "Loutre naine d’Asie",
+  "nomScientifique": "Aonyx cinereus",
+  "famille": "Mustelidae",
+  "sousFamille": "Lutrinae",
+  "ordre": "Carnivore",
+  "repartition": "Asie du Sud et du Sud-Est, des zones humides à la mangrove.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "20 à 30 cm de haut",
+  "tailleMoyenne": 25,
+  "regime": "Crustacés, coquillages, poissons, amphibiens, insectes et petits animaux aquatiques",
+  "regimeEmoji": [
+    "🦐",
+    "🦪",
+    "🐟",
+    "🐸",
+    "🦟"
+  ],
+  "habitat": "Rivières, marais, mangroves, rizières, lacs et berges végétalisées",
+  "description": "Petite loutre brune très sociale, aux pattes avant agiles.",
+  "keywords": "loutre naine asiatique brun eau riviere poisson coquillage groupe nage moustaches",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260303_loutre-naine-d-asie.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-03-03"
+    }
+  ]
+}

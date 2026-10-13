@@ -1,0 +1,30 @@
+﻿{
+  "id": "salamandre-tachetee",
+  "nom": "Salamandre tachetée",
+  "nomScientifique": "Salamandra salamandra",
+  "famille": "Salamandridae",
+  "sousFamille": "Salamandrinae",
+  "ordre": "Urodèle",
+  "repartition": "Europe occidentale, centrale et méridionale ; commune dans de nombreuses régions françaises.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "15 à 25 cm de long",
+  "tailleMoyenne": 20,
+  "regime": "Vers, limaces, insectes, araignées et petits invertébrés",
+  "regimeEmoji": [
+    "🪱",
+    "🐌",
+    "🐛",
+    "🕷️"
+  ],
+  "habitat": "Forêts humides, sous-bois, feuilles mortes, ruisseaux, pierres et souches",
+  "description": "Amphibien noir à taches jaunes, actif surtout par temps humide.",
+  "keywords": "salamandre noire jaune taches amphibien foret humide pluie feuilles ruisseau",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20251025_salamandre-tachetee.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-25"
+    }
+  ]
+}

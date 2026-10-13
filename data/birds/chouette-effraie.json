@@ -1,0 +1,31 @@
+﻿{
+  "id": "chouette-effraie",
+  "nom": "Chouette effraie",
+  "nomScientifique": "Tyto alba",
+  "famille": "Tytonidae",
+  "sousFamille": "Tytoninae",
+  "ordre": "Strigiforme",
+  "repartition": "Présente sur tous les continents sauf Antarctique, surtout en zones ouvertes.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "33 à 39 cm",
+  "tailleMoyenne": 36,
+  "envergure": "80 à 95 cm",
+  "regime": "Rongeurs, petits mammifères, oiseaux, amphibiens et insectes",
+  "regimeEmoji": [
+    "🐁",
+    "🐦",
+    "🐸",
+    "🐛"
+  ],
+  "habitat": "Granges, clochers, fermes, bocages, champs, prairies et bâtiments",
+  "description": "Chouette pâle au visage blanc en forme de cœur.",
+  "keywords": "oiseau chouette effraie blanche coeur nuit grange clocher rapace nocturne",
+  "photos": [
+    {
+      "fichier": "images/birds/20251010_chouette-effraie.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-10"
+    }
+  ]
+}

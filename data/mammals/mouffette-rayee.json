@@ -1,0 +1,34 @@
+﻿{
+  "id": "mouffette-rayee",
+  "nom": "Mouffette rayée",
+  "nomScientifique": "Mephitis mephitis",
+  "famille": "Mephitidae",
+  "sousFamille": "Mephitinae",
+  "ordre": "Carnivore",
+  "repartition": "Amérique du Nord, du Canada au nord du Mexique.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "20 à 30 cm de haut",
+  "tailleMoyenne": 25,
+  "regime": "Insectes, vers, petits mammifères, œufs, fruits, baies, charognes et déchets",
+  "regimeEmoji": [
+    "🐛",
+    "🪱",
+    "🐁",
+    "🥚",
+    "🍎",
+    "🫐",
+    "🦴",
+    "🍂"
+  ],
+  "habitat": "Forêts claires, prairies, jardins, zones agricoles, parcs et abords urbains",
+  "description": "Petit carnivore noir rayé de blanc, célèbre pour son jet odorant.",
+  "keywords": "mouffette skunk noir blanc rayures odeur queue Amerique nuit",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260927_mouffette-rayee.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

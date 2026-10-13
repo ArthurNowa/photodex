@@ -1,0 +1,32 @@
+﻿{
+  "id": "canard-mandarin",
+  "nom": "Canard mandarin",
+  "nomScientifique": "Aix galericulata",
+  "famille": "Anatidae",
+  "sousFamille": "Anatinae",
+  "ordre": "Ansériforme",
+  "repartition": "Asie de l’Est ; introduit en Europe, notamment dans les parcs.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "41 à 49 cm",
+  "tailleMoyenne": 45,
+  "envergure": "65 à 75 cm",
+  "regime": "Graines, plantes aquatiques, fruits, insectes, mollusques et petits invertébrés",
+  "regimeEmoji": [
+    "🫘",
+    "🌱",
+    "🍎",
+    "🐛",
+    "🐌"
+  ],
+  "habitat": "Étangs, lacs, rivières lentes, parcs, bois humides et berges arborées",
+  "description": "Canard très coloré chez le mâle, aux plumes orangées en voile.",
+  "keywords": "oiseau canard mandarin colore orange vert violet eau parc etang Asie",
+  "photos": [
+    {
+      "fichier": "images/birds/20260927_canard-mandarin.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

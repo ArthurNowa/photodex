@@ -1,0 +1,32 @@
+﻿{
+  "id": "heron-garde-boeuf",
+  "nom": "Héron garde-bœuf",
+  "nomScientifique": "Bubulcus ibis",
+  "famille": "Ardeidae",
+  "sousFamille": "Ardeinae",
+  "ordre": "Pélécaniforme",
+  "repartition": "Régions chaudes d’Afrique, Europe, Asie, Amériques et Océanie.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "46 à 56 cm",
+  "tailleMoyenne": 51,
+  "envergure": "88 à 96 cm",
+  "regime": "Insectes, criquets, vers, amphibiens, petits reptiles et petits mammifères",
+  "regimeEmoji": [
+    "🐛",
+    "🪱",
+    "🐸",
+    "🦎",
+    "🐁"
+  ],
+  "habitat": "Prairies, champs, pâturages, zones humides, rizières et abords du bétail",
+  "description": "Petit héron blanc souvent vu près du bétail.",
+  "keywords": "oiseau heron blanc boeuf vache champ prairie betail insecte",
+  "photos": [
+    {
+      "fichier": "images/birds/20260303_heron-garde-boeuf.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-03-03"
+    }
+  ]
+}

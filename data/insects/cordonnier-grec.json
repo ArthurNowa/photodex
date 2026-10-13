@@ -1,0 +1,29 @@
+﻿{
+  "id": "cordonnier-grec",
+  "nom": "Cordonnier grec",
+  "nomScientifique": "Catonephele numilia",
+  "famille": "Nymphalidae",
+  "sousFamille": "Biblidinae",
+  "ordre": "Lépidoptère",
+  "repartition": "Amérique centrale et Amérique du Sud tropicale.",
+  "categorie": "insects",
+  "type": "Insecte",
+  "taille": "Envergure de 55 à 70 mm",
+  "tailleMoyenne": 32,
+  "regime": "Nectar, jus de fruits mûrs et fruits fermentés",
+  "regimeEmoji": [
+    "🧃",
+    "🍎",
+    "🍯"
+  ],
+  "habitat": "Forêts tropicales, lisières, clairières, jardins, serres et zones fruitières",
+  "description": "Papillon tropical sombre, marqué de blanc et d’orangé selon le sexe.",
+  "keywords": "papillon cordonnier grec noir blanc orange tropical serre fruit foret ailes",
+  "photos": [
+    {
+      "fichier": "images/insects/20240808_cordonnier-grec.jpg",
+      "lieu": "Den Blå Planet, Copenhague, Danemark",
+      "date": "2024-08-08"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+﻿{
+  "id": "dendrobate-d-anthony",
+  "nom": "Dendrobate d’Anthony",
+  "nomScientifique": "Epipedobates anthonyi",
+  "famille": "Dendrobatidae",
+  "sousFamille": "Colostethinae",
+  "ordre": "Anoure",
+  "repartition": "Équateur et Pérou, dans les forêts tropicales humides.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "2 à 3 cm",
+  "tailleMoyenne": 2.5,
+  "regime": "Petits insectes, fourmis, collemboles, acariens et micro-invertébrés",
+  "regimeEmoji": [
+    "🐛",
+    "🦟"
+  ],
+  "habitat": "Forêts tropicales, litière humide, ruisseaux, terrariums et zones ombragées",
+  "description": "Petite grenouille colorée, souvent rougeâtre avec lignes claires.",
+  "keywords": "grenouille dendrobate Anthony rouge amphibien tropical terrarium humide petit",
+  "photos": [
+    {
+      "fichier": "images/reptiles/20240807_dendrobate-d-anthony.jpg",
+      "lieu": "Den Blå Planet, Copenhague, Danemark",
+      "date": "2024-08-07"
+    }
+  ]
+}

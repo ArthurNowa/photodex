@@ -1,0 +1,29 @@
+﻿{
+  "id": "chevre-angora",
+  "nom": "Chèvre angora",
+  "nomScientifique": "Capra hircus",
+  "famille": "Bovidae",
+  "sousFamille": "Caprinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Race domestique originaire d’Anatolie, aujourd’hui élevée dans plusieurs régions du monde.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "Environ 70 à 100 cm de haut selon les individus",
+  "tailleMoyenne": 85,
+  "regime": "Herbes, feuilles, foin, jeunes pousses, écorces et végétaux variés",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🪵"
+  ],
+  "habitat": "Fermes, pâturages, prairies, enclos et élevages caprins",
+  "description": "Chèvre domestique au long pelage bouclé, élevée pour sa laine mohair.",
+  "keywords": "chevre angora domestique ferme laine mohair poils longs boucles blanc cornes prairie paturage enclos foin herbe douce",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260919_chevre-angora.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

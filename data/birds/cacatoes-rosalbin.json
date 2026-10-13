@@ -1,0 +1,32 @@
+﻿{
+  "id": "cacatoes-rosalbin",
+  "nom": "Cacatoès rosalbin",
+  "nomScientifique": "Eolophus roseicapilla",
+  "famille": "Cacatuidae",
+  "sousFamille": "Cacatuinae",
+  "ordre": "Psittaciforme",
+  "repartition": "Australie, surtout zones ouvertes, campagnes, villes et régions sèches.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "35 à 38 cm",
+  "tailleMoyenne": 36,
+  "envergure": "70 à 80 cm",
+  "regime": "Graines, fruits, racines, herbes, fleurs et parfois insectes",
+  "regimeEmoji": [
+    "🫘",
+    "🍎",
+    "🌱",
+    "🌺",
+    "🐛"
+  ],
+  "habitat": "Savanes, prairies, villes, parcs, champs, bois clairs et zones semi-arides",
+  "description": "Cacatoès gris et rose, très social et souvent bruyant.",
+  "keywords": "oiseau cacatoes rose gris rosalbin Australie perroquet huppe bec groupe",
+  "photos": [
+    {
+      "fichier": "images/birds/20260927_cacatoes-rosalbin.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

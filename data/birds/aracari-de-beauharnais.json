@@ -1,0 +1,32 @@
+﻿{
+  "id": "aracari-de-beauharnais",
+  "nom": "Araçari de Beauharnais",
+  "nomScientifique": "Pteroglossus beauharnaesii",
+  "famille": "Ramphastidae",
+  "sousFamille": "",
+  "ordre": "Piciforme",
+  "repartition": "Amazonie occidentale, surtout Brésil, Pérou et Bolivie.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "40 à 45 cm",
+  "tailleMoyenne": 42,
+  "envergure": "Environ 55 à 65 cm",
+  "regime": "Fruits, baies, insectes, œufs et petits animaux",
+  "regimeEmoji": [
+    "🍎",
+    "🫐",
+    "🐛",
+    "🥚",
+    "🐁"
+  ],
+  "habitat": "Forêts tropicales humides, canopée, lisières et grands arbres",
+  "description": "Petit toucan sombre à plumes frisées sur la tête.",
+  "keywords": "oiseau aracari toucan bec tropical foret Amazonie fruit plumes tete",
+  "photos": [
+    {
+      "fichier": "images/birds/20260919_aracari-de-beauharnais.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+﻿{
+  "id": "foulque",
+  "nom": "Foulque macroule",
+  "nomScientifique": "Fulica atra",
+  "famille": "Rallidae",
+  "sousFamille": "Rallinae",
+  "ordre": "Gruiforme",
+  "repartition": "Europe, Afrique du Nord, Asie et Océanie.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "36 à 42 cm",
+  "tailleMoyenne": 39,
+  "envergure": "70 à 80 cm",
+  "regime": "Plantes aquatiques, graines, herbes, mollusques, insectes et petits invertébrés",
+  "regimeEmoji": [
+    "🌱",
+    "🫘",
+    "🥬",
+    "🐌",
+    "🐛"
+  ],
+  "habitat": "Étangs, lacs, marais, rivières lentes, canaux et roselières",
+  "description": "Oiseau d’eau noir au bec et à la plaque frontale blancs.",
+  "keywords": "oiseau foulque noir blanc bec eau etang mare lac nage",
+  "photos": [
+    {
+      "fichier": "images/birds/20261010_foulque.jpg",
+      "lieu": "Branche de Croix, Flers Breucq",
+      "date": "2026-10-10"
+    }
+  ]
+}

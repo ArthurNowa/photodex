@@ -1,0 +1,29 @@
+﻿{
+  "id": "manchot-papou",
+  "nom": "Manchot papou",
+  "nomScientifique": "Pygoscelis papua",
+  "famille": "Spheniscidae",
+  "sousFamille": "",
+  "ordre": "Sphénisciforme",
+  "repartition": "Îles subantarctiques et péninsule Antarctique.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "70 à 90 cm",
+  "tailleMoyenne": 80,
+  "envergure": "Environ 65 à 80 cm",
+  "regime": "Poissons, krill, crustacés et calmars",
+  "regimeEmoji": [
+    "🐟",
+    "🦐"
+  ],
+  "habitat": "Côtes rocheuses, plages froides, îles subantarctiques et eaux marines",
+  "description": "Manchot à bec orange et bande blanche au-dessus des yeux.",
+  "keywords": "oiseau manchot pingouin papou noir blanc orange froid antarctique mer",
+  "photos": [
+    {
+      "fichier": "images/birds/20260103_manchot-papou.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-01-03"
+    }
+  ]
+}

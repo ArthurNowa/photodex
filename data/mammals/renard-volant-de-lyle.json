@@ -1,0 +1,29 @@
+﻿{
+  "id": "renard-volant-de-lyle",
+  "nom": "Renard volant de Lyle",
+  "nomScientifique": "Pteropus lylei",
+  "famille": "Pteropodidae",
+  "sousFamille": "Pteropodinae",
+  "ordre": "Chiroptère",
+  "repartition": "Asie du Sud-Est, notamment Thaïlande, Cambodge, Vietnam et régions voisines.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "20 à 30 cm de haut au repos",
+  "tailleMoyenne": 25,
+  "regime": "Fruits, nectar, pollen et fleurs",
+  "regimeEmoji": [
+    "🍎",
+    "🧃",
+    "🌺"
+  ],
+  "habitat": "Forêts tropicales, mangroves, vergers, arbres dortoirs et zones cultivées",
+  "description": "Grande chauve-souris frugivore au museau de renard.",
+  "keywords": "chauve souris renard volant fruit aile nuit arbre Asie colonie",
+  "photos": [
+    {
+      "fichier": "images/mammals/20251025_renard-volant-de-lyle.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-25"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+﻿{
+  "id": "lemur-noir",
+  "nom": "Lémur noir",
+  "nomScientifique": "Eulemur macaco",
+  "famille": "Lemuridae",
+  "sousFamille": "Lemurinae",
+  "ordre": "Primates",
+  "repartition": "Nord-ouest de Madagascar et îles voisines.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "35 à 45 cm de long, sans compter la queue",
+  "tailleMoyenne": 40,
+  "regime": "Fruits, feuilles, fleurs, nectar, champignons et petits invertébrés",
+  "regimeEmoji": [
+    "🍎",
+    "🥬",
+    "🌺",
+    "🧃",
+    "🍄",
+    "🐛"
+  ],
+  "habitat": "Forêts tropicales humides, forêts sèches, lisières et arbres",
+  "description": "Lémurien sombre chez le mâle, brun chez la femelle, très arboricole.",
+  "keywords": "lemur noir brun Madagascar singe arbre foret queue primate groupe fruit",
+  "photos": [
+    {
+      "fichier": "images/mammals/20240803_lemur-noir.jpg",
+      "lieu": "Aalborg Zoo, Danemark",
+      "date": "2024-08-03"
+    }
+  ]
+}

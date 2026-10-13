@@ -1,0 +1,31 @@
+﻿{
+  "id": "langur-de-francois",
+  "nom": "Langur de François",
+  "nomScientifique": "Trachypithecus francoisi",
+  "famille": "Cercopithecidae",
+  "sousFamille": "Colobinae",
+  "ordre": "Primates",
+  "repartition": "Sud de la Chine, nord du Vietnam et Laos, surtout zones karstiques.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "55 à 65 cm de haut",
+  "tailleMoyenne": 60,
+  "regime": "Feuilles, jeunes pousses, fruits, graines, fleurs et bourgeons",
+  "regimeEmoji": [
+    "🥬",
+    "🌱",
+    "🍎",
+    "🫘",
+    "🌺"
+  ],
+  "habitat": "Forêts tropicales, falaises calcaires, reliefs karstiques et canopée",
+  "description": "Singe noir élancé, à longues favoris blancs autour du visage.",
+  "keywords": "langur francois singe noir blanc visage Chine Vietnam falaise foret arbre",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260919_langur-de-francois.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

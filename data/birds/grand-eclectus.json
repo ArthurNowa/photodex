@@ -1,0 +1,34 @@
+﻿{
+  "id": "grand-eclectus",
+  "nom": "Grand Éclectus",
+  "nomScientifique": "Eclectus roratus",
+  "famille": "Psittaculidae",
+  "sousFamille": "Psittaculinae",
+  "ordre": "Psittaciforme",
+  "repartition": "Nouvelle-Guinée, îles Salomon, Moluques et nord-est de l’Australie.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "35 à 42 cm",
+  "tailleMoyenne": 38,
+  "envergure": "Environ 60 à 70 cm",
+  "regime": "Fruits, baies, graines, noix, fleurs, nectar et bourgeons",
+  "regimeEmoji": [
+    "🍎",
+    "🫐",
+    "🫘",
+    "🥜",
+    "🌺",
+    "🧃",
+    "🌱"
+  ],
+  "habitat": "Forêts tropicales, lisières, mangroves, jardins et zones arborées",
+  "description": "Grand perroquet vert chez le mâle, rouge et bleu chez la femelle.",
+  "keywords": "oiseau perroquet eclectus vert rouge bleu bec tropical fruit foret",
+  "photos": [
+    {
+      "fichier": "images/birds/20260927_grand-eclectus.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-27"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+﻿{
+  "id": "coati",
+  "nom": "Coati roux",
+  "nomScientifique": "Nasua nasua",
+  "famille": "Procyonidae",
+  "sousFamille": "Procyoninae",
+  "ordre": "Carnivore",
+  "repartition": "Amérique du Sud, surtout forêts tropicales et savanes boisées.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "30 à 40 cm de haut",
+  "tailleMoyenne": 35,
+  "regime": "Fruits, insectes, vers, petits reptiles, œufs, petits mammifères et déchets",
+  "regimeEmoji": [
+    "🍎",
+    "🐛",
+    "🪱",
+    "🦎",
+    "🥚",
+    "🐁",
+    "🍂"
+  ],
+  "habitat": "Forêts tropicales, lisières, savanes boisées, mangroves et zones arborées",
+  "description": "Petit carnivore au museau long et à la queue souvent dressée.",
+  "keywords": "coati roux museau long queue annelee brun foret groupe Amerique Sud",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260725_coati.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-07-25"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+﻿{
+  "id": "sitatunga",
+  "nom": "Sitatunga",
+  "nomScientifique": "Tragelaphus spekii",
+  "famille": "Bovidae",
+  "sousFamille": "Bovinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Afrique centrale, orientale et australe, dans les zones humides.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "100 à 125 cm de haut",
+  "tailleMoyenne": 112,
+  "regime": "Herbes, feuilles, roseaux, plantes aquatiques, jeunes pousses et fruits",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🍎"
+  ],
+  "habitat": "Marais, papyrus, roselières, marécages, berges et forêts inondées",
+  "description": "Antilope brune des marais, aux longs sabots adaptés aux sols mous.",
+  "keywords": "antilope sitatunga brun marais eau roseaux sabots cornes Afrique humide",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260919_sitatunga.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-09-19"
+    }
+  ]
+}

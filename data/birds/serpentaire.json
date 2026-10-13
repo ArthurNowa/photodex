@@ -1,0 +1,32 @@
+﻿{
+  "id": "serpentaire",
+  "nom": "Serpentaire",
+  "nomScientifique": "Sagittarius serpentarius",
+  "famille": "Sagittariidae",
+  "sousFamille": "",
+  "ordre": "Accipitriforme",
+  "repartition": "Afrique subsaharienne, surtout savanes et plaines ouvertes.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "120 à 150 cm",
+  "tailleMoyenne": 135,
+  "envergure": "190 à 210 cm",
+  "regime": "Serpents, lézards, insectes, petits mammifères, oiseaux et œufs",
+  "regimeEmoji": [
+    "🦎",
+    "🐛",
+    "🐁",
+    "🐦",
+    "🥚"
+  ],
+  "habitat": "Savanes, prairies, steppes, plaines ouvertes et zones herbeuses",
+  "description": "Grand rapace terrestre aux longues pattes et plumes noires sur la tête.",
+  "keywords": "oiseau serpentaire rapace longues pattes Afrique savane serpent marche",
+  "photos": [
+    {
+      "fichier": "images/birds/20251025_serpentaire.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-25"
+    }
+  ]
+}

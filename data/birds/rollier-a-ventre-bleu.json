@@ -1,0 +1,30 @@
+﻿{
+  "id": "rollier-a-ventre-bleu",
+  "nom": "Rollier à ventre bleu",
+  "nomScientifique": "Coracias cyanogaster",
+  "famille": "Coraciidae",
+  "sousFamille": "",
+  "ordre": "Coraciiforme",
+  "repartition": "Afrique de l’Ouest et centrale, surtout savanes et bois clairs.",
+  "categorie": "birds",
+  "type": "Oiseau",
+  "taille": "28 à 30 cm",
+  "tailleMoyenne": 29,
+  "envergure": "Environ 50 à 55 cm",
+  "regime": "Insectes, petits reptiles, amphibiens et petits invertébrés",
+  "regimeEmoji": [
+    "🐛",
+    "🦎",
+    "🐸"
+  ],
+  "habitat": "Savanes arborées, bois clairs, lisières, champs et zones ouvertes",
+  "description": "Oiseau coloré bleu et brun, souvent perché en évidence.",
+  "keywords": "oiseau rollier bleu ventre brun couleur Afrique savane perche insecte",
+  "photos": [
+    {
+      "fichier": "images/birds/20251025_rollier-a-ventre-bleu.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2025-10-25"
+    }
+  ]
+}

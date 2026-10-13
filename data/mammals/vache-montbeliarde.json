@@ -1,0 +1,29 @@
+﻿{
+  "id": "vache-montbeliarde",
+  "nom": "Vache montbéliarde",
+  "nomScientifique": "Bos taurus",
+  "famille": "Bovidae",
+  "sousFamille": "Bovinae",
+  "ordre": "Artiodactyle",
+  "repartition": "Race bovine originaire de Franche-Comté, élevée surtout en France et en Europe.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "145 à 155 cm de haut",
+  "tailleMoyenne": 150,
+  "regime": "Herbes, foin, fourrages, feuilles, céréales et végétaux",
+  "regimeEmoji": [
+    "🌱",
+    "🥬",
+    "🫘"
+  ],
+  "habitat": "Prairies, pâturages, fermes, élevages laitiers et zones rurales",
+  "description": "Vache pie rouge et blanche, réputée pour la production laitière.",
+  "keywords": "vache montbeliarde bovin rouge blanc ferme prairie lait cornes paturage",
+  "photos": [
+    {
+      "fichier": "images/mammals/20250620_vache-montbeliarde.jpg",
+      "lieu": "Chemin des écluses, Chéreng",
+      "date": "2025-06-20"
+    }
+  ]
+}

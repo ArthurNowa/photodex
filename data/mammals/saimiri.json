@@ -1,0 +1,32 @@
+﻿{
+  "id": "saimiri",
+  "nom": "Saïmiri commun",
+  "nomScientifique": "Saimiri sciureus",
+  "famille": "Cebidae",
+  "sousFamille": "Saimiriinae",
+  "ordre": "Primates",
+  "repartition": "Amazonie et nord de l’Amérique du Sud, selon les populations.",
+  "categorie": "mammals",
+  "type": "Mammifère",
+  "taille": "25 à 35 cm de haut",
+  "tailleMoyenne": 30,
+  "regime": "Fruits, insectes, nectar, graines, petits vertébrés et fleurs",
+  "regimeEmoji": [
+    "🍎",
+    "🐛",
+    "🧃",
+    "🫘",
+    "🐁",
+    "🌺"
+  ],
+  "habitat": "Forêts tropicales, canopée, lisières, berges boisées et forêts inondables",
+  "description": "Petit singe jaune et gris, vif, vivant souvent en groupe.",
+  "keywords": "saimiri singe ecureuil jaune gris petit Amerique foret arbre groupe",
+  "photos": [
+    {
+      "fichier": "images/mammals/20260505_saimiri.jpg",
+      "lieu": "Pairi Daiza",
+      "date": "2026-05-05"
+    }
+  ]
+}

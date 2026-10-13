@@ -1,0 +1,25 @@
+{
+  "id": "cameleon-casque-du-yemen",
+  "nom": "Caméléon casqué du Yémen",
+  "nomScientifique": "Chamaeleo calyptratus",
+  "famille": "Chamaeleonidae",
+  "sousFamille": "Chamaeleoninae",
+  "ordre": "Squamate",
+  "repartition": "Yémen et sud-ouest de l’Arabie saoudite.",
+  "categorie": "reptiles",
+  "type": "Reptile",
+  "taille": "35 à 60 cm de long",
+  "tailleMoyenne": 48,
+  "regime": "Insectes, petits invertébrés, feuilles, fleurs et parfois petits vertébrés",
+  "regimeEmoji": [
+    "🐛",
+    "🦟",
+    "🥬",
+    "🌺",
+    "🐁"
+  ],
+  "habitat": "Zones sèches arborées, vallées, broussailles, jardins, arbustes et terrariums",
+  "description": "Caméléon à grand casque, changeant de couleur selon l’état et la lumière.",
+  "keywords": "cameleon casque yemen lezard vert jaune arbre yeux langue terrarium",
+  "photos": []
+}
